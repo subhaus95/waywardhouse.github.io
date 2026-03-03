@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Tornado Formation and Intensity"
 subtitle: "Vortex dynamics and damage assessment from rotating thunderstorms"
 date: 2026-02-27
@@ -27,11 +27,11 @@ domain: [meteorology, severe-weather, hazards, emergency-management]
 excerpt: >
   How do tornadoes form and how strong will they be? Tornado genesis requires
   vorticity generation, tilting, and stretching within supercell thunderstorms.
-  This essay derives vorticity equations, implements Rankine vortex models,
+  This model derives vorticity equations, implements Rankine vortex models,
   demonstrates Enhanced Fujita Scale damage assessment, and predicts tornado
   intensity from environmental parameters.
 math_prerequisites: >
-  Thunderstorm dynamics (Essay 63). Vector calculus (curl, divergence). Fluid
+  Thunderstorm dynamics (Model 63). Vector calculus (curl, divergence). Fluid
   dynamics basics. We'll introduce vortex theory and tornado physics.
 ---
 

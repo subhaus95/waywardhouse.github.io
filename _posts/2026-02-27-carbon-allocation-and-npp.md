@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Carbon Allocation and Net Primary Productivity"
 subtitle: "From photosynthesis to biomass — how ecosystems build and burn carbon"
 date: 2026-02-26
@@ -27,10 +27,10 @@ domain: [ecology, biogeochemistry, carbon-cycle, forestry]
 excerpt: >
   Photosynthesis fixes carbon. But not all of it becomes biomass—plants burn
   carbon for energy (respiration), and allocate the remainder among leaves, stems,
-  and roots. This essay models carbon flow from GPP through allocation to NPP, and
+  and roots. This model models carbon flow from GPP through allocation to NPP, and
   tracks biomass accumulation in different plant pools.
 math_prerequisites: >
-  Exponential growth/decay (Essays 3-4). Photosynthesis (Essay 20). Basic differential
+  Exponential growth/decay (Models 3-4). Photosynthesis (Model 20). Basic differential
   equations for pool dynamics. We'll build a multi-compartment carbon model.
 ---
 
@@ -55,7 +55,7 @@ The mathematical question: How do we model carbon flow from GPP to biomass pools
 ### Carbon Flow in Ecosystems
 
 **Gross Primary Productivity (GPP):**  
-Total carbon fixed by photosynthesis (Essay 20).
+Total carbon fixed by photosynthesis (Model 20).
 
 **Autotrophic Respiration** ($R_a$):  
 Carbon burned by plants for energy (maintenance + growth respiration).
@@ -559,7 +559,7 @@ Where $R_h$ is **heterotrophic respiration** (decomposition of dead organic matt
 **Global NEP:**  
 Terrestrial ecosystems sequester ~2–3 Pg C/year (about 1/4 of fossil fuel emissions).
 
-**Next essay** will shift to atmospheric interactions—**wind profiles and turbulent mixing** that transport heat, moisture, and CO₂ between surface and atmosphere.
+**Next model** will shift to atmospheric interactions—**wind profiles and turbulent mixing** that transport heat, moisture, and CO₂ between surface and atmosphere.
 
 ---
 
@@ -607,6 +607,6 @@ $$\mathbf{C} = \begin{pmatrix} C_L \\ C_S \\ C_R \end{pmatrix}, \quad
 - **Carbon use efficiency** (NPP/GPP) typically 0.4–0.6
 - Young forests are strong carbon sinks; mature forests approach equilibrium
 
-**Next:** In Essay 23, we explore **wind profiles and atmospheric turbulence**—the mechanics of how heat, moisture, and CO₂ are transported between the surface and the atmosphere.
+**Next:** In Model 23, we explore **wind profiles and atmospheric turbulence**—the mechanics of how heat, moisture, and CO₂ are transported between the surface and the atmosphere.
 
 ---

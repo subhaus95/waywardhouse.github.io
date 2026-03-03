@@ -24,7 +24,7 @@ These essays examine specific cases — Alberta, energy markets, trade structure
 
 ## Computational geography: from first principles
 
-A structured series building quantitative and computational geography from algebra upward. Each essay adds one concept; later essays depend on earlier ones. Code for each piece is published openly on GitHub.
+A structured series building quantitative and computational geography from algebra upward. Each model adds one concept; later models depend on earlier ones. Code for each piece is published openly on GitHub.
 
 **If you're new — start here:**
 
@@ -48,7 +48,7 @@ Pick up at [Logistic Growth and Equilibrium](/logistic-growth-and-equilibrium/) 
 
 ## Code and open publishing
 
-All computational essays are accompanied by Python code, published in open GitHub repositories. The essays explain the mathematics and reasoning; the repos contain runnable implementations.
+All models are accompanied by Python code, published in open GitHub repositories. The essays explain the mathematics and reasoning; the repos contain runnable implementations.
 
 This site is itself open — built with Jekyll and published on GitHub Pages. If you spot an error or want to discuss a derivation, open an issue or use the discussion threads below each essay.
 

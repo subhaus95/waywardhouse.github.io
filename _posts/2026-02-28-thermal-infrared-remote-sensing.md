@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Thermal Infrared Remote Sensing"
 subtitle: "Measuring temperature and heat flux from emitted radiation"
 date: 2026-02-27
@@ -27,11 +27,11 @@ domain: [remote-sensing, hydrology, urban-climate, volcanology, agriculture]
 excerpt: >
   What is the surface temperature of that field? How much water is being lost through
   evaporation? Thermal infrared sensors measure emitted radiation in 8-14 μm window,
-  enabling temperature mapping and energy flux estimation. This essay derives brightness
+  enabling temperature mapping and energy flux estimation. This model derives brightness
   temperature conversion, implements split-window atmospheric correction, calculates
   evapotranspiration from thermal data, and maps urban heat islands.
 math_prerequisites: >
-  Electromagnetic radiation basics. Stefan-Boltzmann law (Essay 42). Energy balance
+  Electromagnetic radiation basics. Stefan-Boltzmann law (Model 42). Energy balance
   concepts. We'll introduce thermal remote sensing and temperature retrieval algorithms.
 ---
 

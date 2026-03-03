@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Sensible and Latent Heat Fluxes"
 subtitle: "How net radiation is partitioned between heating air and evaporating water"
 date: 2026-02-26
@@ -26,10 +26,10 @@ domain: [hydrology, climatology, environmental-modeling, agriculture]
 excerpt: >
   Net radiation doesn't all warm the surface. Some heats the air (sensible heat),
   some evaporates water (latent heat), some penetrates the soil (ground heat flux).
-  This essay derives the Bowen ratio and introduces the physics of evapotranspiration—
+  This model derives the Bowen ratio and introduces the physics of evapotranspiration—
   the foundation of water and energy cycling in ecosystems.
 math_prerequisites: >
-  Energy balance from Essay 17. Basic thermodynamics (heat capacity conceptually).
+  Energy balance from Model 17. Basic thermodynamics (heat capacity conceptually).
   We'll introduce vapor pressure and latent heat from first principles.
 ---
 
@@ -37,7 +37,7 @@ math_prerequisites: >
 
 When the sun heats the ground, where does that energy go?
 
-Essay 17 showed that net radiation ($R_n$) is the energy absorbed by Earth's surface. But this energy doesn't just sit there—it flows into:
+Model 17 showed that net radiation ($R_n$) is the energy absorbed by Earth's surface. But this energy doesn't just sit there—it flows into:
 - **The air** (warming the atmosphere)
 - **Water vapor** (evaporating moisture from soil and plants)
 - **The ground** (heating deeper soil layers)
@@ -60,7 +60,7 @@ Net radiation is partitioned among four fluxes:
 $$R_n = H + LE + G + S$$
 
 Where (all in W/m²):
-- $R_n$ = **Net radiation** (from Essay 17)
+- $R_n$ = **Net radiation** (from Model 17)
 - $H$ = **Sensible heat flux** (warms/cools the air)
 - $LE$ = **Latent heat flux** (evaporation/condensation)
 - $G$ = **Ground heat flux** (warms/cools the soil)
@@ -620,7 +620,7 @@ Where:
 - Widely validated for crops, forests, grasslands
 - Basis for FAO-56 reference evapotranspiration
 
-**Next essay** will explore how $G$ behaves—heat diffusion into soil.
+**Next model** will explore how $G$ behaves—heat diffusion into soil.
 
 ---
 

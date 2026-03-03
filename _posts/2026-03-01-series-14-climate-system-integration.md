@@ -39,49 +39,49 @@ Series 13 taught individual GHG processes — combustion, photosynthesis, methan
 9. **Project temperature trajectories** under SSP scenarios using energy balance models
 10. **Communicate uncertainty** with confidence intervals, not false precision
 
-## Essay Sequence
+## Model Sequence
 
-### Cluster AM: Carbon Budget Fundamentals (Essays 127–129)
+### Cluster AM: Carbon Budget Fundamentals (Models 127–129)
 
-**Essay 127: The Global Carbon Budget**
+**Model 127: The Global Carbon Budget**
 Budget equation: E_FF + E_LUC = G_ATM + S_OCEAN + S_LAND. Annual budget 1960–present from Global Carbon Project. Sankey diagram of fluxes. Uncertainty Monte Carlo.
 
-**Essay 128: National Emissions Accounting**
+**Model 128: National Emissions Accounting**
 IPCC inventory methods (bottom-up). Sector breakdown: energy, industry, agriculture, LULUCF, waste. Activity data × emission factors. Territorial vs consumption-based accounting. UNFCCC reporting requirements.
 
-**Essay 129: Land Use Change and Deforestation Emissions**
+**Model 129: Land Use Change and Deforestation Emissions**
 Carbon stock changes: biomass, soil, dead organic matter. Remote sensing: forest loss from Landsat time series. Amazon deforestation 2000–present. IPCC Tier 1/2/3 methods. Regrowth and afforestation uptake.
 
-### Cluster AN: Methane Dynamics (Essays 130–132)
+### Cluster AN: Methane Dynamics (Models 130–132)
 
-**Essay 130: The Global Methane Budget**
+**Model 130: The Global Methane Budget**
 Natural sources (wetlands dominant), anthropogenic sources (agriculture, fossil, waste). Sinks: OH oxidation, soil uptake, stratosphere. Atmospheric lifetime ~9 years. Post-2007 acceleration and competing hypotheses.
 
-**Essay 131: Agricultural Methane Emissions**
+**Model 131: Agricultural Methane Emissions**
 Enteric fermentation. Rice paddies. Manure management. Emission factors and activity data. Bottom-up national inventory. Mitigation: feed additives, alternate wetting and drying, digesters.
 
-**Essay 132: Permafrost Thaw and Methane Feedbacks**
+**Model 132: Permafrost Thaw and Methane Feedbacks**
 Permafrost carbon pool: ~1700 GtC. Thaw mechanisms: top-down gradual vs thermokarst abrupt. Temperature sensitivity (Q₁₀). Positive feedback loop. Projection under warming scenarios. Methane hydrates and clathrate risk.
 
-### Cluster AO: Other Greenhouse Gases (Essay 133)
+### Cluster AO: Other Greenhouse Gases (Model 133)
 
-**Essay 133: Nitrous Oxide and Minor GHGs**
+**Model 133: Nitrous Oxide and Minor GHGs**
 N₂O budget. Agricultural fertilizer as dominant source. Nitrification and denitrification. GWP 265× CO₂, lifetime 110 years. Fluorinated gases: small mass, huge GWP. Complete multi-GHG CO₂-equivalent accounting.
 
-### Cluster AP: Atmospheric Observations and Inverse Modelling (Essays 134–135)
+### Cluster AP: Atmospheric Observations and Inverse Modelling (Models 134–135)
 
-**Essay 134: Top-Down Flux Estimation from Atmospheric Data**
+**Model 134: Top-Down Flux Estimation from Atmospheric Data**
 Atmospheric transport modelling (simplified). Inverse problem: concentrations → fluxes. Bayesian inversion framework. Observing system: NOAA surface network, TCCON, OCO-2, TROPOMI. Simple 1D inversion for CO₂.
 
-**Essay 135: Satellite Remote Sensing of GHG Fluxes**
+**Model 135: Satellite Remote Sensing of GHG Fluxes**
 Column measurements: OCO-2 (CO₂), TROPOMI (CH₄). Retrieval algorithms. XCO₂ anomalies as flux hotspots. Thermal anomalies for fire emissions. Point source detection: landfills, oil and gas facilities. Capabilities and limitations.
 
-### Cluster AQ: Climate Feedbacks and Projections (Essays 136–137)
+### Cluster AQ: Climate Feedbacks and Projections (Models 136–137)
 
-**Essay 136: Carbon-Climate Feedbacks**
+**Model 136: Carbon-Climate Feedbacks**
 Positive feedbacks: permafrost thaw, reduced ocean uptake, drought-induced die-off. Negative feedbacks: CO₂ fertilization. Feedback parameter β. Coupled carbon-climate models. Net positive feedback could add 20–40% to emissions by 2100.
 
-**Essay 137: Emission Scenarios and Climate Projections**
+**Model 137: Emission Scenarios and Climate Projections**
 SSP scenarios. Simple energy balance climate model. Radiative forcing from GHG concentrations. Climate sensitivity (TCR, ECS). Temperature projections under SSP1-2.6, SSP2-4.5, SSP5-8.5. Committed warming.
 
 ## Mathematical Progression
@@ -96,19 +96,19 @@ SSP scenarios. Simple energy balance climate model. Radiative forcing from GHG c
 
 ## Prerequisites
 
-**Required:** Series 1 (calculus, ODEs), Series 2 Essays 13–16 (energy balance), Series 13 (GHG fundamentals — all clusters)
+**Required:** Series 1 (calculus, ODEs), Series 2 Models 13–16 (energy balance), Series 13 (GHG fundamentals — all clusters)
 
-**Helpful:** Series 5 (remote sensing for satellite data essays), Series 6 Essay 62 (fire emissions)
+**Helpful:** Series 5 (remote sensing for satellite data models), Series 6 Model 62 (fire emissions)
 
 ## Entry Points
 
-**Carbon focus:** Essays 127–129 self-contained for carbon budget and land use
+**Carbon focus:** Models 127–129 self-contained for carbon budget and land use
 
-**Methane and feedbacks:** Essays 130–132 build on Series 13 methane essays
+**Methane and feedbacks:** Models 130–132 build on Series 13 methane models
 
-**Observations track:** Essays 134–135 can be read with Series 5 remote sensing background
+**Observations track:** Models 134–135 can be read with Series 5 remote sensing background
 
-**Projections:** Essay 137 requires Essay 136 but can be read with basic climate model intuition
+**Projections:** Model 137 requires Model 136 but can be read with basic climate model intuition
 
 ## Key Insights
 
@@ -141,18 +141,18 @@ SSP scenarios. Simple energy balance climate model. Radiative forcing from GHG c
 
 ## Estimated Time
 
-**Per essay:** 4–6 hours
+**Per model:** 4–6 hours
 
 **Full series:** 45–65 hours
 
-**Carbon budget track (Essays 127–129):** 12–16 hours
+**Carbon budget track (Models 127–129):** 12–16 hours
 
-**Methane and feedbacks (Essays 130–132):** 15–20 hours
+**Methane and feedbacks (Models 130–132):** 15–20 hours
 
-**Observations (Essays 134–135):** 12–16 hours
+**Observations (Models 134–135):** 12–16 hours
 
-**Projections (Essays 136–137):** 10–14 hours
+**Projections (Models 136–137):** 10–14 hours
 
 ---
 
-**Prerequisites:** Series 13 required. Series 1 and Series 2 Essays 13–16 required.
+**Prerequisites:** Series 13 required. Series 1 and Series 2 Models 13–16 required.

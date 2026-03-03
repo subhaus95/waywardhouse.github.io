@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Slope Stability Analysis"
 subtitle: "When will this hillslope fail? Forces, failure planes, and landslide prediction"
 date: 2026-02-27
@@ -26,11 +26,11 @@ computation: 3
 domain: [geotechnical-engineering, hazards, terrain-analysis, civil-engineering]
 excerpt: >
   Which slopes are stable, and which will fail? Slope stability analysis balances
-  driving forces (gravity) against resisting forces (friction, cohesion). This essay
+  driving forces (gravity) against resisting forces (friction, cohesion). This model
   derives the infinite slope model, implements factor of safety calculations, shows
   how water pressure and earthquakes reduce stability, and maps landslide susceptibility.
 math_prerequisites: >
-  Slope calculation (Essays 7-8). Basic physics (forces, moments). Trigonometry.
+  Slope calculation (Models 7-8). Basic physics (forces, moments). Trigonometry.
   We'll introduce geotechnical mechanics and failure criteria from scratch.
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Fire Emissions and Smoke Dispersion"
 subtitle: "Quantifying pollutant release and atmospheric transport from wildfires"
 date: 2026-02-27
@@ -27,11 +27,11 @@ domain: [atmospheric-science, public-health, air-quality, fire-science]
 excerpt: >
   How much pollution does a wildfire release, and where will the smoke go? Fire
   emissions depend on fuel consumption and combustion efficiency, while smoke
-  dispersion follows atmospheric transport. This essay derives emission factor
+  dispersion follows atmospheric transport. This model derives emission factor
   equations, implements plume rise models, demonstrates Gaussian dispersion, and
   maps air quality impacts from wildfire smoke.
 math_prerequisites: >
-  Fire spread (Essay 61). Atmospheric stability. Gaussian functions. We'll introduce
+  Fire spread (Model 61). Atmospheric stability. Gaussian functions. We'll introduce
   combustion chemistry and atmospheric dispersion from first principles.
 ---
 
@@ -684,7 +684,7 @@ Fire adds 30 μg/m³ → total = 40-50 μg/m³
 
 **Bottom-up (models):**
 
-Fire area × fuel × EF (this essay's approach).
+Fire area × fuel × EF (this model's approach).
 
 **Top-down (satellites):**
 

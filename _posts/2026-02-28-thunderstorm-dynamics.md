@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Thunderstorm Dynamics and Severe Weather"
 subtitle: "Convective processes driving lightning, hail, and tornadoes"
 date: 2026-02-27
@@ -27,7 +27,7 @@ domain: [meteorology, severe-weather, atmospheric-science, hazards]
 excerpt: >
   What atmospheric conditions produce severe thunderstorms? Convective Available
   Potential Energy (CAPE) and wind shear determine storm intensity and structure.
-  This essay derives CAPE equations, implements updraft velocity calculations,
+  This model derives CAPE equations, implements updraft velocity calculations,
   demonstrates supercell dynamics, and predicts severe weather occurrence.
 math_prerequisites: >
   Atmospheric thermodynamics basics. Buoyancy concepts. Vector fields. We'll

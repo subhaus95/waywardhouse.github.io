@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Permafrost Thaw and Geohazards"
 subtitle: "Ground ice melt and its consequences for infrastructure and slope stability"
 date: 2026-02-27
@@ -28,12 +28,12 @@ domain: [permafrost-science, geotechnical-engineering, climate-impacts, infrastr
 excerpt: >
   What happens when permanently frozen ground thaws? Permafrost contains massive
   ice volumes that, when melted, cause ground subsidence, slope failures, and
-  infrastructure damage. This essay derives thaw depth equations, implements
+  infrastructure damage. This model derives thaw depth equations, implements
   active layer models, calculates settlement from ice-rich permafrost thaw, and
   maps permafrost degradation hazards under climate warming scenarios.
 math_prerequisites: >
   Heat transfer basics (conduction). Phase change (latent heat). Slope stability
-  (Essay 49). We'll introduce permafrost thermodynamics and geotechnical impacts.
+  (Model 49). We'll introduce permafrost thermodynamics and geotechnical impacts.
 ---
 
 ## 1. The Question

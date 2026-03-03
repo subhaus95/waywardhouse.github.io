@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Spatial Diffusion of Innovation"
 subtitle: "How ideas, diseases, and technologies spread across networks over time"
 date: 2026-02-26
@@ -27,10 +27,10 @@ domain: [human-geography, epidemiology, innovation-diffusion, networks]
 excerpt: >
   A new technology emerges in one city and spreads to others. A disease outbreak
   starts locally and radiates outward. Both follow spatial diffusion processes —
-  they spread through contact, and contact depends on proximity. This essay models
+  they spread through contact, and contact depends on proximity. This model models
   diffusion as a discrete-time process on a spatial network.
 math_prerequisites: >
-  Logistic growth (Essay 4). Basic probability (the idea that something happens
+  Logistic growth (Model 4). Basic probability (the idea that something happens
   with probability p). Comfortable with iterative updates (next state depends on
   current state). We'll introduce network adjacency conceptually.
 ---
@@ -672,6 +672,6 @@ Where $\mathbf{x}$ is a vector of states, $\mathbf{A}$ is the adjacency/interact
 - Applications: technology adoption, disease spread, cultural diffusion, information flow
 - Real diffusion involves hierarchical jumps, barriers, and heterogeneous populations
 
-**Next:** In Essay 12, we transition to **observing the Earth** from space. We'll model the Earth as a rotating sphere, introduce spherical coordinates, and visualize lat/lon to Cartesian transformations — the foundation for orbital mechanics in Phase II.
+**Next:** In Model 12, we transition to **observing the Earth** from space. We'll model the Earth as a rotating sphere, introduce spherical coordinates, and visualize lat/lon to Cartesian transformations — the foundation for orbital mechanics in Phase II.
 
 ---

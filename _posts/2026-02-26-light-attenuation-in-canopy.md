@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Light Attenuation in a Canopy"
 subtitle: "Exponential decay through space — modeling vertical gradients in forest light"
 date: 2026-02-26
@@ -28,7 +28,7 @@ excerpt: >
   in space rather than time. We'll derive Beer's Law and explore how leaf area
   index controls the vertical light profile.
 math_prerequisites: >
-  Exponential functions and their derivatives (Essay 3). Differential equations
+  Exponential functions and their derivatives (Model 3). Differential equations
   conceptually. We'll work in the vertical dimension (height z) rather than time,
   but the mathematics is identical in structure.
 ---
@@ -402,13 +402,13 @@ where $\alpha$ is the attenuation coefficient and $x$ is the distance through th
 
 ## 9. Math Refresher: Derivatives in Space vs. Time
 
-In Essay 3, we saw:
+In Model 3, we saw:
 
 $$\frac{dN}{dt} = rN \quad \Rightarrow \quad N(t) = N_0 e^{rt}$$
 
 Here, the independent variable was **time**.
 
-In this essay:
+In this model:
 
 $$\frac{dI}{dz} = -kI \quad \Rightarrow \quad I(z) = I_0 e^{-kz}$$
 

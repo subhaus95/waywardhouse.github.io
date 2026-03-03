@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Snowpack Energy Balance"
 subtitle: "How snow gains and loses energy—the foundation of melt modeling"
 date: 2026-02-27
@@ -26,11 +26,11 @@ computation: 3
 domain: [hydrology, climatology, cryosphere, water-resources]
 excerpt: >
   When does snow melt? How much water will the snowpack release? The snowpack energy
-  balance governs accumulation, metamorphism, and melt. This essay derives the full
+  balance governs accumulation, metamorphism, and melt. This model derives the full
   energy budget—shortwave and longwave radiation, sensible and latent heat, ground
   heat flux, and phase change energy—showing how each component drives snow evolution.
 math_prerequisites: >
-  Surface energy balance (Essay 17). Solar geometry (Essay 6). Stefan-Boltzmann law.
+  Surface energy balance (Model 17). Solar geometry (Model 6). Stefan-Boltzmann law.
   We'll introduce snow-specific physics: high albedo, metamorphism, and melt processes.
 ---
 

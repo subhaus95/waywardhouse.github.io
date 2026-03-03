@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Nitrogen Cycling and Limitation"
 subtitle: "How nitrogen availability controls productivity and ecosystem function"
 date: 2026-02-26
@@ -25,13 +25,13 @@ dynamics: 3
 computation: 3
 domain: [ecology, soil-science, biogeochemistry, agriculture]
 excerpt: >
-  Nitrogen limits productivity in most ecosystems. This essay models the nitrogen
+  Nitrogen limits productivity in most ecosystems. This model models the nitrogen
   cycle: mineralization from organic matter, nitrification, plant uptake, and
   how N availability constrains photosynthesis and NPP. We'll derive Michaelis-
   Menten uptake kinetics and couple N to the carbon cycle.
 math_prerequisites: >
-  Decomposition (Essay 26). Photosynthesis and NPP (Essays 20, 22). Michaelis-
-  Menten kinetics (similar to rectangular hyperbola from Essay 20).
+  Decomposition (Model 26). Photosynthesis and NPP (Models 20, 22). Michaelis-
+  Menten kinetics (similar to rectangular hyperbola from Model 20).
 ---
 
 ## 1. The Question
@@ -106,7 +106,7 @@ NO₃⁻ → N₂, N₂O (anaerobic, waterlogged soils)
 
 ### Mineralization
 
-**Mineralization rate** tied to decomposition (Essay 26):
+**Mineralization rate** tied to decomposition (Model 26):
 
 $$M = \sum_i k_i C_i / \text{C:N}_i$$
 
@@ -131,7 +131,7 @@ $$N_{\text{nitr}} = k_{\text{nitr}} \times [\text{NH}_4^+] \times f(T) \times f(
 
 Where:
 - $k_{\text{nitr}} \approx 0.1$–1.0 day⁻¹
-- $f(T)$, $f(W)$ are temperature and moisture factors (as in Essay 26)
+- $f(T)$, $f(W)$ are temperature and moisture factors (as in Model 26)
 
 **Inhibited by:**
 - Low pH (< 5.5)
@@ -636,6 +636,6 @@ Where:
 - Most ecosystems are N-limited; tropical old soils may be P-limited
 - **N cycling** couples tightly to carbon cycle (C:N stoichiometry)
 
-**Next:** In Essay 28, we explore **phenology and growing season dynamics**—how temperature and photoperiod trigger leaf emergence, flowering, and senescence, and how phenology affects annual productivity.
+**Next:** In Model 28, we explore **phenology and growing season dynamics**—how temperature and photoperiod trigger leaf emergence, flowering, and senescence, and how phenology affects annual productivity.
 
 ---

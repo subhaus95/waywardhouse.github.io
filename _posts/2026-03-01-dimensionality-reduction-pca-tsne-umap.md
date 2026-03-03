@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Dimensionality Reduction: PCA, t-SNE, and UMAP"
 subtitle: "Visualizing and compressing high-dimensional geographic data"
 date: 2026-03-01
@@ -26,7 +26,7 @@ excerpt: >
   How do we visualize and analyze hyperspectral imagery with 200+ bands or spatial
   datasets with dozens of correlated features? Dimensionality reduction techniques
   compress high-dimensional data into 2-3 interpretable dimensions while preserving
-  essential structure. This essay derives Principal Component Analysis from covariance
+  essential structure. This model derives Principal Component Analysis from covariance
   eigendecomposition, implements t-SNE for nonlinear manifold learning, applies UMAP
   for scalable clustering, and demonstrates feature compression for classification.
 math_prerequisites: >

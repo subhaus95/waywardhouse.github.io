@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Glacial Meltwater Chemistry"
 subtitle: "Chemical signatures of ice, rock, and time in glacier-fed streams"
 date: 2026-02-27
@@ -28,11 +28,11 @@ domain: [hydrology, geochemistry, water-quality, ecology]
 excerpt: >
   Why is glacial meltwater so turbid and mineralized? Glaciers grind bedrock to
   fine powder, creating massive rock-water contact. Meltwater chemistry reveals
-  residence time, weathering reactions, and mixing sources. This essay derives
+  residence time, weathering reactions, and mixing sources. This model derives
   weathering rates, implements mixing models, and shows how glacial chemistry
   affects downstream ecosystems and water resources.
 math_prerequisites: >
-  Basic chemistry (ions, pH, concentration). Glacier mass balance (Essay 46). Water
+  Basic chemistry (ions, pH, concentration). Glacier mass balance (Model 46). Water
   chemistry concepts. We'll introduce chemical weathering and solute transport.
 ---
 

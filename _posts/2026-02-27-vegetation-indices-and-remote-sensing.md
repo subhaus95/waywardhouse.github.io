@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Vegetation Indices and Remote Sensing"
 subtitle: "NDVI, EVI, and monitoring photosynthesis from space"
 date: 2026-02-26
@@ -28,10 +28,10 @@ domain: [remote-sensing, ecology, agriculture, earth-observation]
 excerpt: >
   Vegetation reflects near-infrared light strongly but absorbs red light (for
   photosynthesis). This spectral signature enables satellites to map greenness
-  globally. This essay derives NDVI and EVI, explains why they correlate with
+  globally. This model derives NDVI and EVI, explains why they correlate with
   photosynthesis, and shows how to interpret vegetation index time series.
 math_prerequisites: >
-  Basic algebra. Ratios and normalization. Photosynthesis concepts (Essay 20).
+  Basic algebra. Ratios and normalization. Photosynthesis concepts (Model 20).
   We'll introduce spectral reflectance and band combinations from scratch.
 ---
 
@@ -45,7 +45,7 @@ From 700 km overhead, satellites observe Earth in multiple wavelengths (colors).
 
 This contrast creates **vegetation indices**—mathematical combinations of spectral bands that quantify "greenness" and correlate with:
 - Leaf area index (LAI)
-- Photosynthesis rate (GPP from Essay 20)
+- Photosynthesis rate (GPP from Model 20)
 - Biomass
 - Crop yield
 

@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Regression for Continuous Variables"
 subtitle: "Predicting spatial fields from spectral and environmental features"
 date: 2026-03-01
@@ -26,7 +26,7 @@ excerpt: >
   How do we predict continuous spatial variables like elevation, temperature, or
   soil moisture from satellite imagery and environmental data? Supervised regression
   learns functional relationships from training data to estimate values across entire
-  landscapes. This essay derives linear regression via gradient descent, implements
+  landscapes. This model derives linear regression via gradient descent, implements
   regularization to prevent overfitting, demonstrates spatial cross-validation, and
   quantifies prediction uncertainty.
 math_prerequisites: >
@@ -680,7 +680,7 @@ Coefficient estimates unstable, variance inflated.
 **Solution:**
 - Ridge regression (L2 penalty stabilizes)
 - Remove correlated features (keep one from each pair)
-- PCA to decorrelate features (Essay 73)
+- PCA to decorrelate features (Model 73)
 
 ### Extrapolation
 

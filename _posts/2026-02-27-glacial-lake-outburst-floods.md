@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Glacial Lake Outburst Floods (GLOFs)"
 subtitle: "When ice dams fail—catastrophic flooding from glacial lakes"
 date: 2026-02-27
@@ -28,11 +28,11 @@ computation: 4
 domain: [hazards, hydrology, glaciology, risk-assessment]
 excerpt: >
   What happens when a glacial lake suddenly drains? GLOFs release millions of cubic
-  meters of water in hours, devastating downstream communities. This essay derives
+  meters of water in hours, devastating downstream communities. This model derives
   dam breach equations, implements peak discharge prediction, models flood wave
   propagation, and shows how to assess GLOF hazards using remote sensing and DEMs.
 math_prerequisites: >
-  Hydrology basics (discharge, Manning equation). Glacier systems (Essays 46-47).
+  Hydrology basics (discharge, Manning equation). Glacier systems (Models 46-47).
   Energy conservation. We'll introduce dam breach mechanics and flood hydraulics.
 ---
 

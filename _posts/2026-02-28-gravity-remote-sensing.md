@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Gravity Remote Sensing (GRACE)"
 subtitle: "Measuring mass redistribution from satellite gravity measurements"
 date: 2026-02-27
@@ -28,7 +28,7 @@ domain: [hydrology, glaciology, oceanography, geodesy]
 excerpt: >
   How do we measure water storage changes and ice loss from space? GRACE (Gravity
   Recovery and Climate Experiment) satellites detect tiny gravity variations caused
-  by mass redistribution. This essay derives gravitational potential equations,
+  by mass redistribution. This model derives gravitational potential equations,
   implements mass anomaly calculations, demonstrates spherical harmonic analysis,
   and shows applications from groundwater depletion to ice sheet mass balance.
 math_prerequisites: >

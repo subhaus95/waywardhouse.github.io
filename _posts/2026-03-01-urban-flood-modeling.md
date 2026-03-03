@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Urban Flood Modeling and Green Infrastructure"
 subtitle: "Runoff generation and mitigation in developed watersheds"
 date: 2026-02-27
@@ -26,11 +26,11 @@ domain: [hydrology, urban-planning, civil-engineering, sustainability]
 excerpt: >
   How does urbanization affect flooding and how can green infrastructure help?
   Impervious surfaces increase runoff volume and peak flows requiring detention
-  basins and low-impact development. This essay derives rational method equations,
+  basins and low-impact development. This model derives rational method equations,
   implements SCS Curve Number analysis, demonstrates detention design, and evaluates
   green infrastructure effectiveness for urban stormwater management.
 math_prerequisites: >
-  IDF curves (Essay 68). Basic hydrology. Conservation of mass. We'll introduce
+  IDF curves (Model 68). Basic hydrology. Conservation of mass. We'll introduce
   urban runoff generation and mitigation strategies from first principles.
 ---
 
@@ -126,7 +126,7 @@ $$C_{composite} = \frac{\sum C_i A_i}{\sum A_i}$$
 
 **Intensity $I$:**
 
-From IDF curves (Essay 68) at duration = time of concentration.
+From IDF curves (Model 68) at duration = time of concentration.
 
 **Time of concentration ($t_c$):**
 

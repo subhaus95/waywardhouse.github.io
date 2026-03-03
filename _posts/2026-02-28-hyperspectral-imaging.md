@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Hyperspectral Imaging"
 subtitle: "Hundreds of spectral bands reveal material composition and biochemical properties"
 date: 2026-02-27
@@ -27,11 +27,11 @@ domain: [remote-sensing, geology, ecology, precision-agriculture]
 excerpt: >
   What minerals compose this rock? What chemicals are in these plants? Hyperspectral
   imaging captures hundreds of narrow spectral bands, enabling material identification
-  through spectral signatures. This essay derives absorption feature analysis,
+  through spectral signatures. This model derives absorption feature analysis,
   implements spectral unmixing algorithms, and shows how to map minerals, vegetation
   biochemistry, and water quality from hyperspectral data.
 math_prerequisites: >
-  Electromagnetic radiation basics. Remote sensing fundamentals (Essays 25, 39-41).
+  Electromagnetic radiation basics. Remote sensing fundamentals (Models 25, 39-41).
   Linear algebra (matrix operations). We'll introduce spectroscopy and imaging
   spectrometry from first principles.
 ---

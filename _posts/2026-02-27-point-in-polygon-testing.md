@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Point-in-Polygon Testing"
 subtitle: "The ray casting algorithm and spatial membership queries"
 date: 2026-02-27
@@ -26,11 +26,11 @@ domain: [gis, spatial-analysis, computational-geometry]
 excerpt: >
   Is a point inside a polygon? This seemingly simple question underlies countless
   GIS operations: habitat analysis, demographic queries, voting district assignment,
-  and spatial joins. This essay derives the ray casting algorithm, shows why it
+  and spatial joins. This model derives the ray casting algorithm, shows why it
   works, and implements an efficient point-in-polygon test from first principles.
 math_prerequisites: >
   Basic algebra and coordinate geometry. Understanding of line equations from
-  Essay 2. We'll introduce computational geometry concepts from scratch.
+  Model 2. We'll introduce computational geometry concepts from scratch.
 ---
 
 ## 1. The Question
@@ -690,6 +690,6 @@ If we use $\leq$ for both endpoints:
 - **Applications:** Spatial joins, zonal statistics, habitat analysis, demographic queries
 - **Alternative:** Winding number algorithm for self-intersecting polygons
 
-**Next:** In Essay 30, we build on this foundation with **buffer operations**—creating distance zones around points, lines, and polygons using Euclidean distance fields.
+**Next:** In Model 30, we build on this foundation with **buffer operations**—creating distance zones around points, lines, and polygons using Euclidean distance fields.
 
 ---

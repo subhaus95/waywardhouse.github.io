@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Snow Water Equivalent Estimation"
 subtitle: "Measuring snowpack from the ground and from space"
 date: 2026-02-27
@@ -28,11 +28,11 @@ domain: [hydrology, remote-sensing, operational-monitoring, water-resources]
 excerpt: >
   How do we measure snow water equivalent across mountain basins? Ground observations
   (SNOTEL, snow courses) provide point measurements. Remote sensing (passive microwave,
-  LiDAR) enables spatial coverage. This essay derives microwave emission theory,
+  LiDAR) enables spatial coverage. This model derives microwave emission theory,
   implements snow depth-to-SWE conversion, and combines multi-sensor observations
   to map snowpack water content.
 math_prerequisites: >
-  SWE definition (Essay 43). Electromagnetic radiation basics. Statistics (mean,
+  SWE definition (Model 43). Electromagnetic radiation basics. Statistics (mean,
   uncertainty). We'll introduce microwave remote sensing and sensor fusion.
 ---
 

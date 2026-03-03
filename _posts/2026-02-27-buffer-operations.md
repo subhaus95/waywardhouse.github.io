@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Buffer Operations and Distance Fields"
 subtitle: "Creating proximity zones around geographic features"
 date: 2026-02-27
@@ -25,13 +25,13 @@ computation: 3
 domain: [gis, spatial-analysis, urban-planning, environmental-analysis]
 excerpt: >
   Buffer zones define proximity: 500m around a stream, 1km around a fire station,
-  100m from a road. This essay derives Euclidean distance calculations, builds
+  100m from a road. This model derives Euclidean distance calculations, builds
   distance fields, and shows how to create buffer polygons around points, lines,
   and polygons. Essential for proximity analysis, environmental setbacks, and
   service area mapping.
 math_prerequisites: >
   Pythagorean theorem. Distance formula from coordinate geometry. Point-in-polygon
-  from Essay 29. We'll introduce distance fields and offset geometry from scratch.
+  from Model 29. We'll introduce distance fields and offset geometry from scratch.
 ---
 
 ## 1. The Question
@@ -721,6 +721,6 @@ This moves point $P$ perpendicular to line direction by distance $d$.
 - **Geodetic buffers** needed for large areas (accounts for Earth curvature)
 - Perpendicular offset: rotate direction vector 90°, scale to buffer distance
 
-**Next:** In Essay 31, we'll build on both point-in-polygon (Essay 29) and buffers to create **polygon overlay operations**—intersection, union, and difference—the foundation of spatial analysis.
+**Next:** In Model 31, we'll build on both point-in-polygon (Model 29) and buffers to create **polygon overlay operations**—intersection, union, and difference—the foundation of spatial analysis.
 
 ---

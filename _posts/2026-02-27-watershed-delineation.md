@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Watershed Delineation and Flow Networks"
 subtitle: "Extracting drainage basins from digital elevation models"
 date: 2026-02-27
@@ -28,10 +28,10 @@ domain: [gis, hydrology, terrain-analysis, environmental-management]
 excerpt: >
   Where does rainfall flow? Which streams feed this river? What area drains to
   this outlet? Watershed delineation extracts drainage basins from DEMs by tracing
-  flow direction and accumulation. This essay derives the D8 algorithm, implements
+  flow direction and accumulation. This model derives the D8 algorithm, implements
   pour point analysis, and extracts stream networks from terrain.
 math_prerequisites: >
-  Digital elevation models (Essays 7-9). Gradient and steepest descent (Essay 8).
+  Digital elevation models (Models 7-9). Gradient and steepest descent (Model 8).
   Graph traversal concepts. We'll introduce flow routing algorithms from scratch.
 ---
 

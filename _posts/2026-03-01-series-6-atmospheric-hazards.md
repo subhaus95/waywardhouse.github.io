@@ -35,47 +35,47 @@ Atmospheric hazards—wildfires, tornadoes, floods—kill thousands annually and
 9. **Design urban stormwater systems** with detention and green infrastructure
 10. **Quantify forecast uncertainty** and communicate risk effectively
 
-## Essay Sequence
+## Model Sequence
 
-### Cluster V: Fire Science (Essays 60-62)
+### Cluster V: Fire Science (Models 60-62)
 
-**Essay 60: Fire Weather and Ignition Potential**
+**Model 60: Fire Weather and Ignition Potential**
 Fuel moisture. Vapor pressure deficit. Fire Weather Index. Red flag criteria. Ignition probability.
 
-**Essay 61: Fire Spread Modeling**
+**Model 61: Fire Spread Modeling**
 Rothermel equation. Elliptical growth. Slope/wind effects. Rate of spread. Fireline intensity.
 
-**Essay 62: Fire Emissions and Smoke Dispersion**
+**Model 62: Fire Emissions and Smoke Dispersion**
 Emission factors. PM2.5 production. Plume rise. Gaussian dispersion. Air quality impacts.
 
-### Cluster W: Severe Weather (Essays 63-65)
+### Cluster W: Severe Weather (Models 63-65)
 
-**Essay 63: Thunderstorm Dynamics and Severe Weather**
+**Model 63: Thunderstorm Dynamics and Severe Weather**
 CAPE. Updraft velocity. Wind shear. Supercell structure. Severe weather parameters.
 
-**Essay 64: Tornado Formation and Intensity**
+**Model 64: Tornado Formation and Intensity**
 Vorticity. Mesocyclone. EF-Scale. Damage assessment. TVS detection. Warning verification.
 
-**Essay 65: Hail Formation and Forecasting**
+**Model 65: Hail Formation and Forecasting**
 Terminal velocity. Accretion. Wet vs dry growth. Maximum hail size. MESH radar product.
 
-### Cluster X: Wind & Turbulence (Essays 66-67)
+### Cluster X: Wind & Turbulence (Models 66-67)
 
-**Essay 66: Boundary Layer Turbulence and Wind Profiles**
+**Model 66: Boundary Layer Turbulence and Wind Profiles**
 Logarithmic profile. Friction velocity. Monin-Obukhov theory. Wind power applications.
 
-**Essay 67: Extreme Wind Events and Downbursts**
+**Model 67: Extreme Wind Events and Downbursts**
 Downdraft dynamics. RIJ. Derechos. Microburst detection. Aviation hazards.
 
-### Cluster Y: Flood Hydrology (Essays 68-70)
+### Cluster Y: Flood Hydrology (Models 68-70)
 
-**Essay 68: Rainfall Intensity-Duration-Frequency**
+**Model 68: Rainfall Intensity-Duration-Frequency**
 IDF curves. Extreme value statistics. GEV distribution. Design storm selection.
 
-**Essay 69: Flood Frequency Analysis**
+**Model 69: Flood Frequency Analysis**
 Log-Pearson Type III. Return periods. Confidence intervals. Regional regression.
 
-**Essay 70: Urban Flood Modeling and Green Infrastructure**
+**Model 70: Urban Flood Modeling and Green Infrastructure**
 Rational method. SCS Curve Number. Detention design. Bioretention. LID principles.
 
 ## Mathematical Progression
@@ -99,15 +99,15 @@ Rational method. SCS Curve Number. Detention design. Bioretention. LID principle
 
 **Required:** Series 1 (differential equations, statistics)
 
-**Helpful:** Series 2 Essays 13-16 (atmospheric energy balance)
+**Helpful:** Series 2 Models 13-16 (atmospheric energy balance)
 
 ## Entry Points
 
-**Fire management:** Essays 60-62 self-contained
+**Fire management:** Models 60-62 self-contained
 
-**Meteorology students:** Essays 63-67 (severe weather + wind)
+**Meteorology students:** Models 63-67 (severe weather + wind)
 
-**Hydrology/engineering:** Essays 68-70 (flood analysis)
+**Hydrology/engineering:** Models 68-70 (flood analysis)
 
 **Emergency management:** All clusters relevant; start with hazard of interest
 
@@ -146,7 +146,7 @@ Rational method. SCS Curve Number. Detention design. Bioretention. LID principle
 
 **USGS:** StreamStats for flood frequency, real-time streamgages
 
-**FEMA:** Flood Insurance Studies use methods from Essays 68-70
+**FEMA:** Flood Insurance Studies use methods from Models 68-70
 
 ## Extensions
 
@@ -156,7 +156,7 @@ Rational method. SCS Curve Number. Detention design. Bioretention. LID principle
 
 ## Estimated Time
 
-**Per essay:** 4-5 hours
+**Per model:** 4-5 hours
 
 **Full series:** 45-55 hours
 

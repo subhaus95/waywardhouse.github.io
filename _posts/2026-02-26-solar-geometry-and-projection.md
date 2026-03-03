@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Solar Geometry and Projection"
 subtitle: "Trigonometry and the dot product — how surface orientation affects energy receipt"
 date: 2026-02-26
@@ -26,7 +26,7 @@ domain: [physical-geography, energy-balance, climatology]
 excerpt: >
   A south-facing slope receives more solar energy than a north-facing slope at
   the same latitude. Why? Because the angle between the sun's rays and the
-  surface normal determines the energy per unit area. This essay introduces
+  surface normal determines the energy per unit area. This model introduces
   trigonometry and vector geometry to model solar radiation on tilted surfaces.
 math_prerequisites: >
   Right triangles and basic trigonometry (sin, cos, tan). The concept of angles
@@ -458,7 +458,7 @@ Full solar models separate direct and diffuse components.
 
 ### Neglecting Terrain Shading
 
-A slope may be oriented toward the sun but still in shadow due to adjacent ridges or peaks. This requires **viewshed analysis** (Essay 9 previews this).
+A slope may be oriented toward the sun but still in shadow due to adjacent ridges or peaks. This requires **viewshed analysis** (Model 9 previews this).
 
 ---
 
@@ -502,6 +502,6 @@ If $\mathbf{a} \cdot \mathbf{b} = 0$, the vectors are **perpendicular**.
 - Optimal solar panel tilt ≈ latitude for annual energy maximization
 - Real surfaces also receive diffuse radiation and may be shaded by terrain
 
-**Next:** In Essay 7, we transition to **terrain modeling**. We'll represent elevation as a function of two variables, introduce raster grids as discretized functions, and begin working with **digital elevation models** (DEMs).
+**Next:** In Model 7, we transition to **terrain modeling**. We'll represent elevation as a function of two variables, introduce raster grids as discretized functions, and begin working with **digital elevation models** (DEMs).
 
 ---

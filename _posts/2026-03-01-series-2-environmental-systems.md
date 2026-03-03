@@ -33,60 +33,60 @@ Environmental systems operate through conservation laws—mass, energy, momentum
 7. **Parameterize models** from field measurements
 8. **Validate predictions** against observations
 
-## Essay Sequence
+## Model Sequence
 
-### Cluster F: Energy Balance (Essays 13-16)
+### Cluster F: Energy Balance (Models 13-16)
 
-**Essay 13: Net Radiation and Surface Energy Balance**
+**Model 13: Net Radiation and Surface Energy Balance**
 Shortwave/longwave radiation. Albedo. Emissivity. Stefan-Boltzmann law. Surface temperature prediction.
 
-**Essay 14: Soil Heat Flux and Thermal Properties**
+**Model 14: Soil Heat Flux and Thermal Properties**
 Heat conduction. Thermal diffusivity. Diurnal temperature waves. Depth of penetration.
 
-**Essay 15: Sensible Heat Transfer**
+**Model 15: Sensible Heat Transfer**
 Temperature gradients. Aerodynamic resistance. Bulk transfer coefficients. Bowen ratio.
 
-**Essay 16: Latent Heat and Evapotranspiration**
+**Model 16: Latent Heat and Evapotranspiration**
 Phase change energy. Penman equation. Penman-Monteith model. Stomatal resistance.
 
-### Cluster G: Hydrological Processes (Essays 17-22)
+### Cluster G: Hydrological Processes (Models 17-22)
 
-**Essay 17: Infiltration and Green-Ampt Model**
+**Model 17: Infiltration and Green-Ampt Model**
 Soil moisture movement. Capillary action. Wetting front propagation. Time to saturation.
 
-**Essay 18: Runoff Generation Mechanisms**
+**Model 18: Runoff Generation Mechanisms**
 Infiltration-excess vs saturation-excess. Variable source area. Hydrograph components.
 
-**Essay 19: Groundwater Flow (Darcy's Law)**
+**Model 19: Groundwater Flow (Darcy's Law)**
 Hydraulic conductivity. Gradient. Aquifer properties. Well drawdown equations.
 
-**Essay 20: Streamflow Routing**
+**Model 20: Streamflow Routing**
 Continuity equation. Manning equation. Kinematic wave approximation. Flood wave propagation.
 
-**Essay 21: Snowmelt Processes**
+**Model 21: Snowmelt Processes**
 Energy balance for snow. Degree-day models. Rain-on-snow events.
 
-**Essay 22: Evapotranspiration Partitioning**
+**Model 22: Evapotranspiration Partitioning**
 Soil evaporation vs transpiration. Crop coefficients. Root water uptake.
 
-### Cluster H: Ecosystem Processes (Essays 23-28)
+### Cluster H: Ecosystem Processes (Models 23-28)
 
-**Essay 23: Photosynthesis and Primary Production**
+**Model 23: Photosynthesis and Primary Production**
 Light response curves. CO₂ fixation. Gross vs net primary production. Carbon balance.
 
-**Essay 24: Respiration and Decomposition**
+**Model 24: Respiration and Decomposition**
 Temperature dependence (Q₁₀). Michaelis-Menten kinetics. Litter decomposition rates.
 
-**Essay 25: Nitrogen Cycling**
+**Model 25: Nitrogen Cycling**
 Mineralization. Nitrification. Denitrification. N₂O emissions. Mass balance models.
 
-**Essay 26: Carbon Cycle Dynamics**
+**Model 26: Carbon Cycle Dynamics**
 Pools and fluxes. Residence times. Steady-state vs transient behavior.
 
-**Essay 27: Leaf Area Index and Canopy Structure**
+**Model 27: Leaf Area Index and Canopy Structure**
 Beer's law in canopies. Light interception. LAI measurement methods.
 
-**Essay 28: Ecosystem Water Use Efficiency**
+**Model 28: Ecosystem Water Use Efficiency**
 Carbon gain per water lost. Intrinsic vs integrated WUE. Climate change implications.
 
 ## Mathematical Progression
@@ -114,11 +114,11 @@ Carbon gain per water lost. Intrinsic vs integrated WUE. Climate change implicat
 
 ## Entry Points by Background
 
-**Environmental science:** Start Essay 13. Core material for major.
+**Environmental science:** Start Model 13. Core material for major.
 
-**Hydrology focus:** Essays 17-22 self-contained after Series 1.
+**Hydrology focus:** Models 17-22 self-contained after Series 1.
 
-**Ecology students:** Essays 23-28 after completing 13-16 (energy background).
+**Ecology students:** Models 23-28 after completing 13-16 (energy background).
 
 **Engineering (environmental):** Familiar physics; focus on spatial/ecosystem applications.
 
@@ -156,7 +156,7 @@ Carbon gain per water lost. Intrinsic vs integrated WUE. Climate change implicat
 
 ## Estimated Time
 
-**Per essay:** 3-4 hours
+**Per model:** 3-4 hours
 
 **Full series:** 50-65 hours
 
@@ -164,4 +164,4 @@ Carbon gain per water lost. Intrinsic vs integrated WUE. Climate change implicat
 
 ---
 
-**Prerequisites:** Complete Series 1. Essays 13-16 provide foundation for rest of series.
+**Prerequisites:** Complete Series 1. Models 13-16 provide foundation for rest of series.

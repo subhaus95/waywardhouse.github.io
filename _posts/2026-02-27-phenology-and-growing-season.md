@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Phenology and Growing Season Dynamics"
 subtitle: "Temperature, photoperiod, and the timing of leaf emergence and senescence"
 date: 2026-02-26
@@ -27,11 +27,11 @@ domain: [ecology, agriculture, climatology, remote-sensing]
 excerpt: >
   When do leaves emerge in spring? When do crops mature? Phenology—the timing of
   biological events—is controlled by temperature accumulation (growing degree days)
-  and day length (photoperiod). This essay models bud break, leaf expansion, flowering,
+  and day length (photoperiod). This model models bud break, leaf expansion, flowering,
   and senescence, and shows how phenology affects annual productivity.
 math_prerequisites: >
   Seasonal cycles conceptually. Integration/accumulation (growing degree days are
-  integrals of temperature). Photosynthesis and LAI (Essay 20). We'll introduce
+  integrals of temperature). Photosynthesis and LAI (Model 20). We'll introduce
   thermal time from first principles.
 ---
 
@@ -570,7 +570,7 @@ $$\text{Days} = \frac{1400}{12} = 117 \text{ days}$$
 
 ### Remote Sensing Phenology
 
-**NDVI time series** (from Essay 25) tracks phenology:
+**NDVI time series** (from Model 25) tracks phenology:
 - **Green-up date:** When NDVI increases rapidly
 - **Peak NDVI:** Maximum LAI
 - **Brown-down date:** When NDVI decreases
@@ -693,6 +693,6 @@ Where:
 - NDVI time series from satellites track phenology globally
 - Phenological shifts affect productivity, water use, frost risk, and species interactions
 
-**This completes Cluster J (Biogeochemical Cycles) and the entire Computational Geography Laboratory series — 28 essays total!**
+**This completes Cluster J (Biogeochemical Cycles) and the entire Computational Geography Laboratory series — 28 models total!**
 
 ---

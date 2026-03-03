@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Time Series Analysis of Satellite Data"
 subtitle: "Extracting trends, seasonality, and phenology from multi-temporal imagery"
 date: 2026-02-27
@@ -30,10 +30,10 @@ excerpt: >
   When does vegetation green-up each spring? Is there a long-term trend in productivity?
   How does drought affect growing seasons? Time series analysis of satellite data
   decomposes observations into trend, seasonality, and noise, enabling phenology
-  extraction, anomaly detection, and climate change assessment. This essay derives
+  extraction, anomaly detection, and climate change assessment. This model derives
   harmonic analysis, implements smoothing filters, and extracts phenological metrics.
 math_prerequisites: >
-  NDVI and vegetation indices (Essay 25). Basic statistics (mean, variance). Sine/cosine
+  NDVI and vegetation indices (Model 25). Basic statistics (mean, variance). Sine/cosine
   functions. We'll introduce Fourier analysis and time series decomposition from scratch.
 ---
 

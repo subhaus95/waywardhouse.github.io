@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Logistic Growth and Equilibrium"
 subtitle: "When growth slows as it approaches a limit — feedback, carrying capacity, and stability"
 date: 2026-02-26
@@ -29,7 +29,7 @@ excerpt: >
   as the population approaches a carrying capacity. This is our first model
   with feedback, equilibrium, and the concept of stability.
 math_prerequisites: >
-  Exponential functions and their derivatives (Essay 3). Comfort with the idea
+  Exponential functions and their derivatives (Model 3). Comfort with the idea
   of a differential equation. We'll introduce equilibrium points and stability
   conceptually, with visualization rather than rigorous analysis.
 ---
@@ -510,7 +510,7 @@ The logistic model assumes smooth adjustment. Real populations can oscillate or 
 
 If there's a delay between population size and resource limitation (e.g., predator-prey systems, where predators respond with a lag), the system can **oscillate** around $K$ rather than smoothly approaching it.
 
-This requires a **delay differential equation** — beyond the scope of this essay.
+This requires a **delay differential equation** — beyond the scope of this model.
 
 ---
 

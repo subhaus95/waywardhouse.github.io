@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "InSAR Deformation Monitoring"
 subtitle: "Measuring millimeter-scale ground motion with radar interferometry"
 date: 2026-02-27
@@ -28,11 +28,11 @@ domain: [geophysics, hazards, infrastructure-monitoring, tectonics]
 excerpt: >
   How do we measure ground deformation with millimeter precision from satellites?
   Interferometric SAR (InSAR) compares phase differences between radar images to
-  detect surface motion. This essay derives interferometric phase equations,
+  detect surface motion. This model derives interferometric phase equations,
   implements phase unwrapping algorithms, demonstrates coherence analysis, and
   shows applications from earthquake mapping to volcano monitoring.
 math_prerequisites: >
-  SAR principles (Essay 56). Complex numbers. Phase concepts. We'll introduce
+  SAR principles (Model 56). Complex numbers. Phase concepts. We'll introduce
   interferometry and differential processing from first principles.
 ---
 

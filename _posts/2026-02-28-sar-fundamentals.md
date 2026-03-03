@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "SAR Fundamentals and Applications"
 subtitle: "Synthetic aperture radar for all-weather Earth observation"
 date: 2026-02-27
@@ -27,7 +27,7 @@ domain: [remote-sensing, disaster-response, agriculture, oceanography, geology]
 excerpt: >
   How do we image Earth through clouds and darkness? Synthetic Aperture Radar (SAR)
   transmits microwave pulses and processes returns to achieve high-resolution imaging
-  independent of weather and illumination. This essay derives range and azimuth
+  independent of weather and illumination. This model derives range and azimuth
   resolution equations, implements backscatter analysis, demonstrates polarimetric
   decomposition, and shows applications from flood mapping to ship detection.
 math_prerequisites: >
@@ -63,7 +63,7 @@ Active microwave sensor that creates its own illumination.
 - Flood mapping (water appears dark)
 - Oil spill detection (dampens ocean waves)
 - Ship detection (bright against dark ocean)
-- Deformation monitoring (InSAR, Essay 57)
+- Deformation monitoring (InSAR, Model 57)
 - Sea ice mapping
 - Agriculture (crop type, soil moisture)
 - Disaster response (rapid mapping)

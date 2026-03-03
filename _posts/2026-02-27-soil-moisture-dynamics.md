@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Soil Moisture Dynamics"
 subtitle: "Water balance, infiltration, and plant-available water in the root zone"
 date: 2026-02-26
@@ -26,11 +26,11 @@ computation: 3
 domain: [hydrology, agriculture, soil-science, plant-physiology]
 excerpt: >
   Soil moisture controls plant water stress, runoff generation, and evaporation.
-  This essay builds a simple water balance model: precipitation inputs, evapotranspiration
+  This model builds a simple water balance model: precipitation inputs, evapotranspiration
   and drainage outputs, with storage limited by field capacity and wilting point.
   We'll track soil moisture over time and calculate water stress effects on plants.
 math_prerequisites: >
-  Basic differential equations (Essay 3-4). Conservation principles. We'll introduce
+  Basic differential equations (Model 3-4). Conservation principles. We'll introduce
   soil water retention curves and hydraulic concepts from first principles.
 ---
 
@@ -612,7 +612,7 @@ Water can move rapidly through **macropores** (cracks, worm holes, root channels
 
 ### Constant ET Potential
 
-Real $ET_{\text{pot}}$ varies with weather (solar radiation, humidity, wind from Essay 18).
+Real $ET_{\text{pot}}$ varies with weather (solar radiation, humidity, wind from Model 18).
 
 **Dynamic model:** Calculate $ET_{\text{pot}}$ daily from meteorological data (Penman-Monteith).
 
@@ -645,7 +645,7 @@ Where:
 **At field capacity:** $\psi_m \approx -33$ kPa (1/3 bar)  
 **At wilting point:** $\psi_m \approx -1500$ kPa (15 bar)
 
-**Next essay** will integrate photosynthesis (Essay 20) and water balance to model carbon cycling and Net Primary Productivity.
+**Next model** will integrate photosynthesis (Model 20) and water balance to model carbon cycling and Net Primary Productivity.
 
 ---
 

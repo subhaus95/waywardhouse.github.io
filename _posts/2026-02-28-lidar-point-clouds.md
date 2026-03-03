@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Terrestrial LiDAR Point Clouds"
 subtitle: "3D structure from laser ranging—measuring topography and vegetation"
 date: 2026-02-27
@@ -27,11 +27,11 @@ domain: [remote-sensing, forestry, geomorphology, civil-engineering, archaeology
 excerpt: >
   How tall are these trees? What's the precise elevation of this landslide scarp?
   LiDAR (Light Detection and Ranging) uses laser pulses to measure distances, creating
-  dense 3D point clouds. This essay derives time-of-flight ranging, implements ground
+  dense 3D point clouds. This model derives time-of-flight ranging, implements ground
   point classification, calculates canopy height models, and extracts topographic
   derivatives from high-resolution LiDAR data.
 math_prerequisites: >
-  3D geometry basics. Digital elevation models (Essays 7-9). Statistics (distributions,
+  3D geometry basics. Digital elevation models (Models 7-9). Statistics (distributions,
   filtering). We'll introduce LiDAR principles and point cloud processing from scratch.
 ---
 

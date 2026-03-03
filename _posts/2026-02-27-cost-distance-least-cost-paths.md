@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Cost-Distance and Least-Cost Paths"
 subtitle: "Finding optimal routes across variable terrain"
 date: 2026-02-27
@@ -29,10 +29,10 @@ excerpt: >
   Where should a trail go to minimize slope? What's the easiest route for wildlife
   between habitats? How do you route a pipeline across variable terrain? Cost-distance
   analysis finds accumulated cost surfaces, and least-cost paths trace optimal routes
-  through them. This essay derives Dijkstra's algorithm and implements it on raster grids.
+  through them. This model derives Dijkstra's algorithm and implements it on raster grids.
 math_prerequisites: >
   Graph theory basics (nodes, edges, weights). Priority queues conceptually. Raster
-  operations (Essay 33-35). We'll derive Dijkstra's algorithm from first principles.
+  operations (Model 33-35). We'll derive Dijkstra's algorithm from first principles.
 ---
 
 ## 1. The Question
@@ -837,6 +837,6 @@ while pq not empty:
 - **A* algorithm** improves performance with heuristic guidance
 - Critical for infrastructure planning, conservation, and spatial optimization
 
-**Next:** In Essay 38, we complete Cluster M with **watershed delineation**—using DEMs to extract drainage basins, flow networks, and pour points!
+**Next:** In Model 38, we complete Cluster M with **watershed delineation**—using DEMs to extract drainage basins, flow networks, and pour points!
 
 ---

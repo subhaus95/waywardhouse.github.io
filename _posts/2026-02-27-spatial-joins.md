@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Spatial Joins and Proximity Queries"
 subtitle: "Linking datasets by location — the foundation of spatial analysis"
 date: 2026-02-27
@@ -26,10 +26,10 @@ domain: [gis, spatial-analysis, database-systems]
 excerpt: >
   Which census tract contains each address? What's the nearest fire station to
   each school? Spatial joins link datasets by location rather than shared IDs.
-  This essay derives spatial join algorithms, introduces spatial indexing with
+  This model derives spatial join algorithms, introduces spatial indexing with
   R-trees and k-d trees, and implements nearest-neighbor queries efficiently.
 math_prerequisites: >
-  Point-in-polygon (Essay 29). Distance calculations (Essay 30). Basic data
+  Point-in-polygon (Model 29). Distance calculations (Model 30). Basic data
   structures (arrays, trees). We'll introduce spatial indexing from scratch.
 ---
 

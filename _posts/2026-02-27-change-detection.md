@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Change Detection in Satellite Imagery"
 subtitle: "Finding what changed between two dates using multi-temporal analysis"
 date: 2026-02-27
@@ -28,10 +28,10 @@ domain: [remote-sensing, environmental-monitoring, deforestation, urban-growth]
 excerpt: >
   Where did deforestation occur? How much urban area expanded? What burned in the
   wildfire? Change detection compares satellite images from different dates to map
-  what changed. This essay derives image differencing, NDVI change, change vector
+  what changed. This model derives image differencing, NDVI change, change vector
   analysis, and post-classification comparison methods.
 math_prerequisites: >
-  Vegetation indices (Essay 25). Image classification (Essay 39). Basic statistics
+  Vegetation indices (Model 25). Image classification (Model 39). Basic statistics
   (mean, standard deviation). We'll introduce change detection algorithms.
 ---
 
@@ -718,6 +718,6 @@ Plot True Positive Rate vs. False Positive Rate for different thresholds.
 - **Time series methods:** BFAST, LandTrendr for continuous monitoring
 - Critical for environmental monitoring and reporting (e.g., REDD+, SDG indicators)
 
-**FINAL ESSAY COMING UP!** Essay 41: Time Series Analysis - then Series 3 is COMPLETE! 🎯
+**FINAL ESSAY COMING UP!** Model 41: Time Series Analysis - then Series 3 is COMPLETE! 🎯
 
 ---

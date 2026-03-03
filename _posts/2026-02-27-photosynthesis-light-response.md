@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Photosynthesis and Light Response"
 subtitle: "Converting solar energy to chemical energy — the light response curve"
 date: 2026-02-26
@@ -26,11 +26,11 @@ domain: [ecology, biogeochemistry, plant-physiology, carbon-cycle]
 excerpt: >
   Photosynthesis converts light energy into chemical energy (sugars). The rate
   increases with light intensity but saturates at high light—a classic rectangular
-  hyperbola response. This essay derives the light response curve, introduces
+  hyperbola response. This model derives the light response curve, introduces
   quantum efficiency and saturation, and connects photosynthesis to gross primary
   productivity.
 math_prerequisites: >
-  Exponential decay (Essay 5 for light attenuation). Saturation functions and
+  Exponential decay (Model 5 for light attenuation). Saturation functions and
   asymptotes conceptually. We'll introduce the rectangular hyperbola from scratch.
 ---
 
@@ -155,14 +155,14 @@ $$I_c = \frac{R_d A_{\text{max}}}{\phi(A_{\text{max}} - R_d)}$$
 
 **Canopy photosynthesis** integrates over:
 - All leaves (sunlit and shaded)
-- Vertical light gradient (Beer's law from Essay 5)
+- Vertical light gradient (Beer's law from Model 5)
 - Leaf area index (total leaf area per ground area)
 
 **Simplified canopy GPP:**
 
 $$\text{GPP} = \int_0^{LAI} A_{\text{leaf}}(I(L)) \, dL$$
 
-Where $I(L) = I_0 e^{-k L}$ is light at cumulative leaf area $L$ (from Essay 5).
+Where $I(L) = I_0 e^{-k L}$ is light at cumulative leaf area $L$ (from Model 5).
 
 ---
 
@@ -591,7 +591,7 @@ Where $R_{\text{hetero}}$ is **heterotrophic respiration** (decomposers breaking
 **Positive NEP:** Ecosystem sequesters carbon (carbon sink)  
 **Negative NEP:** Ecosystem releases carbon (carbon source)
 
-**Next essay** will model soil moisture dynamics—how water availability controls transpiration and photosynthesis.
+**Next model** will model soil moisture dynamics—how water availability controls transpiration and photosynthesis.
 
 ---
 
@@ -647,6 +647,6 @@ For photosynthesis: Half-saturation light $I_{1/2} = A_{\text{max}} / \phi$.
 - **Gross Primary Productivity** (GPP): Total carbon fixed by photosynthesis
 - **Net Primary Productivity** (NPP) = GPP - plant respiration
 
-**Next:** In Essay 21, we explore **soil moisture dynamics**—how water moves through soil, how plants extract it, and how drought stress limits photosynthesis and transpiration.
+**Next:** In Model 21, we explore **soil moisture dynamics**—how water moves through soil, how plants extract it, and how drought stress limits photosynthesis and transpiration.
 
 ---

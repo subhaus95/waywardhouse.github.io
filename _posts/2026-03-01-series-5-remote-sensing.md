@@ -33,36 +33,36 @@ Remote sensing extends human perception across wavelengths invisible to the eye 
 7. **Select appropriate sensors** for measurement objectives
 8. **Quantify retrieval uncertainty** from sensor characteristics
 
-## Essay Sequence
+## Model Sequence
 
-### Cluster S: Advanced Optical & Thermal (Essays 52-53)
+### Cluster S: Advanced Optical & Thermal (Models 52-53)
 
-**Essay 52: Hyperspectral Imaging and Spectral Unmixing**
+**Model 52: Hyperspectral Imaging and Spectral Unmixing**
 Continuous spectra. Absorption features. Linear unmixing. Spectral Angle Mapper. Mineral identification.
 
-**Essay 53: Thermal Infrared Remote Sensing**
+**Model 53: Thermal Infrared Remote Sensing**
 Brightness temperature. Emissivity correction. Split-window algorithms. Land surface temperature. Urban heat islands.
 
-### Cluster T: Active Ranging Systems (Essays 54-57)
+### Cluster T: Active Ranging Systems (Models 54-57)
 
-**Essay 54: Terrestrial LiDAR Point Clouds**
+**Model 54: Terrestrial LiDAR Point Clouds**
 Range equation. Multiple returns. Ground classification. Canopy height models. Biomass estimation.
 
-**Essay 55: Bathymetric LiDAR and Sonar Mapping**
+**Model 55: Bathymetric LiDAR and Sonar Mapping**
 Water penetration. Refraction correction. Multibeam sonar. Backscatter classification. Seafloor mapping.
 
-**Essay 56: SAR Fundamentals and Applications**
+**Model 56: SAR Fundamentals and Applications**
 Synthetic aperture. Range-azimuth resolution. Backscatter mechanisms. Polarimetry. Flood/ship detection.
 
-**Essay 57: InSAR Deformation Monitoring**
+**Model 57: InSAR Deformation Monitoring**
 Interferometric phase. Unwrapping. Subsidence measurement. Earthquake/volcano deformation. Coherence.
 
-### Cluster U: Geophysical Remote Sensing (Essays 58-59)
+### Cluster U: Geophysical Remote Sensing (Models 58-59)
 
-**Essay 58: Gravity Remote Sensing (GRACE)**
+**Model 58: Gravity Remote Sensing (GRACE)**
 Satellite gravimetry. Mass change detection. Groundwater depletion. Ice sheet mass balance. Geoid.
 
-**Essay 59: Passive Microwave Radiometry**
+**Model 59: Passive Microwave Radiometry**
 Brightness temperature. Soil moisture retrieval. Sea ice concentration. Snow water equivalent. All-weather capability.
 
 ## Mathematical Progression
@@ -92,19 +92,19 @@ Brightness temperature. Soil moisture retrieval. Sea ice concentration. Snow wat
 
 **Required:** Series 1 (calculus, complex numbers)
 
-**Helpful:** Series 2 Essay 13 (radiation basics), Series 3 Essay 29-30 (raster processing)
+**Helpful:** Series 2 Model 13 (radiation basics), Series 3 Model 29-30 (raster processing)
 
 **Not required:** Prior remote sensing background
 
 ## Entry Points
 
-**LiDAR applications:** Essays 54-55 accessible with Series 1
+**LiDAR applications:** Models 54-55 accessible with Series 1
 
-**SAR/InSAR:** Essays 56-57 most mathematically demanding
+**SAR/InSAR:** Models 56-57 most mathematically demanding
 
-**Climate/hydrology:** Essays 58-59 (gravity, passive microwave)
+**Climate/hydrology:** Models 58-59 (gravity, passive microwave)
 
-**Optical background:** Essays 52-53 extend visible/NIR knowledge
+**Optical background:** Models 52-53 extend visible/NIR knowledge
 
 ## Key Insights
 
@@ -151,13 +151,13 @@ Brightness temperature. Soil moisture retrieval. Sea ice concentration. Snow wat
 
 **For classification:** Machine learning on multispectral/hyperspectral (future)
 
-**For time series:** Change detection methods from Series 3 Essay 41
+**For time series:** Change detection methods from Series 3 Model 41
 
 **For validation:** Ground-based measurements from Series 2
 
 ## Estimated Time
 
-**Per essay:** 4-5 hours (physics + processing + application)
+**Per model:** 4-5 hours (physics + processing + application)
 
 **Full series:** 30-40 hours
 
@@ -165,4 +165,4 @@ Brightness temperature. Soil moisture retrieval. Sea ice concentration. Snow wat
 
 ---
 
-**Prerequisites:** Series 1 required. Selected Series 2 essays helpful for radiation physics background.
+**Prerequisites:** Series 1 required. Selected Series 2 models helpful for radiation physics background.

@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Exponential Growth and Logarithms"
 subtitle: "When the rate of change depends on how much you already have"
 date: 2026-02-26
@@ -29,7 +29,7 @@ excerpt: >
   epidemics spread — the rate depends on the current size. This is our first
   differential equation, and it changes everything.
 math_prerequisites: >
-  Exponents (what $2^3$ means). The concept of rate from Essay 2. Comfort with
+  Exponents (what $2^3$ means). The concept of rate from Model 2. Comfort with
   algebraic manipulation. We'll introduce logarithms from scratch and show why
   they're the inverse of exponentials.
 ---
@@ -502,7 +502,7 @@ Because **the rate depends on the size**, exponential growth is self-reinforcing
 
 In the real world, **nothing grows exponentially forever.** Resources run out. Space fills up. Predators respond. Exponential growth is a **local model** — valid over short timescales before constraints kick in.
 
-The next essay introduces **logistic growth**, where the growth rate itself slows as the population approaches a limit.
+The next model introduces **logistic growth**, where the growth rate itself slows as the population approaches a limit.
 
 ### Confusing Growth Rate and Doubling Time
 

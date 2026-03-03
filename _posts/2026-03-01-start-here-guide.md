@@ -248,7 +248,7 @@ permalink: /start-here/
       {% endfor %}
     </ol>
     <div class="start-path-foot">
-      <a href="{{ '/topic/economic-geography/' | relative_url }}">Browse all essays &rarr;</a>
+      <a href="{{ '/topic/economic-geography/' | relative_url }}">Browse all models &rarr;</a>
     </div>
   </div>
 
@@ -256,7 +256,7 @@ permalink: /start-here/
     <div class="start-path-head">
       <div class="start-path-label">Computation</div>
       <h2 class="start-path-title">Computational Geography</h2>
-      <p class="start-path-desc">Geography as a quantitative science — from algebra to climate models. Each essay builds on the last. Code is open on GitHub.</p>
+      <p class="start-path-desc">Geography as a quantitative science — from algebra to climate models. Each model builds on the last. Code is open on GitHub.</p>
     </div>
     <ol class="start-essay-list">
       {% for post in foundations limit: 4 %}
@@ -272,7 +272,7 @@ permalink: /start-here/
       {% endfor %}
     </ol>
     <div class="start-path-foot">
-      <a href="{{ '/series/' | relative_url }}">View full series with all {{ foundations.size }} essays &rarr;</a>
+      <a href="{{ '/series/' | relative_url }}">View full series with all {{ foundations.size }} models &rarr;</a>
     </div>
   </div>
 
@@ -290,7 +290,7 @@ permalink: /start-here/
       <div class="start-series-card-num">Series {{ series_ghg.series_number }}</div>
       <div class="start-series-card-title">{{ series_ghg.title | split: ": " | last }}</div>
       <div class="start-series-card-sub">{{ series_ghg.subtitle }}</div>
-      <div class="start-series-card-meta">{{ series_ghg.total_essays }} essays &middot; Difficulty {{ series_ghg.difficulty_range }}</div>
+      <div class="start-series-card-meta">{{ series_ghg.total_essays }} models &middot; Difficulty {{ series_ghg.difficulty_range }}</div>
     </a>
     {% endif %}
     {% if series_climate %}
@@ -298,7 +298,7 @@ permalink: /start-here/
       <div class="start-series-card-num">Series {{ series_climate.series_number }}</div>
       <div class="start-series-card-title">{{ series_climate.title | split: ": " | last }}</div>
       <div class="start-series-card-sub">{{ series_climate.subtitle }}</div>
-      <div class="start-series-card-meta">{{ series_climate.total_essays }} essays &middot; Difficulty {{ series_climate.difficulty_range }}</div>
+      <div class="start-series-card-meta">{{ series_climate.total_essays }} models &middot; Difficulty {{ series_climate.difficulty_range }}</div>
     </a>
     {% endif %}
   </div>
@@ -307,5 +307,5 @@ permalink: /start-here/
 
 <div class="start-footer">
   <span class="start-footer-label">Not sure?</span>
-  <a href="{{ '/what-is-a-spatial-model/' | relative_url }}" class="btn btn-primary">Try Essay 1 — takes 15 minutes to know if this is for you &rarr;</a>
+  <a href="{{ '/what-is-a-spatial-model/' | relative_url }}" class="btn btn-primary">Try Model 1 — takes 15 minutes to know if this is for you &rarr;</a>
 </div>

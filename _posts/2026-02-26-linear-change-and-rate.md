@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Linear Change and Rate"
 subtitle: "Slope as the fundamental measure of how things change through space and time"
 date: 2026-02-26
@@ -29,7 +29,7 @@ excerpt: >
   slope means understanding rate, and rate is the language of change.
 math_prerequisites: >
   Plotting points on a graph. Basic algebra (solving for x). The concept of a
-  function from Essay 1. We'll build the idea of slope from first principles.
+  function from Model 1. We'll build the idea of slope from first principles.
 ---
 
 ## 1. The Question
@@ -307,7 +307,7 @@ Flipping these gives you a different slope. $\frac{\Delta z}{\Delta T}$ is the *
 
 ## 8. Extension: From Lines to Gradients
 
-In the next essay, we'll ask: what happens when the rate of change itself changes? When growth accelerates or slows? When temperature doesn't drop at a constant rate, but follows an exponential curve?
+In the next model, we'll ask: what happens when the rate of change itself changes? When growth accelerates or slows? When temperature doesn't drop at a constant rate, but follows an exponential curve?
 
 But before we get there, notice this: **the slope of a line is the simplest possible derivative.**
 

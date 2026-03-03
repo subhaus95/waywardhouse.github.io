@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Fire Weather and Ignition Potential"
 subtitle: "Meteorological conditions that drive wildfire ignition and spread"
 date: 2026-02-27
@@ -27,7 +27,7 @@ domain: [fire-science, meteorology, hazards, forestry]
 excerpt: >
   What weather conditions create extreme wildfire risk? Fire weather combines
   temperature, humidity, wind, and fuel conditions to determine ignition potential
-  and fire behavior. This essay derives fuel moisture equations, implements vapor
+  and fire behavior. This model derives fuel moisture equations, implements vapor
   pressure deficit calculations, demonstrates fire weather indices, and maps
   ignition probability across landscapes.
 math_prerequisites: >

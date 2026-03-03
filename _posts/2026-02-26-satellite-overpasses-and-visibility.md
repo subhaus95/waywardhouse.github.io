@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Satellite Overpasses and Visibility"
 subtitle: "Predicting when and where satellites are visible from the ground"
 date: 2026-02-26
@@ -25,12 +25,12 @@ computation: 3
 domain: [orbital-mechanics, remote-sensing, satellite-tracking, ground-stations]
 excerpt: >
   When is a satellite visible from your location? You need line of sight — the
-  satellite must be above your horizon and not blocked by Earth itself. This essay
+  satellite must be above your horizon and not blocked by Earth itself. This model
   derives the geometry of satellite visibility, calculates elevation and azimuth
   angles, and predicts overpass times for any ground station.
 math_prerequisites: >
-  Orbital mechanics (Essays 13-14). Spherical coordinates (Essay 12). Vector dot
-  products (Essay 6). We'll build on 3D coordinate geometry to solve visibility.
+  Orbital mechanics (Models 13-14). Spherical coordinates (Model 12). Vector dot
+  products (Model 6). We'll build on 3D coordinate geometry to solve visibility.
 ---
 
 ## 1. The Question
@@ -91,7 +91,7 @@ $$\mathbf{r}_{\text{obs}} = R_{\oplus} \begin{pmatrix}
 
 $$\mathbf{r}_{\text{sat}}(t) = \begin{pmatrix} x_{\text{sat}}(t) \\ y_{\text{sat}}(t) \\ z_{\text{sat}}(t) \end{pmatrix}$$
 
-(Calculated from orbital parameters using ground track methods from Essay 14)
+(Calculated from orbital parameters using ground track methods from Model 14)
 
 **Range vector** (from observer to satellite):
 
@@ -1194,7 +1194,7 @@ This is what we do when converting the range vector to topocentric (East-North-U
 - Multiple passes per day, predictable from orbital parameters
 - Geostationary satellites appear fixed in the sky
 
-**Phase II Complete:** Essays 13–15 provide the foundation for orbital mechanics and satellite tracking. Future extensions could cover:
+**Phase II Complete:** Models 13–15 provide the foundation for orbital mechanics and satellite tracking. Future extensions could cover:
 - Sensor swath geometry and coverage calculations
 - Off-nadir pointing and agile satellites
 - Constellation design for continuous coverage

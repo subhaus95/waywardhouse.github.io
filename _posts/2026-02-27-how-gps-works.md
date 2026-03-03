@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "How GPS Works"
 subtitle: "Trilateration, clock bias, and the geometry of space-based positioning"
 date: 2026-02-26
@@ -28,7 +28,7 @@ computation: 4
 domain: [geodesy, navigation, satellite-systems]
 excerpt: >
   A GPS receiver determines its position by measuring the time it takes for radio
-  signals to arrive from satellites with known positions. This essay derives the
+  signals to arrive from satellites with known positions. This model derives the
   mathematical model from first principles: distance from time, trilateration from
   multiple satellites, and why you need four satellites instead of three. We'll
   solve the nonlinear system and explore how satellite geometry affects accuracy.

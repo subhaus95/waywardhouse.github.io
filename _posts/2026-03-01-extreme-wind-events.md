@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Extreme Wind Events and Downbursts"
 subtitle: "Damaging straight-line winds from thunderstorm outflows"
 date: 2026-02-27
@@ -26,10 +26,10 @@ domain: [meteorology, severe-weather, aviation, structural-engineering]
 excerpt: >
   What causes damaging straight-line winds exceeding 100 mph? Downbursts and
   derechos produce extreme winds through evaporative cooling and momentum transfer.
-  This essay derives downdraft equations, implements outflow spreading models,
+  This model derives downdraft equations, implements outflow spreading models,
   demonstrates derecho dynamics, and assesses wind damage potential.
 math_prerequisites: >
-  Thunderstorm dynamics (Essay 63). Boundary layer (Essay 66). Thermodynamics.
+  Thunderstorm dynamics (Model 63). Boundary layer (Model 66). Thermodynamics.
   We'll introduce downdraft physics and mesoscale convective systems.
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Flood Frequency Analysis"
 subtitle: "Estimating flood magnitudes for design and risk assessment"
 date: 2026-02-27
@@ -27,10 +27,10 @@ excerpt: >
   How large will the 100-year flood be? Flood frequency analysis fits probability
   distributions to annual peak flows enabling estimation of design floods and
   floodplain mapping via Log-Pearson Type III and regional regression methods.
-  This essay derives frequency factors, implements LP3 fitting, demonstrates flood
+  This model derives frequency factors, implements LP3 fitting, demonstrates flood
   quantile calculations, and extends to ungauged basins via regional equations.
 math_prerequisites: >
-  Probability distributions. Logarithms. Return periods (Essay 68). We'll introduce
+  Probability distributions. Logarithms. Return periods (Model 68). We'll introduce
   flood statistics and frequency methods from first principles.
 ---
 
@@ -525,6 +525,6 @@ await new Promise(r => {
 
 Flood frequency analysis estimates design floods via Log-Pearson Type III distribution fitted to annual peak streamflow data transforming to logarithmic space for skewed distributions. Frequency factors K_T derived from skew coefficient and return period enabling quantile calculation via y_T = mean + K_T × std_dev. USGS Bulletin 17C standard method incorporating regional skew weighting and outlier detection improving estimates. Confidence intervals widen significantly for rare events with ±20-40% typical for 100-year estimates from 30-year records. Applications span bridge design, dam spillways, floodplain mapping, and flood insurance requiring return periods from 10 to 10,000 years depending on consequence of failure.
 
-**Total: 69 complete essays**
+**Total: 69 complete models**
 
 ---

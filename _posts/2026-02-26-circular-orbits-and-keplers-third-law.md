@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Circular Orbits and Kepler's Third Law"
 subtitle: "Deriving orbital mechanics from Newton's laws — why satellites stay up"
 date: 2026-02-26
@@ -25,7 +25,7 @@ computation: 2
 domain: [orbital-mechanics, remote-sensing, space-physics]
 excerpt: >
   A satellite in orbit is in perpetual free fall, moving forward fast enough that
-  it falls around the Earth rather than into it. This essay derives the relationship
+  it falls around the Earth rather than into it. This model derives the relationship
   between orbital altitude, period, and velocity from Newton's laws. We'll prove
   Kepler's Third Law and calculate the magic altitude where satellites hover.
 math_prerequisites: >

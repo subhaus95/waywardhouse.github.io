@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Glacier Mass Balance"
 subtitle: "How glaciers gain and lose mass—the foundation of glacier dynamics"
 date: 2026-02-27
@@ -27,11 +27,11 @@ domain: [glaciology, climate-science, hydrology, sea-level]
 excerpt: >
   Why are glaciers retreating? How much water do they store? Glacier mass balance—
   the difference between accumulation (snow input) and ablation (ice/snow loss)—
-  determines whether glaciers grow or shrink. This essay derives mass balance
+  determines whether glaciers grow or shrink. This model derives mass balance
   equations, implements equilibrium line altitude calculation, and shows how mass
   balance connects to climate change and sea level rise.
 math_prerequisites: >
-  Snow physics (Essays 42-44). Energy balance (Essay 42). Basic calculus (rates
+  Snow physics (Models 42-44). Energy balance (Model 42). Basic calculus (rates
   of change). We'll introduce glacier-specific processes and ice dynamics.
 ---
 
@@ -137,7 +137,7 @@ Where:
 
 $$M = \frac{Q_{\text{net}}}{L_f \rho_w}$$
 
-Where $Q_{\text{net}}$ from Essay 42 (shortwave, longwave, sensible, latent).
+Where $Q_{\text{net}}$ from Model 42 (shortwave, longwave, sensible, latent).
 
 ### Glacier-Wide Balance
 
@@ -691,6 +691,6 @@ $$\nabla \cdot \vec{q} = \dot{b}$$
 - **Applications:** Water resources, climate change monitoring, sea level prediction
 - Foundation for understanding glacier response to climate and ice dynamics
 
-**Next:** In Essay 47, we explore **Glacial Meltwater Chemistry**—how glaciers influence water quality and why glacier-fed rivers have distinct chemical signatures!
+**Next:** In Model 47, we explore **Glacial Meltwater Chemistry**—how glaciers influence water quality and why glacier-fed rivers have distinct chemical signatures!
 
 ---

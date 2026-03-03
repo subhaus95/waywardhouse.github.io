@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Rainfall Intensity-Duration-Frequency"
 subtitle: "Statistical analysis of extreme precipitation for hydrologic design"
 date: 2026-02-27
@@ -27,7 +27,7 @@ excerpt: >
   How intense will the 100-year storm be? Intensity-Duration-Frequency curves
   relate rainfall intensity to storm duration and return period via extreme value
   statistics, enabling hydrologic design of drainage systems and flood protection.
-  This essay derives IDF equations, implements extreme value analysis, demonstrates
+  This model derives IDF equations, implements extreme value analysis, demonstrates
   design storm calculations, and maps precipitation risk across return periods.
 math_prerequisites: >
   Probability distributions. Statistics. Logarithms. We'll introduce extreme value
@@ -865,6 +865,6 @@ $$P_{50} = 1 - (1 - 0.01)^{50} = 1 - 0.605 = 0.395$$
 - Confidence intervals widen dramatically for rare events with ±40% typical for 100-year estimates from 30-year records
 - Critical tool enabling hydraulic infrastructure design from storm sewers to dam spillways
 
-**Total: 68 essays (67 complete, Essay 68 now complete)**
+**Total: 68 models (67 complete, Model 68 now complete)**
 
 ---

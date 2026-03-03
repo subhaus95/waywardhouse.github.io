@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Avalanche Terrain Analysis"
 subtitle: "Identifying where and when avalanches are likely"
 date: 2026-02-27
@@ -28,10 +28,10 @@ domain: [avalanche-science, terrain-analysis, hazard-assessment, recreation]
 excerpt: >
   Which slopes are dangerous? Where should backcountry routes go? Avalanche terrain
   analysis combines slope angle, aspect, elevation, and terrain shape to identify
-  avalanche-prone areas. This essay derives slope thresholds, implements terrain
+  avalanche-prone areas. This model derives slope thresholds, implements terrain
   classification systems (ATES), and shows how to map runout zones using DEM analysis.
 math_prerequisites: >
-  Terrain analysis (Essays 7-9, 36-38). Slope and aspect calculation. We'll introduce
+  Terrain analysis (Models 7-9, 36-38). Slope and aspect calculation. We'll introduce
   avalanche mechanics and terrain classification from safety perspectives.
 ---
 
@@ -127,7 +127,7 @@ $$\theta_{\text{start}} = 30-45°$$
 
 ### Slope Angle from DEM
 
-**Gradient magnitude (from Essay 8):**
+**Gradient magnitude (from Model 8):**
 
 $$|\nabla z| = \sqrt{\left(\frac{\partial z}{\partial x}\right)^2 + \left(\frac{\partial z}{\partial y}\right)^2}$$
 
@@ -719,12 +719,12 @@ $$FS = \frac{\tan\phi}{\tan\theta}$$
 
 🎉 **CLUSTER P: SNOW PHYSICS & MODELING - COMPLETE!** 🎉
 
-**Essays 42-45:**
+**Models 42-45:**
 - Snowpack Energy Balance
 - Snow Accumulation & Melt Modeling  
 - SWE Estimation Methods
 - Avalanche Terrain Analysis
 
-**Series 4 Progress: 4 of 10 essays complete!**
+**Series 4 Progress: 4 of 10 models complete!**
 
 ---

@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Soil Heat Diffusion"
 subtitle: "Temperature waves propagating into the ground — diurnal and seasonal cycles"
 date: 2026-02-26
@@ -26,10 +26,10 @@ domain: [soil-science, climatology, environmental-modeling]
 excerpt: >
   Surface temperature oscillates daily (day/night) and seasonally (summer/winter).
   These temperature waves propagate downward into the soil, getting weaker and
-  more delayed with depth. This essay derives the heat diffusion equation and
+  more delayed with depth. This model derives the heat diffusion equation and
   solves it for sinusoidal forcing to find damping depth and phase lag.
 math_prerequisites: >
-  Partial derivatives (Essay 8). Exponential functions (Essay 3). We'll introduce
+  Partial derivatives (Model 8). Exponential functions (Model 3). We'll introduce
   the heat equation and solve it for periodic boundary conditions.
 ---
 

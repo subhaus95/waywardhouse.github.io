@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Viewshed and Line-of-Sight Analysis"
 subtitle: "What can you see from this location? Visibility analysis on terrain"
 date: 2026-02-27
@@ -28,10 +28,10 @@ domain: [gis, terrain-analysis, telecommunications, military, urban-planning]
 excerpt: >
   Where can a fire tower see? Which houses have ocean views? Can this cell tower
   reach that antenna? Viewshed analysis determines what terrain locations are
-  visible from an observer point. This essay derives line-of-sight algorithms,
+  visible from an observer point. This model derives line-of-sight algorithms,
   implements efficient viewshed computation, and extends to applications.
 math_prerequisites: >
-  Digital elevation models (Essay 7-9). Raster interpolation (Essay 33). Slope
+  Digital elevation models (Model 7-9). Raster interpolation (Model 33). Slope
   and gradient concepts. We'll introduce ray-terrain intersection from scratch.
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Wind Profiles and Atmospheric Turbulence"
 subtitle: "The logarithmic law and how roughness controls momentum transfer"
 date: 2026-02-26
@@ -27,10 +27,10 @@ domain: [meteorology, atmospheric-science, micrometeorology]
 excerpt: >
   Wind speed increases with height above the ground. Near the surface, turbulent
   eddies mix momentum downward, creating a logarithmic wind profile. Surface
-  roughness controls the shape—forests slow wind more than grassland. This essay
+  roughness controls the shape—forests slow wind more than grassland. This model
   derives the log law and introduces roughness length and friction velocity.
 math_prerequisites: >
-  Logarithms (Essay 3). Basic calculus. We'll introduce the logarithmic function
+  Logarithms (Model 3). Basic calculus. We'll introduce the logarithmic function
   from first principles and show how it emerges from turbulent momentum transfer.
 ---
 
@@ -585,7 +585,7 @@ The same turbulent eddies that transport momentum also transport **heat** and **
 $$T(z) - T_s = \frac{H}{\rho c_p u_* k} \ln\left(\frac{z}{z_h}\right)$$
 
 Where:
-- $H$ = sensible heat flux (from Essay 18)
+- $H$ = sensible heat flux (from Model 18)
 - $z_h$ = roughness length for heat (typically $z_h < z_0$)
 
 **Moisture profile:**

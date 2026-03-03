@@ -33,7 +33,7 @@ This is geography as explanatory infrastructure.
 
 ### 2. Computational Geography & Environmental Modeling
 
-A structured series of modeling essays that rebuild environmental and spatial reasoning from first principles.
+A structured series of models that rebuild environmental and spatial reasoning from first principles.
 
 Each piece develops:
 
@@ -44,7 +44,7 @@ Each piece develops:
  - Interactive visualisation
  - Explicit prerequisites and difficulty level
 
-These essays bridge three domains:
+These pieces bridge three domains:
 
  - Mathematical foundations
  - Spatial and computational methods
@@ -52,7 +52,7 @@ These essays bridge three domains:
 
 They are designed to lower the barrier to quantitative geography — not by simplifying it, but by building on-ramps to it.
 
-Over time, these modeling essays will evolve into:
+Over time, these models will evolve into:
 
  - Reproducible computational notebooks
  - Open datasets
@@ -65,7 +65,7 @@ The goal is literacy in systems — not just a passing surface familiarity.
 
 The long-form essays explore structure.
 
-The modeling essays build the tools required to analyse that structure.
+The models build the tools required to analyse that structure.
 
 Together, they form an integrated body of work:
 

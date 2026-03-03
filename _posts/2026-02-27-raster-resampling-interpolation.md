@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Raster Resampling and Interpolation"
 subtitle: "Changing grid resolution and filling missing values"
 date: 2026-02-27
@@ -27,10 +27,10 @@ domain: [gis, remote-sensing, image-processing, dem-analysis]
 excerpt: >
   What happens when you zoom in on satellite imagery? How do you convert a 30m
   DEM to 10m resolution? Resampling changes raster resolution, while interpolation
-  estimates values at unmeasured locations. This essay derives nearest neighbor,
+  estimates values at unmeasured locations. This model derives nearest neighbor,
   bilinear, and bicubic methods, showing when each is appropriate.
 math_prerequisites: >
-  Functions of two variables (Essay 7). Grid coordinates and rasters. Basic
+  Functions of two variables (Model 7). Grid coordinates and rasters. Basic
   calculus for understanding smoothness. We'll introduce interpolation kernels.
 ---
 

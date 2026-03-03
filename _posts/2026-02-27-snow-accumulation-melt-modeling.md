@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Snow Accumulation and Melt Modeling"
 subtitle: "Tracking snowpack evolution through the winter season"
 date: 2026-02-27
@@ -28,11 +28,11 @@ domain: [hydrology, water-resources, flood-forecasting, climate]
 excerpt: >
   How much water is stored in the snowpack? When will melt begin? What's the peak
   runoff timing? Snow accumulation and melt models track snowpack mass balance
-  through the season—accounting for precipitation, sublimation, and melt. This essay
+  through the season—accounting for precipitation, sublimation, and melt. This model
   derives degree-day models, implements energy balance approaches, and introduces
   Snow Water Equivalent (SWE) as the key hydrological variable.
 math_prerequisites: >
-  Snowpack energy balance (Essay 42). Basic hydrology. Integration (accumulation
+  Snowpack energy balance (Model 42). Basic hydrology. Integration (accumulation
   over time). We'll introduce operational snow modeling methods from scratch.
 ---
 
@@ -180,7 +180,7 @@ Where:
 
 ### Energy Balance Approach
 
-**From Essay 42, net energy determines melt:**
+**From Model 42, net energy determines melt:**
 
 $$M = \frac{Q_{\text{net}}}{L_f \rho_w}$$
 

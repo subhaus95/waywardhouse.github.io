@@ -1,5 +1,5 @@
 ---
-  layout: essay
+  layout: model
   title: "What Is a Spatial Model?"
   subtitle: "Variables, units, and the discipline of thinking in fields"
   date: 2026-02-26
@@ -29,7 +29,7 @@
 
   excerpt: >
     Before we can model anything — a forest, a city, a watershed — we need to
-    understand what a model actually is. This essay builds that foundation:
+    understand what a model actually is. This model builds that foundation:
     variables, units, proportional reasoning, and the idea of a scalar field.
     No calculus required. Just careful thinking about what we choose to measure
     and why.
@@ -45,7 +45,7 @@ Not a shortage of data — we have more of that than ever, more sensors, more sa
 
 These are the questions a model forces you to answer. A model is not a metaphor and it is not a map. It is a precise claim about relationships between measurable quantities — a claim specific enough to be tested, refined, or discarded.
 
-This essay builds the foundation. We start with the most elementary ideas: what a variable is, why units matter more than most people think, what proportional reasoning actually means, and what it means to think of a geographic quantity as a *field* spread across space. None of this requires calculus. It requires only care.
+This model builds the foundation. We start with the most elementary ideas: what a variable is, why units matter more than most people think, what proportional reasoning actually means, and what it means to think of a geographic quantity as a *field* spread across space. None of this requires calculus. It requires only care.
 
 ---
 
@@ -214,7 +214,7 @@ $$\text{km}^2 = [\text{dimensionless}] \times \text{km}^2 \checkmark$$
 
 Tree cover fraction is dimensionless (a ratio of area to area). Multiplying by area gives area. ✓
 
-**What we haven't done:** we treated the study area as if it had the mean fraction everywhere. That is an assumption — and a strong one. Points on the eastern edge have lower cover (0.41 and 0.48) than points on the west (0.72 and 0.68). The real field is not uniform; it has spatial structure. A better estimate would weight the sample points by the area they represent, or fit a smooth surface to them. Those techniques come in later essays. For now, note the assumption and its limitation.
+**What we haven't done:** we treated the study area as if it had the mean fraction everywhere. That is an assumption — and a strong one. Points on the eastern edge have lower cover (0.41 and 0.48) than points on the west (0.72 and 0.68). The real field is not uniform; it has spatial structure. A better estimate would weight the sample points by the area they represent, or fit a smooth surface to them. Those techniques come in later models. For now, note the assumption and its limitation.
 
 ---
 
@@ -261,7 +261,7 @@ Study area               : 80.0 km²
 Estimated forested area  : 45.4 km²
 ```
 
-This matches our by-hand result exactly — a useful cross-check. In production work, you would want to use spatial interpolation (inverse-distance weighting, or kriging) to produce a continuous surface estimate rather than a single mean. Those methods treat the field as a function of $(x, y)$ and make predictions at unsampled locations. They are the subject of later essays in this series.
+This matches our by-hand result exactly — a useful cross-check. In production work, you would want to use spatial interpolation (inverse-distance weighting, or kriging) to produce a continuous surface estimate rather than a single mean. Those methods treat the field as a function of $(x, y)$ and make predictions at unsampled locations. They are the subject of later models in this series.
 
 ---
 
@@ -282,7 +282,7 @@ y (km)
 
 Even this simple diagram reveals spatial structure. Cover is high in the west (A, D) and declines toward the east (C, E). A linear gradient from west to east is a plausible hypothesis — and a hypothesis we could test by fitting a linear function $f(x) = a - bx$ to the data.
 
-In a later essay we will render this as an interactive D3 surface, with interpolation between sample points and a colour scale. For now, the key perceptual point is enough: spatial data has structure, and that structure is the signal we are trying to model.
+In a later model we will render this as an interactive D3 surface, with interpolation between sample points and a colour scale. For now, the key perceptual point is enough: spatial data has structure, and that structure is the signal we are trying to model.
 
 ---
 
@@ -353,9 +353,9 @@ Proportional reasoning means asking: what is the relationship between $x$ and $y
 
 ## Where Next?
 
-This essay introduced the vocabulary of spatial modeling: variables, units, proportional reasoning, and scalar fields. These ideas will appear in every essay that follows.
+This model introduced the vocabulary of spatial modeling: variables, units, proportional reasoning, and scalar fields. These ideas will appear in every model that follows.
 
-The next essay — **Linear Change and Rate** — takes the scalar field idea one step further. If a quantity changes linearly across space, the *rate of change* (the slope) is itself a meaningful geographic quantity. We will build linear functions, interpret their parameters, and use them to make predictions.
+The next model — **Linear Change and Rate** — takes the scalar field idea one step further. If a quantity changes linearly across space, the *rate of change* (the slope) is itself a meaningful geographic quantity. We will build linear functions, interpret their parameters, and use them to make predictions.
 
 **In this series:**
 - → [Linear Change and Rate](#) *(next)*
@@ -363,11 +363,11 @@ The next essay — **Linear Change and Rate** — takes the scalar field idea on
 - [Logistic Growth and Equilibrium](#)
 
 **If you want to go deeper now:**
-- The concept of a scalar field is a special case of a *tensor field*. In later essays we will encounter vector fields (which assign a direction as well as a magnitude to each point) when we study terrain gradients and wind.
+- The concept of a scalar field is a special case of a *tensor field*. In later models we will encounter vector fields (which assign a direction as well as a magnitude to each point) when we study terrain gradients and wind.
 - The spatial sampling problem touched on in §8 is the subject of *geostatistics*, particularly the branch concerned with optimal interpolation (kriging). A readable introduction is Cressie's *Statistics for Spatial Data* (1993).
 
 ---
 
-*Cluster A — Modeling Change · Essay 1 of 4 · Difficulty: 1*
+*Cluster A — Modeling Change · Model 1 of 4 · Difficulty: 1*
 
 *Math prerequisites: arithmetic, the concept of a variable.*

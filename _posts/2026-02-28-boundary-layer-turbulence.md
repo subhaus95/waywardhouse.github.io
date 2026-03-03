@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Boundary Layer Turbulence and Wind Profiles"
 subtitle: "Near-surface atmospheric dynamics and turbulent transport"
 date: 2026-02-27
@@ -27,7 +27,7 @@ domain: [meteorology, wind-energy, air-quality, micrometeorology]
 excerpt: >
   How does wind speed change with height and how strong is turbulent mixing? The
   atmospheric boundary layer exhibits logarithmic wind profiles and turbulent
-  transport driven by surface friction and buoyancy. This essay derives surface
+  transport driven by surface friction and buoyancy. This model derives surface
   layer equations, implements Monin-Obukhov similarity theory, demonstrates
   turbulent kinetic energy calculations, and applications to wind power and dispersion.
 math_prerequisites: >
@@ -711,7 +711,7 @@ Where $w'$ = vertical velocity fluctuation.
 - Applications span wind energy, pollution dispersion, aviation safety
 - Complex terrain and low-level jets violate flat-surface assumptions requiring advanced modeling
 
-**Series 6 progress: 6 of 13 essays**
-**Total corpus: 66 essays**
+**Series 6 progress: 6 of 13 models**
+**Total corpus: 66 models**
 
 ---

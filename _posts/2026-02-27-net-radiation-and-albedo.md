@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Net Radiation and Albedo"
 subtitle: "Surface energy balance — how much solar energy stays at the ground?"
 date: 2026-02-26
@@ -26,7 +26,7 @@ domain: [climatology, physical-geography, environmental-modeling]
 excerpt: >
   Not all incoming solar radiation stays at Earth's surface. Some reflects back
   to space (determined by albedo), some is absorbed and warms the ground. This
-  essay builds the net radiation budget: incoming shortwave, reflected shortwave,
+  model builds the net radiation budget: incoming shortwave, reflected shortwave,
   incoming longwave, and outgoing longwave. The balance determines surface heating.
 math_prerequisites: >
   Basic algebra. Conservation of energy conceptually. We'll introduce the Stefan-
@@ -560,7 +560,7 @@ Albedo changes with:
 ### Ignoring 3D Geometry
 
 Our model assumes a **flat, horizontal surface**. Real terrain has:
-- **Slopes:** Affect solar angle (Essay 6 covered this)
+- **Slopes:** Affect solar angle (Model 6 covered this)
 - **Shading:** Mountains cast shadows
 - **Multiple reflections:** Light bounces between surfaces (canyon walls, forest canopy)
 
@@ -588,7 +588,7 @@ Where:
 - $G$ = **Ground heat flux** (heating the soil)
 - $S$ = **Storage** (heating biomass, water bodies)
 
-**Next essay** will explore how $R_n$ is partitioned between sensible and latent heat — the foundation of evapotranspiration modeling.
+**Next model** will explore how $R_n$ is partitioned between sensible and latent heat — the foundation of evapotranspiration modeling.
 
 ---
 
@@ -643,6 +643,6 @@ Surface emission increases by 5.4 W/m² per degree warming.
 - **Clouds increase** $L_{\downarrow}$ → reduce nighttime cooling
 - Net radiation drives all surface energy processes (heating, evaporation, photosynthesis)
 
-**Next:** In Essay 18, we partition net radiation into sensible and latent heat fluxes — the **Bowen ratio** and the physics of evapotranspiration.
+**Next:** In Model 18, we partition net radiation into sensible and latent heat fluxes — the **Bowen ratio** and the physics of evapotranspiration.
 
 ---

@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Hail Formation and Forecasting"
 subtitle: "Growth processes and prediction of damaging ice precipitation"
 date: 2026-02-27
@@ -26,11 +26,11 @@ computation: 3
 domain: [meteorology, severe-weather, agriculture, insurance]
 excerpt: >
   How large will the hail be and where will it fall? Hailstone growth depends on
-  updraft strength, temperature profile, and liquid water content. This essay
+  updraft strength, temperature profile, and liquid water content. This model
   derives terminal velocity equations, implements accretion models, demonstrates
   wet vs dry growth regimes, and forecasts maximum hail size from storm parameters.
 math_prerequisites: >
-  Thunderstorm dynamics (Essay 63). Drag forces. Heat transfer basics. We'll
+  Thunderstorm dynamics (Model 63). Drag forces. Heat transfer basics. We'll
   introduce cloud microphysics and hail growth processes.
 ---
 
@@ -717,7 +717,7 @@ $C_d \approx 0.4-0.6$ (depends on surface roughness)
 - Dual-polarization radar improves hail detection via ZDR and correlation coefficient
 - Annual agricultural and property losses exceed $1-2 billion in USA alone
 
-**Cluster W: Severe Weather - Complete (4 essays)**
+**Cluster W: Severe Weather - Complete (4 models)**
 
 Moving to next cluster...
 

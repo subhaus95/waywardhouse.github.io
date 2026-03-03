@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Map Algebra and Focal Operations"
 subtitle: "Cell-by-cell calculations and neighborhood analysis on rasters"
 date: 2026-02-27
@@ -27,10 +27,10 @@ domain: [gis, image-processing, terrain-analysis, remote-sensing]
 excerpt: >
   How do you add two rasters? Smooth noisy elevation data? Calculate slope from
   a DEM? Map algebra defines mathematical operations on rasters—local (cell-by-cell),
-  focal (neighborhood), zonal (by region), and global. This essay derives convolution,
+  focal (neighborhood), zonal (by region), and global. This model derives convolution,
   implements common kernels, and shows how raster math powers spatial analysis.
 math_prerequisites: >
-  Raster concepts (Essay 7, 33). Matrix operations (basic). We'll introduce
+  Raster concepts (Model 7, 33). Matrix operations (basic). We'll introduce
   convolution and kernel operations from first principles.
 ---
 
@@ -43,7 +43,7 @@ How do you find suitable land that is both flat AND near water?
 **Examples:**
 - **Suitability modeling:** Combine slope, distance, and land cover grids
 - **Change detection:** Subtract two dates: `change = image2 - image1`
-- **NDVI calculation:** `(NIR - Red) / (NIR + Red)` (from Essay 25)
+- **NDVI calculation:** `(NIR - Red) / (NIR + Red)` (from Model 25)
 - **Terrain smoothing:** Average each cell with its neighbors
 - **Slope calculation:** Gradient from elevation differences
 
@@ -814,6 +814,6 @@ $$= K[-1,-1]I[i+1,j+1] + K[0,-1]I[i,j+1] + \cdots + K[1,1]I[i-1,j-1]$$
 - **Optimization:** Separable filters reduce computation 2-3×
 - Map algebra enables complex spatial analysis from simple operations
 
-**Next:** In Essay 35, we build on raster operations with **raster classification**—converting continuous values to discrete categories using thresholds and decision rules.
+**Next:** In Model 35, we build on raster operations with **raster classification**—converting continuous values to discrete categories using thresholds and decision rules.
 
 ---

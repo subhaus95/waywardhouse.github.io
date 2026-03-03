@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Earth as a Rotating Sphere"
 subtitle: "Spherical coordinates, angular velocity, and the geometry of our rotating planet"
 date: 2026-02-26
@@ -27,9 +27,9 @@ excerpt: >
   The Earth is a sphere rotating on an axis. Every point on the surface traces
   a circle once per day. To model Earth observation from space, we need to work
   in spherical coordinates and transform between latitude/longitude and Cartesian
-  xyz. This essay builds that foundation.
+  xyz. This model builds that foundation.
 math_prerequisites: >
-  Trigonometry (sin, cos, tan) from Essay 6. The concept of angular measurement
+  Trigonometry (sin, cos, tan) from Model 6. The concept of angular measurement
   (degrees and radians). We'll introduce spherical coordinates geometrically and
   show how to convert to Cartesian coordinates.
 ---
@@ -575,7 +575,7 @@ $$\Delta lon = 360° \times \frac{5400}{86164} \approx 22.5°$$
 
 After one orbit, the ground track is 22.5° west of the starting point (Earth rotated eastward underneath).
 
-**Phase II essays** will derive orbital mechanics and predict when satellites pass overhead.
+**Phase II models** will derive orbital mechanics and predict when satellites pass overhead.
 
 ---
 
@@ -631,7 +631,7 @@ Both describe the same geometry — just different angle conventions.
 
 **End of Phase I**
 
-You've completed the first 12 essays of the Computational Geography Laboratory. You've learned:
+You've completed the first 12 models of the Computational Geography Laboratory. You've learned:
 - How to build mathematical models of change (linear, exponential, logistic)
 - How light and energy attenuate through space
 - How to represent and analyze terrain using DEMs and gradients

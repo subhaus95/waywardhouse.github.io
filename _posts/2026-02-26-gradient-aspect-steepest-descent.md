@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Gradient, Aspect, and Direction of Steepest Descent"
 subtitle: "Partial derivatives in action — calculating slope magnitude and direction from a DEM"
 date: 2026-02-26
@@ -25,11 +25,11 @@ computation: 3
 domain: [physical-geography, geomorphology, hydrology]
 excerpt: >
   The gradient of a terrain surface tells you two things: how steep the slope is
-  (magnitude) and which direction it faces (direction). This essay shows how to
+  (magnitude) and which direction it faces (direction). This model shows how to
   compute partial derivatives from a DEM using finite differences and combine
   them into the gradient vector — the foundation of slope, aspect, and flow routing.
 math_prerequisites: >
-  Functions of two variables (Essay 7). Basic derivatives conceptually. We'll
+  Functions of two variables (Model 7). Basic derivatives conceptually. We'll
   introduce partial derivatives from scratch and show how finite differences
   approximate them numerically.
 ---
@@ -470,7 +470,7 @@ Water flows **downhill** — opposite the gradient direction.
 
 If $\nabla z = (0.5, 0.25)$ (pointing ENE uphill), then flow direction is $(-0.5, -0.25)$ (pointing WSW downhill).
 
-**Next essay (Essay 9)** will use this to route water across a DEM.
+**Next model (Model 9)** will use this to route water across a DEM.
 
 ---
 
@@ -564,6 +564,6 @@ Imagine slicing the surface with a vertical plane parallel to the x-axis — the
 - Water flows **downhill** — opposite the gradient
 - Aspect creates microclimates; slope affects erosion, stability, and runoff
 
-**Next:** In Essay 9, we use the gradient to **route water** across a DEM. We'll introduce the concept of flow accumulation, watersheds, and stream networks — all derived from local slope and aspect.
+**Next:** In Model 9, we use the gradient to **route water** across a DEM. We'll introduce the concept of flow accumulation, watersheds, and stream networks — all derived from local slope and aspect.
 
 ---

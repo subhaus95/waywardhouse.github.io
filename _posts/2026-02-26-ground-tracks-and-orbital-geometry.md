@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Ground Tracks and Orbital Geometry"
 subtitle: "Mapping satellite paths on Earth's surface as the planet rotates beneath"
 date: 2026-02-26
@@ -26,10 +26,10 @@ domain: [orbital-mechanics, remote-sensing, satellite-tracking]
 excerpt: >
   A satellite orbits in a fixed plane while Earth rotates beneath it. The ground
   track—the satellite's path plotted on Earth's surface—shifts westward with each
-  orbit. This essay shows how to calculate ground tracks by combining orbital motion
+  orbit. This model shows how to calculate ground tracks by combining orbital motion
   with Earth's rotation, enabling prediction of when satellites pass overhead.
 math_prerequisites: >
-  Circular orbits (Essay 13). Spherical coordinates (Essay 12). Coordinate
+  Circular orbits (Model 13). Spherical coordinates (Model 12). Coordinate
   transformations. We'll combine orbital mechanics with Earth's rotation geometry.
 ---
 
@@ -146,7 +146,7 @@ Calculate the ground track position after 15 minutes ($t = 900$ s).
 
 First, find how far the satellite has moved in its orbit.
 
-Orbital period (from Essay 13):
+Orbital period (from Model 13):
 
 $$T = 2\pi\sqrt{\frac{r^3}{\mu}} = 2\pi\sqrt{\frac{(6971)^3}{398600}} \approx 5820 \text{ s}$$
 

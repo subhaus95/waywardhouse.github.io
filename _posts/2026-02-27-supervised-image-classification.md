@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Supervised Image Classification"
 subtitle: "From satellite pixels to land cover maps using training data"
 date: 2026-02-27
@@ -28,11 +28,11 @@ domain: [remote-sensing, land-cover, machine-learning, earth-observation]
 excerpt: >
   How do you convert satellite imagery to land cover maps? Supervised classification
   uses training samples to learn spectral signatures of each class, then classifies
-  every pixel. This essay derives maximum likelihood classification, implements
+  every pixel. This model derives maximum likelihood classification, implements
   k-nearest neighbors, and shows how to assess accuracy with confusion matrices.
 math_prerequisites: >
   Statistics (mean, covariance, normal distribution). NDVI and spectral bands
-  (Essay 25). Raster classification concepts (Essay 35). We'll introduce multivariate
+  (Model 25). Raster classification concepts (Model 35). We'll introduce multivariate
   classification from scratch.
 ---
 

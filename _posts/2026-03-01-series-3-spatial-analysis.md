@@ -33,56 +33,56 @@ By completing this series, learners will:
 7. **Understand uncertainty propagation** in spatial analysis workflows
 8. **Select appropriate methods** based on data characteristics and analysis goals
 
-## Essay Sequence
+## Model Sequence
 
-### Cluster J: Map Algebra (Essays 29-32)
+### Cluster J: Map Algebra (Models 29-32)
 
-**Essay 29: Local Operations and Band Math**
+**Model 29: Local Operations and Band Math**
 Cell-by-cell operations. NDVI calculation. Boolean masks. Reclassification.
 
-**Essay 30: Focal Operations and Convolution**
+**Model 30: Focal Operations and Convolution**
 Neighborhood analysis. Kernel-based filtering. Slope/aspect computation. Edge detection.
 
-**Essay 31: Zonal Statistics**
+**Model 31: Zonal Statistics**
 Summary by regions. Categorical analysis. Watershed characterization.
 
-**Essay 32: Global Operations and Cost-Distance**
+**Model 32: Global Operations and Cost-Distance**
 Entire-raster analysis. Distance transforms. Least-cost paths. Connectivity.
 
-### Cluster K: Spatial Interpolation (Essays 33-36)
+### Cluster K: Spatial Interpolation (Models 33-36)
 
-**Essay 33: Inverse Distance Weighting**
+**Model 33: Inverse Distance Weighting**
 Weighted nearest neighbors. Distance decay functions. Parameter sensitivity.
 
-**Essay 34: Kriging and Geostatistics**
+**Model 34: Kriging and Geostatistics**
 Semivariogram modeling. Ordinary kriging. Prediction uncertainty quantification.
 
-**Essay 35: Spline Interpolation**
+**Model 35: Spline Interpolation**
 Thin-plate splines. Regularization vs exact interpolation. Smoothness constraints.
 
-**Essay 36: Interpolation Method Comparison**
+**Model 36: Interpolation Method Comparison**
 Cross-validation. Error metrics. Method selection criteria.
 
-### Cluster L: Point Pattern Analysis (Essays 37-40)
+### Cluster L: Point Pattern Analysis (Models 37-40)
 
-**Essay 37: Kernel Density Estimation**
+**Model 37: Kernel Density Estimation**
 Bandwidth selection. Quartic vs Gaussian kernels. Edge effects. Applications to crime mapping.
 
-**Essay 38: Spatial Autocorrelation - Moran's I**
+**Model 38: Spatial Autocorrelation - Moran's I**
 Global vs local indicators. Significance testing. Spatial weights matrices.
 
-**Essay 39: Hotspot Detection (Getis-Ord Gi*)**
+**Model 39: Hotspot Detection (Getis-Ord Gi*)**
 Local clustering statistics. Z-scores. False discovery rate correction.
 
-**Essay 40: Point Process Models**
+**Model 40: Point Process Models**
 Homogeneous vs inhomogeneous Poisson. Intensity estimation. Simulation.
 
-### Cluster M: Time Series Analysis (Essays 41-42)
+### Cluster M: Time Series Analysis (Models 41-42)
 
-**Essay 41: Change Detection in Multi-Temporal Imagery**
+**Model 41: Change Detection in Multi-Temporal Imagery**
 Differencing. Regression. Thresholding. Land cover change quantification.
 
-**Essay 42: Spatial Time Series Decomposition**
+**Model 42: Spatial Time Series Decomposition**
 Trend, seasonality, noise separation. NDVI phenology. Climate decomposition.
 
 ## Computational Skills Developed
@@ -96,11 +96,11 @@ Trend, seasonality, noise separation. NDVI phenology. Climate decomposition.
 
 ## Mathematical Progression
 
-**Early essays:** Matrix operations, convolution, weighted averaging
+**Early models:** Matrix operations, convolution, weighted averaging
 
-**Middle essays:** Optimization (kriging, splines), probability (spatial statistics)
+**Middle models:** Optimization (kriging, splines), probability (spatial statistics)
 
-**Late essays:** Time series methods, hypothesis testing, multiple comparison corrections
+**Late models:** Time series methods, hypothesis testing, multiple comparison corrections
 
 ## Prerequisites
 
@@ -112,13 +112,13 @@ Trend, seasonality, noise separation. NDVI phenology. Climate decomposition.
 
 ## Entry Points by Background
 
-**GIS analysts:** Jump directly to this series. Essays provide mathematical depth behind familiar tools.
+**GIS analysts:** Jump directly to this series. Models provide mathematical depth behind familiar tools.
 
-**Data scientists:** Start Essay 33 (interpolation). Spatial methods complement time series/ML background.
+**Data scientists:** Start Model 33 (interpolation). Spatial methods complement time series/ML background.
 
 **Geography students:** Complete Series 1 first for mathematical foundation.
 
-**Remote sensing focus:** Essays 29-30 (map algebra) + 41-42 (change detection) most relevant.
+**Remote sensing focus:** Models 29-30 (map algebra) + 41-42 (change detection) most relevant.
 
 ## Key Insights
 
@@ -161,7 +161,7 @@ Trend, seasonality, noise separation. NDVI phenology. Climate decomposition.
 
 ## Software Integration
 
-While essays derive methods from scratch, practical GIS implementation discussed:
+While models derive methods from scratch, practical GIS implementation discussed:
 
 - **Python:** GDAL, rasterio, geopandas, pysal
 - **R:** sf, stars, gstat, spatstat
@@ -178,11 +178,11 @@ While essays derive methods from scratch, practical GIS implementation discussed
 
 ## Estimated Time Investment
 
-**Per essay:** 3-5 hours (derivation + implementation + real data application)
+**Per model:** 3-5 hours (derivation + implementation + real data application)
 
 **Full series:** 45-70 hours
 
-**Core GIS sequence (Essays 29-32, 33, 37-38):** 20-30 hours
+**Core GIS sequence (Models 29-32, 33, 37-38):** 20-30 hours
 
 ---
 

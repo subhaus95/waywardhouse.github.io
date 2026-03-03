@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Debris Flow Modeling"
 subtitle: "Fast-moving mixtures of water, sediment, and rock—predicting runout and impact"
 date: 2026-02-27
@@ -27,10 +27,10 @@ domain: [hazards, hydrology, geomorphology, engineering]
 excerpt: >
   How far will a debris flow travel? What velocity will it reach? Debris flows—
   fast-moving slurries of water and sediment—are among the deadliest mountain
-  hazards. This essay derives flow equations, implements runout prediction models,
+  hazards. This model derives flow equations, implements runout prediction models,
   calculates impact forces, and shows how to map debris flow zones using DEMs.
 math_prerequisites: >
-  Slope analysis (Essays 7-9, 49). Fluid mechanics basics. Manning equation (Essay 38).
+  Slope analysis (Models 7-9, 49). Fluid mechanics basics. Manning equation (Model 38).
   We'll introduce non-Newtonian rheology and mass movement dynamics.
 ---
 

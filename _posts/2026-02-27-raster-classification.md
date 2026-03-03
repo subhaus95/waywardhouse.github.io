@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Raster Classification and Reclassification"
 subtitle: "Converting continuous values to discrete categories"
 date: 2026-02-27
@@ -28,9 +28,9 @@ excerpt: >
   Convert elevation to slope classes. Transform NDVI to vegetation categories.
   Turn temperature into climate zones. Classification transforms continuous raster
   values into discrete categories using thresholds, ranges, and decision rules.
-  This essay derives classification methods and shows how to choose breakpoints.
+  This model derives classification methods and shows how to choose breakpoints.
 math_prerequisites: >
-  Basic statistics (mean, standard deviation). Histograms. Map algebra (Essay 34).
+  Basic statistics (mean, standard deviation). Histograms. Map algebra (Model 34).
   We'll introduce classification schemes and decision theory basics.
 ---
 
@@ -746,6 +746,6 @@ Breakpoints at quantiles: $Q_{1/k}, Q_{2/k}, \ldots, Q_{(k-1)/k}$
 
 **This completes Cluster K (Raster Foundations)!** We've covered resampling (33), map algebra (34), and classification (35).
 
-**Next:** Essay 36 launches **Cluster M (Terrain Analysis)** with viewshed and line-of-sight analysis!
+**Next:** Model 36 launches **Cluster M (Terrain Analysis)** with viewshed and line-of-sight analysis!
 
 ---

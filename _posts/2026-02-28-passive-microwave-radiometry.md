@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Passive Microwave Radiometry"
 subtitle: "Measuring Earth's thermal emission at microwave frequencies"
 date: 2026-02-27
@@ -28,11 +28,11 @@ domain: [hydrology, cryosphere, meteorology, oceanography]
 excerpt: >
   How do we measure soil moisture and sea ice through clouds? Passive microwave
   radiometers detect natural thermal emission at microwave wavelengths, sensitive
-  to water content and physical temperature. This essay derives brightness temperature
+  to water content and physical temperature. This model derives brightness temperature
   equations, implements emissivity modeling, demonstrates soil moisture retrieval,
   and shows applications from flood forecasting to sea ice monitoring.
 math_prerequisites: >
-  Planck's law (Essay 53). Electromagnetic radiation. Dielectric properties basics.
+  Planck's law (Model 53). Electromagnetic radiation. Dielectric properties basics.
   We'll introduce microwave radiometry and retrieval algorithms from first principles.
 ---
 

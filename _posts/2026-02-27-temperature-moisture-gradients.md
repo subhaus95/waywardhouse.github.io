@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Temperature and Moisture Gradients"
 subtitle: "Atmospheric stability, inversions, and the vertical structure of humidity"
 date: 2026-02-26
@@ -28,10 +28,10 @@ domain: [meteorology, atmospheric-science, climatology]
 excerpt: >
   Temperature normally decreases with height, but not always—inversions trap
   pollution and create fog. Moisture also varies vertically, controlling cloud
-  formation and precipitation. This essay derives lapse rates, introduces stability
+  formation and precipitation. This model derives lapse rates, introduces stability
   concepts, and models how temperature and humidity profiles affect weather.
 math_prerequisites: >
-  Temperature concepts (Essay 17-19). Vapor pressure (Essay 18). Basic thermodynamics
+  Temperature concepts (Model 17-19). Vapor pressure (Model 18). Basic thermodynamics
   (heat capacity). We'll introduce adiabatic processes from first principles.
 ---
 
@@ -580,7 +580,7 @@ Where:
 - 1000–2500 J/kg: Moderate storms
 - CAPE > 2500 J/kg: Severe thunderstorms, tornadoes
 
-**Next essay** will connect atmospheric profiles to remote sensing—how satellites measure temperature and moisture from space using spectral absorption.
+**Next model** will connect atmospheric profiles to remote sensing—how satellites measure temperature and moisture from space using spectral absorption.
 
 ---
 

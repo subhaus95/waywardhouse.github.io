@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Bathymetric LiDAR and Sonar Mapping"
 subtitle: "Measuring underwater topography with light and sound"
 date: 2026-02-27
@@ -28,11 +28,11 @@ domain: [oceanography, coastal-engineering, hydrology, marine-geology]
 excerpt: >
   How deep is this coastal water? What does the river bottom look like? Bathymetric
   LiDAR uses green laser (532 nm) penetrating clear water, while sonar uses acoustic
-  pulses for deeper/turbid water. This essay derives water column correction,
+  pulses for deeper/turbid water. This model derives water column correction,
   implements multibeam sonar geometry, and maps underwater topography for navigation,
   habitat, and hazard assessment.
 math_prerequisites: >
-  LiDAR principles (Essay 54). Electromagnetic wave propagation. Acoustics basics.
+  LiDAR principles (Model 54). Electromagnetic wave propagation. Acoustics basics.
   We'll introduce water column physics and underwater ranging from first principles.
 ---
 

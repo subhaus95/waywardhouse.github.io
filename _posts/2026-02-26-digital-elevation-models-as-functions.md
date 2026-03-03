@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Digital Elevation Models as Functions"
 subtitle: "Representing terrain as a function of two variables — from continuous surfaces to discrete grids"
 date: 2026-02-26
@@ -27,9 +27,9 @@ excerpt: >
   Terrain has structure: it rises and falls continuously across space. We can
   represent elevation as a mathematical function z = f(x, y), where every point
   in the horizontal plane has a unique elevation. In practice, we discretize this
-  into a raster grid. This essay bridges continuous mathematics and digital data.
+  into a raster grid. This model bridges continuous mathematics and digital data.
 math_prerequisites: >
-  Functions of one variable (from Essays 1-3). Comfortable with the idea that
+  Functions of one variable (from Models 1-3). Comfortable with the idea that
   a function takes inputs and produces outputs. We'll extend this to functions
   that take TWO inputs (x and y coordinates) and return elevation z.
 ---
@@ -413,7 +413,7 @@ Not all DEMs are regular grids:
 - **Triangulated Irregular Networks (TINs):** Points connected by triangles (better for sparse data)
 - **Irregular point clouds:** Lidar before gridding
 
-This essay focuses on regular grids (rasters) because they're simpler and more common.
+This model focuses on regular grids (rasters) because they're simpler and more common.
 
 ### Interpolation Artifacts
 
@@ -445,7 +445,7 @@ In terrain analysis:
 - $\frac{\partial z}{\partial x}$ is the **east-west slope component**
 - $\frac{\partial z}{\partial y}$ is the **north-south slope component**
 
-**Next essay (Essay 8)** will show how to compute these from a DEM using **finite differences** and combine them into **gradient** and **aspect**.
+**Next model (Model 8)** will show how to compute these from a DEM using **finite differences** and combine them into **gradient** and **aspect**.
 
 ---
 

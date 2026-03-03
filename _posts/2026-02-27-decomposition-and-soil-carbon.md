@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Decomposition and Soil Carbon Turnover"
 subtitle: "From litterfall to soil organic matter — the slow carbon cycle"
 date: 2026-02-26
@@ -26,11 +26,11 @@ computation: 3
 domain: [ecology, soil-science, biogeochemistry, carbon-cycle]
 excerpt: >
   Dead plant material doesn't disappear instantly—it decomposes over months to
-  millennia, releasing CO₂ back to the atmosphere. This essay models decomposition
+  millennia, releasing CO₂ back to the atmosphere. This model models decomposition
   as a multi-pool system with different decay rates, introduces temperature and
   moisture controls, and calculates soil carbon storage at steady state.
 math_prerequisites: >
-  Exponential decay (Essay 3). Carbon allocation (Essay 22). Multi-compartment
+  Exponential decay (Model 3). Carbon allocation (Model 22). Multi-compartment
   models. We'll build a 3-pool litter and soil organic matter model.
 ---
 
@@ -141,7 +141,7 @@ $$\text{NEP} = \text{NPP} - R_h$$
 
 $$\frac{dC_L}{dt} = I_L - k_L C_L$$
 
-Where $I_L$ is litterfall from vegetation (from Essay 22: turnover of leaves/roots).
+Where $I_L$ is litterfall from vegetation (from Model 22: turnover of leaves/roots).
 
 **Active SOM dynamics:**
 
@@ -671,6 +671,6 @@ This is why soil carbon responds slowly to land use change.
 - Cold/wet environments accumulate large soil carbon stores
 - Climate warming accelerates decomposition → carbon release
 
-**Next:** In Essay 27, we explore **nitrogen cycling**—how N limitation controls productivity, and the processes of mineralization, nitrification, and plant uptake.
+**Next:** In Model 27, we explore **nitrogen cycling**—how N limitation controls productivity, and the processes of mineralization, nitrification, and plant uptake.
 
 ---

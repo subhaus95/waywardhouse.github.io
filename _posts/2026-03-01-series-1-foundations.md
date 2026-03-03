@@ -36,29 +36,29 @@ By completing this series, learners will be able to:
 
 The series builds mathematical sophistication systematically:
 
-**Essays 1-4 (Cluster A):** Single-variable calculus
+**Models 1-4 (Cluster A):** Single-variable calculus
 - Linear functions and rates of change
 - Exponential and logarithmic functions
 - First-order differential equations
 - Stability and equilibrium concepts
 
-**Essays 5-6 (Cluster B):** Applications of exponential processes
+**Models 5-6 (Cluster B):** Applications of exponential processes
 - Beer-Lambert law and vertical profiles
 - Trigonometric functions for solar geometry
 - Vector dot products
 
-**Essays 7-9 (Cluster C):** Multivariable calculus and optimization
+**Models 7-9 (Cluster C):** Multivariable calculus and optimization
 - Functions of two variables (terrain elevation)
 - Partial derivatives and gradient vectors
 - Graph theory and flow routing
 - Local optimization
 
-**Essays 10-11 (Cluster D):** Spatial interaction models
+**Models 10-11 (Cluster D):** Spatial interaction models
 - Inverse power laws and distance decay
 - Discrete-time dynamical systems
 - Network diffusion processes
 
-**Essay 12 (Cluster E):** Coordinate transformations
+**Model 12 (Cluster E):** Coordinate transformations
 - Spherical coordinate systems
 - Latitude/longitude to Cartesian
 - Rotational kinematics
@@ -80,60 +80,60 @@ The series builds mathematical sophistication systematically:
 
 ## Entry Points by Background
 
-**High school students (advanced):** Start at Essay 1, work sequentially. Expect 3-4 hours per essay.
+**High school students (advanced):** Start at Model 1, work sequentially. Expect 3-4 hours per model.
 
-**Undergraduates (STEM):** Skim Essays 1-3 if calculus background. Focus on modeling perspective.
+**Undergraduates (STEM):** Skim Models 1-3 if calculus background. Focus on modeling perspective.
 
-**Geography students (quantitative gap):** Start Essay 1. Series designed to build mathematical confidence.
+**Geography students (quantitative gap):** Start Model 1. Series designed to build mathematical confidence.
 
-**Engineering students (spatial gap):** Essays 7-9 (terrain analysis) and 10-11 (human systems) provide geographic context for familiar mathematics.
+**Engineering students (spatial gap):** Models 7-9 (terrain analysis) and 10-11 (human systems) provide geographic context for familiar mathematics.
 
-## Essay Sequence
+## Model Sequence
 
-### Cluster A: Modeling Change (Essays 1-4)
+### Cluster A: Modeling Change (Models 1-4)
 
-**Essay 1: What Is a Spatial Model?**
+**Model 1: What Is a Spatial Model?**
 Introduction to variables, units, dimensional analysis. Scalar fields. First computational implementations.
 
-**Essay 2: Linear Change and Rate**
+**Model 2: Linear Change and Rate**
 Slope as rate of change. Linear functions in geographic contexts (elevation profiles, population growth). Introduction to derivatives.
 
-**Essay 3: Exponential Growth and Logarithms**
+**Model 3: Exponential Growth and Logarithms**
 Population growth, compound interest. First differential equation: dP/dt = rP. Analytical vs numerical solutions.
 
-**Essay 4: Logistic Growth and Equilibrium**
+**Model 4: Logistic Growth and Equilibrium**
 Carrying capacity and saturation. Phase plots. Stability analysis. Numerical integration.
 
-### Cluster B: Energy and Attenuation (Essays 5-6)
+### Cluster B: Energy and Attenuation (Models 5-6)
 
-**Essay 5: Light Attenuation in a Canopy**
+**Model 5: Light Attenuation in a Canopy**
 Beer-Lambert law. Exponential decay with depth. Vertical profiles in forests and water columns.
 
-**Essay 6: Solar Geometry and Projection**
+**Model 6: Solar Geometry and Projection**
 Trigonometry for solar angles. Dot product as geometric projection. Aspect and hillshade.
 
-### Cluster C: Terrain and Spatial Derivatives (Essays 7-9)
+### Cluster C: Terrain and Spatial Derivatives (Models 7-9)
 
-**Essay 7: Digital Elevation Models as Functions**
+**Model 7: Digital Elevation Models as Functions**
 Two-variable functions. Finite differences. Raster data structures as discretized continuous functions.
 
-**Essay 8: Gradient, Aspect, and Direction of Steepest Descent**
+**Model 8: Gradient, Aspect, and Direction of Steepest Descent**
 Partial derivatives. Gradient vector magnitude and direction. Slope and aspect calculation.
 
-**Essay 9: Hydrological Flow as Optimization**
+**Model 9: Hydrological Flow as Optimization**
 Steepest descent as local optimization. Graph construction from DEMs. Flow accumulation and drainage networks.
 
-### Cluster D: Human Systems as Mathematical Systems (Essays 10-11)
+### Cluster D: Human Systems as Mathematical Systems (Models 10-11)
 
-**Essay 10: Gravity Models of Trade and Migration**
+**Model 10: Gravity Models of Trade and Migration**
 Inverse square and power laws. Distance decay. Calibration and parameter estimation. Human mobility as physics analogy.
 
-**Essay 11: Spatial Diffusion of Innovation**
+**Model 11: Spatial Diffusion of Innovation**
 Discrete-time models. Logistic curves in space and time. Network adjacency. Contagion processes.
 
-### Cluster E: Observing the Earth (Essay 12)
+### Cluster E: Observing the Earth (Model 12)
 
-**Essay 12: Earth as a Rotating Sphere**
+**Model 12: Earth as a Rotating Sphere**
 Spherical coordinates. Angular velocity and rotational period. Coordinate transformations. Earth observation geometry foundation.
 
 ## Assessment Strategies
@@ -157,7 +157,7 @@ Spherical coordinates. Angular velocity and rotational period. Coordinate transf
 
 **For remote sensing:** Series 5 after completing Series 1 and basics of Series 2.
 
-**For hazards:** Series 6 (atmospheric) requires Series 1 + selected Series 2 essays.
+**For hazards:** Series 6 (atmospheric) requires Series 1 + selected Series 2 models.
 
 ## Key Insights Students Gain
 
@@ -177,7 +177,7 @@ Spherical coordinates. Angular velocity and rotational period. Coordinate transf
 
 ## Further Resources
 
-All essays are self-contained with complete derivations. Additional resources:
+All models are self-contained with complete derivations. Additional resources:
 
 - Interactive visualizations (ECharts/Canvas)
 - Raspberry Pi compatible implementations
@@ -186,7 +186,7 @@ All essays are self-contained with complete derivations. Additional resources:
 
 ## Estimated Time Investment
 
-**Per essay:** 2-4 hours (reading + working example + implementation)
+**Per model:** 2-4 hours (reading + working example + implementation)
 
 **Full series:** 30-50 hours for thorough engagement
 

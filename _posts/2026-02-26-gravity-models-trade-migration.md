@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Gravity Models of Trade and Migration"
 subtitle: "Distance decay and inverse power laws in human geography"
 date: 2026-02-26
@@ -26,10 +26,10 @@ domain: [human-geography, economic-geography, migration, trade]
 excerpt: >
   People interact more with nearby places than distant ones. Trade, migration,
   communication — all decay with distance. The gravity model captures this using
-  an inverse power law borrowed from physics. This essay shows how mathematical
+  an inverse power law borrowed from physics. This model shows how mathematical
   patterns cross disciplinary boundaries.
 math_prerequisites: >
-  Exponential and power functions (Essays 3-4). Comfortable with the idea of
+  Exponential and power functions (Models 3-4). Comfortable with the idea of
   proportionality. We'll introduce inverse power laws and show how the exponent
   controls the strength of distance decay.
 ---

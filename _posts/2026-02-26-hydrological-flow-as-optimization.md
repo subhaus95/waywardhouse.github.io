@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Hydrological Flow as Optimization"
 subtitle: "From local slopes to global watersheds — routing water across a DEM"
 date: 2026-02-26
@@ -26,10 +26,10 @@ domain: [hydrology, geomorphology, watershed-analysis]
 excerpt: >
   Water always flows downhill, following the path of steepest descent. Given a
   digital elevation model, we can trace every raindrop from where it lands to
-  where it exits the landscape. This essay shows how local gradients generate
+  where it exits the landscape. This model shows how local gradients generate
   global drainage networks — a beautiful example of optimization in nature.
 math_prerequisites: >
-  Gradient and aspect from Essay 8. Comfortable with the idea of following a
+  Gradient and aspect from Model 8. Comfortable with the idea of following a
   direction iteratively (like tracing a path). We'll introduce graph concepts
   (nodes, edges, connectivity) as needed.
 ---
@@ -66,7 +66,7 @@ A digital elevation model is a grid of cells. Each cell can pass water to one or
 2. **D-infinity:** Flow direction can be any angle (not constrained to 8 directions)
 3. **Multiple flow direction (MFD):** Flow splits among all downslope neighbors
 
-This essay focuses on **D8** — the simplest and most widely used.
+This model focuses on **D8** — the simplest and most widely used.
 
 ### Local Rule, Global Pattern
 

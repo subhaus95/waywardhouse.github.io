@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Polygon Overlay and Clipping"
 subtitle: "Intersection, union, and difference—the foundation of spatial analysis"
 date: 2026-02-27
@@ -26,10 +26,10 @@ domain: [gis, spatial-analysis, computational-geometry]
 excerpt: >
   What area is both forest AND protected? What land is zoned residential OR
   commercial? Overlay operations—intersection, union, difference—combine spatial
-  datasets to answer "where" questions. This essay derives the Weiler-Atherton
+  datasets to answer "where" questions. This model derives the Weiler-Atherton
   clipping algorithm and implements polygon boolean operations from first principles.
 math_prerequisites: >
-  Point-in-polygon (Essay 29). Line intersection (geometry basics). Set theory
+  Point-in-polygon (Model 29). Line intersection (geometry basics). Set theory
   (union, intersection, difference). We'll introduce polygon clipping algorithms.
 ---
 
@@ -785,6 +785,6 @@ $$\overline{A \cap B} = \overline{A} \cup \overline{B}$$
 - **Robust implementation:** Use computational geometry libraries (GEOS, Shapely, JTS)
 - Set theory foundation: Boolean algebra on continuous 2D space
 
-**Next:** In Essay 32, we shift from vector to raster operations with **raster resampling and interpolation**—how to change grid resolution and fill missing values.
+**Next:** In Model 32, we shift from vector to raster operations with **raster resampling and interpolation**—how to change grid resolution and fill missing values.
 
 ---

@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Terrestrial LiDAR Point Clouds"
 subtitle: "Laser ranging for precise 3D topography and vegetation structure"
 date: 2026-02-27
@@ -27,11 +27,11 @@ domain: [remote-sensing, geomorphology, forestry, urban-planning, archaeology]
 excerpt: >
   How do we create millimeter-accurate 3D models of terrain and structures? Light
   Detection and Ranging (LiDAR) uses laser pulses to measure distances, generating
-  dense point clouds with billions of 3D coordinates. This essay derives ranging
+  dense point clouds with billions of 3D coordinates. This model derives ranging
   equations, implements point cloud classification, demonstrates DEM generation,
   and shows applications from forest inventory to archaeological site mapping.
 math_prerequisites: >
-  Basic trigonometry. Speed of light. DEM concepts (Essay 7). We'll introduce laser
+  Basic trigonometry. Speed of light. DEM concepts (Model 7). We'll introduce laser
   ranging principles and point cloud processing algorithms.
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: model
 title: "Fire Spread Modeling"
 subtitle: "Predicting wildfire propagation across landscapes"
 date: 2026-02-27
@@ -27,10 +27,10 @@ domain: [fire-science, hazards, emergency-management, landscape-ecology]
 excerpt: >
   How fast will this fire spread and in which direction? Fire spread models predict
   rate and direction of propagation using fuel properties, topography, and weather.
-  This essay derives the Rothermel equation, implements elliptical fire growth,
+  This model derives the Rothermel equation, implements elliptical fire growth,
   demonstrates cellular automaton simulation, and maps fire perimeters over time.
 math_prerequisites: >
-  Fire weather (Essay 60). Vector operations. Differential equations. We'll introduce
+  Fire weather (Model 60). Vector operations. Differential equations. We'll introduce
   fire physics and landscape-scale spread algorithms.
 ---
 
