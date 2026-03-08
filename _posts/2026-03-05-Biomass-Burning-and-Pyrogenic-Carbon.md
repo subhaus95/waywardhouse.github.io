@@ -3,7 +3,7 @@ layout: essay
 title: "Biomass Burning and Pyrogenic Carbon"
 subtitle: "Combustion completeness, pyrogenic carbon partition, and fire carbon neutrality"
 date: 2026-03-05
-categories: modeling
+categories: modelling
 series: computational-geography-laboratory
 series_order: 116
 cluster: "AM — Carbon Sources"

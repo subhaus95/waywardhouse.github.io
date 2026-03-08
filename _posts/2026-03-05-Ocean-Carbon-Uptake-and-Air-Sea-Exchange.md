@@ -3,7 +3,7 @@ layout: essay
 title: "Ocean Carbon Uptake and Air-Sea Exchange"
 subtitle: "Henry's Law, solubility pump, biological pump, and gas exchange velocity"
 date: 2026-03-05
-categories: modeling
+categories: modelling
 series: computational-geography-laboratory
 series_order: 119
 cluster: "AN — Carbon Sinks"

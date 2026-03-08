@@ -3,7 +3,7 @@ layout: essay
 title: "Land Use Change and Deforestation"
 subtitle: "Carbon stocks, the stock-change method, and IPCC tier approaches"
 date: 2026-03-05
-categories: modeling
+categories: modelling
 series: computational-geography-laboratory
 series_order: 117
 cluster: "AM — Carbon Sources"

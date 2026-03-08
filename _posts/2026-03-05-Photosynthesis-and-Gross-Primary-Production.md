@@ -3,7 +3,7 @@ layout: essay
 title: "Photosynthesis and Gross Primary Production"
 subtitle: "Light-use efficiency, GPP, NPP, NEP, and carbon use efficiency"
 date: 2026-03-05
-categories: modeling
+categories: modelling
 series: computational-geography-laboratory
 series_order: 118
 cluster: "AN — Carbon Sinks"

@@ -3,7 +3,7 @@ layout: essay
 title: "Soil Carbon Storage and Decomposition"
 subtitle: "Residence time, Q₁₀ temperature sensitivity, moisture effects, and steady-state analysis"
 date: 2026-03-05
-categories: modeling
+categories: modelling
 series: computational-geography-laboratory
 series_order: 120
 cluster: "AN — Carbon Sinks"

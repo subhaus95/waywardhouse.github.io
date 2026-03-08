@@ -1,11 +1,11 @@
 ---
 layout: essay
 title: "Landlocked by Default: The Economic Geography of Alberta's Connectivity Crisis"
-date: 2025-03-07
-categories: [economic geography, alberta, transport]
+date: 2026-03-07
+categories: [Economic Geography]
 tags: [alberta, transportation, aviation, rail, trade, westjet, air-canada, tariffs, geopolitics]
-series: alberta-in-context
-series_order: 5
+series: "Alberta in Context"
+series_order: 4
 excerpt: "Alberta has no coastline, no navigable rivers to tidewater, and sits 1,200 kilometres from the nearest port. Every tonne of export and every passenger trip carries a geographic penalty baked into the province's location. This essay traces how that structural condition shapes Alberta's three transport channels — rail, road, and air — and how each is now under simultaneous pressure from financialization, pandemic legacy, and a geopolitical environment that has turned the Canada–US border from an administrative formality into an economic barrier."
 math: false
 viz: true
@@ -411,11 +411,10 @@ The Saskatoon Chamber of Commerce filed a formal complaint with the federal Comp
   function tryInit() {
     if (typeof L === 'undefined') { setTimeout(tryInit, 120); return; }
     const map = L.map('map-routes', {
-    center: [40, -60],
-    zoom: 3,
+    center: [45, -90],
+    zoom: 2,
     zoomControl: true,
-    worldCopyJump: false,
-    maxBounds: [[-10, -175],[80, 50]]
+    worldCopyJump: true
   });
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
@@ -476,7 +475,8 @@ The Saskatoon Chamber of Commerce filed a formal complaint with the federal Comp
   };
 
   // Great-circle approximation via intermediate points
-  function greatCirclePoints(a, b, n=60) {
+  // Great-circle points (n=100 for smooth Pacific arcs)
+  function greatCirclePoints(a, b, n=100) {
     const pts = [];
     const lat1 = a[0]*Math.PI/180, lon1 = a[1]*Math.PI/180;
     const lat2 = b[0]*Math.PI/180, lon2 = b[1]*Math.PI/180;
@@ -499,26 +499,48 @@ The Saskatoon Chamber of Commerce filed a formal complaint with the federal Comp
     return pts;
   }
 
-  // Draw arcs with slight stagger for animation feel
+  // Split point array at antimeridian (±180°) into segments Leaflet can render cleanly
+  function splitAtAntimeridian(pts) {
+    const segments = [];
+    let current = [pts[0]];
+    for(let i=1; i<pts.length; i++) {
+      const dLon = pts[i][1] - pts[i-1][1];
+      if(Math.abs(dLon) > 180) {
+        const crossLat = (pts[i][0] + pts[i-1][0]) / 2;
+        const sign = dLon > 0 ? -1 : 1;
+        current.push([crossLat, sign * 180]);
+        segments.push(current);
+        current = [[crossLat, -sign * 180], pts[i]];
+      } else {
+        current.push(pts[i]);
+      }
+    }
+    segments.push(current);
+    return segments;
+  }
+
+  // Draw arcs — antimeridian-safe, staggered fade-in
   routes.forEach((r, idx) => {
     const [lat,lon,code,label,status,type,note] = r;
     const s = statusStyles[status];
     const pts = greatCirclePoints(YYC, [lat,lon]);
-    const poly = L.polyline(pts, {
-      color: s.color, weight: s.weight,
-      opacity: 0, dashArray: s.dash
-    }).addTo(map);
+    const segments = splitAtAntimeridian(pts);
+    const tipHtml = `${code} — ${label}<br><small>${typeLabels[type]} · ${status}</small><br><small style="color:#aaa">${note}</small>`;
 
-    // Fade in staggered
-    setTimeout(() => {
-      poly.setStyle({opacity: s.opacity});
-    }, 200 + idx * 40);
+    segments.forEach(seg => {
+      const poly = L.polyline(seg, {
+        color: s.color, weight: s.weight,
+        opacity: 0, dashArray: s.dash
+      }).addTo(map);
 
-    poly.bindTooltip(`${code} — ${label}<br><small>${typeLabels[type]} · ${status}</small><br><small style="color:#aaa">${note}</small>`, {
-      sticky: true, className: 'route-tip'
+      setTimeout(() => {
+        poly.setStyle({opacity: s.opacity});
+      }, 200 + idx * 40);
+
+      poly.bindTooltip(tipHtml, { sticky: true, className: 'route-tip' });
+      poly.on('mouseover', function(){ this.setStyle({opacity:1, weight: s.weight+1}); });
+      poly.on('mouseout',  function(){ this.setStyle({opacity: s.opacity, weight: s.weight}); });
     });
-    poly.on('mouseover', function(){ this.setStyle({opacity:1, weight: s.weight+1}); });
-    poly.on('mouseout',  function(){ this.setStyle({opacity: s.opacity, weight: s.weight}); });
   });
 
   // Destination markers

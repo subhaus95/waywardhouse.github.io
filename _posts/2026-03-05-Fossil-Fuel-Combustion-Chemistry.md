@@ -3,7 +3,7 @@ layout: essay
 title: "Fossil Fuel Combustion Chemistry"
 subtitle: "Stoichiometry, carbon content, emission factors, and incomplete combustion"
 date: 2026-03-05
-categories: modeling
+categories: modelling
 series: computational-geography-laboratory
 series_order: 115
 cluster: "AM — Carbon Sources"

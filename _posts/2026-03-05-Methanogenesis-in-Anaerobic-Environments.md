@@ -3,7 +3,7 @@ layout: essay
 title: "Methanogenesis in Anaerobic Environments"
 subtitle: "Anaerobic decomposition, CH₄:CO₂ ratio, wetland and rice paddy emissions"
 date: 2026-03-05
-categories: modeling
+categories: modelling
 series: computational-geography-laboratory
 series_order: 121
 cluster: "AO — Methane Processes"
