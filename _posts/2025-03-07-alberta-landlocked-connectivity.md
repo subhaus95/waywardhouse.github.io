@@ -39,12 +39,7 @@ This spatial premium is partially offset by infrastructure — the CPR and CN ma
 .fig-map { border-radius:6px; overflow:hidden; box-shadow:0 2px 14px rgba(0,0,0,0.12); }
 .fig-caption { font-size:0.8rem; color:var(--text-muted,#666); line-height:1.6; margin:8px 0 2.5rem; font-style:italic; }
 .fig-caption strong { font-style:normal; color:var(--text,#333); }
-@keyframes pulse-marker {
-  0%   { transform:scale(1);   opacity:0.7; }
-  50%  { transform:scale(1.8); opacity:0.15; }
-  100% { transform:scale(1);   opacity:0.7; }
-}
-.pulse-ring { animation: pulse-marker 2.4s ease-in-out infinite; }
+
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js"></script>
@@ -135,16 +130,6 @@ This spatial premium is partially offset by infrastructure — the CPR and CN ma
     });
     const marker = L.marker(loc.ll, {icon}).addTo(map);
     marker.bindPopup(`<strong>${loc.label}</strong><br>${loc.desc}`, {maxWidth:280});
-
-    // Pulsing ring for key nodes
-    if(['hub','port'].includes(loc.type)) {
-      const r = loc.type==='hub' ? 26 : 20;
-      const ring = L.circleMarker(loc.ll, {
-        radius: r, color: loc.color, weight: 1.5,
-        fillOpacity: 0, opacity: 0.4,
-        className: 'pulse-ring'
-      }).addTo(map);
-    }
 
     // Tooltip label
     L.marker(loc.ll, {
@@ -474,8 +459,17 @@ The Saskatoon Chamber of Commerce filed a formal complaint with the federal Comp
     international:'International', 'leisure-pivot':'Leisure pivot (post-2025)'
   };
 
-  // Great-circle approximation via intermediate points
-  // Great-circle points (n=100 for smooth Pacific arcs)
+  // Normalise destination longitude to the shorter great-circle direction from src.
+  // e.g. YYC (-114°) → Tokyo (140°E) should go westward: 140 - 360 = -220°
+  function effectiveDest(srcLon, destLat, destLon) {
+    let lon = destLon;
+    if (lon - srcLon >  180) lon -= 360;
+    if (lon - srcLon < -180) lon += 360;
+    return [destLat, lon];
+  }
+
+  // Great-circle points using normalised destination; unwrap so no consecutive
+  // longitude jump exceeds 180° — avoids antimeridian crossing entirely.
   function greatCirclePoints(a, b, n=100) {
     const pts = [];
     const lat1 = a[0]*Math.PI/180, lon1 = a[1]*Math.PI/180;
@@ -496,58 +490,42 @@ The Saskatoon Chamber of Commerce filed a formal complaint with the federal Comp
       const lon = Math.atan2(y,x)*180/Math.PI;
       pts.push([lat,lon]);
     }
+    // Unwrap: ensure no consecutive longitude jump > 180°
+    for(let i=1; i<pts.length; i++) {
+      while(pts[i][1] - pts[i-1][1] >  180) pts[i][1] -= 360;
+      while(pts[i][1] - pts[i-1][1] < -180) pts[i][1] += 360;
+    }
     return pts;
   }
 
-  // Split point array at antimeridian (±180°) into segments Leaflet can render cleanly
-  function splitAtAntimeridian(pts) {
-    const segments = [];
-    let current = [pts[0]];
-    for(let i=1; i<pts.length; i++) {
-      const dLon = pts[i][1] - pts[i-1][1];
-      if(Math.abs(dLon) > 180) {
-        const crossLat = (pts[i][0] + pts[i-1][0]) / 2;
-        const sign = dLon > 0 ? -1 : 1;
-        current.push([crossLat, sign * 180]);
-        segments.push(current);
-        current = [[crossLat, -sign * 180], pts[i]];
-      } else {
-        current.push(pts[i]);
-      }
-    }
-    segments.push(current);
-    return segments;
-  }
-
-  // Draw arcs — antimeridian-safe, staggered fade-in
+  // Draw arcs — single continuous polyline per route, staggered fade-in
   routes.forEach((r, idx) => {
     const [lat,lon,code,label,status,type,note] = r;
     const s = statusStyles[status];
-    const pts = greatCirclePoints(YYC, [lat,lon]);
-    const segments = splitAtAntimeridian(pts);
+    const dest = effectiveDest(YYC[1], lat, lon);
+    const pts = greatCirclePoints(YYC, dest);
     const tipHtml = `${code} — ${label}<br><small>${typeLabels[type]} · ${status}</small><br><small style="color:#aaa">${note}</small>`;
 
-    segments.forEach(seg => {
-      const poly = L.polyline(seg, {
-        color: s.color, weight: s.weight,
-        opacity: 0, dashArray: s.dash
-      }).addTo(map);
+    const poly = L.polyline(pts, {
+      color: s.color, weight: s.weight,
+      opacity: 0, dashArray: s.dash
+    }).addTo(map);
 
-      setTimeout(() => {
-        poly.setStyle({opacity: s.opacity});
-      }, 200 + idx * 40);
+    setTimeout(() => {
+      poly.setStyle({opacity: s.opacity});
+    }, 200 + idx * 40);
 
-      poly.bindTooltip(tipHtml, { sticky: true, className: 'route-tip' });
-      poly.on('mouseover', function(){ this.setStyle({opacity:1, weight: s.weight+1}); });
-      poly.on('mouseout',  function(){ this.setStyle({opacity: s.opacity, weight: s.weight}); });
-    });
+    poly.bindTooltip(tipHtml, { sticky: true, className: 'route-tip' });
+    poly.on('mouseover', function(){ this.setStyle({opacity:1, weight: s.weight+1}); });
+    poly.on('mouseout',  function(){ this.setStyle({opacity: s.opacity, weight: s.weight}); });
   });
 
-  // Destination markers
+  // Destination markers — use same effective longitude as arcs
   routes.forEach(([lat,lon,code,label,status]) => {
     const s = statusStyles[status];
     const r = status==='suspended' ? 3 : status==='reduced' ? 4 : 5;
-    L.circleMarker([lat,lon], {
+    const dest = effectiveDest(YYC[1], lat, lon);
+    L.circleMarker(dest, {
       radius: r, color: s.color, weight: 1.2,
       fillColor: s.color, fillOpacity: status==='suspended'?0.3:0.7
     }).addTo(map).bindTooltip(code, {permanent:false, className:'route-tip'});
