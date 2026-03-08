@@ -6,7 +6,7 @@ series: "Alberta in Context"
 series_order: 7
 cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
-categories: [Economic Geography]
+categories: [modelling]
 tags:
   - alberta
   - pipelines
@@ -509,7 +509,7 @@ network.report()
 
 ### Figure 1 — Nameplate Capacity by Pipeline Corridor
 
-<div data-viz="echarts" style="height:420px" data-config='{
+<div data-viz="echarts" style="height:420px" data-options='{
   "title": {"text": "Alberta Crude Oil Export Pipeline Capacity", "subtext": "Nameplate capacity, thousand bbl/d — 2025", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "legend": {"data": ["Eastbound / U.S. Midwest", "Westbound (Pacific)", "Southbound (U.S. Plains/Gulf)"], "bottom": 0},
@@ -543,7 +543,7 @@ network.report()
 
 ### Figure 2 — Market Direction Split (% of total export capacity)
 
-<div data-viz="echarts" style="height:380px" data-config='{
+<div data-viz="echarts" style="height:380px" data-options='{
   "title": {"text": "Alberta Crude Export Capacity by Market Direction", "subtext": "Percentage of total nameplate capacity, 2025", "left": "center"},
   "tooltip": {"trigger": "item", "formatter": "{b}: {c}000 bbl/d ({d}%)"},
   "legend": {"orient": "vertical", "left": "left"},
@@ -564,7 +564,7 @@ network.report()
 
 ### Figure 3 — Historical Capacity Growth: Trans Mountain System
 
-<div data-viz="echarts" style="height:360px" data-config='{
+<div data-viz="echarts" style="height:360px" data-options='{
   "title": {"text": "Trans Mountain Pipeline System: Capacity Growth", "subtext": "Thousands of barrels per day", "left": "center"},
   "tooltip": {"trigger": "axis"},
   "xAxis": {"type": "category", "data": ["1953", "1957", "1985", "2008", "2013", "2018", "2024"]},
@@ -586,7 +586,7 @@ network.report()
 
 ### Figure 4 — Netback Price Sensitivity: Market Access Value
 
-<div data-viz="echarts" style="height:380px" data-config='{
+<div data-viz="echarts" style="height:380px" data-options='{
   "title": {"text": "Netback Price by Market Destination", "subtext": "CAD/bbl — WTI at $75 USD, exchange rate 0.73, illustrative tariffs", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "grid": {"left": "3%", "right": "8%", "bottom": "8%", "containLabel": true},

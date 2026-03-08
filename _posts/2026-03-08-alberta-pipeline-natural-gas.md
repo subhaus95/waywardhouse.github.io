@@ -6,7 +6,7 @@ series: "Alberta in Context"
 series_order: 9
 cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
-categories: [Economic Geography]
+categories: [modelling]
 tags:
   - alberta
   - pipelines
@@ -617,7 +617,7 @@ for p in analysis.pipelines:
 
 ### Figure 1 — Alberta Gas Export Capacity by Corridor
 
-<div data-viz="echarts" style="height:400px" data-config='{
+<div data-viz="echarts" style="height:400px" data-options='{
   "title": {"text": "Alberta Natural Gas Export Pipeline Capacity", "subtext": "Bcf/d nameplate capacity by corridor — 2024", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "grid": {"left": "3%", "right": "8%", "bottom": "8%", "containLabel": true},
@@ -638,7 +638,7 @@ for p in analysis.pipelines:
 
 ### Figure 2 — AECO vs Henry Hub: Historical Price Comparison
 
-<div data-viz="echarts" style="height:380px" data-config='{
+<div data-viz="echarts" style="height:380px" data-options='{
   "title": {"text": "AECO vs Henry Hub Natural Gas Prices", "subtext": "CAD$/GJ — annual averages, 2015–2024 (approximate)", "left": "center"},
   "tooltip": {"trigger": "axis"},
   "legend": {"data": ["Henry Hub (CAD equiv.)", "AECO", "Basis differential"], "bottom": 0},
@@ -676,7 +676,7 @@ for p in analysis.pipelines:
 
 ### Figure 3 — Weymouth Equation: Diameter vs. Flow Capacity
 
-<div data-viz="echarts" style="height:360px" data-config='{
+<div data-viz="echarts" style="height:360px" data-options='{
   "title": {"text": "Weymouth Equation: Pipe Diameter vs. Flow Capacity", "subtext": "Relative capacity — 24-inch pipe = 1.0 baseline. Fixed pressure, length, and gas properties.", "left": "center"},
   "tooltip": {"trigger": "axis"},
   "xAxis": {"type": "category", "data": ["16\"","20\"","24\"","30\"","36\"","42\"","48\""], "name": "Pipe diameter"},
@@ -691,7 +691,7 @@ for p in analysis.pipelines:
 
 ### Figure 4 — Annual Basis Cost by Export Corridor
 
-<div data-viz="echarts" style="height:360px" data-config='{
+<div data-viz="echarts" style="height:360px" data-options='{
   "title": {"text": "Annual Revenue Foregone: AECO-Henry Hub Basis", "subtext": "CAD$ million/year per corridor — AECO $2.50/GJ, HH $2.80 USD/MMBtu", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "grid": {"left": "3%", "right": "8%", "bottom": "8%", "containLabel": true},
@@ -707,7 +707,7 @@ for p in analysis.pipelines:
 
 ### Figure 5 — NGTL System Extent and Export Connections
 
-<div data-viz="echarts" style="height:420px" data-config='{
+<div data-viz="echarts" style="height:420px" data-options='{
   "title": {"text": "Alberta Gas Transmission: System Overview", "subtext": "NGTL intra-provincial network and export corridor capacities (Bcf/d)", "left": "center"},
   "tooltip": {"trigger": "item"},
   "series": [{

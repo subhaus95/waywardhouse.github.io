@@ -6,7 +6,7 @@ series: "Alberta in Context"
 series_order: 10
 cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
-categories: [Economic Geography]
+categories: [modelling]
 tags:
   - alberta
   - pipelines
@@ -614,7 +614,7 @@ burnaby.report()
 
 ### Figure 1 — Alberta Refinery Capacity by Product Output
 
-<div data-viz="echarts" style="height:400px" data-config='{
+<div data-viz="echarts" style="height:400px" data-options='{
   "title": {"text": "Alberta Refinery Capacity by Product", "subtext": "Approximate product split — combined 374,000 bbl/d nameplate capacity", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "legend": {"data": ["Gasoline", "Diesel / ULSD", "Jet Fuel", "Asphalt / Other", "Chemicals / Diluent"], "bottom": 0},
@@ -632,7 +632,7 @@ burnaby.report()
 
 ### Figure 2 — Refined Products Pipeline Transit Times from Edmonton
 
-<div data-viz="echarts" style="height:360px" data-config='{
+<div data-viz="echarts" style="height:360px" data-options='{
   "title": {"text": "Pipeline Transit Times from Edmonton", "subtext": "Days for refined product batch to reach destination terminal", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "grid": {"left": "3%", "right": "8%", "bottom": "8%", "containLabel": true},
@@ -653,7 +653,7 @@ burnaby.report()
 
 ### Figure 3 — Terminal Days of Supply: Burnaby
 
-<div data-viz="echarts" style="height:360px" data-config='{
+<div data-viz="echarts" style="height:360px" data-options='{
   "title": {"text": "Burnaby Terminal: Days of Supply by Product", "subtext": "Working storage ÷ daily demand — pipeline transit time = 9.4 days", "left": "center"},
   "tooltip": {"trigger": "axis"},
   "xAxis": {"type": "category", "data": ["Regular\nGasoline", "Premium\nGasoline", "ULSD\nDiesel", "Jet A\nFuel"]},
@@ -684,7 +684,7 @@ burnaby.report()
 
 ### Figure 4 — Seasonal Demand Pattern by Product
 
-<div data-viz="echarts" style="height:380px" data-config='{
+<div data-viz="echarts" style="height:380px" data-options='{
   "title": {"text": "Seasonal Refined Products Demand Pattern", "subtext": "Relative to annual average (1.0) — western Canada illustrative", "left": "center"},
   "tooltip": {"trigger": "axis"},
   "legend": {"data": ["Gasoline", "Diesel", "Jet Fuel"], "bottom": 0},
@@ -717,7 +717,7 @@ burnaby.report()
 
 ### Figure 5 — Batch Sequence: Trans Mountain Products Line
 
-<div data-viz="echarts" style="height:340px" data-config='{
+<div data-viz="echarts" style="height:340px" data-options='{
   "title": {"text": "Trans Mountain Products: Illustrative Batch Sequence", "subtext": "Volume (bbl) by product grade — one scheduling cycle", "left": "center"},
   "tooltip": {"trigger": "item", "formatter": "{b}: {c} bbl ({d}%)"},
   "series": [{

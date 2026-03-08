@@ -6,7 +6,7 @@ series: "Alberta in Context"
 series_order: 8
 cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
-categories: [Economic Geography]
+categories: [modelling]
 tags:
   - alberta
   - pipelines
@@ -548,7 +548,7 @@ chain.report(PRICES)
 
 ### Figure 1 — The NGL Fractionation Cascade
 
-<div data-viz="echarts" style="height:400px" data-config='{
+<div data-viz="echarts" style="height:400px" data-options='{
   "title": {"text": "NGL Fractionation Cascade", "subtext": "Approximate product split from WCSB deep-cut gas plant raw mix", "left": "center"},
   "tooltip": {"trigger": "item", "formatter": "{b}: {c}% of feed"},
   "legend": {"orient": "vertical", "left": "left"},
@@ -567,7 +567,7 @@ chain.report(PRICES)
 
 ### Figure 2 — Alberta Diluent Supply Sources
 
-<div data-viz="echarts" style="height:380px" data-config='{
+<div data-viz="echarts" style="height:380px" data-options='{
   "title": {"text": "Alberta Diluent Supply by Source", "subtext": "Approximate share of ~990,000 bbl/d total requirement, 2024", "left": "center"},
   "tooltip": {"trigger": "item", "formatter": "{b}: {c}000 bbl/d ({d}%)"},
   "legend": {"bottom": 0},
@@ -586,7 +586,7 @@ chain.report(PRICES)
 
 ### Figure 3 — Diluent Demand Growth vs. Supply Capacity
 
-<div data-viz="echarts" style="height:380px" data-config='{
+<div data-viz="echarts" style="height:380px" data-options='{
   "title": {"text": "Alberta Diluent Demand and Supply Capacity", "subtext": "Thousands of bbl/d — historical and projected", "left": "center"},
   "tooltip": {"trigger": "axis"},
   "legend": {"data": ["Diluent demand", "Domestic supply capacity", "Import capacity"], "bottom": 0},
@@ -622,7 +622,7 @@ chain.report(PRICES)
 
 ### Figure 4 — NGL Product Value by Component (Fort Saskatchewan)
 
-<div data-viz="echarts" style="height:360px" data-config='{
+<div data-viz="echarts" style="height:360px" data-options='{
   "title": {"text": "NGL Product Revenue by Component", "subtext": "Representative 50,000 bbl/d fractionator — CAD$/day", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "xAxis": {"type": "category", "data": ["Ethane", "Propane", "Butane", "Condensate"]},
@@ -645,7 +645,7 @@ chain.report(PRICES)
 
 ### Figure 5 — The Diluent Circuit: Schematic Flow
 
-<div data-viz="echarts" style="height:420px" data-config='{
+<div data-viz="echarts" style="height:420px" data-options='{
   "title": {"text": "The Diluent Circuit — Schematic", "subtext": "Condensate flows north; dilbit flows south", "left": "center"},
   "tooltip": {"trigger": "item"},
   "series": [{

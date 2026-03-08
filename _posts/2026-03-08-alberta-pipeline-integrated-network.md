@@ -6,7 +6,7 @@ series: "Alberta in Context"
 series_order: 11
 cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
-categories: [Economic Geography]
+categories: [modelling]
 tags:
   - alberta
   - pipelines
@@ -756,7 +756,7 @@ for nid, r in sorted(surface.items(), key=lambda x: -x[1]["netback_cad"]):
 
 ### Figure 1 — Network Node Betweenness Centrality
 
-<div data-viz="echarts" style="height:400px" data-config='{
+<div data-viz="echarts" style="height:400px" data-options='{
   "title": {"text": "Pipeline Hub Criticality", "subtext": "Approximate betweenness centrality — crude oil subsystem. Higher = more critical to network flow.", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "grid": {"left": "3%", "right": "8%", "bottom": "8%", "containLabel": true},
@@ -778,7 +778,7 @@ for nid, r in sorted(surface.items(), key=lambda x: -x[1]["netback_cad"]):
 
 ### Figure 2 — Netback Price Surface by Market Destination
 
-<div data-viz="echarts" style="height:400px" data-config='{
+<div data-viz="echarts" style="height:400px" data-options='{
   "title": {"text": "Crude Oil Netback Price Surface", "subtext": "CAD/bbl from Hardisty AB — WTI $75 USD, quality discount $19 CAD/bbl, exchange 0.73", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "legend": {"data": ["Market price (CAD)", "Transport tariff", "Quality discount", "Netback"], "bottom": 0},
@@ -810,7 +810,7 @@ for nid, r in sorted(surface.items(), key=lambda x: -x[1]["netback_cad"]):
 
 ### Figure 3 — Multi-Commodity Network Capacity Summary
 
-<div data-viz="echarts" style="height:400px" data-config='{
+<div data-viz="echarts" style="height:400px" data-options='{
   "title": {"text": "Alberta Pipeline Network: Capacity by Commodity", "subtext": "Total export nameplate capacity — all four commodity streams", "left": "center"},
   "tooltip": {"trigger": "item"},
   "series": [{
@@ -828,7 +828,7 @@ for nid, r in sorted(surface.items(), key=lambda x: -x[1]["netback_cad"]):
 
 ### Figure 4 — Max Flow vs Minimum Cut by Market Corridor
 
-<div data-viz="echarts" style="height:380px" data-config='{
+<div data-viz="echarts" style="height:380px" data-options='{
   "title": {"text": "Max Flow to Each Market: Alberta Crude Export", "subtext": "000 bbl/d — limited by minimum cut on each source-to-sink routing", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "legend": {"data": ["Direct pipeline capacity", "Min-cut constraint"], "bottom": 0},
@@ -853,7 +853,7 @@ for nid, r in sorted(surface.items(), key=lambda x: -x[1]["netback_cad"]):
 
 ### Figure 5 — Integrated Network Flow: Sankey
 
-<div data-viz="echarts" style="height:480px" data-config='{
+<div data-viz="echarts" style="height:480px" data-options='{
   "title": {"text": "Alberta Integrated Hydrocarbon Network", "subtext": "Multi-commodity flows — all pipeline systems combined (illustrative volumes)", "left": "center"},
   "tooltip": {"trigger": "item"},
   "series": [{
