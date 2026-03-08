@@ -3,7 +3,7 @@ layout: essay
 title: "Landlocked by Default: The Economic Geography of Alberta's Connectivity Crisis"
 date: 2025-03-07
 author: 
-categories: [economic-geography, alberta, transport]
+categories: [economic geography, alberta, transport]
 tags: [alberta, transportation, aviation, rail, trade, westjet, air-canada, tariffs, geopolitics]
 series: alberta-in-context
 series_order: 5
