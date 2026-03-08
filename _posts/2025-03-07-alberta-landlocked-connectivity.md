@@ -2,7 +2,6 @@
 layout: essay
 title: "Landlocked by Default: The Economic Geography of Alberta's Connectivity Crisis"
 date: 2025-03-07
-author: 
 categories: [economic geography, alberta, transport]
 tags: [alberta, transportation, aviation, rail, trade, westjet, air-canada, tariffs, geopolitics]
 series: alberta-in-context
@@ -33,18 +32,277 @@ The international literature on landlocked economic geography finds that, contro
 
 This spatial premium is partially offset by infrastructure — the CPR and CN mainlines that reach the coast, the Trans-Canada and Yellowhead Highway corridors, the pipeline networks that have gradually expanded Pacific export capacity for oil sands crude — but infrastructure does not eliminate the geographic penalty; it merely converts it into a capital and operating cost that must be paid by someone. When infrastructure is functioning well and trade corridors are politically stable, the cost is manageable. When they are not, the premium compounds.
 
-<div data-viz="echarts" style="height:400px" data-options='{
-  "title": {"text": "Alberta Export Gateway Distances (km by rail/road)", "textStyle": {"fontSize": 13}},
-  "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
-  "xAxis": {"type": "category", "data": ["Port of Vancouver", "Port of Prince Rupert", "Port of Prince George", "Port of Seattle (via MT)", "Port of Churchill (HB)"], "axisLabel": {"rotate": 25, "fontSize": 10}},
-  "yAxis": {"type": "value", "name": "km", "nameTextStyle": {"fontSize": 10}},
-  "series": [{
-    "type": "bar",
-    "data": [1050, 1500, 1200, 2000, 1700],
-    "itemStyle": {"color": "#4a6fa5"},
-    "label": {"show": true, "position": "top", "fontSize": 10}
-  }]
-}'></div>
+
+<!-- Essay figure assets: Leaflet + ECharts loaded once for all figures below -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<style>
+.fig-map { border-radius:6px; overflow:hidden; box-shadow:0 2px 14px rgba(0,0,0,0.12); }
+.fig-caption { font-size:0.8rem; color:var(--text-muted,#666); line-height:1.6; margin:8px 0 2.5rem; font-style:italic; }
+.fig-caption strong { font-style:normal; color:var(--text,#333); }
+@keyframes pulse-marker {
+  0%   { transform:scale(1);   opacity:0.7; }
+  50%  { transform:scale(1.8); opacity:0.15; }
+  100% { transform:scale(1);   opacity:0.7; }
+}
+.pulse-ring { animation: pulse-marker 2.4s ease-in-out infinite; }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js"></script>
+
+<div class="fig-map" id="map-gateway" style="height:480px;"></div>
+<p class="fig-caption"><strong>Figure 1.</strong> Alberta&#8217;s principal export gateways and transport corridors. The CN Yellowhead and CPKC Kicking Horse rail mainlines must traverse the Rocky Mountain barrier before reaching Pacific tidewater. The Hudson Bay Railway offers an Arctic alternative with severely constrained capacity. Click or tap any corridor or marker for detail.</p>
+<script>
+(function() {
+  function tryInit() {
+    if (typeof L === 'undefined') { setTimeout(tryInit, 120); return; }
+    const map = L.map('map-gateway', {
+    center: [54, -115],
+    zoom: 5,
+    zoomControl: true,
+    attributionControl: true
+  });
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/">CARTO</a>',
+    subdomains: 'abcd', maxZoom: 19
+  }).addTo(map);
+
+  // ── Rail corridors ──
+  const corridors = [
+    {
+      name: 'CPKC — Kicking Horse Pass',
+      color: '#d4770a',
+      weight: 3.5,
+      coords: [[51.05,-114.05],[51.2,-116.5],[51.35,-117.5],[50.7,-119.4],[50.1,-121.5],[49.28,-123.1]],
+      desc: 'CPKC mainline via Kicking Horse Pass → Vancouver<br><em>~1,050 km · Capacity constrained by gradient & tunnel length</em>'
+    },
+    {
+      name: 'CN — Yellowhead Pass',
+      color: '#2c6e49',
+      weight: 3.5,
+      coords: [[53.55,-113.5],[53.5,-116],[52.9,-118.1],[53.0,-119.7],[53.9,-122.7],[54.32,-130.3]],
+      desc: 'CN mainline via Yellowhead Pass → Prince Rupert<br><em>~1,500 km · Prairie grain and potash primary export route</em>'
+    },
+    {
+      name: 'Hudson Bay Railway',
+      color: '#7b4ea0',
+      weight: 2.5,
+      dashArray: '8 6',
+      coords: [[53.55,-113.5],[54.0,-108],[55.0,-102],[57.0,-97],[58.77,-94.17]],
+      desc: 'Hudson Bay Railway → Port of Churchill<br><em>~1,700 km · Severely capacity-constrained; climatic risk; not a near-term alternative</em>'
+    },
+    {
+      name: 'CANAMEX Highway Corridor',
+      color: '#c0392b',
+      weight: 2,
+      dashArray: '5 4',
+      coords: [[51.05,-114.05],[49.0,-113.5],[47.5,-111.6],[46.87,-104.98]],
+      desc: 'CANAMEX Highway Corridor (Hwy 2 → I-15 → Montana)<br><em>Road freight to US markets; now subject to 25% tariff pressure</em>'
+    }
+  ];
+
+  corridors.forEach(c => {
+    const poly = L.polyline(c.coords, {
+      color: c.color, weight: c.weight,
+      dashArray: c.dashArray || null, opacity: 0.85
+    }).addTo(map);
+    poly.bindPopup(`<strong>${c.name}</strong><br>${c.desc}`);
+    poly.on('mouseover', function(e) { this.setStyle({opacity:1, weight: c.weight+1}); });
+    poly.on('mouseout',  function(e) { this.setStyle({opacity:0.85, weight: c.weight}); });
+  });
+
+  // ── Port & city markers ──
+  const markerStyle = (color, r=9) => `
+    width:${r*2}px;height:${r*2}px;border-radius:50%;
+    background:${color};border:2.5px solid white;
+    box-shadow:0 0 0 0 ${color};
+  `;
+
+  const locations = [
+    { ll:[51.05,-114.05], label:'Calgary (YYC)', type:'hub',   color:'#c0392b', desc:'Calgary International Airport — Primary passenger hub for Alberta. 17.7M passengers (2019). Dependent on two-carrier domestic feed.'},
+    { ll:[53.55,-113.5],  label:'Edmonton (YEG)', type:'city', color:'#e67e22', desc:'Edmonton International Airport — Northern Alberta hub. Energy sector gateway; significant cargo volume.'},
+    { ll:[49.28,-123.1],  label:'Port of Vancouver', type:'port', color:'#1a6fa5', desc:'<strong>Port of Vancouver</strong> — Canada\'s largest port by tonnage. Receives ~70% of Alberta\'s non-US overseas exports. <br>Rail distance from Calgary: <strong>~1,050 km</strong>'},
+    { ll:[54.32,-130.3],  label:'Port of Prince Rupert', type:'port', color:'#1a6fa5', desc:'<strong>Port of Prince Rupert</strong> — Second Pacific gateway; preferred for shorter great-circle routing to Asia.<br>Rail distance from Edmonton: <strong>~1,500 km</strong>'},
+    { ll:[58.77,-94.17],  label:'Port of Churchill', type:'port-minor', color:'#7b4ea0', desc:'<strong>Port of Churchill</strong> — Hudson Bay outlet. Severely constrained capacity; climatic risk. Not a viable alternative at Alberta export scales.'},
+    { ll:[49.0,-113.5],   label:'Coutts/Sweetgrass', type:'border', color:'#c0392b', desc:'Coutts–Sweetgrass border crossing. Primary Alberta road export crossing. $4.3B in goods exports (2017 alone).'},
+  ];
+
+  locations.forEach(loc => {
+    const icon = L.divIcon({
+      className: '',
+      html: `<div style="${markerStyle(loc.color, loc.type==='hub'?11:loc.type==='port'?9:7)}"></div>`,
+      iconSize: [0,0], iconAnchor: [loc.type==='hub'?11:9, loc.type==='hub'?11:9]
+    });
+    const marker = L.marker(loc.ll, {icon}).addTo(map);
+    marker.bindPopup(`<strong>${loc.label}</strong><br>${loc.desc}`, {maxWidth:280});
+
+    // Pulsing ring for key nodes
+    if(['hub','port'].includes(loc.type)) {
+      const r = loc.type==='hub' ? 26 : 20;
+      const ring = L.circleMarker(loc.ll, {
+        radius: r, color: loc.color, weight: 1.5,
+        fillOpacity: 0, opacity: 0.4,
+        className: 'pulse-ring'
+      }).addTo(map);
+    }
+
+    // Tooltip label
+    L.marker(loc.ll, {
+      icon: L.divIcon({
+        className: '',
+        html: `<div style="font-size:10px;font-weight:${loc.type==='hub'?'bold':'normal'};
+               color:#222;white-space:nowrap;margin-left:14px;margin-top:-5px;
+               text-shadow:0 0 3px white,0 0 3px white,0 0 3px white">${loc.label}</div>`,
+        iconSize: [0,0], iconAnchor: [-2, 5]
+      })
+    }).addTo(map);
+  });
+
+  // ── Legend ──
+  const legend = L.control({position:'bottomleft'});
+  legend.onAdd = function() {
+    const div = L.DomUtil.create('div');
+    div.style.cssText = 'background:rgba(255,255,255,0.92);padding:10px 14px;border-radius:6px;font-size:11px;line-height:1.8;box-shadow:0 2px 8px rgba(0,0,0,0.15);font-family:Georgia,serif;';
+    div.innerHTML = `
+      <div style="font-weight:bold;margin-bottom:4px;font-size:12px">Transport Corridors</div>
+      <div><span style="display:inline-block;width:22px;height:3px;background:#d4770a;vertical-align:middle;margin-right:6px"></span>CPKC Kicking Horse</div>
+      <div><span style="display:inline-block;width:22px;height:3px;background:#2c6e49;vertical-align:middle;margin-right:6px"></span>CN Yellowhead</div>
+      <div><span style="display:inline-block;width:22px;border-top:3px dashed #7b4ea0;vertical-align:middle;margin-right:6px"></span>Hudson Bay Rwy</div>
+      <div><span style="display:inline-block;width:22px;border-top:2px dashed #c0392b;vertical-align:middle;margin-right:6px"></span>CANAMEX Highway</div>
+      <div style="margin-top:6px;padding-top:6px;border-top:1px solid #ddd;">
+      <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#c0392b;vertical-align:middle;margin-right:4px"></span>YYC hub
+      <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#1a6fa5;vertical-align:middle;margin:0 4px 0 10px"></span>Port
+      </div>
+    `;
+    return div;
+  };
+  legend.addTo(map);
+
+  // ── Rocky Mountains label overlay ──
+  const rockiesLabel = L.marker([51.5, -117.2], {
+    icon: L.divIcon({
+      className: '',
+      html: `<div style="
+        font-size:10px;font-style:italic;color:#7a6a50;
+        transform:rotate(-55deg);white-space:nowrap;
+        text-shadow:0 0 4px white,0 0 4px white;font-family:Georgia,serif;
+      ">Rocky Mountains</div>`,
+      iconSize:[0,0], iconAnchor:[0,0]
+    })
+  }).addTo(map);
+  }
+  tryInit();
+})();
+</script>
+
+
+<div id="chart-gravity" style="height:400px; background:#fafaf8; border-radius:6px; box-shadow:0 2px 14px rgba(0,0,0,0.10);"></div>
+<p class="fig-caption"><strong>Figure 3.</strong> Gravity model decay curves showing trade intensity vs distance for a coastal origin (reference) and Alberta (landlocked). Alberta&#8217;s exports must overcome approximately 1,050&nbsp;km of domestic overland distance before international freight begins, shifting the effective curve materially downward at every destination. Named trading partners annotated. The shaded gap represents the structural transport cost premium. &beta;&nbsp;=&nbsp;1.2 (empirical range: 0.9&#8211;1.5).</p>
+<script>
+(function() {
+  function tryInit() {
+    if (typeof echarts === 'undefined') { setTimeout(tryInit, 120); return; }
+    const chart = echarts.init(document.getElementById('chart-gravity'), null, {renderer:'svg'});
+
+  const beta = 1.2;
+  const prePort = 1050;
+  const ref = 1000;
+
+  const distances = Array.from({length:160}, (_,i) => (i+1)*100);
+
+  const coastal  = distances.map(d => [d, parseFloat(Math.pow(ref/d, beta).toFixed(4))]);
+  const alberta  = distances.map(d => [d, parseFloat(Math.pow(ref/(d+prePort), beta).toFixed(4))]);
+
+  // Key trading partners annotated
+  const partners = [
+    {name:'Tokyo', d:8200,  coastal: Math.pow(ref/8200,beta),  alberta: Math.pow(ref/(8200+prePort),beta)},
+    {name:'London', d:7800, coastal: Math.pow(ref/7800,beta),  alberta: Math.pow(ref/(7800+prePort),beta)},
+    {name:'Chicago', d:2700,coastal: Math.pow(ref/2700,beta),  alberta: Math.pow(ref/(2700+prePort),beta)},
+    {name:'Houston', d:2500,coastal: Math.pow(ref/2500,beta),  alberta: Math.pow(ref/(2500+prePort),beta)},
+    {name:'Shanghai', d:9600,coastal:Math.pow(ref/9600,beta),  alberta: Math.pow(ref/(9600+prePort),beta)},
+  ];
+
+  const option = {
+    animationDuration: 2000,
+    animationEasing: 'cubicOut',
+    backgroundColor: '#fafaf8',
+    title: {
+      text: 'Gravity Model: Trade Intensity vs Distance (β = 1.2)',
+      left: 'center', top: 8,
+      textStyle: { fontSize: 13, fontWeight: 'bold', color: '#222', fontFamily: 'Georgia, serif' }
+    },
+    tooltip: {
+      trigger: 'axis',
+      formatter: params => {
+        const d = params[0].data[0];
+        return `Distance: <strong>${d.toLocaleString()} km</strong><br>
+          Coastal: ${params[0].data[1].toFixed(3)}<br>
+          Alberta: ${params[1]?.data[1].toFixed(3) ?? '—'}<br>
+          <em style="color:#c0392b">Penalty: ${params[1] ? ((1-params[1].data[1]/params[0].data[1])*100).toFixed(0)+'%' : '—'}</em>`;
+      }
+    },
+    legend: {
+      data: ['Coastal origin (reference)', 'Alberta (landlocked)'],
+      bottom: 6, textStyle: {fontFamily:'Georgia,serif', fontSize:11}
+    },
+    grid: { left:70, right:50, top:52, bottom:56 },
+    xAxis: {
+      type: 'value', name: 'Distance to trading partner (km)',
+      nameLocation:'middle', nameGap:38,
+      min:0, max:16000,
+      axisLabel: { formatter: v => v===0?'0':v>=1000?(v/1000)+'k km':v, fontSize:10 },
+      splitLine: { lineStyle:{color:'#eee'} }
+    },
+    yAxis: {
+      type: 'value', name: 'Relative trade intensity',
+      nameLocation:'middle', nameGap:46, nameTextStyle:{fontSize:11},
+      min:0, max:1.1,
+      splitLine: { lineStyle:{color:'#eee'} }
+    },
+    series: [
+      {
+        name: 'Coastal origin (reference)',
+        type: 'line', data: coastal, showSymbol:false,
+        smooth: true, lineStyle:{color:'#2c6e49', width:2.5},
+        areaStyle:{color:{type:'linear',x:0,y:0,x2:1,y2:0,colorStops:[{offset:0,color:'rgba(44,110,73,0.15)'},{offset:1,color:'rgba(44,110,73,0.02)'}]}}
+      },
+      {
+        name: 'Alberta (landlocked)',
+        type: 'line', data: alberta, showSymbol:false,
+        smooth: true,
+        lineStyle:{color:'#c0392b', width:2.5, type:'dashed'},
+        areaStyle:{color:{type:'linear',x:0,y:0,x2:1,y2:0,colorStops:[{offset:0,color:'rgba(192,57,43,0.12)'},{offset:1,color:'rgba(192,57,43,0.02)'}]}}
+      },
+    ],
+    graphic: [
+      // Pre-port distance annotation arrow
+      {
+        type:'group', left: 68, top: 82,
+        children: [
+          {type:'line', shape:{x1:0,y1:0,x2:120,y2:0}, style:{stroke:'#c0392b',lineWidth:1.5,lineDash:[4,3]}},
+          {type:'text', left:-2, top:8, style:{text:'← pre-port ~1,050 km →', fontSize:9, fill:'#c0392b', fontStyle:'italic', fontFamily:'Georgia,serif'}},
+        ]
+      },
+    ]
+  };
+
+  chart.setOption(option);
+
+  // Partner annotations after animation
+  setTimeout(() => {
+    const updated = JSON.parse(JSON.stringify(option));
+    updated.series[0].markPoint = {
+      data: partners.map(p => ({coord:[p.d, parseFloat(p.coastal.toFixed(4))], name:p.name, symbolSize:6, itemStyle:{color:'#2c6e49'}, label:{show:true,formatter:p.name,fontSize:9,color:'#444',fontFamily:'Georgia,serif',position:'top'}}))
+    };
+    chart.setOption(updated);
+  }, 2200);
+
+  window.addEventListener('resize', () => chart.resize());
+  }
+  tryInit();
+})();
+</script>
+
 
 ---
 
@@ -145,6 +403,169 @@ By 2023, the pattern had hardened into explicit route rationalization. CBC repor
 
 The Saskatoon Chamber of Commerce filed a formal complaint with the federal Competition Bureau in 2023 over Air Canada's decision to withdraw Saskatoon-Calgary service, arguing that the move gave WestJet an anti-competitive monopoly in Saskatchewan's largest city. The complaint illustrates a broader dynamic: the implicit competitive duopoly that has historically provided some check on fares and service levels is, in segments of the Western Canadian network, becoming a de facto monopoly with different pricing power and accountability structures.
 
+
+<div class="fig-map" id="map-routes" style="height:500px;"></div>
+<p class="fig-caption"><strong>Figure 2.</strong> YYC&#8217;s principal route connections by operational status, 2025. <span style="color:#4a9e6b;font-style:normal">Green</span>: active. <span style="color:#e67e22;font-style:normal">Orange dashed</span>: reduced frequency. <span style="color:#888;font-style:normal">Grey dotted</span>: suspended. <span style="color:#9b59b6;font-style:normal">Purple dashed</span>: leisure-pivot routes new or restored as US demand collapsed. Hover or tap routes for detail.</p>
+<script>
+(function() {
+  function tryInit() {
+    if (typeof L === 'undefined') { setTimeout(tryInit, 120); return; }
+    const map = L.map('map-routes', {
+    center: [40, -60],
+    zoom: 3,
+    zoomControl: true,
+    worldCopyJump: false,
+    maxBounds: [[-10, -175],[80, 50]]
+  });
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '© OpenStreetMap contributors © CARTO',
+    subdomains: 'abcd', maxZoom: 18
+  }).addTo(map);
+
+  const YYC = [51.05, -114.05];
+
+  // Routes: [lat, lon, code, label, status, type, note]
+  const routes = [
+    // Domestic — active
+    [49.28,-123.1,'YVR','Vancouver','active','domestic','Daily service, high frequency. Air Canada + WestJet compete.'],
+    [53.55,-113.5,'YEG','Edmonton','active','domestic','YYC–YEG corridor, multiple daily.'],
+    [49.9,-97.2,'YWG','Winnipeg','active','domestic','Prairie connection, reduced frequency vs 2019.'],
+    [43.67,-79.6,'YYZ','Toronto','active','domestic','Trunk route, both carriers, multiple daily.'],
+    [45.47,-73.7,'YUL','Montréal','active','domestic','Air Canada focus route; WestJet secondary.'],
+    [44.88,-63.5,'YHZ','Halifax','active','domestic','Atlantic connection.'],
+    // Domestic — suspended (Air Canada withdrawal)
+    [50.42,-104.67,'YQR','Regina','suspended','domestic','Air Canada withdrew Calgary nonstop 2023. WestJet partial coverage.'],
+    [52.17,-106.7,'YXE','Saskatoon','suspended','domestic','Air Canada withdrew; Competition Bureau complaint filed.'],
+    [46.48,-80.8,'YSB','Sudbury','suspended','domestic','Regional route lost.'],
+    // Transborder US — active
+    [41.97,-87.9,'ORD','Chicago O\'Hare','active','transborder','Active WestJet + Air Canada service.'],
+    [39.86,-104.67,'DEN','Denver','active','transborder','WestJet active; important energy sector hub.'],
+    [33.94,-118.4,'LAX','Los Angeles','reduced','transborder','Reduced frequency 2025; demand down ~40%.'],
+    [40.64,-73.78,'JFK','New York JFK','reduced','transborder','Reduced frequency 2025.'],
+    // Transborder US — suspended
+    [37.61,-122.4,'SFO','San Francisco','suspended','transborder','Suspended 2025 — geopolitical demand collapse.'],
+    [27.97,-82.54,'TPA','Tampa','suspended','transborder','Suspended; sun/leisure route lost to demand collapse.'],
+    [21.33,-157.9,'HNL','Honolulu','suspended','transborder','Air Canada cut; noted by McGill aviation analysts.'],
+    [29.98,-95.34,'IAH','Houston','reduced','transborder','Reduced — critical energy sector connection.'],
+    [47.46,-122.3,'SEA','Seattle','reduced','transborder','Reduced; tech/aerospace connection weakened.'],
+    // International — active
+    [51.48,-0.46,'LHR','London Heathrow','active','international','WestJet + Air Canada transatlantic. Growing 2025.'],
+    [49.01,2.55,'CDG','Paris CDG','active','international','Air Canada nonstop Calgary–Paris.'],
+    [53.63,9.98,'FRA','Frankfurt','active','international','Air Canada seasonal.'],
+    [35.55,139.78,'NRT','Tokyo Narita','active','international','Air Canada YYC–NRT. Asia anchor.'],
+    [31.14,121.8,'PVG','Shanghai','active','international','Air Canada; important trade route.'],
+    [22.32,113.9,'HKG','Hong Kong','active','international','Cathay Pacific codeshare.'],
+    // Post-2025 leisure pivot
+    [19.44,-99.07,'MEX','Mexico City','active','leisure-pivot','WestJet leisure pivot from US market 2025.'],
+    [23.0,-82.35,'HAV','Havana','active','leisure-pivot','Re-established as US alternatives sought.'],
+    [20.52,-103.3,'GDL','Guadalajara','active','leisure-pivot','WestJet sun destination expansion.'],
+    [15.78,-85.9,'RTB','Roatán','active','leisure-pivot','Caribbean leisure pivot.'],
+  ];
+
+  const statusStyles = {
+    active:        { color:'#4a9e6b', weight:1.8, opacity:0.8, dash:null },
+    reduced:       { color:'#e67e22', weight:1.5, opacity:0.65, dash:'8 5' },
+    suspended:     { color:'#555',    weight:1.2, opacity:0.35, dash:'4 4' },
+    'leisure-pivot': { color:'#9b59b6', weight:1.8, opacity:0.75, dash:'10 4' },
+  };
+
+  const typeLabels = {
+    domestic:'Domestic', transborder:'Transborder US',
+    international:'International', 'leisure-pivot':'Leisure pivot (post-2025)'
+  };
+
+  // Great-circle approximation via intermediate points
+  function greatCirclePoints(a, b, n=60) {
+    const pts = [];
+    const lat1 = a[0]*Math.PI/180, lon1 = a[1]*Math.PI/180;
+    const lat2 = b[0]*Math.PI/180, lon2 = b[1]*Math.PI/180;
+    const d = 2*Math.asin(Math.sqrt(
+      Math.pow(Math.sin((lat2-lat1)/2),2) +
+      Math.cos(lat1)*Math.cos(lat2)*Math.pow(Math.sin((lon2-lon1)/2),2)
+    ));
+    for(let i=0;i<=n;i++) {
+      const f = i/n;
+      if(d===0) { pts.push([a[0],a[1]]); continue; }
+      const A = Math.sin((1-f)*d)/Math.sin(d);
+      const B = Math.sin(f*d)/Math.sin(d);
+      const x = A*Math.cos(lat1)*Math.cos(lon1) + B*Math.cos(lat2)*Math.cos(lon2);
+      const y = A*Math.cos(lat1)*Math.sin(lon1) + B*Math.cos(lat2)*Math.sin(lon2);
+      const z = A*Math.sin(lat1) + B*Math.sin(lat2);
+      const lat = Math.atan2(z, Math.sqrt(x*x+y*y))*180/Math.PI;
+      const lon = Math.atan2(y,x)*180/Math.PI;
+      pts.push([lat,lon]);
+    }
+    return pts;
+  }
+
+  // Draw arcs with slight stagger for animation feel
+  routes.forEach((r, idx) => {
+    const [lat,lon,code,label,status,type,note] = r;
+    const s = statusStyles[status];
+    const pts = greatCirclePoints(YYC, [lat,lon]);
+    const poly = L.polyline(pts, {
+      color: s.color, weight: s.weight,
+      opacity: 0, dashArray: s.dash
+    }).addTo(map);
+
+    // Fade in staggered
+    setTimeout(() => {
+      poly.setStyle({opacity: s.opacity});
+    }, 200 + idx * 40);
+
+    poly.bindTooltip(`${code} — ${label}<br><small>${typeLabels[type]} · ${status}</small><br><small style="color:#aaa">${note}</small>`, {
+      sticky: true, className: 'route-tip'
+    });
+    poly.on('mouseover', function(){ this.setStyle({opacity:1, weight: s.weight+1}); });
+    poly.on('mouseout',  function(){ this.setStyle({opacity: s.opacity, weight: s.weight}); });
+  });
+
+  // Destination markers
+  routes.forEach(([lat,lon,code,label,status]) => {
+    const s = statusStyles[status];
+    const r = status==='suspended' ? 3 : status==='reduced' ? 4 : 5;
+    L.circleMarker([lat,lon], {
+      radius: r, color: s.color, weight: 1.2,
+      fillColor: s.color, fillOpacity: status==='suspended'?0.3:0.7
+    }).addTo(map).bindTooltip(code, {permanent:false, className:'route-tip'});
+  });
+
+  // YYC hub marker
+  L.circleMarker(YYC, {
+    radius:11, color:'#e74c3c', weight:2.5,
+    fillColor:'#e74c3c', fillOpacity:0.9
+  }).addTo(map).bindPopup('<strong>Calgary (YYC)</strong><br>Western Canada\'s primary passenger hub.<br>17.7M passengers (2019 pre-pandemic peak).');
+  L.circleMarker(YYC, {
+    radius:20, color:'#e74c3c', weight:1, fillOpacity:0, opacity:0.4, className:'pulse-ring'
+  }).addTo(map);
+  L.marker(YYC, {
+    icon: L.divIcon({
+      className:'', iconSize:[0,0], iconAnchor:[-5,14],
+      html:'<div style="color:white;font-weight:bold;font-size:11px;font-family:Georgia,serif;text-shadow:0 0 5px #000,0 0 5px #000">YYC</div>'
+    })
+  }).addTo(map);
+
+  // Legend
+  const legend = L.control({position:'bottomleft'});
+  legend.onAdd = function() {
+    const div = L.DomUtil.create('div');
+    div.style.cssText = 'background:rgba(20,30,45,0.93);padding:10px 14px;border-radius:6px;font-size:11px;line-height:2;color:#ccc;box-shadow:0 2px 8px rgba(0,0,0,0.4);font-family:Georgia,serif;';
+    div.innerHTML = `
+      <div style="font-weight:bold;color:white;margin-bottom:2px">Route Status — 2025</div>
+      <div><span style="display:inline-block;width:22px;height:2px;background:#4a9e6b;vertical-align:middle;margin-right:6px"></span>Active</div>
+      <div><span style="display:inline-block;width:22px;border-top:2px dashed #e67e22;vertical-align:middle;margin-right:6px"></span>Reduced frequency</div>
+      <div><span style="display:inline-block;width:22px;border-top:2px dashed #555;vertical-align:middle;margin-right:6px"></span>Suspended</div>
+      <div><span style="display:inline-block;width:22px;border-top:2px dashed #9b59b6;vertical-align:middle;margin-right:6px"></span>Leisure pivot (new/restored)</div>
+    `;
+    return div;
+  };
+  legend.addTo(map);
+  }
+  tryInit();
+})();
+</script>
+
 ### The Transborder Collapse
 
 The most dramatic and most recent shock to Alberta's air connectivity has arrived from an unexpected direction: not from supply-side failures within the aviation industry, but from the political destruction of demand on the routes that connect Canada to the United States.
@@ -175,6 +596,140 @@ For Alberta travelers, the practical effect is a significant degradation of the 
 }'></div>
 
 *Note: January–March figures based on OAG and Flight Centre Canada reported data. Subsequent months represent plausible illustrative trend consistent with Statistics Canada return-trip data. Readers should treat post-March 2025 figures as indicative of the general trajectory rather than precise monthly measurements.*
+
+
+<div id="chart-jeta" style="height:420px; background:#fafaf8; border-radius:6px; box-shadow:0 2px 14px rgba(0,0,0,0.10);"></div>
+<p class="fig-caption"><strong>Figure 4.</strong> Jet-A fuel price index (2019&nbsp;=&nbsp;100) against indexed Canada domestic and transborder seat capacity. Red bars indicate above-baseline fuel costs; blue bars below-baseline. The pandemic collapse (2020), post-COVID fuel spike (2022), and 2025 geopolitical demand collapse are annotated. The 2025 contraction is notable for occurring with moderate fuel costs &#8212; a demand-side, not cost-side, shock. Sources: IATA fuel monitor; Transport Canada; OAG Analytics.</p>
+<script>
+(function() {
+  function tryInit() {
+    if (typeof echarts === 'undefined') { setTimeout(tryInit, 120); return; }
+    const chart = echarts.init(document.getElementById('chart-jeta'), null, {renderer:'svg'});
+
+  const years  = ['2018','2019','2020','2021','2022','2023','2024','2025'];
+  const jetA   = [95,    100,   48,    62,    145,   118,   105,   112  ];
+  const capIdx = [96,    100,   32,    55,    88,    97,    101,   76   ];
+
+  const annotations = {
+    '2020': { label:'Pandemic\ncollapse', yOffset:30 },
+    '2022': { label:'Post-COVID\nfuel spike', yOffset:-18 },
+    '2025': { label:'Geopolitical\ndemand collapse', yOffset:30 },
+  };
+
+  const option = {
+    animationDuration: 1800,
+    animationEasing: 'cubicOut',
+    backgroundColor: '#fafaf8',
+    title: {
+      text: 'Jet-A Fuel Price Index vs Canada Airline Seat Capacity (2019 = 100)',
+      subtext: 'Bars: Jet-A index (left axis)   ●  Line: Capacity index (right axis)',
+      left:'center', top:6,
+      textStyle:{fontSize:13, fontWeight:'bold', color:'#222', fontFamily:'Georgia,serif'},
+      subtextStyle:{fontSize:10, color:'#666', fontFamily:'Georgia,serif'}
+    },
+    tooltip: {
+      trigger: 'axis',
+      formatter: params => {
+        const yr = params[0].axisValue;
+        let s = `<strong>${yr}</strong><br>`;
+        params.forEach(p => {
+          const col = p.seriesName.includes('Jet') ? '#e74c3c' : '#2c6e49';
+          s += `<span style="color:${col}">●</span> ${p.seriesName}: <strong>${p.value}</strong><br>`;
+        });
+        if(annotations[yr]) s += `<em style="color:#888">${annotations[yr].label.replace('\n',' ')}</em>`;
+        return s;
+      }
+    },
+    legend: {
+      data:['Jet-A Fuel Index', 'Capacity Index'],
+      bottom:4, textStyle:{fontFamily:'Georgia,serif', fontSize:11}
+    },
+    grid: { left:70, right:72, top:72, bottom:48 },
+    xAxis: {
+      type:'category', data:years,
+      axisLabel:{fontSize:11, fontFamily:'Georgia,serif'},
+      axisLine:{lineStyle:{color:'#ccc'}}
+    },
+    yAxis: [
+      {
+        type:'value', name:'Jet-A Index (2019=100)',
+        nameTextStyle:{fontSize:10, fontFamily:'Georgia,serif'},
+        min:0, max:170,
+        splitLine:{lineStyle:{color:'#eee'}},
+        axisLabel:{fontSize:10}
+      },
+      {
+        type:'value', name:'Capacity Index (2019=100)',
+        nameTextStyle:{fontSize:10, color:'#2c6e49', fontFamily:'Georgia,serif'},
+        min:0, max:170,
+        axisLine:{lineStyle:{color:'#2c6e49'}},
+        axisLabel:{fontSize:10, color:'#2c6e49'},
+        splitLine:{show:false}
+      }
+    ],
+    series: [
+      {
+        name: 'Jet-A Fuel Index',
+        type: 'bar', yAxisIndex:0,
+        data: jetA.map((v,i) => ({
+          value:v,
+          itemStyle:{color: v>100 ? '#c0392b' : v<70 ? '#3498db' : '#e67e22',opacity:0.82}
+        })),
+        barMaxWidth:46,
+        label:{show:true, position:'top', fontSize:10, fontFamily:'Georgia,serif', formatter:'{c}'}
+      },
+      {
+        name: 'Capacity Index',
+        type: 'line', yAxisIndex:1,
+        data: capIdx,
+        smooth:true,
+        lineStyle:{color:'#2c6e49', width:3},
+        itemStyle:{color:'#2c6e49'},
+        symbolSize:8, symbol:'circle',
+        label:{show:true, position:'top', fontSize:9, color:'#2c6e49', fontFamily:'Georgia,serif', formatter:'{c}'},
+        markLine:{
+          silent:true,
+          data:[{yAxis:100, name:'2019 baseline'}],
+          lineStyle:{type:'dashed',color:'#999',width:1},
+          label:{formatter:'2019 baseline', fontSize:9, color:'#999'}
+        }
+      }
+    ]
+  };
+
+  chart.setOption(option);
+
+  // Add annotation markers after animation completes
+  setTimeout(() => {
+    const markData = Object.entries(annotations).map(([yr,ann]) => ({
+      name: yr, coord:[yr, capIdx[years.indexOf(yr)]],
+      symbol:'pin', symbolSize:16,
+      itemStyle:{color:'#c0392b'},
+      label:{show:true, formatter:yr, fontSize:9}
+    }));
+
+    chart.setOption({
+      series: [{}, {
+        markPoint:{
+          data: markData,
+          label:{show:false},
+          tooltip:{
+            formatter: params => {
+              const a = annotations[params.name];
+              return a ? `<strong>${params.name}</strong><br>${a.label.replace('\n','<br>')}` : params.name;
+            }
+          }
+        }
+      }]
+    });
+  }, 2000);
+
+  window.addEventListener('resize', () => chart.resize());
+  }
+  tryInit();
+})();
+</script>
+
 
 ### Aircraft Supply: The Tariff Compression of the Fleet
 
