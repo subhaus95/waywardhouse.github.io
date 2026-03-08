@@ -5,9 +5,9 @@ title: "Series 7: Economic Systems"
 subtitle: "Reading industries as spatial systems — infrastructure, flows, markets, and the mathematics that connects them"
 series_number: 7
 series_key: "Economic Systems"
-total_essays: 15
+total_essays: 20
 difficulty_range: 2-4
-estimated_hours: 60
+estimated_hours: 80
 tags: [economic-geography, modelling, networks, infrastructure, energy, trade]
 ---
 
@@ -130,9 +130,24 @@ Export base theory, location quotients, and the economic base multiplier. If bas
 **Model 15: The Integrated Urban System**
 All four mechanisms as one system. Mermaid causal flowchart: rent gradient → agglomeration → productivity → city rank → multiplier → back to rent. A 30% oil-price shock traced through each layer via waterfall chart. Radar comparison of Calgary, Toronto, and Vancouver on five dimensions. Monocentric vs polycentric structure, and the policy tools that work through the bid-rent mechanism.
 
-### Cluster R — Resource Economics *(planned)*
+### Cluster RE — Resource Economics
 
-Extraction curves, royalty regimes, the Hotelling rule for optimal depletion. How geography shapes resource rents and the geographic distribution of resource wealth.
+The economics of finite resources: optimal depletion theory, who survives a price crash, how governments capture resource rents, and why resource-rich regions often grow more slowly than resource-poor ones. Alberta runs as the continuous case study from wellhead to Heritage Fund.
+
+**Model 16: The Hotelling Rule**
+The fundamental theorem of non-renewable resource economics: price must rise at the rate of interest, or the owner is better off waiting. Derivation via intertemporal NPV maximisation. Scarcity rent vs extraction cost. How low interest rates (2010–2021) accelerated oil sands investment — and what rising rates imply for the depletion path.
+
+**Model 17: Supply Cost Curves and Break-Even Prices**
+The global oil supply stack: Middle East conventional to Arctic frontier, ordered by break-even price. Alberta's position — high-cost, landlocked, quality-discounted — as a triple penalty. Operating cost vs full-cycle cost: why producers keep pumping below the break-even threshold. The WCS discount as an infrastructure problem in price form.
+
+**Model 18: Royalty Regimes and Resource Rents**
+Revenue royalties vs profit-based taxes: certainty vs efficiency. The Norwegian Government Pension Fund model: 78% marginal tax, $1.7T accumulated. Alberta's Heritage Fund: deposits stopped in 1987 at $12B, now ~$18B after 40 years. Same oil, different policy. Dutch disease: how a resource boom can hollow out the non-resource economy.
+
+**Model 19: The Resource Curse**
+The paradox: resource-rich regions often underperform resource-poor ones over the long run. Three mechanisms — Dutch disease, volatility, institutional. Harold Innis and the staples trap: export commodity infrastructure locks in dependence. Herfindahl-Hirschman Index of export concentration: Alberta vs Ontario vs BC. The historical record on deliberate diversification attempts.
+
+**Model 20: The Integrated Resource System**
+Alberta as a complete case study. Mermaid causal diagram from oil price through extraction decision, cost curves, royalty calculation, government revenue, and Heritage Fund to diversification (or its absence). Three price scenarios (2025–2040): $90+, $65–75, $45–55. Sensitivity table across price and royalty regime combinations. The energy transition overlay: how decarbonisation rewrites the Hotelling depletion path.
 
 ### Cluster M — Markets and Price Formation *(planned)*
 
@@ -148,6 +163,8 @@ Commodity pricing, spatial arbitrage, futures markets as geographic instruments.
 
 **Cluster UE (5 models):** 10–20 hours for thorough engagement
 
+**Cluster RE (5 models):** 10–20 hours for thorough engagement
+
 **Accelerated path per cluster:** 6–10 hours (focus on visualisations and worked examples, skim derivations)
 
 ---
@@ -157,5 +174,7 @@ Commodity pricing, spatial arbitrage, futures markets as geographic instruments.
 **Start with Cluster TR:** [Canada's Trade Gravity Model](/2026/03/09/canada-trade-gravity-model/) — bilateral trade, border effects, gravity equation.
 
 **Start with Cluster UE:** [The Bid-Rent Model](/2026/03/10/urban-bid-rent-model/) — land rent, urban gradients, the price of access.
+
+**Start with Cluster RE:** [The Hotelling Rule](/2026/03/11/resource-hotelling-rule/) — optimal depletion, scarcity rent, the price path of a finite resource.
 
 **Companion reading:** [Alberta in Context](/series/alberta-in-context/) — the narrative essay series that applies these models to the political economy of a landlocked province.
