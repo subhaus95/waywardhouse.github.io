@@ -3,13 +3,10 @@ layout: model
 title: "The Integrated Network"
 subtitle: "Graph Theory, Network Flow, and the Netback Price Surface Across Alberta's Pipeline System"
 series: "Alberta in Context"
-series_order: 9
-cluster: "Pipeline Connectivity"
-cluster_order: 5
+series_order: 11
+cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
-categories:
-  - economic-geography
-  - energy-infrastructure
+categories: [Economic Geography]
 tags:
   - alberta
   - pipelines
@@ -23,8 +20,7 @@ tags:
 difficulty: 4
 math: true
 viz: true
-math_core: "Graph theory (directed graphs, max-flow min-cut), netback price surface, network centrality"
-prerequisites: "Essays P1–P4; basic linear algebra helpful"
+math_core: ["Graph theory (directed graphs, max-flow min-cut)", "netback price surface", "network centrality"]
 description: >
   A synthesis of Alberta's full hydrocarbon pipeline system as a directed
   network graph — applying max-flow min-cut theory, network centrality

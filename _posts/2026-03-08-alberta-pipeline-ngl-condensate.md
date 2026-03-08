@@ -3,13 +3,10 @@ layout: model
 title: "NGL and Condensate Pipeline Systems"
 subtitle: "The Fractionation Cascade and the Diluent Supply Chain"
 series: "Alberta in Context"
-series_order: 6
-cluster: "Pipeline Connectivity"
-cluster_order: 2
+series_order: 8
+cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
-categories:
-  - economic-geography
-  - energy-infrastructure
+categories: [Economic Geography]
 tags:
   - alberta
   - pipelines
@@ -23,8 +20,7 @@ tags:
 difficulty: 3
 math: true
 viz: true
-math_core: "Phase equilibria (conceptual), mass balance, fractionation yield ratios"
-prerequisites: "Basic algebra, unit conversion, essay P1 (crude oil pipelines)"
+math_core: ["Phase equilibria (conceptual)", "mass balance", "fractionation yield ratios"]
 description: >
   A quantitative geography of Alberta's natural gas liquids and condensate
   pipeline systems — the fractionation cascade that separates NGL mixtures

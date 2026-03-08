@@ -3,13 +3,10 @@ layout: model
 title: "Alberta's Crude Oil Pipeline Network"
 subtitle: "A Continental System Built Over Seven Decades"
 series: "Alberta in Context"
-series_order: 5
-cluster: "Pipeline Connectivity"
-cluster_order: 1
+series_order: 7
+cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
-categories:
-  - economic-geography
-  - energy-infrastructure
+categories: [Economic Geography]
 tags:
   - alberta
   - pipelines
@@ -23,8 +20,7 @@ tags:
 difficulty: 3
 math: true
 viz: true
-math_core: "Volumetric flow rate, pipe hydraulics, capacity utilization"
-prerequisites: "Basic algebra, unit conversion, proportional reasoning"
+math_core: ["Volumetric flow rate", "pipe hydraulics", "capacity utilization"]
 description: >
   A quantitative geography of Alberta's crude oil pipeline network — tracing
   the actual infrastructure that moves diluted bitumen and synthetic crude from

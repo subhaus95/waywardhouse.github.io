@@ -3,13 +3,10 @@ layout: model
 title: "Natural Gas Transmission from Alberta"
 subtitle: "The NOVA System, AECO Pricing, and Alberta's Gas Export Geography"
 series: "Alberta in Context"
-series_order: 7
-cluster: "Pipeline Connectivity"
-cluster_order: 3
+series_order: 9
+cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
-categories:
-  - economic-geography
-  - energy-infrastructure
+categories: [Economic Geography]
 tags:
   - alberta
   - pipelines
@@ -23,8 +20,7 @@ tags:
 difficulty: 3
 math: true
 viz: true
-math_core: "Weymouth equation (gas pipeline hydraulics), price basis differential, volumetric flow"
-prerequisites: "Basic algebra, unit conversion, essays P1 and P2"
+math_core: ["Weymouth equation (gas pipeline hydraulics)", "price basis differential", "volumetric flow"]
 description: >
   A quantitative geography of Alberta's natural gas pipeline system — the NOVA
   intra-Alberta gathering network, the export corridors to the U.S. and eastern

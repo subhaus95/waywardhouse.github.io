@@ -3,13 +3,10 @@ layout: model
 title: "Refined Products Distribution"
 subtitle: "Gasoline, Diesel, and Jet Fuel Across the Western Canadian Supply Chain"
 series: "Alberta in Context"
-series_order: 8
-cluster: "Pipeline Connectivity"
-cluster_order: 4
+series_order: 10
+cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
-categories:
-  - economic-geography
-  - energy-infrastructure
+categories: [Economic Geography]
 tags:
   - alberta
   - pipelines
@@ -24,8 +21,7 @@ tags:
 difficulty: 3
 math: true
 viz: true
-math_core: "Throughput rate, batch scheduling, inventory turnover, terminal capacity"
-prerequisites: "Basic algebra, unit conversion, essays P1 and P2"
+math_core: ["Throughput rate", "batch scheduling", "inventory turnover", "terminal capacity"]
 description: >
   A quantitative geography of western Canada's refined petroleum products
   supply chain — the Edmonton refinery cluster, the pipeline corridors moving

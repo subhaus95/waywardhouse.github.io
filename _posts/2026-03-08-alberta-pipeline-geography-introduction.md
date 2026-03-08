@@ -3,13 +3,10 @@ layout: essay
 title: "Alberta's Pipeline Geography"
 subtitle: "A Connected Province and the Infrastructure That Makes It So"
 series: "Alberta in Context"
-series_order: 4
-cluster: "Pipeline Connectivity"
-cluster_order: 0
+series_order: 6
+cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
-categories:
-  - economic-geography
-  - energy-infrastructure
+categories: [Economic Geography]
 tags:
   - alberta
   - pipelines
@@ -22,8 +19,7 @@ tags:
 difficulty: 2
 math: false
 viz: true
-math_core: "None — narrative essay; see P1–P5 for mathematical treatments"
-prerequisites: "None"
+math_core: ["None — narrative essay; see P1–P5 for mathematical treatments"]
 description: >
   A long-form narrative geography of Alberta's hydrocarbon pipeline system —
   tracing the infrastructure that connects the province to markets across
