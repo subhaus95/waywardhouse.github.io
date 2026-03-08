@@ -20,6 +20,7 @@ difficulty: 2
 math: false
 viz: true
 leaflet: true
+diagram: true
 math_core: ["None — narrative essay; see P1–P5 for mathematical treatments"]
 description: >
   A long-form narrative geography of Alberta's hydrocarbon pipeline system —
@@ -244,6 +245,76 @@ that reduces gas plant condensate output, tightens the diluent market
 and can force production curtailments at oil sands facilities. The
 systems are coupled in ways that the public debate, with its focus on
 individual pipeline projects, rarely acknowledges.
+
+---
+
+## From Wellhead to Finished Product: The Processing Chain
+
+Alberta's pipeline debate tends to treat the pipe as the story. The pipe is not the story. It is the middle section of a longer chain that begins with extraction chemistry and ends at a refinery distillation tower. Understanding that chain — at even a rough level — changes how you read the capacity numbers, the commodity flows, and the infrastructure dependencies described above.
+
+### Extraction: Two Methods for One Resource
+
+The oil sands contain bitumen at two depth ranges, and depth determines the extraction method. Deposits within roughly 75 metres of the surface — about 20% of the resource — are mined by open-pit excavation. Enormous electric shovels load oil sands into trucks feeding primary extraction plants, where the **Clark hot water process** separates bitumen from sand: oil sands are mixed with hot water and sodium hydroxide, creating a slurry in which bitumen rises as a froth that is then treated to remove residual water and fine solids. The tailings — sand, clay, and contaminated water — are stored in engineered ponds.
+
+The remaining 80% of the resource is too deep to mine and is accessed by **Steam-Assisted Gravity Drainage** (SAGD). Two parallel horizontal wells are drilled into the bitumen formation, one above the other, spaced roughly five metres apart. Steam injected continuously through the upper well heats the surrounding bitumen from near-solid to fluid; heated bitumen and condensed water drain by gravity to the lower producer well and are pumped to surface. SAGD requires no tailings ponds but consumes large volumes of water and natural gas for steam generation — a different set of trade-offs rather than a better or worse outcome.
+
+### Two Processing Paths
+
+At primary separation, Alberta bitumen faces a branching decision that shapes everything downstream.
+
+The **diluent route** — approximately 60% of current output — is chemically simple. Raw bitumen is blended with condensate (the C5+ fraction recovered from natural gas processing) at roughly 30% diluent to 70% bitumen by volume. The resulting diluted bitumen meets pipeline transport specifications: density not exceeding 880 kg/m³ and viscosity not exceeding 350 centistokes at operating temperature. The condensate does not change the bitumen's chemistry; it makes it fluid enough to pump. At the receiving terminal, condensate is separated and typically recycled northward as diluent for the next batch — the closed circuit that makes the Cochin reversal structurally indispensable.
+
+The **upgrader route** — approximately 40% of output — involves genuine chemical transformation. Bitumen is subjected to thermal coking, which cracks long hydrocarbon chains into shorter ones under heat and pressure, leaving a carbon-rich coke byproduct; or to catalytic hydrocracking, which achieves the same chain-breaking by adding hydrogen under pressure with a catalyst. Both processes are followed by hydrotreating to remove sulphur. The output is **Synthetic Crude Oil** (SCO): API gravity of roughly 32–34°, equivalent to a conventional medium crude, needing no diluent and commanding a refinery feedstock premium. Upgraders are capital-intensive and energy-intensive; their marginal economics relative to the dilbit path vary with the light-heavy price spread.
+
+```mermaid
+flowchart TD
+    A["Oil Sands — Athabasca region"] --> B{Deposit depth}
+    B -->|"Surface — less than 75 m"| C["Open-pit mining\nShovels · trucks · extraction plant\nClark hot water separation"]
+    B -->|"Deep — greater than 75 m"| D["SAGD\nSteam heats bitumen in situ\nDrains by gravity to producer well"]
+    C --> E["Primary separation\nStrip residual sand and water\nOutput: raw bitumen"]
+    D --> E
+    E --> F{Processing route}
+    F -->|"~60% of output"| G["Diluent blending\n30% condensate + 70% bitumen\nDensity target: 880 kg per cubic metre\nOutput: dilbit"]
+    F -->|"~40% of output"| H["Upgrading\nCoking or hydrocracking\nHydrotreating removes sulphur\nOutput: SCO, 32 to 34 degrees API"]
+    G --> I["Hardisty Hub\nStorage · blending · metering\nCustody transfer point"]
+    H --> I
+    I --> J["Export pipeline\nMultiple grades travel in sequence\nBatch-scheduled transport"]
+    J -->|"Enbridge — 62%"| K["Midwest refineries\nSarnia · Superior · Patoka"]
+    J -->|"Trans Mountain — 19%"| L["Pacific terminal\nBurnaby to tanker to Asia"]
+    J -->|"Keystone and Express — 19%"| M["Gulf Coast\nPort Arthur · Cushing"]
+    K --> N["Crude distillation tower\nFractionation by boiling point"]
+    L --> N
+    M --> N
+    N --> O["Gasoline · Jet fuel · Diesel · Asphalt · Petrochemical feedstocks"]
+```
+
+### One Pipe, Many Products: Batch Scheduling
+
+Major petroleum pipelines do not carry a single homogeneous product. They carry multiple grades — different crude types, different refined products — that travel sequentially through the same pipe as discrete **batches**, managed with considerable precision.
+
+On crude export lines, a scheduling window might contain: 275,000 barrels of heavy dilbit from one producer, followed by Synthetic Crude from an upgrader, followed by condensate returning northward as diluent feedstock, followed by another heavy batch from a different shipper. Each batch enters at Hardisty and travels at the same average velocity — set by pump throughput and pipe diameter. At the boundary between adjacent grades, turbulent mixing creates a **transmix zone** — a few hundred to a few thousand barrels of commingled product — managed at receiving terminals by blending into the lower-specification of the two grades, diverting to reprocessing tankage, or selling at a discount to a shipper who accepts off-spec material.
+
+Products are tracked not by physical marker but by volume measurement: flow computers at injection and withdrawal meters account for temperature, pressure, and fluid dynamics, calculating when each batch will arrive at each delivery point along the route. **Break-out tanks** at intermediate pump stations allow product to be diverted off the mainline before the terminus, enabling deliveries to refineries short of the full pipeline length. On refined products lines — like the Trans Mountain products pipeline from Edmonton to Burnaby — the scheduling is more demanding: gasoline, diesel, and jet fuel share the same pipe in close sequence, and interface contamination between jet fuel and diesel is a flight safety threshold. Batch sizes and sequencing intervals are optimised to hold transmix below quality limits while meeting delivery commitments at every terminal.
+
+<div data-viz="echarts" style="height:240px" data-options='{
+  "title": {"text": "What Is Inside the Pipeline Right Now", "subtext": "Illustrative batch sequence in a 900 km crude export line — batches travel left to right, earliest-injected batch at left approaching destination", "left": "center"},
+  "tooltip": {"trigger": "item", "formatter": "{seriesName}: {c} km"},
+  "legend": {"bottom": 0, "data": ["Dilbit — Batch A", "Synthetic Crude — Batch B", "Condensate return — Batch C", "Dilbit — Batch D"]},
+  "grid": {"top": "22%", "bottom": "22%", "left": "3%", "right": "3%"},
+  "xAxis": {"type": "value", "name": "← Destination terminal                                                          Origin pump station →", "nameLocation": "middle", "nameGap": 25, "axisLabel": {"formatter": "{value} km"}, "max": 900},
+  "yAxis": {"type": "category", "data": ["Pipeline contents"], "axisLabel": {"show": false}},
+  "series": [
+    {"name": "Dilbit — Batch A",            "type": "bar", "stack": "pipe", "barWidth": 55, "itemStyle": {"color": "#1e3a8a"}, "label": {"show": true, "position": "inside", "formatter": "Dilbit A\n275 km"}, "data": [275]},
+    {"name": "interface-1",                  "type": "bar", "stack": "pipe", "barWidth": 55, "itemStyle": {"color": "#9ca3af", "opacity": 0.7}, "label": {"show": true, "position": "inside", "color": "#fff", "fontSize": 9, "formatter": "tmx"}, "data": [15]},
+    {"name": "Synthetic Crude — Batch B",   "type": "bar", "stack": "pipe", "barWidth": 55, "itemStyle": {"color": "#2563eb"}, "label": {"show": true, "position": "inside", "formatter": "SCO B\n190 km"}, "data": [190]},
+    {"name": "interface-2",                  "type": "bar", "stack": "pipe", "barWidth": 55, "itemStyle": {"color": "#9ca3af", "opacity": 0.7}, "label": {"show": true, "position": "inside", "color": "#fff", "fontSize": 9, "formatter": "tmx"}, "data": [15]},
+    {"name": "Condensate return — Batch C", "type": "bar", "stack": "pipe", "barWidth": 55, "itemStyle": {"color": "#f59e0b"}, "label": {"show": true, "position": "inside", "formatter": "Condensate C\n115 km"}, "data": [115]},
+    {"name": "interface-3",                  "type": "bar", "stack": "pipe", "barWidth": 55, "itemStyle": {"color": "#9ca3af", "opacity": 0.7}, "label": {"show": true, "position": "inside", "color": "#fff", "fontSize": 9, "formatter": "tmx"}, "data": [15]},
+    {"name": "Dilbit — Batch D",            "type": "bar", "stack": "pipe", "barWidth": 55, "itemStyle": {"color": "#1e40af"}, "label": {"show": true, "position": "inside", "formatter": "Dilbit D\n275 km"}, "data": [275]}
+  ]
+}'></div>
+
+*Grey zones marked "tmx" are transmix — the interface where adjacent grades commingle during turbulent flow. Each is a few hundred to a few thousand barrels; managed at the receiving terminal by blending into the lower-specification product or diverting to reprocessing tankage. The coloured batches are tracked by volume through continuous meter readings at injection and delivery points, not by physical markers in the pipe.*
 
 ---
 
