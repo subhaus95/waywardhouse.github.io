@@ -5,9 +5,9 @@ title: "Series 7: Economic Systems"
 subtitle: "Reading industries as spatial systems — infrastructure, flows, markets, and the mathematics that connects them"
 series_number: 7
 series_key: "Economic Systems"
-total_essays: 5
+total_essays: 10
 difficulty_range: 2-4
-estimated_hours: 20
+estimated_hours: 40
 tags: [economic-geography, modelling, networks, infrastructure, energy, trade]
 ---
 
@@ -92,9 +92,24 @@ Gasoline, diesel, and jet fuel from Alberta's refineries to western Canadian con
 **Model 5: The Integrated Network**
 Alberta's full hydrocarbon system as a directed network graph. Max-flow min-cut applied to each commodity stream. Betweenness centrality: which hubs are most critical to network function? The netback price surface across all market destinations. Sankey diagram of integrated commodity flows.
 
-### Cluster T — Trade and Transport *(planned)*
+### Cluster T — Trade and Transport
 
-Gravity models of trade, transport corridor analysis, port economics, modal split. The spatial organisation of Canada's goods trade.
+Canada's goods trade as a spatial system: the gravity model as a geographic instrument, corridor analysis, port hierarchy, modal choice, and integrated network flow. Five models build from bilateral trade prediction to a full multi-modal network under a Windsor Corridor disruption scenario.
+
+**Model 6: Canada's Trade Gravity Model**
+The gravity equation — GDP, distance, and the border effect. Why Canadian provinces trade less with each other than distance predicts, and why Alberta's geography compounds the penalty. Calibration from bilateral trade data; the Anderson-van Wincoop structural form.
+
+**Model 7: Canada's Trade Corridor Systems**
+Three continental corridor systems — Windsor-Detroit (auto/manufacturing), Vancouver-Prince Rupert (Pacific gateway), Halifax-Montréal (Atlantic). Link capacity, chokepoint identification, Wardner equilibrium under demand variation. Leaflet map of the full corridor network.
+
+**Model 8: Canada's Port Economics**
+Port hierarchy from Vancouver to Thunder Bay. Throughput functions, economies of scale, queuing theory at constrained facilities. Hinterland catchment areas and the spatial economics of mode competition. TEU-equivalent cost structure by cargo type.
+
+**Model 9: Freight Modal Split**
+Cost functions for rail, truck, and marine by commodity class. Break-even distance thresholds. CN/CP duopoly and its geographic consequences. Discrete choice (logit) model: how shipper decisions aggregate to system-level modal share.
+
+**Model 10: The Integrated Trade Network**
+Canada's goods trade as a 12-node directed network: seven regional nodes, three gateway ports, two cross-border exchange points. Max-flow min-cut for each commodity class. Betweenness centrality reveals which nodes bind the system. The Windsor problem: corridor disruption propagation and redundancy arithmetic. Sankey diagram of integrated commodity flows.
 
 ### Cluster U — Urban Economic Systems *(planned)*
 
@@ -114,10 +129,14 @@ Commodity pricing, spatial arbitrage, futures markets as geographic instruments.
 
 **Cluster P (5 models):** 10–20 hours for thorough engagement
 
-**Accelerated path:** 6–10 hours (focus on visualisations and worked examples, skim derivations)
+**Cluster T (5 models):** 10–20 hours for thorough engagement
+
+**Accelerated path per cluster:** 6–10 hours (focus on visualisations and worked examples, skim derivations)
 
 ---
 
-**Start reading:** [Alberta's Crude Oil Pipeline Network](/2026/03/08/alberta-pipeline-crude-oil/) — Cluster P, Model 1.
+**Start with Cluster P:** [Alberta's Crude Oil Pipeline Network](/2026/03/08/alberta-pipeline-crude-oil/) — energy infrastructure, pipeline hydraulics, netback pricing.
+
+**Start with Cluster T:** [Canada's Trade Gravity Model](/2026/03/09/canada-trade-gravity-model/) — bilateral trade, border effects, gravity equation.
 
 **Companion reading:** [Alberta in Context](/series/alberta-in-context/) — the narrative essay series that applies these models to the political economy of a landlocked province.
