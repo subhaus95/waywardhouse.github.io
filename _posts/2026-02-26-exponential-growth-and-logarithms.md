@@ -5,6 +5,7 @@ subtitle: "When the rate of change depends on how much you already have"
 date: 2026-02-26
 categories: [modelling]
 featured: true
+image: /assets/images/foundations-and-math.png
 series: computational-geography-foundations
 series_order: 3
 cluster: A
