@@ -2,8 +2,8 @@
 layout: model
 title: "Refined Products Distribution"
 subtitle: "Gasoline, Diesel, and Jet Fuel Across the Western Canadian Supply Chain"
-series: "Alberta in Context"
-series_order: 10
+series: "Economic Systems"
+series_order: 4
 cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
 categories: [modelling]

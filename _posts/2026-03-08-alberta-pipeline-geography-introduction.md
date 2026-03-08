@@ -19,6 +19,7 @@ tags:
 difficulty: 2
 math: false
 viz: true
+leaflet: true
 math_core: ["None — narrative essay; see P1–P5 for mathematical treatments"]
 description: >
   A long-form narrative geography of Alberta's hydrocarbon pipeline system —
@@ -123,6 +124,25 @@ pipeline corridors. Together they represent one of the largest
 concentrations of energy infrastructure per unit of population anywhere
 in the world.
 
+<div data-viz="echarts" style="height:340px" data-options='{
+  "title": {"text": "Seven Decades of Pipeline Build-Out", "subtext": "Approximate cumulative crude oil export capacity at key milestones — 000 bbl/d", "left": "center"},
+  "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
+  "grid": {"left": "3%", "right": "4%", "bottom": "12%", "containLabel": true},
+  "xAxis": {"type": "category", "axisLabel": {"interval": 0}, "data": ["1950\nIPL opens", "1953\nTrans Mountain", "1960s\nMainline growth", "1985\nExpansions", "2006\nKeystone", "2010\nL67 + Express", "2024\nTMX in service"]},
+  "yAxis": {"type": "value", "name": "Export capacity (000 bbl/d)", "nameLocation": "end"},
+  "series": [{"type": "bar", "label": {"show": true, "position": "top"}, "data": [
+    {"value": 100,  "itemStyle": {"color": "#bfdbfe"}},
+    {"value": 350,  "itemStyle": {"color": "#93c5fd"}},
+    {"value": 700,  "itemStyle": {"color": "#60a5fa"}},
+    {"value": 1800, "itemStyle": {"color": "#3b82f6"}},
+    {"value": 2800, "itemStyle": {"color": "#2563eb"}},
+    {"value": 3500, "itemStyle": {"color": "#1d4ed8"}},
+    {"value": 4594, "itemStyle": {"color": "#1e3a8a"}}
+  ]}]
+}'></div>
+
+*Capacity accumulated incrementally over seven decades — each bar represents the approximate total at a key infrastructure milestone, not the single addition. The step from 2010 to 2024 reflects the Trans Mountain Expansion entering service.*
+
 ---
 
 ## The Crude Oil System: What the Numbers Say
@@ -143,6 +163,24 @@ Trans Mountain carries approximately 19% westward to Burnaby and the
 Westridge marine terminal, where it loads onto tankers for delivery to
 refineries in Washington state, California, and Asia. Keystone and Express
 carry the remaining 19% southward to the U.S. Plains and Gulf Coast.
+
+<div data-viz="echarts" style="height:360px" data-options='{
+  "title": {"text": "Crude Oil Export Capacity by Corridor", "subtext": "Share of ~4.6 million bbl/d total nameplate capacity — 2025", "left": "center"},
+  "tooltip": {"trigger": "item", "formatter": "{b}: {c}000 bbl/d ({d}%)"},
+  "legend": {"orient": "vertical", "right": 10, "top": "center"},
+  "series": [{
+    "type": "pie",
+    "radius": ["42%", "68%"],
+    "center": ["38%", "55%"],
+    "label": {"formatter": "{d}%"},
+    "data": [
+      {"value": 2856, "name": "Enbridge Mainline — U.S. Midwest",   "itemStyle": {"color": "#1e40af"}},
+      {"value": 890,  "name": "Trans Mountain — Pacific",            "itemStyle": {"color": "#16a34a"}},
+      {"value": 590,  "name": "Keystone — U.S. Gulf Coast",         "itemStyle": {"color": "#dc2626"}},
+      {"value": 280,  "name": "Express — U.S. Plains",              "itemStyle": {"color": "#f59e0b"}}
+    ]
+  }]
+}'></div>
 
 These are not small numbers. The Enbridge Mainline alone — a single
 pipeline corridor with five parallel lines — moves more crude oil per
@@ -251,6 +289,41 @@ recovered. The sequence was painful for producers but was structurally
 predictable from pipeline capacity data — which is precisely the value
 of examining this system quantitatively rather than politically.
 
+<div data-viz="echarts" style="height:380px" data-options='{
+  "title": {"text": "AECO vs Henry Hub: The Price Geography Charges for Distance", "subtext": "Approximate annual average prices — CAD$/GJ equivalent, 2015–2024", "left": "center"},
+  "tooltip": {"trigger": "axis"},
+  "legend": {"data": ["Henry Hub (CAD equiv.)", "AECO spot"], "bottom": 0},
+  "xAxis": {"type": "category", "data": ["2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"]},
+  "yAxis": {"type": "value", "name": "CAD$/GJ", "min": 0},
+  "series": [
+    {
+      "name": "Henry Hub (CAD equiv.)",
+      "type": "line", "smooth": true,
+      "itemStyle": {"color": "#2563eb"},
+      "areaStyle": {"opacity": 0.08},
+      "data": [3.8, 2.9, 3.4, 4.8, 3.2, 2.8, 5.2, 13.5, 4.5, 3.8]
+    },
+    {
+      "name": "AECO spot",
+      "type": "line", "smooth": true,
+      "itemStyle": {"color": "#16a34a"},
+      "areaStyle": {"opacity": 0.08},
+      "data": [2.9, 1.8, 2.0, 1.7, 1.1, 2.2, 3.6, 10.1, 3.0, 2.7],
+      "markPoint": {
+        "data": [{"name": "2018 collapse", "coord": ["2018", 1.7]}],
+        "label": {"formatter": "2018\nbasis collapse"},
+        "itemStyle": {"color": "#dc2626"}
+      },
+      "markArea": {
+        "itemStyle": {"color": "rgba(220,38,38,0.06)"},
+        "data": [[{"xAxis": "2018"}, {"xAxis": "2019"}]]
+      }
+    }
+  ]
+}'></div>
+
+*The gap between the two lines is what Alberta gas producers lose relative to Gulf Coast pricing. The 2018 collapse — when AECO fell to roughly $1.10/GJ while Henry Hub traded near $2.80 USD — resulted directly from the Montney production ramp outrunning NGTL system capacity.*
+
 ---
 
 ## The Refinery Cluster That Most People Don't Know About
@@ -287,6 +360,32 @@ a modest margin for disruption. The supply chain from Edmonton refinery
 to Vancouver pump is not improvised; it is precisely engineered, with
 inventory buffers sized to the physics of the pipeline.
 
+<div data-viz="echarts" style="height:360px" data-options='{
+  "title": {"text": "Alberta Refinery Cluster: Capacity vs Provincial Demand", "subtext": "Nameplate refinery capacity — 000 bbl/d. Red line shows Alberta in-province refined products demand.", "left": "center"},
+  "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
+  "grid": {"left": "3%", "right": "4%", "bottom": "8%", "containLabel": true},
+  "xAxis": {"type": "category", "data": ["Strathcona\n(Imperial Oil)", "Co-op Refinery\n(Regina, SK)", "Scotford\n(Shell / Dow)", "Sturgeon\n(NWR)"]},
+  "yAxis": {"type": "value", "name": "000 bbl/d"},
+  "series": [{
+    "type": "bar",
+    "label": {"show": true, "position": "top"},
+    "data": [
+      {"value": 195, "itemStyle": {"color": "#1e40af"}},
+      {"value": 145, "itemStyle": {"color": "#2563eb"}},
+      {"value": 100, "itemStyle": {"color": "#3b82f6"}},
+      {"value": 79,  "itemStyle": {"color": "#60a5fa"}}
+    ],
+    "markLine": {
+      "symbol": "none",
+      "lineStyle": {"color": "#dc2626", "type": "dashed", "width": 2},
+      "label": {"formatter": "Alberta demand ≈ 180K bbl/d", "position": "insideEndTop"},
+      "data": [{"yAxis": 180}]
+    }
+  }]
+}'></div>
+
+*Combined capacity of 519,000 bbl/d against in-province demand of roughly 180,000 bbl/d. The surplus — approximately 339,000 bbl/d — moves westward to British Columbia by pipeline and eastward to Saskatchewan and Manitoba. Alberta refines more than it consumes.*
+
 ---
 
 ## What the Network Looks Like as a Whole
@@ -294,6 +393,22 @@ inventory buffers sized to the physics of the pipeline.
 When all four commodity systems are mapped simultaneously — crude oil,
 natural gas liquids, natural gas, and refined products — the aggregate
 picture is of a network with three strategic orientations.
+
+<div data-leaflet id="pipeline-network-map" style="height:440px"
+  data-lat="50.5" data-lng="-100" data-zoom="4" data-tiles="carto"
+  data-markers='[
+    {"lat": 52.67, "lng": -111.37, "label": "Hardisty AB — crude oil hub and tank farm"},
+    {"lat": 53.55, "lng": -113.49, "label": "Edmonton AB — refinery cluster and NGL hub"},
+    {"lat": 49.25, "lng": -122.95, "label": "Burnaby BC — Trans Mountain terminal (Pacific)"},
+    {"lat": 55.47, "lng": -128.99, "label": "Kitimat BC — LNG Canada (Pacific gas export)"},
+    {"lat": 46.72, "lng": -92.10,  "label": "Superior WI — Enbridge Mainline terminus"},
+    {"lat": 42.99, "lng": -81.25,  "label": "Sarnia ON — Ontario refineries"},
+    {"lat": 35.38, "lng": -97.50,  "label": "Cushing OK — WTI pricing hub"},
+    {"lat": 41.85, "lng": -87.65,  "label": "Chicago IL — Alliance Pipeline terminus"},
+    {"lat": 29.88, "lng": -93.93,  "label": "Port Arthur TX — Gulf Coast refining complex"}
+  ]'></div>
+
+*Alberta sits at the top-left of this map. Every marker is a pipeline destination: the continental reach of a landlocked province. The cluster of U.S. markers to the south and east reflects where most crude oil currently flows; Burnaby and Kitimat mark the westward Pacific option.*
 
 The dominant orientation is southward and eastward into the United States.
 Most of Alberta's crude oil export reaches U.S. refineries. Most Alberta
@@ -324,6 +439,23 @@ Canadian orientation is the smallest of the three in throughput terms
 and the most structurally strained — eastern Canadian markets have
 diversified away from Alberta supply in ways that have reduced the
 province's domestic market share.
+
+<div data-viz="echarts" style="height:300px" data-options='{
+  "title": {"text": "Crude Oil Export Capacity by Market Direction", "subtext": "Approximate nameplate capacity — 000 bbl/d. Eastbound includes Enbridge deliveries to Sarnia ON.", "left": "center"},
+  "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
+  "grid": {"left": "3%", "right": "12%", "top": "20%", "bottom": "8%", "containLabel": true},
+  "xAxis": {"type": "value", "name": "Export capacity (000 bbl/d)"},
+  "yAxis": {"type": "category", "data": ["Eastbound\n(Canada — Sarnia ON)", "Southbound\n(U.S. Plains + Gulf Coast)", "Westbound\n(Pacific — Trans Mountain)"]},
+  "series": [{
+    "type": "bar",
+    "label": {"show": true, "position": "right", "formatter": "{c}K bbl/d"},
+    "data": [
+      {"value": 500,  "itemStyle": {"color": "#6b7280"}},
+      {"value": 870,  "itemStyle": {"color": "#dc2626"}},
+      {"value": 890,  "itemStyle": {"color": "#16a34a"}}
+    ]
+  }]
+}'></div>
 
 Together, these three orientations produce a network that is
 simultaneously extensive and concentrated. Extensive because it reaches

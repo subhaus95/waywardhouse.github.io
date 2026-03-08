@@ -2,8 +2,8 @@
 layout: model
 title: "Alberta's Crude Oil Pipeline Network"
 subtitle: "A Continental System Built Over Seven Decades"
-series: "Alberta in Context"
-series_order: 7
+series: "Economic Systems"
+series_order: 1
 cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
 categories: [modelling]

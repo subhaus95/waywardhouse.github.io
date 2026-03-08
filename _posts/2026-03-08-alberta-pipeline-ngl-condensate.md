@@ -2,8 +2,8 @@
 layout: model
 title: "NGL and Condensate Pipeline Systems"
 subtitle: "The Fractionation Cascade and the Diluent Supply Chain"
-series: "Alberta in Context"
-series_order: 8
+series: "Economic Systems"
+series_order: 2
 cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
 categories: [modelling]

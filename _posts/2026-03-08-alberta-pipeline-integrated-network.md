@@ -2,8 +2,8 @@
 layout: model
 title: "The Integrated Network"
 subtitle: "Graph Theory, Network Flow, and the Netback Price Surface Across Alberta's Pipeline System"
-series: "Alberta in Context"
-series_order: 11
+series: "Economic Systems"
+series_order: 5
 cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
 categories: [modelling]

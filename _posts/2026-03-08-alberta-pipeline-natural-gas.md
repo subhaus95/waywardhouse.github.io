@@ -2,8 +2,8 @@
 layout: model
 title: "Natural Gas Transmission from Alberta"
 subtitle: "The NOVA System, AECO Pricing, and Alberta's Gas Export Geography"
-series: "Alberta in Context"
-series_order: 9
+series: "Economic Systems"
+series_order: 3
 cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
 categories: [modelling]
