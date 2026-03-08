@@ -4,7 +4,7 @@ title: "Canadian Trade Corridors"
 subtitle: "How Canada's Goods Actually Move: Rail, Road, and the Dominance of Windsor-Detroit"
 series: "Economic Systems"
 series_order: 7
-cluster: "T — Trade and Transport"
+cluster: "TR — Trade and Transport"
 date: 2026-03-09
 categories: [modelling]
 tags:

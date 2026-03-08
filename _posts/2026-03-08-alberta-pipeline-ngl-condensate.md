@@ -4,7 +4,7 @@ title: "NGL and Condensate Pipeline Systems"
 subtitle: "The Fractionation Cascade and the Diluent Supply Chain"
 series: "Economic Systems"
 series_order: 2
-cluster: "P — Pipeline Connectivity"
+cluster: "EP — Pipeline Connectivity"
 date: 2026-03-08
 categories: [modelling]
 tags:

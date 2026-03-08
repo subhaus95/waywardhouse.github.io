@@ -4,7 +4,7 @@ title: "Port Economics"
 subtitle: "Throughput, Hinterland, and the Geography of Canada's Gateway Competition"
 series: "Economic Systems"
 series_order: 8
-cluster: "T — Trade and Transport"
+cluster: "TR — Trade and Transport"
 date: 2026-03-09
 categories: [modelling]
 tags:

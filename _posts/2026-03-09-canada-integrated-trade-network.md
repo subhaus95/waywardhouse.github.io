@@ -4,7 +4,7 @@ title: "The Integrated Trade Network"
 subtitle: "Canada's Goods System as a Directed Graph — Flow, Centrality, and the Windsor Problem"
 series: "Economic Systems"
 series_order: 10
-cluster: "T — Trade and Transport"
+cluster: "TR — Trade and Transport"
 date: 2026-03-09
 categories: [modelling]
 tags:

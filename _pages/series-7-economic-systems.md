@@ -5,9 +5,9 @@ title: "Series 7: Economic Systems"
 subtitle: "Reading industries as spatial systems — infrastructure, flows, markets, and the mathematics that connects them"
 series_number: 7
 series_key: "Economic Systems"
-total_essays: 10
+total_essays: 15
 difficulty_range: 2-4
-estimated_hours: 40
+estimated_hours: 60
 tags: [economic-geography, modelling, networks, infrastructure, energy, trade]
 ---
 
@@ -43,7 +43,7 @@ By completing this series, readers will be able to:
 
 The series introduces and develops five interlocking mathematical concepts:
 
-**Graph theory and network flow** — directed graphs, adjacency, max-flow min-cut, betweenness centrality. Introduced in Cluster P (pipeline networks); extended in later clusters.
+**Graph theory and network flow** — directed graphs, adjacency, max-flow min-cut, betweenness centrality. Introduced in Cluster EP (pipeline networks); extended in later clusters.
 
 **Price surface analysis** — netback pricing, basis differentials, spatial arbitrage. The geographic insight that prices differ across space because of transport costs and constraints.
 
@@ -73,7 +73,7 @@ The series introduces and develops five interlocking mathematical concepts:
 
 ## Model Sequence
 
-### Cluster P — Energy Infrastructure
+### Cluster EP — Energy Infrastructure
 
 Alberta's hydrocarbon pipeline system as a case study in network geography. Five models build from individual commodity streams to a unified network analysis.
 
@@ -92,7 +92,7 @@ Gasoline, diesel, and jet fuel from Alberta's refineries to western Canadian con
 **Model 5: The Integrated Network**
 Alberta's full hydrocarbon system as a directed network graph. Max-flow min-cut applied to each commodity stream. Betweenness centrality: which hubs are most critical to network function? The netback price surface across all market destinations. Sankey diagram of integrated commodity flows.
 
-### Cluster T — Trade and Transport
+### Cluster TR — Trade and Transport
 
 Canada's goods trade as a spatial system: the gravity model as a geographic instrument, corridor analysis, port hierarchy, modal choice, and integrated network flow. Five models build from bilateral trade prediction to a full multi-modal network under a Windsor Corridor disruption scenario.
 
@@ -111,9 +111,24 @@ Cost functions for rail, truck, and marine by commodity class. Break-even distan
 **Model 10: The Integrated Trade Network**
 Canada's goods trade as a 12-node directed network: seven regional nodes, three gateway ports, two cross-border exchange points. Max-flow min-cut for each commodity class. Betweenness centrality reveals which nodes bind the system. The Windsor problem: corridor disruption propagation and redundancy arithmetic. Sankey diagram of integrated commodity flows.
 
-### Cluster U — Urban Economic Systems *(planned)*
+### Cluster UE — Urban Economic Systems
 
-Land rent gradients, agglomeration economies, Zipf's law and the rank-size distribution of cities. The mathematics of where economic activity concentrates.
+The spatial economics of cities: why land is expensive near the centre, why firms cluster, how city sizes follow a power law, and what actually drives a city's economy. Five models build from the bid-rent gradient to a fully integrated urban system, with Calgary, Toronto, and Vancouver as running case studies.
+
+**Model 11: The Bid-Rent Model**
+Von Thünen's agricultural rent gradient → Alonso's urban extension → the Muth-Mills household model. Bid-rent functions, spatial equilibrium, and the utility-maximisation derivation that shows why offices cluster at the centre, retail rings them, and residential fills the outer city. The density gradient as an economic output, not a planning choice.
+
+**Model 12: Agglomeration Economies**
+Marshall's three externalities — labour pooling, input sharing, knowledge spillovers — and Jacobs' urbanisation economies. The wage-density elasticity: a doubling of employment density raises wages by 4–8%. Location quotients as a measurement tool. Calgary's energy agglomeration vs Toronto's diversified base: why specialisation concentrates risk.
+
+**Model 13: Zipf's Law and the City Size Distribution**
+The rank-size rule: the nth-largest city has 1/n times the population of the largest. Gibrat's Law and the random growth model that generates a power law in the limit. Log-log regression on 30 Canadian CMAs. Why Alberta's Edmonton-Calgary near-parity is unusual — and what it reveals about the province's economic structure.
+
+**Model 14: The Urban Economic Base**
+Export base theory, location quotients, and the economic base multiplier. If basic employment falls by 1, total employment falls by 2–3 (the multiplier). The oil-price transmission mechanism: energy sector contraction → multiplier amplification → city-wide employment effect. Calgary worked example: 40,000 direct losses imply ~88,000 total.
+
+**Model 15: The Integrated Urban System**
+All four mechanisms as one system. Mermaid causal flowchart: rent gradient → agglomeration → productivity → city rank → multiplier → back to rent. A 30% oil-price shock traced through each layer via waterfall chart. Radar comparison of Calgary, Toronto, and Vancouver on five dimensions. Monocentric vs polycentric structure, and the policy tools that work through the bid-rent mechanism.
 
 ### Cluster R — Resource Economics *(planned)*
 
@@ -127,16 +142,20 @@ Commodity pricing, spatial arbitrage, futures markets as geographic instruments.
 
 **Per model:** 2–4 hours (reading, working through examples, exploring visualisations)
 
-**Cluster P (5 models):** 10–20 hours for thorough engagement
+**Cluster EP (5 models):** 10–20 hours for thorough engagement
 
-**Cluster T (5 models):** 10–20 hours for thorough engagement
+**Cluster TR (5 models):** 10–20 hours for thorough engagement
+
+**Cluster UE (5 models):** 10–20 hours for thorough engagement
 
 **Accelerated path per cluster:** 6–10 hours (focus on visualisations and worked examples, skim derivations)
 
 ---
 
-**Start with Cluster P:** [Alberta's Crude Oil Pipeline Network](/2026/03/08/alberta-pipeline-crude-oil/) — energy infrastructure, pipeline hydraulics, netback pricing.
+**Start with Cluster EP:** [Alberta's Crude Oil Pipeline Network](/2026/03/08/alberta-pipeline-crude-oil/) — energy infrastructure, pipeline hydraulics, netback pricing.
 
-**Start with Cluster T:** [Canada's Trade Gravity Model](/2026/03/09/canada-trade-gravity-model/) — bilateral trade, border effects, gravity equation.
+**Start with Cluster TR:** [Canada's Trade Gravity Model](/2026/03/09/canada-trade-gravity-model/) — bilateral trade, border effects, gravity equation.
+
+**Start with Cluster UE:** [The Bid-Rent Model](/2026/03/10/urban-bid-rent-model/) — land rent, urban gradients, the price of access.
 
 **Companion reading:** [Alberta in Context](/series/alberta-in-context/) — the narrative essay series that applies these models to the political economy of a landlocked province.

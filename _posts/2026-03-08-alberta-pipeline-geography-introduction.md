@@ -4,7 +4,6 @@ title: "Alberta's Pipeline Geography"
 subtitle: "A Connected Province and the Infrastructure That Makes It So"
 series: "Alberta in Context"
 series_order: 6
-cluster: "P — Pipeline Connectivity"
 date: 2026-03-08
 categories: [Economic Geography]
 tags:

@@ -4,7 +4,7 @@ title: "The Gravity Model of Trade"
 subtitle: "Distance, Mass, and the Economic Geography of Canada's Bilateral Trade"
 series: "Economic Systems"
 series_order: 6
-cluster: "T — Trade and Transport"
+cluster: "TR — Trade and Transport"
 date: 2026-03-09
 categories: [modelling]
 tags:

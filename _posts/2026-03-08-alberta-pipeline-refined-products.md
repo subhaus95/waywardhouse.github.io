@@ -4,7 +4,7 @@ title: "Refined Products Distribution"
 subtitle: "Gasoline, Diesel, and Jet Fuel Across the Western Canadian Supply Chain"
 series: "Economic Systems"
 series_order: 4
-cluster: "P — Pipeline Connectivity"
+cluster: "EP — Pipeline Connectivity"
 date: 2026-03-08
 categories: [modelling]
 tags:
