@@ -186,14 +186,14 @@ The price surface: a geographic map where every point's price equals the global 
 
 ---
 
-**Start with Cluster EP:** [Alberta's Crude Oil Pipeline Network](/2026/03/08/alberta-pipeline-crude-oil/) — energy infrastructure, pipeline hydraulics, netback pricing.
+**Start with Cluster EP:** [Alberta's Crude Oil Pipeline Network](/alberta-pipeline-crude-oil/) — energy infrastructure, pipeline hydraulics, netback pricing.
 
-**Start with Cluster TR:** [Canada's Trade Gravity Model](/2026/03/09/canada-trade-gravity-model/) — bilateral trade, border effects, gravity equation.
+**Start with Cluster TR:** [Canada's Trade Gravity Model](/canada-trade-gravity-model/) — bilateral trade, border effects, gravity equation.
 
-**Start with Cluster UE:** [The Bid-Rent Model](/2026/03/10/urban-bid-rent-model/) — land rent, urban gradients, the price of access.
+**Start with Cluster UE:** [The Bid-Rent Model](/urban-bid-rent-model/) — land rent, urban gradients, the price of access.
 
-**Start with Cluster RE:** [The Hotelling Rule](/2026/03/11/resource-hotelling-rule/) — optimal depletion, scarcity rent, the price path of a finite resource.
+**Start with Cluster RE:** [The Hotelling Rule](/resource-hotelling-rule/) — optimal depletion, scarcity rent, the price path of a finite resource.
 
-**Start with Cluster MK:** [Commodity Price Formation](/2026/03/12/markets-commodity-price-formation/) — benchmarks, netbacks, and what a producer actually receives.
+**Start with Cluster MK:** [Commodity Price Formation](/markets-commodity-price-formation/) — benchmarks, netbacks, and what a producer actually receives.
 
 **Companion reading:** [Alberta in Context](/series/alberta-in-context/) — the narrative essay series that applies these models to the political economy of a landlocked province.

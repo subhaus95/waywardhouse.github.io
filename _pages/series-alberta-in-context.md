@@ -18,22 +18,22 @@ The essays do not argue for a political position. They argue for specificity.
 
 ## The Essays
 
-**1. [A Trade Reality Check](/2026/02/17/alberta-trade-reality-check/)**
+**1. [A Trade Reality Check](/alberta-trade-reality-check/)**
 The economic relationship between Alberta and its trading partners, examined through actual trade data. What the province sells, to whom, at what prices, and what happens when the terms of that trade change.
 
-**2. [The Texas of the North](/2026/02/19/texas-of-the-north/)**
+**2. [The Texas of the North](/texas-of-the-north/)**
 The Alberta–Texas comparison is one of the most persistent in Canadian political rhetoric. What does it actually reveal when examined closely — the similarities in resource dependence, boom-bust cycles, and political culture — and where does the comparison break down?
 
-**3. [Contested Ground](/2026/02/21/global-energy-markets/)**
+**3. [Contested Ground](/global-energy-markets/)**
 Alberta's hydrocarbon economy does not exist in isolation. It competes in global markets shaped by sanctions regimes, the Russia–Ukraine war, India's emerging demand profile, China's policy pivots, and the accelerating renewable transition. This essay maps the external forces acting on Alberta's market position.
 
-**4. [Landlocked by Default](/2025/03/07/alberta-landlocked-connectivity/)**
+**4. [Landlocked by Default](/alberta-landlocked-connectivity/)**
 The landlocked argument — that Alberta is trapped by geography and hostile jurisdictions — is one of the most politically potent claims in western Canadian politics. What does the infrastructure data actually show about Alberta's export access, and where do the genuine constraints lie?
 
-**5. [The Burning Strait](/2026/03/03/the-burning-strait/)**
+**5. [The Burning Strait](/the-burning-strait/)**
 The 2026 Iran conflict and the partial closure of the Strait of Hormuz: a systems view of chokepoint activation, supply chain propagation, and the asymmetric geography of oil dependence. How a crisis in the Middle East rewrites Alberta's global market position — and whose dependence on stable energy supply is actually greatest.
 
-**6. [Alberta's Pipeline Geography](/2026/03/08/alberta-pipeline-geography-introduction/)**
+**6. [Alberta's Pipeline Geography](/alberta-pipeline-geography-introduction/)**
 A long-form narrative geography of the hydrocarbon pipeline system that connects Alberta to markets across North America — crude oil, natural gas liquids, natural gas, and refined products. The infrastructure that exists, measured as carefully as public data allow, with maps, charts, and a process flow from wellhead to finished product.
 
 ---

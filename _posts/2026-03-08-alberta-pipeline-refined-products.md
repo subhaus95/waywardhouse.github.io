@@ -921,4 +921,4 @@ Terminal storage estimates are approximate.
 
 ---
 
-*Next in this series: [The Integrated Network](/alberta-in-context/pipeline-integrated-network/) — a network flow model of the full Alberta hydrocarbon pipeline system, with graph-theoretic analysis and the netback price surface across all market destinations.*
+*Next in this series: [The Integrated Network](/alberta-pipeline-integrated-network/) — a network flow model of the full Alberta hydrocarbon pipeline system, with graph-theoretic analysis and the netback price surface across all market destinations.*

@@ -336,4 +336,4 @@ geographic game played with infrastructure as the primary instrument.
 
 ---
 
-*Next in this cluster: [T4 — Modal Split and Freight Economics](/2026/03/09/canada-freight-modal-split/)*
+*Next in this cluster: [T4 — Modal Split and Freight Economics](/canada-freight-modal-split/)*

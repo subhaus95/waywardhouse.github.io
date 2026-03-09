@@ -1089,4 +1089,4 @@ it is not suitable for operational pipeline scheduling or engineering design.
 
 *This essay completes the computational geography cluster on Alberta's pipeline
 connectivity. The long-form narrative introduction to the cluster is:
-[Alberta's Pipeline Geography: A Connected Province](/alberta-in-context/pipeline-geography-introduction/).*
+[Alberta's Pipeline Geography: A Connected Province](/alberta-pipeline-geography-introduction/).*

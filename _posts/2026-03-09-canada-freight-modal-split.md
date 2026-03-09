@@ -420,4 +420,4 @@ the cost of capital.
 
 ---
 
-*Next in this cluster: [T5 — The Integrated Trade Network](/2026/03/09/canada-integrated-trade-network/)*
+*Next in this cluster: [T5 — The Integrated Trade Network](/canada-integrated-trade-network/)*

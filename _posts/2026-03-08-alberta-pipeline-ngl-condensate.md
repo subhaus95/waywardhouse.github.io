@@ -841,4 +841,4 @@ otherwise noted. NGL compositions and yields are representative WCSB averages.
 
 ---
 
-*Next in this series: [Natural Gas Transmission from Alberta](/alberta-in-context/pipeline-natural-gas/) — the NOVA Gas Transmission system and Alberta's connections to U.S. and eastern Canadian markets.*
+*Next in this series: [Natural Gas Transmission from Alberta](/alberta-pipeline-natural-gas/) — the NOVA Gas Transmission system and Alberta's connections to U.S. and eastern Canadian markets.*

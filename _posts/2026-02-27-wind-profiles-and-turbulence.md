@@ -3,7 +3,7 @@ layout: model
 title: "Wind Profiles and Atmospheric Turbulence"
 subtitle: "The logarithmic law and how roughness controls momentum transfer"
 date: 2026-02-26
-image: /assets/images/wind-profiles.png
+image: /assets/images/atmospheric-and-hazards.png
 categories: [modelling]
 series: computational-geography-environmental
 series_order: 11

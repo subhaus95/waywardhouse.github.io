@@ -416,4 +416,4 @@ and 2026 provincial trade statistics become available.
 
 ---
 
-*Next in this cluster: [T2 — Canadian Trade Corridors](/2026/03/09/canada-trade-corridors/)*
+*Next in this cluster: [T2 — Canadian Trade Corridors](/canada-trade-corridors/)*

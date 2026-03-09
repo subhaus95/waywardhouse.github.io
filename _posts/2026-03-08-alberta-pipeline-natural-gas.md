@@ -951,4 +951,4 @@ operating conditions.
 
 ---
 
-*Next in this series: [Refined Products Distribution](/alberta-in-context/pipeline-refined-products/) — gasoline, diesel, and jet fuel logistics across the western Canadian supply chain.*
+*Next in this series: [Refined Products Distribution](/alberta-pipeline-refined-products/) — gasoline, diesel, and jet fuel logistics across the western Canadian supply chain.*

@@ -779,4 +779,4 @@ be used for commercial decisions.
 
 ---
 
-*Next in this series: [NGL and Condensate Systems](/alberta-in-context/pipeline-ngl-condensate/) — the fractionation chains and diluent supply networks that make diluted bitumen production possible.*
+*Next in this series: [NGL and Condensate Systems](/alberta-pipeline-ngl-condensate/) — the fractionation chains and diluent supply networks that make diluted bitumen production possible.*

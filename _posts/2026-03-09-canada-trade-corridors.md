@@ -363,4 +363,4 @@ public investment in strategic infrastructure.
 
 ---
 
-*Next in this cluster: [T3 — Port Economics](/2026/03/09/canada-port-economics/)*
+*Next in this cluster: [T3 — Port Economics](/canada-port-economics/)*

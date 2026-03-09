@@ -604,25 +604,25 @@ That is what this cluster of essays has tried to show.
 This narrative introduces a cluster of five computational geography
 essays, each examining one commodity system in mathematical detail:
 
-**[P1 — Crude Oil Pipelines](/alberta-in-context/pipeline-crude-oil/)**
+**[P1 — Crude Oil Pipelines](/alberta-pipeline-crude-oil/)**
 Flow rates, Darcy-Weisbach hydraulics, capacity utilization, and the
 netback price model. The Enbridge Mainline, Trans Mountain, and Keystone
 systems examined in detail.
 
-**[P2 — NGL and Condensate Systems](/alberta-in-context/pipeline-ngl-condensate/)**
+**[P2 — NGL and Condensate Systems](/alberta-pipeline-ngl-condensate/)**
 The fractionation cascade, diluent supply chain, and the Cochin reversal.
 Mass balance mathematics through a Fort Saskatchewan fractionator.
 
-**[P3 — Natural Gas Transmission](/alberta-in-context/pipeline-natural-gas/)**
+**[P3 — Natural Gas Transmission](/alberta-pipeline-natural-gas/)**
 The NOVA Gas Transmission system, the Weymouth equation for compressible
 flow, and the AECO-Henry Hub basis differential derived from transport
 cost arithmetic.
 
-**[P4 — Refined Products Distribution](/alberta-in-context/pipeline-refined-products/)**
+**[P4 — Refined Products Distribution](/alberta-pipeline-refined-products/)**
 Batch scheduling, the Cola equation for transmix volume, and terminal
 inventory design from Edmonton to Burnaby.
 
-**[P5 — The Integrated Network](/alberta-in-context/pipeline-integrated-network/)**
+**[P5 — The Integrated Network](/alberta-pipeline-integrated-network/)**
 All four systems as a directed graph. Max-flow min-cut analysis, network
 centrality, and the full netback price surface across all market
 destinations.
