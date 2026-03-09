@@ -5,7 +5,7 @@ subtitle: "A systems view of chokepoint activation, supply chain propagation, an
 date: 2026-03-03
 excerpt: "How the 2026 Iran conflict rewrites the global energy map sketched in Contested Ground — a systems view of chokepoint activation, supply chain propagation, and the asymmetric geography of oil dependence."
 categories: [Economic Geography]
-tags: [energy, geopolitics, oil, iran, strait-of-hormuz, middle-east, supply-chains, food-security, alberta]
+tags: [energy, geopolitics, oil, iran, strait-of-hormuz, middle-east, supply-chains, food-security, alberta, hash-story]
 author: Paul Hobson
 image: /assets/images/choke-point.png
 featured: true
