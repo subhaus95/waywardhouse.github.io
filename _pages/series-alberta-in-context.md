@@ -4,13 +4,13 @@ permalink: /series/alberta-in-context/
 title: "Alberta in Context"
 subtitle: "Making sense of a resource province — energy, trade, geopolitics, and the geography of being landlocked"
 series_key: "Alberta in Context"
-total_essays: 6
+total_essays: 7
 tags: [alberta, economic-geography, energy, pipelines, trade, geopolitics]
 ---
 
 Alberta is one of the most written-about provinces in Canada and one of the least understood. The public debate generates strong opinions about pipelines, equalization, separatism, and oil sands, but rarely pauses to examine the actual geography — the numbers, the infrastructure, the global market position, the structural constraints — that any honest account of the province must accommodate.
 
-This series tries to do that. Six essays, from different angles, on what Alberta actually is as an economic and geographic entity: where it sits in global energy markets, how its infrastructure compares to analogues elsewhere, what landlocked means in practice when measured rather than asserted, and what the pipeline system that connects it to the world actually looks like when examined in detail.
+This series tries to do that. Seven essays, from different angles, on what Alberta actually is as an economic and geographic entity: where it sits in global energy markets, how its infrastructure compares to analogues elsewhere, what landlocked means in practice when measured rather than asserted, what the pipeline system that connects it to the world actually looks like when examined in detail, and — scaling all the way down from the wellhead — why a province that produces food and fuel still pays some of Canada's highest grocery prices.
 
 The essays do not argue for a political position. They argue for specificity.
 
@@ -35,6 +35,9 @@ The 2026 Iran conflict and the partial closure of the Strait of Hormuz: a system
 
 **6. [Alberta's Pipeline Geography](/alberta-pipeline-geography-introduction/)**
 A long-form narrative geography of the hydrocarbon pipeline system that connects Alberta to markets across North America — crude oil, natural gas liquids, natural gas, and refined products. The infrastructure that exists, measured as carefully as public data allow, with maps, charts, and a process flow from wellhead to finished product.
+
+**7. [The Checkout Problem](/alberta-food-inflation/)**
+Alberta grows 40% of Canada's beef cattle, produces canola across the parkland belt, and refines its own diesel. It still pays above-average grocery prices — and the 2021–2024 inflation hit Alberta households harder than most. The reason is the same geography problem the pipeline essays describe, operating at household scale: supply chains centred 3,000 kilometres east, a grocery oligopoly whose distribution infrastructure was never built around the prairies, and a commodity trap that means producing food and capturing its value are two different things.
 
 ---
 
