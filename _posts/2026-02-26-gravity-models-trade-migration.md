@@ -73,7 +73,7 @@ Where:
 - $P_i, P_j$ are the **populations** (or economic sizes) of the two places
 - $d_{ij}$ is the **distance** between them
 - $k$ is a **constant** (scaling factor)
-- $\alpha, \beta, \gamma$ are **exponents** (often $\alpha = \beta = 1$, $\gamma \approx 1$–$2$)
+- $\alpha, \beta, \gamma$ are **exponents** (often $\alpha = \beta = 1$, $\gamma \approx 1$–&#36;2$)
 
 ### Distance Decay
 
@@ -103,7 +103,7 @@ $$I_{ij} = k \frac{P_i P_j}{d_{ij}^2}$$
 ### Calibrating the Exponent
 
 Real data rarely fit $\gamma = 2$ exactly. The exponent depends on:
-- **Type of interaction:** Commuting ($\gamma \approx 1.5$), migration ($\gamma \approx 1$–$2$), trade ($\gamma \approx 1.5$–$2.5$)
+- **Type of interaction:** Commuting ($\gamma \approx 1.5$), migration ($\gamma \approx 1$–&#36;2$), trade ($\gamma \approx 1.5$–&#36;2.5$)
 - **Transportation technology:** Better roads, cheaper flights → lower $\gamma$ (distance matters less)
 - **Cultural/linguistic barriers:** Higher $\gamma$ across language boundaries
 
@@ -377,9 +377,9 @@ await new Promise(resolve => {
 ### Cultural and Technological Shifts
 
 **Historical change:**
-- **1800s:** $\gamma \approx 3$–$4$ (horse-drawn transport, poor roads)
+- **1800s:** $\gamma \approx 3$–&#36;4$ (horse-drawn transport, poor roads)
 - **1950s:** $\gamma \approx 2$ (cars, highways, telephones)
-- **2020s:** $\gamma \approx 1$–$1.5$ (air travel, internet, remote work)
+- **2020s:** $\gamma \approx 1$–&#36;1.5$ (air travel, internet, remote work)
 
 **Interpretation:** Globalization = declining $\gamma$.
 
@@ -472,7 +472,7 @@ $$y = ax^{-\gamma}$$
 $$y = ae^{-\lambda x}$$
 
 - Straight line on **semi-log** plot: $\ln y = \ln a - \lambda x$
-- **Characteristic scale:** $1/\lambda$ is the distance where $y$ drops to $1/e \approx 37\%$
+- **Characteristic scale:** &#36;1/\lambda$ is the distance where $y$ drops to &#36;1/e \approx 37\%$
 - **Light tails** — extreme values are rare
 
 **Examples:** Radioactive decay, light attenuation, population density with distance from city center
@@ -488,10 +488,31 @@ $$y = ae^{-\lambda x}$$
 ## Summary
 
 - The **gravity model** predicts spatial interaction: $I_{ij} = k \frac{P_i P_j}{d_{ij}^\gamma}$
-- **Distance decay** exponent $\gamma$ controls sensitivity to distance ($\gamma \approx 1$–$3$)
+- **Distance decay** exponent $\gamma$ controls sensitivity to distance ($\gamma \approx 1$–&#36;3$)
 - Larger $\gamma$ → stronger distance decay (local interactions dominate)
 - Smaller $\gamma$ → weaker distance decay (globalized interactions)
 - The model applies to migration, trade, commuting, phone calls, retail choice
 - Real flows require calibration and may need corrections for borders, intervening opportunities
 - Power laws (gravity) vs. exponentials (attenuation) — different tail behaviors
 
+---
+
+## References
+
+Anderson, James E., and Eric van Wincoop. 2003. "Gravity with Gravitas: A Solution to the Border Puzzle." *American Economic Review* 93 (1): 170–192. <https://doi.org/10.1257/000282803321455214>
+
+Fotheringham, A. Stewart. 1983. "A New Set of Spatial-Interaction Models: The Theory of Competing Destinations." *Environment and Planning A* 15 (1): 15–36. <https://doi.org/10.1177/0308518X8301500103>
+
+Haynes, Kingsley E., and A. Stewart Fotheringham. 1984. *Gravity and Spatial Interaction Models*. Beverly Hills: Sage Publications. (No public URL available.)
+
+Huff, David L. 1964. "Defining and Estimating a Trading Area." *Journal of Marketing* 28 (3): 34–38. <https://doi.org/10.1177/002224296402800307>
+
+Krugman, Paul. 1991. "Increasing Returns and Economic Geography." *Journal of Political Economy* 99 (3): 483–499. <https://doi.org/10.1086/261763>
+
+Ravenstein, Ernst Georg. 1885. "The Laws of Migration." *Journal of the Statistical Society of London* 48 (2): 167–235. <https://doi.org/10.2307/2979181>
+
+Reilly, William J. 1931. *The Law of Retail Gravitation*. New York: W. J. Reilly. (No public URL available; cited in subsequent literature.)
+
+Tinbergen, Jan. 1962. "An Analysis of World Trade Flows." In *Shaping the World Economy: Suggestions for an International Economic Policy*, edited by Jan Tinbergen, 262–293. New York: Twentieth Century Fund. (No public URL available.)
+
+Wilson, Alan G. 1971. "A Family of Spatial Interaction Models, and Associated Developments." *Environment and Planning A* 3 (1): 1–32. <https://doi.org/10.1068/a030001>

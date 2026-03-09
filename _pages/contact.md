@@ -13,7 +13,7 @@ permalink: /contact/
 .contact-form textarea { resize: vertical; min-height: 140px; }
 </style>
 
-Questions about the series, corrections to an essay, or anything else — use the form below. You can also reach us on [GitHub](https://github.com/pauldhobson).
+Questions about the series, corrections to an essay, or anything else — use the form below.
 
 <form class="contact-form" action="https://formspree.io/f/xbdabrjw" method="POST">
   <input type="hidden" name="_site" value="WaywardHouse">

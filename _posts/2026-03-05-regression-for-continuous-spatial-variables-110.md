@@ -222,7 +222,7 @@ Interpretation: each 100 m of elevation adds ~8 mm yr⁻¹ of precipitation (oro
 $\hat{y} = 416 + 0.08(498) + 10.5(-0.2) = 416 + 39.8 - 2.1 = 453.7$ mm
 
 Given $\hat{\sigma} = 22$ mm from training residuals and the leverage factor for Banff ≈ 1.6:
-95% prediction interval: $453.7 \pm 2.78 \times 22 \times \sqrt{1 + 1.6/5} = 453.7 \pm 68 = [386, 521]$ mm.
+95% prediction interval: &#36;453.7 \pm 2.78 \times 22 \times \sqrt{1 + 1.6/5} = 453.7 \pm 68 = [386, 521]$ mm.
 
 ---
 

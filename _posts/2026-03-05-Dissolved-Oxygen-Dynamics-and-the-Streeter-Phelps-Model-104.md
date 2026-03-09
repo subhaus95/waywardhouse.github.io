@@ -83,13 +83,13 @@ $$L(t) = L_0 e^{-k_d t}$$
 
 where $L_0$ is the ultimate BOD at the discharge point after mixing with the river. The time $t$ here is travel time downstream: $t = x/U$ where $x$ [m] is distance downstream and $U$ [m day⁻¹] is river velocity.
 
-The **deoxygenation coefficient** $k_d$ incorporates both biodegradation ($k_r$, biochemical removal) and BOD removal by settling ($k_s$): $k_d = k_r + k_s$. Typical values: $k_d = 0.1$–$0.3$ day⁻¹ for municipal wastewater at 20°C.
+The **deoxygenation coefficient** $k_d$ incorporates both biodegradation ($k_r$, biochemical removal) and BOD removal by settling ($k_s$): $k_d = k_r + k_s$. Typical values: $k_d = 0.1$–&#36;0.3$ day⁻¹ for municipal wastewater at 20°C.
 
 **Temperature correction** (van't Hoff-Arrhenius):
 
 $$k_d(T) = k_d(20°\text{C}) \times 1.047^{(T-20)}$$
 
-A 10°C rise approximately doubles reaction rates (since $1.047^{10} \approx 1.58$ — not quite doubling, but substantially faster).
+A 10°C rise approximately doubles reaction rates (since &#36;1.047^{10} \approx 1.58$ — not quite doubling, but substantially faster).
 
 ### 3.3 Reaeration
 
@@ -103,7 +103,7 @@ The reaeration coefficient depends on stream turbulence and depth. The **O'Conno
 
 $$k_2 = 3.93 \frac{U^{0.5}}{H^{1.5}}$$
 
-where $U$ [m s⁻¹] is mean velocity and $H$ [m] is mean depth. Shallow, fast-moving mountain streams have $k_2 = 5$–$20$ day⁻¹; deep, slow rivers have $k_2 = 0.1$–$0.5$ day⁻¹.
+where $U$ [m s⁻¹] is mean velocity and $H$ [m] is mean depth. Shallow, fast-moving mountain streams have $k_2 = 5$–&#36;20$ day⁻¹; deep, slow rivers have $k_2 = 0.1$–&#36;0.5$ day⁻¹.
 
 ### 3.4 The Streeter-Phelps DO Sag Equation
 

@@ -181,33 +181,33 @@ Polygon edges: $A \to B \to C \to D \to A$
 
 **Edge 1: $A(1,1) \to B(5,2)$**
 
-Y-check: Is $1 \leq 3 < 2$? **No** (3 is not less than 2)  
+Y-check: Is &#36;1 \leq 3 < 2$? **No** (3 is not less than 2)  
 Skip this edge.
 
 **Edge 2: $B(5,2) \to C(4,5)$**
 
-Y-check: Is $2 \leq 3 < 5$? **Yes**
+Y-check: Is &#36;2 \leq 3 < 5$? **Yes**
 
 X-intersection:
 
 $$x = 5 + \frac{(3-2)(4-5)}{5-2} = 5 + \frac{1 \times (-1)}{3} = 5 - 0.33 = 4.67$$
 
-Is $4.67 > 3$? **Yes** → Count = 1
+Is &#36;4.67 > 3$? **Yes** → Count = 1
 
 **Edge 3: $C(4,5) \to D(2,4)$**
 
-Y-check: Is $4 \leq 3 < 5$? **No** (3 is not ≥ 4)  
+Y-check: Is &#36;4 \leq 3 < 5$? **No** (3 is not ≥ 4)  
 Skip this edge.
 
 **Edge 4: $D(2,4) \to A(1,1)$**
 
-Y-check: Is $1 \leq 3 < 4$? **Yes**
+Y-check: Is &#36;1 \leq 3 < 4$? **Yes**
 
 X-intersection:
 
 $$x = 2 + \frac{(3-4)(1-2)}{1-4} = 2 + \frac{(-1)(-1)}{-3} = 2 + \frac{1}{-3} = 2 - 0.33 = 1.67$$
 
-Is $1.67 > 3$? **No** (intersection is to the left)  
+Is &#36;1.67 > 3$? **No** (intersection is to the left)  
 Don't count.
 
 **Final count: 1 (odd) → Point is INSIDE**
@@ -668,8 +668,8 @@ $$x = x_1 + \frac{y_p - y_1}{y_2 - y_1}(x_2 - x_1)$$
 Two edges meet at $(0, 10)$.
 
 If we use $\leq$ for both endpoints:
-- First edge: $0 \leq y_p \leq 10$ → counts crossing at $y_p = 10$
-- Second edge: $10 \leq y_p \leq 20$ → counts crossing at $y_p = 10$
+- First edge: &#36;0 \leq y_p \leq 10$ → counts crossing at $y_p = 10$
+- Second edge: &#36;10 \leq y_p \leq 20$ → counts crossing at $y_p = 10$
 
 **Double counting!** Same vertex counted twice.
 

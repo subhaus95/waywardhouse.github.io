@@ -75,15 +75,15 @@ The total penalty for an Athabasca oil sands producer relative to a Permian Basi
 
 $$\text{Total Penalty} = \Delta_q + T_{\text{Athabasca}} - T_{\text{Permian}} + \Phi_{\text{Athabasca}}$$
 
-$$\approx \$14 + (\$8 - \$3.50) + \$2 \approx \$20.50/\text{bbl}$$
+$$\approx \&#36;14 + (\&#36;8 - \&#36;3.50) + \&#36;2 \approx \&#36;20.50/\text{bbl}$$
 
-This $20.50/bbl penalty is the price of geography and geology. Of that total, roughly $14 is geology (quality penalty), $4.50 is geography (transport differential), and $2 is infrastructure constraint (excess basis). Policy can address the infrastructure component and partially the transport component (by adding alternative export routes). It cannot address the quality penalty — that is determined by the physics of the deposit.
+This &#36;20.50/bbl penalty is the price of geography and geology. Of that total, roughly &#36;14 is geology (quality penalty), &#36;4.50 is geography (transport differential), and &#36;2 is infrastructure constraint (excess basis). Policy can address the infrastructure component and partially the transport component (by adding alternative export routes). It cannot address the quality penalty — that is determined by the physics of the deposit.
 
 ## Scenario Analysis: Alberta's Wellhead Netback 2025–2030
 
 The scenario analysis varies two dimensions:
 1. **Infrastructure outcome** — how much new export capacity is built and when
-2. **WTI price path** — held roughly constant at $70–75/bbl to isolate the infrastructure effect
+2. **WTI price path** — held roughly constant at &#36;70–75/bbl to isolate the infrastructure effect
 
 **Scenario 1 — New Export Routes:** Trans Mountain Expansion running at full capacity (890,000 bbl/day), LNG Canada Phase 1 at 1.8 Bcf/day, and completion of Coastal GasLink. This opens substantial new West Coast market access, reducing both pipeline constraints and basis differentials.
 
@@ -94,9 +94,9 @@ The scenario analysis varies two dimensions:
 <div data-viz="echarts" data-options='{"title": {"text": "Alberta Wellhead Netback: Three Infrastructure Scenarios 2015–2030", "subtext": "USD/bbl — WTI benchmark and three netback trajectories by infrastructure scenario"}, "tooltip": {"trigger": "axis"}, "legend": {"data": ["WTI Benchmark", "Netback (Scenario 1: New Routes)", "Netback (Scenario 2: Status Quo)", "Netback (Scenario 3: Stress)"], "bottom": 0}, "xAxis": {"type": "category", "data": ["2015","2016","2017","2018","2019","2020","2021","2022","2023","2024","2025","2026","2027","2028","2029","2030"]}, "yAxis": {"type": "value", "name": "USD/bbl", "min": 0, "max": 100}, "series": [{"name": "WTI Benchmark", "type": "line", "smooth": true, "data": [49, 43, 51, 65, 57, 40, 68, 95, 77, 75, 73, 72, 71, 70, 70, 69], "lineStyle": {"width": 3}, "itemStyle": {"color": "#5470c6"}}, {"name": "Netback (Scenario 1: New Routes)", "type": "line", "smooth": true, "data": [25, 20, 28, 32, 34, 20, 44, 68, 52, 52, 55, 57, 59, 59, 59, 58], "lineStyle": {"width": 2, "type": "solid"}, "itemStyle": {"color": "#91cc75"}, "areaStyle": {"opacity": 0.1}}, {"name": "Netback (Scenario 2: Status Quo)", "type": "line", "smooth": true, "data": [25, 20, 28, 28, 33, 20, 44, 68, 52, 50, 51, 52, 53, 53, 53, 52], "lineStyle": {"width": 2, "type": "dashed"}, "itemStyle": {"color": "#fac858"}}, {"name": "Netback (Scenario 3: Stress)", "type": "line", "smooth": true, "data": [25, 20, 28, 17, 33, 20, 44, 68, 52, 50, 43, 38, 48, 50, 52, 52], "lineStyle": {"width": 2, "type": "dotted"}, "itemStyle": {"color": "#ee6666"}}]}'>
 </div>
 
-The three scenarios diverge in 2025–2027 — the critical window for Trans Mountain ramp-up and LNG Canada commissioning. In Scenario 1, the netback gap between WTI and the Alberta wellhead narrows from ~$23/bbl to ~$11/bbl as new export routes open and the basis differential compresses. In Scenario 3, the stress case, the netback drops to $38/bbl in 2026 — barely above full-cycle break-even for oil sands mining — before recovering as the disruption clears.
+The three scenarios diverge in 2025–2027 — the critical window for Trans Mountain ramp-up and LNG Canada commissioning. In Scenario 1, the netback gap between WTI and the Alberta wellhead narrows from ~&#36;23/bbl to ~&#36;11/bbl as new export routes open and the basis differential compresses. In Scenario 3, the stress case, the netback drops to &#36;38/bbl in 2026 — barely above full-cycle break-even for oil sands mining — before recovering as the disruption clears.
 
-The difference between Scenario 1 and Scenario 2 over the 2025–2030 period represents approximately $4–6/bbl additional netback for Alberta producers from new infrastructure. At roughly 1.4 million barrels per day of oil sands production, that is $2.0–$3.1 billion per year in additional producer revenue — and at a 12% royalty rate, $240–$370 million per year in additional government royalties. The infrastructure investment pays off in captured rent, not just in producer margins.
+The difference between Scenario 1 and Scenario 2 over the 2025–2030 period represents approximately &#36;4–6/bbl additional netback for Alberta producers from new infrastructure. At roughly 1.4 million barrels per day of oil sands production, that is &#36;2.0–&#36;3.1 billion per year in additional producer revenue — and at a 12% royalty rate, &#36;240–&#36;370 million per year in additional government royalties. The infrastructure investment pays off in captured rent, not just in producer margins.
 
 ## The Heatmap Price Surface
 
@@ -107,13 +107,13 @@ The price surface concept can be visualised as a heatmap across producing region
 
 The heatmap makes the geography of price explicit. At every WTI scenario, Alberta oil sands producers receive the lowest netback of any major producing region — not because they are inefficient, but because the price surface dips deepest at their location. The Permian Basin and North Sea producers receive 85–92% of their relevant benchmark at the wellhead. Alberta oil sands producers receive 55–70%, depending on the price level and infrastructure scenario.
 
-The Peace River row is instructive: at $50 WTI, the netback ($8/bbl) is below the operating cost threshold for most Peace River projects — these deposits are effectively uneconomic at low prices and remain on the supply cost curve's unproduced segment. This is the supply cost curve from the RE cluster made spatial: different parts of Alberta's resource base activate at different price levels.
+The Peace River row is instructive: at &#36;50 WTI, the netback (&#36;8/bbl) is below the operating cost threshold for most Peace River projects — these deposits are effectively uneconomic at low prices and remain on the supply cost curve's unproduced segment. This is the supply cost curve from the RE cluster made spatial: different parts of Alberta's resource base activate at different price levels.
 
 ## The Pipeline Network as Price Geography
 
 The Leaflet map shows the key price formation nodes in the Western Canadian sedimentary basin corridor — the physical geography that underlies the price surface.
 
-<div data-leaflet data-lat="53.0" data-lng="-108.0" data-zoom="4" data-tiles="carto-dark" data-markers='[{"lat":56.7,"lng":-111.4,"label":"Hardisty, AB — WCS price formation point, pipeline junction. Basis differential vs Cushing: ~$14-20/bbl"},{"lat":35.8,"lng":-96.0,"label":"Cushing, OK — WTI delivery hub, NYMEX settlement. The global benchmark anchor."},{"lat":29.7,"lng":-95.3,"label":"Gulf Coast, TX — Primary US refinery market for WCS. Motiva, Valero heavy crude capacity."},{"lat":49.2,"lng":-122.9,"label":"Westridge Marine Terminal, BC — Trans Mountain expansion terminus. New tidewater access."},{"lat":54.0,"lng":-128.6,"label":"Kitimat, BC — LNG Canada Phase 1. 1.8 Bcf/day capacity, Pacific Basin access."},{"lat":51.0,"lng":-114.0,"label":"Calgary, AB — Corporate HQ, commodity trading desks. Where hedging decisions are made."},{"lat":49.9,"lng":-97.1,"label":"Winnipeg / Brandon region — Enbridge mainline corridor. Key transit node eastbound."}]'>
+<div data-leaflet data-lat="53.0" data-lng="-108.0" data-zoom="4" data-tiles="carto-dark" data-markers='[{"lat":56.7,"lng":-111.4,"label":"Hardisty, AB — WCS price formation point, pipeline junction. Basis differential vs Cushing: ~&#36;14-20/bbl"},{"lat":35.8,"lng":-96.0,"label":"Cushing, OK — WTI delivery hub, NYMEX settlement. The global benchmark anchor."},{"lat":29.7,"lng":-95.3,"label":"Gulf Coast, TX — Primary US refinery market for WCS. Motiva, Valero heavy crude capacity."},{"lat":49.2,"lng":-122.9,"label":"Westridge Marine Terminal, BC — Trans Mountain expansion terminus. New tidewater access."},{"lat":54.0,"lng":-128.6,"label":"Kitimat, BC — LNG Canada Phase 1. 1.8 Bcf/day capacity, Pacific Basin access."},{"lat":51.0,"lng":-114.0,"label":"Calgary, AB — Corporate HQ, commodity trading desks. Where hedging decisions are made."},{"lat":49.9,"lng":-97.1,"label":"Winnipeg / Brandon region — Enbridge mainline corridor. Key transit node eastbound."}]'>
 </div>
 
 The map reveals the structural geometry of Alberta's price problem. Hardisty is the price formation point — WCS is priced there, reflecting transport costs to Cushing in the east, to the Gulf Coast via Enbridge, and to tidewater via Trans Mountain. Every route has a tariff, and every tariff subtracts from the Hardisty price.
@@ -163,3 +163,23 @@ The reader who has worked through all five clusters has a toolkit for quantitati
 ---
 
 **This completes Cluster MK — Markets and Price Formation.** The cluster reads in sequence: Model 21 (commodity price formation) → Model 22 (spatial arbitrage) → Model 23 (futures as geographic instruments) → Model 24 (price volatility) → Model 25 (integrated price system). Together with the four prior clusters, it forms a complete quantitative treatment of how geography, infrastructure, and markets interact to determine economic outcomes in resource-dependent regions.
+
+## References
+
+Canada Energy Regulator. 2024. "Crude Oil Price Differential." Government of Canada. <https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/crude-oil-petroleum-products/crude-oil-price-differential/>
+
+CME Group. 2025. "Light Sweet Crude Oil (WTI) Futures." NYMEX. <https://www.cmegroup.com/markets/energy/crude-oil/light-sweet-crude.html>
+
+Hotelling, Harold. 1931. "The Economics of Exhaustible Resources." *Journal of Political Economy* 39 (2): 137–175. <https://doi.org/10.1086/254195>
+
+ICE Futures Europe. 2025. "Brent Crude Futures." Intercontinental Exchange. <https://www.ice.com/products/219/Brent-Crude-Futures>
+
+International Energy Agency. 2023. *World Energy Outlook 2023*. Paris: IEA. <https://www.iea.org/reports/world-energy-outlook-2023>
+
+LNG Canada. 2024. "Project Overview." LNG Canada Development Inc. <https://www.lngcanada.ca/project/>
+
+Samuelson, Paul A. 1952. "Spatial Price Equilibrium and Linear Programming." *American Economic Review* 42 (3): 283–303. <https://www.jstor.org/stable/1907862>
+
+Trans Mountain Corporation. 2024. "Trans Mountain Expansion Project." Trans Mountain Corporation. <https://www.transmountain.com/expansion-project>
+
+World Bank. 2025. "Commodity Markets (Pink Sheet)." World Bank Group. <https://www.worldbank.org/en/research/commodity-markets>

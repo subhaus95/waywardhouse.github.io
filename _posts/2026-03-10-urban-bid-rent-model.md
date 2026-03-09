@@ -101,7 +101,7 @@ The bid-rent function is linear in the simplest case, though in more realistic f
 
 The bid-rent gradient is clearly visible in Canadian metropolitan areas, though each city has its own character.
 
-**Toronto** has the steepest gradient of any Canadian city. Commercial rents in the Bay-King financial district exceed $\$1{,}000$ per square metre annually; class-A office rents in Scarborough or Mississauga are below $\$300$. The gradient steepened after the 2000s as downtown employment concentrated in financial services and technology, increasing the value of central proximity.
+**Toronto** has the steepest gradient of any Canadian city. Commercial rents in the Bay-King financial district exceed $\&#36;1{,}000$ per square metre annually; class-A office rents in Scarborough or Mississauga are below $\&#36;300$. The gradient steepened after the 2000s as downtown employment concentrated in financial services and technology, increasing the value of central proximity.
 
 **Vancouver** has a compressed spatial structure imposed by geography — mountains to the north, ocean to the west, the US border to the south. Land scarcity amplifies the bid-rent mechanism: even small differences in centrality are capitalised into large rent differences. Metro Vancouver's rent gradient is steep and shows relatively little flattening at the fringe because the fringe is geographically constrained.
 
@@ -211,3 +211,17 @@ Understanding bid-rent also clarifies the distributional stakes of transit inves
 ---
 
 Next in this cluster: **Agglomeration Economies** (Model 12) examines why firms cluster in the first place — the productivity benefits that make central locations worth bidding for — and quantifies the wage premium that density generates.
+
+## References
+
+Alonso, William. 1964. *Location and Land Use: Toward a General Theory of Land Rent*. Cambridge, MA: Harvard University Press. <https://doi.org/10.4159/harvard.9780674730854>
+
+Clark, Colin. 1951. "Urban Population Densities." *Journal of the Royal Statistical Society*, Series A (General), 114 (4): 490–496. <https://doi.org/10.2307/2981088>
+
+Marshall, Alfred. 1890. *Principles of Economics*. London: Macmillan. <https://www.marxists.org/reference/subject/economics/marshall/>
+
+Mills, Edwin S. 1967. "An Aggregative Model of Resource Allocation in a Metropolitan Area." *American Economic Review* 57 (2): 197–210. (no public URL available)
+
+Muth, Richard F. 1969. *Cities and Housing: The Spatial Pattern of Urban Residential Land Use*. Chicago: University of Chicago Press. (no public URL available)
+
+Thünen, Johann Heinrich von. 1826. *Der Isolierte Staat in Beziehung auf Landwirtschaft und Nationalökonomie*. Hamburg: Perthes. English translation: *Von Thünen's Isolated State*, translated by Carla M. Wartenberg (Oxford: Pergamon Press, 1966). (no public URL available for original)

@@ -124,7 +124,7 @@ $$\Pr(\text{pop} > P) = \left(\frac{P_{\min}}{P}\right)^\alpha$$
 
 **Why does $\alpha \approx 1$?** Several mechanisms produce Zipf's law, including: random proportional growth (Gibrat's rule — cities grow at random rates proportional to current size), maximum entropy subject to constraints, and self-organised criticality in settlement systems. No single mechanism is universally accepted; Zipf's law is empirically robust but theoretically contested.
 
-**Canadian city sizes:** For Canada's Census Metropolitan Areas, the rank-size rule applies approximately with $\alpha \approx 0.95$: Toronto (~6.2M), Montreal (~4.3M), Vancouver (~2.7M), Ottawa-Gatineau (~1.4M), Calgary (~1.3M). The ratio between ranks 1 and 5 is $6.2/1.3 = 4.8 \approx 5^{0.95}$, confirming near-Zipf behaviour.
+**Canadian city sizes:** For Canada's Census Metropolitan Areas, the rank-size rule applies approximately with $\alpha \approx 0.95$: Toronto (~6.2M), Montreal (~4.3M), Vancouver (~2.7M), Ottawa-Gatineau (~1.4M), Calgary (~1.3M). The ratio between ranks 1 and 5 is &#36;6.2/1.3 = 4.8 \approx 5^{0.95}$, confirming near-Zipf behaviour.
 
 ### 3.3 Infrastructure Scaling and the 2D Network Geometry Argument
 
@@ -136,7 +136,7 @@ If density $\rho$ and walking distance $\ell$ are approximately constant across 
 
 $$L_{\text{road}} \sim N / N^{1/3} = N^{2/3}$$
 
-Sublinear scaling with exponent $2/3 \approx 0.67$. The empirical exponent $\beta \approx 0.83$ is between $2/3$ and 1, consistent with partial density increase — cities do get denser as they grow, but not as fast as the idealised 2D geometric argument predicts.
+Sublinear scaling with exponent &#36;2/3 \approx 0.67$. The empirical exponent $\beta \approx 0.83$ is between &#36;2/3$ and 1, consistent with partial density increase — cities do get denser as they grow, but not as fast as the idealised 2D geometric argument predicts.
 
 ### 3.4 Superlinear Scaling and Social Interactions
 
@@ -148,7 +148,7 @@ $$I = \int_0^R \int_0^R \rho^2 f(d_{ij}) \cdot 2\pi r \, dr \, dr'$$
 
 where $f(d_{ij})$ is the probability of interaction at distance $d_{ij}$. If $f(d) \propto d^{-\mu}$ (power-law decay), the total interaction scales as $N^\beta$ with $\beta > 1$ — the exact exponent depending on the geometry, density profile, and distance decay.
 
-Bettencourt (2013) shows analytically that the scaling exponent $\beta = (D+1)/D$ where $D$ is the effective spatial dimension of the urban interaction network. For $D = 2$ (planar city): $\beta = 3/2$. For $D$ between 2 and 3 (accounting for 3D building structure): $\beta \approx 1.1$–$1.2$, consistent with observed exponents.
+Bettencourt (2013) shows analytically that the scaling exponent $\beta = (D+1)/D$ where $D$ is the effective spatial dimension of the urban interaction network. For $D = 2$ (planar city): $\beta = 3/2$. For $D$ between 2 and 3 (accounting for 3D building structure): $\beta \approx 1.1$–&#36;1.2$, consistent with observed exponents.
 
 ### 3.5 The Von Thünen Land Rent Gradient
 
@@ -183,7 +183,7 @@ At distances $d < d^*$: commercial rent exceeds residential, so commercial use p
 
 $$R(d) = R_0 e^{-\gamma d}$$
 
-where $R_0$ is the central land rent and $\gamma$ [km⁻¹] is the rent gradient. Taking logs: $\ln R(d) = \ln R_0 - \gamma d$ — a semilog linear relationship. Typical values: $\gamma \approx 0.1$–$0.3$ km⁻¹ for North American cities, meaning rent declines by $10$–$30\%$ per kilometre from the CBD.
+where $R_0$ is the central land rent and $\gamma$ [km⁻¹] is the rent gradient. Taking logs: $\ln R(d) = \ln R_0 - \gamma d$ — a semilog linear relationship. Typical values: $\gamma \approx 0.1$–&#36;0.3$ km⁻¹ for North American cities, meaning rent declines by &#36;10$–&#36;30\%$ per kilometre from the CBD.
 
 ---
 
@@ -339,7 +339,7 @@ The von Thünen model predicts a monocentric city with concentric land use rings
 
 ## 9. Summary
 
-Cities exhibit systematic power law scaling relationships between size and urban quantities. Infrastructure scales sublinearly ($\beta \approx 0.85$) — larger cities provide infrastructure more efficiently per capita. Socioeconomic outputs (GDP, patents, wages) scale superlinearly ($\beta \approx 1.1$–$1.3$) — larger cities generate disproportionately more economic and social activity through denser interaction networks.
+Cities exhibit systematic power law scaling relationships between size and urban quantities. Infrastructure scales sublinearly ($\beta \approx 0.85$) — larger cities provide infrastructure more efficiently per capita. Socioeconomic outputs (GDP, patents, wages) scale superlinearly ($\beta \approx 1.1$–&#36;1.3$) — larger cities generate disproportionately more economic and social activity through denser interaction networks.
 
 Zipf's law states that the rank-size distribution of cities follows a power law with exponent near 1, producing a straight line on a log-log rank-population plot. The von Thünen model explains the internal spatial structure of the city: land uses with steep bid rent gradients (commercial) occupy the centre; those with shallow gradients (industrial, agricultural) are pushed to the periphery. The CBD boundary occurs where the commercial and residential bid rent curves cross.
 
@@ -359,4 +359,4 @@ $$d^* = (a_c - a_r)/(b_c - b_r) \quad \text{[CBD boundary]}$$
 
 **Power laws and log-log plots.** If $Y = Y_0 N^\beta$, then $\log Y = \log Y_0 + \beta \log N$ — a straight line on a log-log plot. The slope is the exponent $\beta$ and the intercept is $\log Y_0$. This is why log-log plots are the diagnostic tool for power laws: any deviation from a straight line on a log-log plot indicates a departure from power-law behaviour. In particular, an exponential relationship $Y = Y_0 e^{\lambda N}$ would appear as a curve curving upward on a log-log plot (since $\log Y = \log Y_0 + \lambda N / \ln 10$ is linear in $N$, not $\log N$).
 
-**The difference between superlinear scaling and exponential growth.** A superlinear power law $Y \sim N^{1.15}$ says larger cities are proportionally more productive — but the ratio $Y/N \sim N^{0.15}$ grows only slowly with city size. Doubling city size increases per-capita output by $2^{0.15} - 1 = 11\%$. This is modest but cumulative: a city 10× larger produces $10^{0.15} - 1 = 41\%$ more per capita. Exponential growth in time would imply no saturation — cities that grow forever become arbitrarily productive. The power law implies a steady scaling advantage of size but not unbounded acceleration.
+**The difference between superlinear scaling and exponential growth.** A superlinear power law $Y \sim N^{1.15}$ says larger cities are proportionally more productive — but the ratio $Y/N \sim N^{0.15}$ grows only slowly with city size. Doubling city size increases per-capita output by &#36;2^{0.15} - 1 = 11\%$. This is modest but cumulative: a city 10× larger produces &#36;10^{0.15} - 1 = 41\%$ more per capita. Exponential growth in time would imply no saturation — cities that grow forever become arbitrarily productive. The power law implies a steady scaling advantage of size but not unbounded acceleration.

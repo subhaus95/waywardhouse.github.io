@@ -129,7 +129,7 @@ $$|\Delta_i| > T_i$$
 - **Statistical:** $T = k\sigma$ where $\sigma$ = standard deviation of $\Delta_i$ over stable areas
 - **Adaptive:** Vary spatially based on local variance
 
-**Typical:** $T = 2\sigma$ or $3\sigma$ (95% or 99.7% confidence)
+**Typical:** $T = 2\sigma$ or &#36;3\sigma$ (95% or 99.7% confidence)
 
 ### NDVI Change Detection
 
@@ -625,7 +625,7 @@ Result: ΔNDVI < 0 everywhere (false change!)
 
 If each classification is 90% accurate:
 
-**Overall accuracy** of change detection ≈ $0.9 \times 0.9 = 81\%$
+**Overall accuracy** of change detection ≈ &#36;0.9 \times 0.9 = 81\%$
 
 **Errors compound!**
 

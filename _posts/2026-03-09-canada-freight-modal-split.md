@@ -66,11 +66,11 @@ Canadian commodity exporters, and the distributional effects of trade policy.
 
 ### Truck: high variable, low terminal
 
-Long-haul truckload (TL) transport in Canada costs approximately CAD$0.12 to
-$0.18 per tonne-kilometre for full-truckload moves. The cost structure is
+Long-haul truckload (TL) transport in Canada costs approximately CAD&#36;0.12 to
+&#36;0.18 per tonne-kilometre for full-truckload moves. The cost structure is
 dominated by driver wages, fuel, and insurance — all of which scale with distance.
 Terminal costs (loading, unloading, staging) are relatively low for truckload
-moves, typically CAD$40 to $70 per truckload at each end of the journey.
+moves, typically CAD&#36;40 to &#36;70 per truckload at each end of the journey.
 
 Trucking's competitive advantages are service frequency (a truck can move as
 soon as it is loaded, without waiting for a train assembly schedule), flexibility
@@ -82,15 +82,15 @@ uncompetitive with rail beyond a threshold distance for most commodity classes.
 
 ### Rail: low variable, high terminal
 
-Rail freight costs approximately CAD$0.03 to $0.05 per tonne-kilometre for bulk
-carload traffic, and CAD$0.05 to $0.08 per tonne-kilometre for intermodal
+Rail freight costs approximately CAD&#36;0.03 to &#36;0.05 per tonne-kilometre for bulk
+carload traffic, and CAD&#36;0.05 to &#36;0.08 per tonne-kilometre for intermodal
 containers. The cost structure is the inverse of trucking: variable costs are
 low (rail is highly energy-efficient, with a typical locomotive hauling 400-500
 truckload equivalents at a fraction of the fuel cost per tonne-kilometre), but
 terminal costs are substantial. Loading a bulk commodity into a rail car at
 origin, moving the car to the yard, assembling the train, and then unloading
 at destination involves several days of terminal handling and costs
-CAD$80 to $120 per carload at each end.
+CAD&#36;80 to &#36;120 per carload at each end.
 
 Rail's competitive advantages are cost efficiency at long distances and high
 volume, making it the natural mode for Prairie grain, potash, coal, and forest
@@ -104,7 +104,7 @@ destinations).
 ### Marine: minimal variable, high terminal
 
 Marine transport on the Great Lakes and coastal routes costs approximately
-CAD$0.01 to $0.03 per tonne-kilometre — the lowest variable cost of any surface
+CAD&#36;0.01 to &#36;0.03 per tonne-kilometre — the lowest variable cost of any surface
 mode. A bulk vessel operating on the Great Lakes can move several thousand tonnes
 at extraordinary fuel efficiency. The catch is terminal cost and time: loading
 a bulk vessel, moving it through the Seaway locks, and discharging at destination
@@ -119,7 +119,7 @@ are almost never moved by marine on domestic routes.
 
 ### Air and pipeline
 
-Air freight costs approximately CAD$2.50 to $5.00 per tonne-kilometre —
+Air freight costs approximately CAD&#36;2.50 to &#36;5.00 per tonne-kilometre —
 two to three orders of magnitude above rail. It is viable only for very high
 value-to-weight goods (pharmaceuticals, electronics, luxury goods) where the
 time saving justifies the cost premium.
@@ -152,30 +152,30 @@ $$IIT = \frac{\text{commodity value} \times \text{annual interest rate} \times \
 
 ### Two worked examples
 
-Consider a tonne of electronics valued at CAD$50,000, moving from Calgary to
+Consider a tonne of electronics valued at CAD&#36;50,000, moving from Calgary to
 Toronto — a distance of approximately 3,400 kilometres — at an annual interest
 rate of 8%.
 
-- **By truck** (2-day transit): $IIT = \$50,000 \times 0.08 \times 2 / 365 = \$21.92$/tonne
-- **By rail** (4-day transit): $IIT = \$50,000 \times 0.08 \times 4 / 365 = \$43.84$/tonne
-- **IIT difference**: CAD$21.92 per tonne in favour of truck.
+- **By truck** (2-day transit): $IIT = \&#36;50,000 \times 0.08 \times 2 / 365 = \&#36;21.92$/tonne
+- **By rail** (4-day transit): $IIT = \&#36;50,000 \times 0.08 \times 4 / 365 = \&#36;43.84$/tonne
+- **IIT difference**: CAD&#36;21.92 per tonne in favour of truck.
 
-But the freight rate difference is much larger. At $0.14/tonne-km by truck and
-$0.065/tonne-km by rail over 3,400 km:
+But the freight rate difference is much larger. At &#36;0.14/tonne-km by truck and
+&#36;0.065/tonne-km by rail over 3,400 km:
 
-- **Truck freight rate**: $0.14 \times 3400 = \$476$/tonne
-- **Rail freight rate**: $0.065 \times 3400 = \$221$/tonne
-- **Freight rate difference**: CAD$255 per tonne in favour of rail.
+- **Truck freight rate**: &#36;0.14 \times 3400 = \&#36;476$/tonne
+- **Rail freight rate**: &#36;0.065 \times 3400 = \&#36;221$/tonne
+- **Freight rate difference**: CAD&#36;255 per tonne in favour of rail.
 
-Net of IIT, rail wins by approximately CAD$233 per tonne. Even for moderately
+Net of IIT, rail wins by approximately CAD&#36;233 per tonne. Even for moderately
 valuable electronics, rail is clearly cheaper for transcontinental distances.
 
-Now consider a tonne of fresh produce valued at CAD$2,000, with the same
+Now consider a tonne of fresh produce valued at CAD&#36;2,000, with the same
 route and interest rate:
 
-- **Truck IIT**: $\$2,000 \times 0.08 \times 2 / 365 = \$0.88$/tonne
-- **Rail IIT**: $\$2,000 \times 0.08 \times 4 / 365 = \$1.75$/tonne
-- **IIT difference**: CAD$0.87 per tonne — essentially negligible.
+- **Truck IIT**: $\&#36;2,000 \times 0.08 \times 2 / 365 = \&#36;0.88$/tonne
+- **Rail IIT**: $\&#36;2,000 \times 0.08 \times 4 / 365 = \&#36;1.75$/tonne
+- **IIT difference**: CAD&#36;0.87 per tonne — essentially negligible.
 
 For perishables, transit time and reliability matter for quality reasons, not
 capital cost reasons. Rail's 4-day transit creates spoilage risk, not financial
@@ -209,14 +209,14 @@ the freight rate premium.
   }]
 }'></div>
 
-*Air freight is three orders of magnitude more expensive than ocean marine. Rail bulk at CAD$0.04/tonne-km is roughly 3x more expensive than coastal marine, but rail can reach inland origins and destinations where marine cannot. The log scale is necessary to display this range.*
+*Air freight is three orders of magnitude more expensive than ocean marine. Rail bulk at CAD&#36;0.04/tonne-km is roughly 3x more expensive than coastal marine, but rail can reach inland origins and destinations where marine cannot. The log scale is necessary to display this range.*
 
 ---
 
 ## 5. Break-Even Distance Analysis
 
 <div data-viz="echarts" style="height:380px" data-options='{
-  "title": {"text": "Total Logistics Cost vs Distance — Mode Comparison", "subtext": "Includes terminal handling costs. Truck base = CAD$50 terminal; Rail = CAD$80 terminal; Marine = CAD$120 terminal.", "left": "center"},
+  "title": {"text": "Total Logistics Cost vs Distance — Mode Comparison", "subtext": "Includes terminal handling costs. Truck base = CAD&#36;50 terminal; Rail = CAD&#36;80 terminal; Marine = CAD&#36;120 terminal.", "left": "center"},
   "tooltip": {"trigger": "axis"},
   "legend": {"data": ["Truck (TL)", "Rail (intermodal)", "Marine"], "bottom": 0},
   "grid": {"left": "3%", "right": "4%", "bottom": "12%", "containLabel": true},

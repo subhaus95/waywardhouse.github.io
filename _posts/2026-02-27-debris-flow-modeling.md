@@ -59,7 +59,7 @@ A debris flow starts on this steep slope—where will it stop, and what will it 
 - Glacier outburst (GLOF → debris flow)
 
 **Recent examples:**
-- 2022: Montecito, California (23 deaths, $1.8 billion damage)
+- 2022: Montecito, California (23 deaths, &#36;1.8 billion damage)
 - 2017: Sierra Leone (1,000+ deaths)
 - 2013: Uttarakhand, India (5,000+ deaths)
 - 2010: Zhouqu, China (1,500+ deaths)
@@ -243,7 +243,7 @@ Fan starts at 1200 m elevation (800m drop from 2000m).
 
 Fan slope: 5°
 
-Vertical drop on fan: $800 - (3756 \times \tan(5°)) = 800 - 329 = 471$ m
+Vertical drop on fan: &#36;800 - (3756 \times \tan(5°)) = 800 - 329 = 471$ m
 
 Actually, let me recalculate this properly:
 

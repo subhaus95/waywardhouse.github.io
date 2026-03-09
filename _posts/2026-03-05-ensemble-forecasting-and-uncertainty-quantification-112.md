@@ -195,7 +195,7 @@ fitting $(a, b, c, d)$ by minimising the continuous ranked probability score (CR
 
 **Setting:** 10-member ensemble temperature forecast for Edmonton, verified against observations over 20 cases. Ensemble spread averages 2.4°C; RMSE of ensemble mean averages 3.1°C.
 
-**Spread-skill ratio:** $3.1/2.4 = 1.29$ — ensemble is moderately under-dispersive (too confident). A spread-skill ratio of 1.29 means the ensemble needs to be inflated by about 29% to be calibrated.
+**Spread-skill ratio:** &#36;3.1/2.4 = 1.29$ — ensemble is moderately under-dispersive (too confident). A spread-skill ratio of 1.29 means the ensemble needs to be inflated by about 29% to be calibrated.
 
 **Rank histogram:** In 20 cases, observed temperatures fall in these ranks (1 = below all members, 11 = above all members):
 
@@ -203,7 +203,7 @@ Ranks: [11, 1, 9, 8, 11, 3, 10, 11, 2, 7, 11, 6, 10, 11, 4, 9, 11, 2, 8, 11]
 
 Count by rank: rank 1 → 2, rank 2 → 2, rank 3 → 1, rank 4 → 1, rank 5 → 0, rank 6 → 1, rank 7 → 1, rank 8 → 2, rank 9 → 2, rank 10 → 2, rank 11 → 6
 
-Expected count (uniform): $20/11 = 1.82$. Actual: rank 11 has 6 observations — far more than expected. This right-skewed, U-tailed histogram indicates the ensemble is both biased (too cold) and under-dispersive. The observation falls above all members 30% of the time — strong evidence of a warm bias or insufficient ensemble spread.
+Expected count (uniform): &#36;20/11 = 1.82$. Actual: rank 11 has 6 observations — far more than expected. This right-skewed, U-tailed histogram indicates the ensemble is both biased (too cold) and under-dispersive. The observation falls above all members 30% of the time — strong evidence of a warm bias or insufficient ensemble spread.
 
 ---
 

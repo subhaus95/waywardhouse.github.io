@@ -609,9 +609,9 @@ Lake level rising + dam deformation → evacuate!
 - Communication systems
 
 **Cost-benefit:**
-- Lake lowering: $1-10 million
+- Lake lowering: &#36;1-10 million
 - Lives saved: 100s-1000s
-- Infrastructure protected: $10s-100s millions
+- Infrastructure protected: &#36;10s-100s millions
 
 ### Climate Change Impacts
 

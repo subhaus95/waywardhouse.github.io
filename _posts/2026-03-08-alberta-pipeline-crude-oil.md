@@ -200,12 +200,12 @@ oil per year through a single pipeline.
 
 **Step 3 — Express in economic terms:**
 
-At a typical WTI price of USD $75/bbl and a heavy crude discount of USD $15/bbl
+At a typical WTI price of USD &#36;75/bbl and a heavy crude discount of USD &#36;15/bbl
 (Canadian Heavy Differential), the crude moving through Line 3 at full capacity
 has a destination market value of:
 
 $$V_{\text{economic}} = 277.4 \times 10^6 \text{ bbl} \times \$(75 - 15)$$
-$$V_{\text{economic}} = 277.4 \times 10^6 \times \$60 \approx \$16.6 \text{ billion USD/yr}$$
+$$V_{\text{economic}} = 277.4 \times 10^6 \times \&#36;60 \approx \&#36;16.6 \text{ billion USD/yr}$$
 
 This is the market value of one pipeline's throughput at one point in time.
 Line 3 is the largest single line; Enbridge's Mainline system comprises six
@@ -465,7 +465,7 @@ class PipelineNetwork:
             print(f"  {s.name:<30} {s.capacity_bbl_d:>10,} "
                   f"{s.utilization_pct:>6.0f}% {dp:>10.1f} {pumps:>6}")
 
-        print(f"\n  Annual revenue (WTI $75, -$14 quality adj):")
+        print(f"\n  Annual revenue (WTI &#36;75, -&#36;14 quality adj):")
         rev = self.market_revenue_usd(75.0)
         print(f"    ≈ USD ${rev/1e9:.1f} billion/year")
 
@@ -588,7 +588,7 @@ network.report()
 ### Figure 4 — Netback Price Sensitivity: Market Access Value
 
 <div data-viz="echarts" style="height:380px" data-options='{
-  "title": {"text": "Netback Price by Market Destination", "subtext": "CAD/bbl — WTI at $75 USD, exchange rate 0.73, illustrative tariffs", "left": "center"},
+  "title": {"text": "Netback Price by Market Destination", "subtext": "CAD/bbl — WTI at &#36;75 USD, exchange rate 0.73, illustrative tariffs", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "grid": {"left": "3%", "right": "8%", "bottom": "8%", "containLabel": true},
   "xAxis": {"type": "value", "name": "Netback (CAD/bbl)", "min": 60},
@@ -634,10 +634,10 @@ premiums and different heavy crude benchmarks produce meaningfully higher
 netbacks than U.S. Midwest destinations dominated by WTI pricing.
 
 The netback calculation in Figure 4 illustrates the spread: at the
-assumptions shown (WTI $75 USD, CAD/USD 0.73), the differential between
+assumptions shown (WTI &#36;75 USD, CAD/USD 0.73), the differential between
 an Asia-Pacific shipment via Westridge and a typical Enbridge Mainline
-destination is roughly **CAD $9–10/bbl**. On 890,000 bbl/d, that is
-approximately **CAD $3 billion per year** in additional producer revenue —
+destination is roughly **CAD &#36;9–10/bbl**. On 890,000 bbl/d, that is
+approximately **CAD &#36;3 billion per year** in additional producer revenue —
 if the capacity is fully utilized and Asian refiners continue to value
 the quality characteristics of Alberta SCO and dilbit.
 
@@ -776,6 +776,38 @@ All capacity figures are nameplate (design maximum). Actual throughput varies
 with nominations, maintenance, and operating conditions. Netback calculations
 are illustrative using representative 2024 market conditions and should not
 be used for commercial decisions.
+
+---
+
+## References
+
+Alberta Energy Regulator. 2024. *ST98: Alberta Energy Outlook — Crude Bitumen Production*. Calgary: AER. <https://www.aer.ca/data-and-performance-reports/statistical-reports/alberta-energy-outlook-st98/crude-bitumen/crude-bitumen-production>
+
+Canada Energy Regulator. 2023. *Canada's Energy Future 2023: Energy Supply and Demand Projections to 2050*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/canada-energy-future/2023/>
+
+Canada Energy Regulator. 2024. *Market Snapshot: Canada's Oil Pipeline Capacity in 2024*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2024/market-snapshot-canadas-oil-pipeline-capacity-2024.html>
+
+Canada Energy Regulator. 2024. *Pipeline Profiles: Keystone*. Calgary: CER. <https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/keystone>
+
+Canada Energy Regulator. 2024. *Pipeline Profiles: Trans Mountain Expanded System*. Calgary: CER. <https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/trans-mountain-expanded-system>
+
+Canada Energy Regulator. 2025. *Market Snapshot: Canada Sets New Record in Crude Oil Production in 2024 and First Half of 2025*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-canada-sets-new-record-in-crude-oil-production-in-2024-and-first-half-of-2025.html>
+
+Canada Energy Regulator. 2025. *Market Snapshot: Oil Pipeline Throughputs for 2024 and the First Half of 2025 Remain High*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-oil-pipeline-throughputs-for-2024-and-the-first-half-of-2025-remain-high.html>
+
+Canada Energy Regulator. 2025. *Market Snapshot: Trans Mountain Expansion Eases Pipeline Constraints and Increases Exports to Overseas Markets*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-trans-mountain-expansion-eases-pipeline-constraints-and-increases-exports-to-overseas-markets.html>
+
+Canadian Association of Petroleum Producers. 2024. *Crude Oil Market Fundamentals*. Calgary: CAPP. <https://www.capp.ca/wp-content/uploads/2024/03/Crude-Oil-Market-Fundamentals.pdf>
+
+Enbridge Inc. 2022. "Line 3 Replacement Project Substantially Completed and Set to be Fully Operational." News release. Calgary: Enbridge. <https://www.enbridge.com/media-center/news/details?id=123692&lang=en>
+
+Enbridge Inc. 2025. *Energy Infrastructure Assets*. Calgary: Enbridge. <https://www.enbridge.com/~/media/Enb/Documents/Factsheets/FS_EnergyInfrastructureAssets.pdf>
+
+Statistics Canada. 2025. "The Trans Mountain Pipeline Is Delivering." Ottawa: Statistics Canada. <https://www.statcan.gc.ca/o1/en/plus/8439-trans-mountain-pipeline-delivering>
+
+TC Energy. 2024. *Keystone Pipeline System*. Calgary: TC Energy. <https://www.tcenergy.com/operations/oil-and-liquids/keystone-pipeline-system/>
+
+Trans Mountain Corporation. 2024. *Trans Mountain Pipeline System*. Calgary: Trans Mountain. <https://www.transmountain.com/pipeline-system>
 
 ---
 

@@ -271,9 +271,9 @@ $$R_B = \frac{3 \times 10^8 \times 180 \times 10^{-9}}{2} = \frac{54}{2} = 27 \t
 
 **Step 2: Height above ground**
 
-Point A: $1535 - 1520 = 15$ m above ground
+Point A: &#36;1535 - 1520 = 15$ m above ground
 
-Point B: $1520 - 1520 = 0$ m (on ground)
+Point B: &#36;1520 - 1520 = 0$ m (on ground)
 
 **Step 3: Classification**
 

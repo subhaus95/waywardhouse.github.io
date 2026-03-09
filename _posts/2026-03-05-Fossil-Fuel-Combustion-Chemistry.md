@@ -214,7 +214,7 @@ $$m_{\text{CH}_4} = 67.5 \times 0.005 \times \frac{16}{12} = 0.45 \text{ t CH}_4
 
 $$m_{\text{BC}} = 67.5 \times 0.01 = 0.675 \text{ t BC}$$
 
-**Carbon balance check:** $0.85 + 0.10 + 0.005 + 0.01 + \text{other} = 0.965$; remaining 3.5% as NMHC and ash.
+**Carbon balance check:** &#36;0.85 + 0.10 + 0.005 + 0.01 + \text{other} = 0.965$; remaining 3.5% as NMHC and ash.
 
 Total CO₂-equivalent: 210.3 + 13.5 + (BC climate forcing equivalent) ≈ 225 t CO₂-eq for 50 ha.
 
@@ -344,7 +344,7 @@ The fundamental equation of combustion emission accounting:
 
 $$m_{\text{CO}_2} = m_{\text{fuel}} \times f_C \times \eta \times \frac{44}{12}$$
 
-For complete combustion of a fuel with carbon fraction $f_C$: every kilogram of carbon produces $44/12 = 3.667$ kg of CO₂. This ratio is derived from atomic masses and is invariant. The carbon fraction is fuel-specific: ~0.75 for bituminous coal, ~0.73 for natural gas, ~0.85 for liquid petroleum products, ~0.45–0.50 for biomass.
+For complete combustion of a fuel with carbon fraction $f_C$: every kilogram of carbon produces &#36;44/12 = 3.667$ kg of CO₂. This ratio is derived from atomic masses and is invariant. The carbon fraction is fuel-specific: ~0.75 for bituminous coal, ~0.73 for natural gas, ~0.85 for liquid petroleum products, ~0.45–0.50 for biomass.
 
 Incomplete combustion partitions the remaining carbon into CO ($\times 28/12$), CH₄ ($\times 16/12$), NMHC, and black carbon. For industrial sources, combustion efficiency exceeds 99.9%; for open burning, 80–90%.
 
@@ -360,4 +360,4 @@ $$m_{\text{CO}} = m_{\text{fuel}} \times f_C \times \eta_{\text{CO}} \times \fra
 
 ## Math Refresher
 
-**Molar mass and stoichiometry.** A mole is $6.022 \times 10^{23}$ atoms or molecules — Avogadro's number. The molar mass (molecular weight) of a molecule is the sum of its constituent atomic masses in grams per mole: CO₂ has one C (12 g/mol) and two O (16 g/mol each), giving 44 g/mol. A balanced equation like $\text{C} + \text{O}_2 \to \text{CO}_2$ says one mole of carbon produces one mole of CO₂. In mass terms: 12 g of C produces 44 g of CO₂ — the 44/12 ratio. Mass fractions are dimensionless ratios: a fuel with $f_C = 0.75$ contains 750 g of carbon per kg of fuel. All emission factor calculations reduce to tracking this mass of carbon through the stoichiometric ratio to its final molecular form.
+**Molar mass and stoichiometry.** A mole is &#36;6.022 \times 10^{23}$ atoms or molecules — Avogadro's number. The molar mass (molecular weight) of a molecule is the sum of its constituent atomic masses in grams per mole: CO₂ has one C (12 g/mol) and two O (16 g/mol each), giving 44 g/mol. A balanced equation like $\text{C} + \text{O}_2 \to \text{CO}_2$ says one mole of carbon produces one mole of CO₂. In mass terms: 12 g of C produces 44 g of CO₂ — the 44/12 ratio. Mass fractions are dimensionless ratios: a fuel with $f_C = 0.75$ contains 750 g of carbon per kg of fuel. All emission factor calculations reduce to tracking this mass of carbon through the stoichiometric ratio to its final molecular form.

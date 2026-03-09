@@ -143,12 +143,12 @@ $$\text{Basis} = P_{\text{AECO}} - P_{\text{Henry Hub}}$$
 
 This value is almost always negative — AECO trades at a discount to
 Henry Hub. The discount varies with season and pipeline capacity
-conditions, but has historically averaged CAD $1.00–$2.50/GJ, with
-occasional spikes to CAD $4–5/GJ during constraint events.
+conditions, but has historically averaged CAD &#36;1.00–&#36;2.50/GJ, with
+occasional spikes to CAD &#36;4–5/GJ during constraint events.
 
 The discount exists because:
 1. **Transport cost**: moving gas from AECO to Henry Hub costs money —
-   approximately USD $0.50–$1.00/MMBtu in tariffs
+   approximately USD &#36;0.50–&#36;1.00/MMBtu in tariffs
 2. **Basis risk**: shippers demand a discount to hold Alberta gas
    relative to a benchmark they can hedge on financial markets
 3. **Capacity constraints**: when NGTL or export corridors are congested,
@@ -186,7 +186,7 @@ where in field units (common in the North American gas industry):
 
 The key insight from this equation is the **diameter exponent**: flow
 rate scales as $D^{8/3} \approx D^{2.67}$. Doubling the diameter
-increases capacity by a factor of $2^{8/3} \approx 6.35$ — a far more
+increases capacity by a factor of &#36;2^{8/3} \approx 6.35$ — a far more
 powerful leverage than for liquid pipelines (where flow scales roughly
 as $D^{2.5}$ via Darcy-Weisbach). This is why gas transmission
 investments strongly favour large-diameter pipes.
@@ -219,7 +219,7 @@ Alberta gas cannot physically reach the destination.
 
 Converting between common gas pricing units:
 
-$$1 \text{ MMBtu} \approx 1.055 \text{ GJ} \approx 28.3 \text{ m}^3
+$&#36;1 \text{ MMBtu} \approx 1.055 \text{ GJ} \approx 28.3 \text{ m}^3
 \text{ (at standard conditions)}$$
 
 $$P_{\text{CAD/GJ}} = P_{\text{USD/MMBtu}} \times \frac{1}{1.055}
@@ -266,7 +266,7 @@ $$\sqrt{9.972} \approx 3.158$$
 
 $$D^{8/3} = 36^{8/3}$$
 
-$$36^{1/3} \approx 3.302 \qquad 36^{8/3} = 36^2 \times 36^{2/3}
+$&#36;36^{1/3} \approx 3.302 \qquad 36^{8/3} = 36^2 \times 36^{2/3}
 = 1{,}296 \times 10.90 \approx 14{,}126$$
 
 **Step 5 — Assemble:**
@@ -288,22 +288,22 @@ to total system throughput.
 
 **Step 6 — Convert to economic terms:**
 
-At an AECO price of CAD $2.50/GJ:
+At an AECO price of CAD &#36;2.50/GJ:
 
-$$1 \text{ Bcf} = 10^9 \text{ scf} \times 0.02832 \text{ m}^3/\text{scf}
+$&#36;1 \text{ Bcf} = 10^9 \text{ scf} \times 0.02832 \text{ m}^3/\text{scf}
 \times 0.03726 \text{ GJ/m}^3 \approx 1.055 \text{ PJ}$$
 
 $$\text{Annual value of Alliance throughput} = 1.6 \text{ Bcf/d}
 \times 365 \times 1.055 \text{ PJ/Bcf} \times 1{,}000 \text{ GJ/PJ}
-\times \$2.50/\text{GJ}$$
+\times \&#36;2.50/\text{GJ}$$
 
 $$\approx 1.6 \times 365 \times 1{,}055 \times 2{,}500 \approx
-\$2.44 \text{ billion CAD/yr}$$
+\&#36;2.44 \text{ billion CAD/yr}$$
 
-One pipeline, at AECO prices. At Henry Hub prices of USD $3.00/MMBtu
-(approximately CAD $4.35/GJ at current exchange rates), the same
-volume would be worth approximately **CAD $3.52 billion/yr** — the
-basis differential costs Alberta producers roughly **CAD $1.1 billion/yr**
+One pipeline, at AECO prices. At Henry Hub prices of USD &#36;3.00/MMBtu
+(approximately CAD &#36;4.35/GJ at current exchange rates), the same
+volume would be worth approximately **CAD &#36;3.52 billion/yr** — the
+basis differential costs Alberta producers roughly **CAD &#36;1.1 billion/yr**
 on Alliance throughput alone.
 
 ---
@@ -693,7 +693,7 @@ for p in analysis.pipelines:
 ### Figure 4 — Annual Basis Cost by Export Corridor
 
 <div data-viz="echarts" style="height:360px" data-options='{
-  "title": {"text": "Annual Revenue Foregone: AECO-Henry Hub Basis", "subtext": "CAD$ million/year per corridor — AECO $2.50/GJ, HH $2.80 USD/MMBtu", "left": "center"},
+  "title": {"text": "Annual Revenue Foregone: AECO-Henry Hub Basis", "subtext": "CAD$ million/year per corridor — AECO &#36;2.50/GJ, HH &#36;2.80 USD/MMBtu", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "grid": {"left": "3%", "right": "8%", "bottom": "8%", "containLabel": true},
   "xAxis": {"type": "value", "name": "Annual basis cost (CAD$ million/yr)"},
@@ -793,8 +793,8 @@ every GJ Alberta produces.
 ### The basis differential is not constant — it is a signal
 
 The historical data in Figure 2 show that the basis differential widens
-sharply during constraint events. In 2018, AECO collapsed to CAD $1.10/GJ
-while Henry Hub traded near CAD $4.20/GJ — a basis of nearly -$3.10/GJ.
+sharply during constraint events. In 2018, AECO collapsed to CAD &#36;1.10/GJ
+while Henry Hub traded near CAD &#36;4.20/GJ — a basis of nearly -&#36;3.10/GJ.
 This was not a policy failure or a market manipulation; it was the result
 of NGTL running near capacity during a period of rapid Montney production
 growth, while export pipeline additions lagged. Gas that could not leave
@@ -885,9 +885,9 @@ The key quantitative facts:
 - **Total export capacity**: approximately 10.9 Bcf/d across all corridors,
   against provincial production of 15–17 Bcf/d (remainder consumed in-province
   or stored)
-- **AECO-Henry Hub basis**: historically CAD -$1.00 to -$3.10/GJ; at
-  current conditions approximately -$1.15/GJ, representing roughly
-  **CAD $1.5 billion/year** in revenue foregone across major corridors
+- **AECO-Henry Hub basis**: historically CAD -&#36;1.00 to -&#36;3.10/GJ; at
+  current conditions approximately -&#36;1.15/GJ, representing roughly
+  **CAD &#36;1.5 billion/year** in revenue foregone across major corridors
 - **Weymouth diameter leverage**: a 42-inch pipe carries 5.16 times the
   flow of a 24-inch pipe at identical pressure conditions — the single
   most powerful engineering lever in gas transmission
@@ -948,6 +948,38 @@ AECO and Henry Hub prices are calendar-year averages and are approximate.
 Basis differential calculations are illustrative. All throughput figures
 are nameplate capacity; actual throughput varies with nominations and
 operating conditions.
+
+---
+
+## References
+
+Alberta Government. n.d. *Natural Gas Price Variables*. Edmonton: Government of Alberta. <https://www.alberta.ca/natural-gas-price-variables>
+
+Canada Energy Regulator. 2024. *Market Snapshot: Exploring Canada's Future in LNG Exports*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2024/market-snapshot-exploring-canadas-future-in-lng-exports.html>
+
+Canada Energy Regulator. 2024. *Market Snapshot: Western Canada's Natural Gas Export Pipelines Continued to See High Utilization in 2023*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2024/market-snapshot-western-canadas-natural-gas-export-pipelines-continued-to-see-high-utilization-in-2023.html>
+
+Canada Energy Regulator. 2024. *Pipeline Profiles: NOVA Gas Transmission Ltd. (NGTL)*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/pipeline-profiles/natural-gas/pipeline-profiles-ngtl.html>
+
+Canada Energy Regulator. 2024. *Pipeline Profiles: TC Canadian Mainline*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/pipeline-profiles/natural-gas/pipeline-profiles-transcanadas-canadian-mainline.html>
+
+Canada Energy Regulator. 2024. *Pipeline Profiles: Alliance*. Calgary: CER. <https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/alliance>
+
+Canada Energy Regulator. 2025. *Market Snapshot: Canadian Natural Gas Production Continues to Reach Record Levels*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-canadian-natural-gas-production-continues-to-reach-record-levels.html>
+
+LNG Canada. 2024. "LNG Canada 2024 Fall Update." Kitimat: LNG Canada. <https://www.lngcanada.ca/news/lng-canada-2024-fall-update/>
+
+Menon, E. Shashi. 2005. *Gas Pipeline Hydraulics*. Boca Raton: CRC Press. <https://www.taylorfrancis.com/books/mono/10.1201/9781420038224/gas-pipeline-hydraulics-shashi-menon>
+
+Pembina Pipeline Corporation. 2024. *Alliance Pipeline*. Calgary: Pembina. <https://www.pembina.com/operations/pipelines/alliance-pipeline>
+
+TC Energy. 2024. *Canadian Mainline*. Calgary: TC Energy. <https://www.tcenergy.com/operations/natural-gas/canadian-mainline/>
+
+TC Energy. 2024. *NGTL System*. Calgary: TC Energy. <https://www.tcenergy.com/operations/natural-gas/ngtl-system/>
+
+U.S. Energy Information Administration. 2021. "Higher Western Canada Spot Prices Limit U.S. Natural Gas Imports from Canada." Washington, DC: EIA. <https://www.eia.gov/todayinenergy/detail.php?id=44175>
+
+Weymouth, Thomas R. 1912. "Problems in Natural Gas Engineering." *Transactions of the American Society of Mechanical Engineers* 34: 185–231. (No public URL available — published before digital archiving; cited via Menon 2005.)
 
 ---
 

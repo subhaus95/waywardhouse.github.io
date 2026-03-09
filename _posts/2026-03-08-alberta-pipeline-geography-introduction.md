@@ -681,6 +681,46 @@ infrastructure:
 
 ---
 
+## References
+
+Alberta Energy Regulator. 2024. *ST98: Alberta Energy Outlook — Executive Summary*. Calgary: AER. <https://www.aer.ca/data-and-performance-reports/statistical-reports/alberta-energy-outlook-st98/executive-summary>
+
+Canada Energy Regulator. 2023. *Canada's Energy Future 2023: Energy Supply and Demand Projections to 2050*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/canada-energy-future/2023/>
+
+Canada Energy Regulator. 2024. *Market Snapshot: Canada's Oil Pipeline Capacity in 2024*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2024/market-snapshot-canadas-oil-pipeline-capacity-2024.html>
+
+Canada Energy Regulator. 2024. *Market Snapshot: Exploring Canada's Future in LNG Exports*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2024/market-snapshot-exploring-canadas-future-in-lng-exports.html>
+
+Canada Energy Regulator. 2024. *Market Snapshot: Western Canada's Natural Gas Export Pipelines Continued to See High Utilization in 2023*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2024/market-snapshot-western-canadas-natural-gas-export-pipelines-continued-to-see-high-utilization-in-2023.html>
+
+Canada Energy Regulator. 2024. *Pipeline Profiles*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/pipeline-profiles/>
+
+Canada Energy Regulator. 2025. *Market Snapshot: Oil Pipeline Throughputs for 2024 and the First Half of 2025 Remain High*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-oil-pipeline-throughputs-for-2024-and-the-first-half-of-2025-remain-high.html>
+
+Canada Energy Regulator. 2025. *Market Snapshot: Trans Mountain Expansion Eases Pipeline Constraints and Increases Exports to Overseas Markets*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-trans-mountain-expansion-eases-pipeline-constraints-and-increases-exports-to-overseas-markets.html>
+
+Canadian Association of Petroleum Producers. 2024. *Crude Oil Market Fundamentals*. Calgary: CAPP. <https://www.capp.ca/wp-content/uploads/2024/03/Crude-Oil-Market-Fundamentals.pdf>
+
+Enbridge Inc. 2022. "Line 3 Replacement Project Substantially Completed and Set to be Fully Operational." News release. Calgary: Enbridge. <https://www.enbridge.com/media-center/news/details?id=123692&lang=en>
+
+Imperial Oil. 2024. "Strathcona Refinery." Calgary: Imperial Oil. <https://www.imperialoil.ca/company/operations/strathcona>
+
+LNG Canada. 2024. "LNG Canada 2024 Fall Update." Kitimat: LNG Canada. <https://www.lngcanada.ca/news/lng-canada-2024-fall-update/>
+
+Natural Resources Canada. 2024. *Energy Fact Book 2024–2025*. Ottawa: NRCan. <https://energy-information.canada.ca/en/energy-facts>
+
+Statistics Canada. 2025. "The Trans Mountain Pipeline Is Delivering." Ottawa: Statistics Canada. <https://www.statcan.gc.ca/o1/en/plus/8439-trans-mountain-pipeline-delivering>
+
+TC Energy. 2024. *Canadian Mainline*. Calgary: TC Energy. <https://www.tcenergy.com/operations/natural-gas/canadian-mainline/>
+
+TC Energy. 2024. *NGTL System*. Calgary: TC Energy. <https://www.tcenergy.com/operations/natural-gas/ngtl-system/>
+
+Trans Mountain Corporation. 2024. *Our History*. Calgary: Trans Mountain. <https://www.transmountain.com/history>
+
+Trans Mountain Corporation. 2024. *Trans Mountain Pipeline System*. Calgary: Trans Mountain. <https://www.transmountain.com/pipeline-system>
+
+---
+
 *This essay is the narrative introduction to the Pipeline Connectivity
 cluster within the Alberta in Context series. The computational essays
 P1–P5 follow with full mathematical treatments of each commodity system.*

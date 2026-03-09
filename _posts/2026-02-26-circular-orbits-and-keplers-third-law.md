@@ -123,7 +123,7 @@ $$v = \sqrt{\frac{GM}{r}}$$
 
 ### Orbital Period
 
-The satellite travels a circular path of circumference $2\pi r$ at velocity $v$.
+The satellite travels a circular path of circumference &#36;2\pi r$ at velocity $v$.
 
 **Period** (time for one orbit):
 

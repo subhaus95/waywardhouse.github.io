@@ -4,7 +4,7 @@ title: Method
 permalink: /method/
 ---
 
-Waywardhouse draws on methods from several disciplines without being captive to any of them.
+WaywardHouse draws on methods from several disciplines without being captive to any of them.
 
 ## Analytical framing
 

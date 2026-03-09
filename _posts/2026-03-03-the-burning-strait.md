@@ -386,3 +386,43 @@ The strait is 34 kilometres wide. The world built its energy system as though it
 - World Bank, *Commodity Markets Outlook*, October 2024.
 
 *Market data as of 3 March 2026 morning. This essay will be updated as the situation develops.*
+
+---
+
+## References
+
+Al Jazeera. 2026. "Gas Prices Soar as QatarEnergy Halts LNG Production After Iran Attacks." 2 March 2026. Doha: Al Jazeera. <https://www.aljazeera.com/economy/2026/3/2/why-qatarenergys-lng-production-halt-could-shake-up-global-gas-markets>
+
+Al Jazeera. 2026. "Oil Prices Rise Sharply After US, Israeli Attacks on Iran." 2 March 2026. Doha: Al Jazeera. (no stable URL available)
+
+Al Jazeera. 2026. "Shutdown of Hormuz Strait Raises Fears of Soaring Oil Prices." 3 March 2026. Doha: Al Jazeera. (no stable URL available)
+
+Aramco. 2020. "Aramco Completes Its Acquisition of a 70% Stake in SABIC from the Public Investment Fund." 17 June 2020. Dhahran: Saudi Aramco. <https://www.aramco.com/en/news-media/news/2020/saudi-aramco-completes-acquisition-of-70-percent-stake-in-sabic>
+
+Aydın, Suat, and Ömer Esen. 2024. "The Effects of the Oil Price and Temperature on Food Inflation in Latin America." *Environment, Development and Sustainability* 26 (2): 3269–3295. <https://doi.org/10.1007/s10668-022-02817-2>
+
+CNBC. 2026. "Oil Supertanker Rates Hit All-Time High as Insurers Drop War Risk Protection in the Middle East." 3 March 2026. <https://www.cnbc.com/2026/03/03/oil-supertanker-rates.html> (no stable URL available; cited in multiple secondary analyses)
+
+International Energy Agency (IEA). 2018. *The Future of Petrochemicals: Towards More Sustainable Plastics and Fertilisers*. Paris: IEA. <https://www.iea.org/reports/the-future-of-petrochemicals>
+
+International Energy Agency (IEA). 2025. *Oil 2025: Analysis and Forecast to 2030*. Paris: IEA. <https://www.iea.org/reports/oil-2025>
+
+International Energy Agency (IEA). 2025. *Oil Market Report*. Monthly editions. Paris: IEA. <https://www.iea.org/reports/oil-market-report>
+
+Kpler. 2025. "Assessing the Impact of Sanctions on Russia's Shadow Fleet." October 2025. Brussels: Kpler. <https://www.kpler.com/blog/assessing-the-impact-of-sanctions-on-russias-shadow-fleet>
+
+Middle East Forum. 2026. "Iran's War on Gulf State Energy Infrastructure Reverberates Beyond Oil and Gas." 3 March 2026. Philadelphia: Middle East Forum. (no stable URL available)
+
+OPEC+. 2026. "OPEC+ Agrees Output Increase of 206,000 Barrels per Day Starting April 2026." 1 March 2026. Vienna: OPEC Secretariat. <https://www.thenationalnews.com/business/energy/2026/03/01/opec-agrees-206000-bpd-increase-as-iran-conflict-tests-supply-routes/>
+
+Reuters / CNBC. 2026. "Qatar Declares Force Majeure on LNG Shipments Following Ras Laffan Strike." 2 March 2026. (no stable URL available; reported widely across wire services)
+
+U.S. Energy Information Administration (EIA). 2025. "Amid Regional Conflict, the Strait of Hormuz Remains Critical Oil Chokepoint." *Today in Energy*, June 2025. Washington, DC: EIA. <https://www.eia.gov/todayinenergy/detail.php?id=65504>
+
+U.S. Energy Information Administration (EIA). 2025. "About One-Fifth of Global Liquefied Natural Gas Trade Flows Through the Strait of Hormuz." *Today in Energy*. Washington, DC: EIA. <https://www.eia.gov/todayinenergy/detail.php?id=65584>
+
+U.S. Energy Information Administration (EIA). 2025. "The Strait of Hormuz Is the World's Most Important Oil Transit Chokepoint." *Today in Energy*. Washington, DC: EIA. <https://www.eia.gov/todayinenergy/detail.php?id=61002>
+
+Visual Capitalist. 2026. "Charted: Oil Trade Through the Strait of Hormuz by Country." 3 March 2026. Vancouver: Visual Capitalist. (no stable URL available; based on EIA/Vortexa data)
+
+World Bank. 2024. *Commodity Markets Outlook*. October 2024. Washington, DC: World Bank. <https://www.worldbank.org/en/research/commodity-markets>

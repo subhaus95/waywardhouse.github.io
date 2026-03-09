@@ -141,7 +141,7 @@ The dot product directly gives us the cosine of the angle between the vectors!
 **Surface normal:** The panel tilts 35° from horizontal toward the south. The normal tilts 35° from vertical toward the south.
 
 In spherical coordinates (measuring from vertical):
-- Normal elevation from horizontal: $90° - 35° = 55°$
+- Normal elevation from horizontal: &#36;90° - 35° = 55°$
 
 **Sun direction:** Elevation 50° above horizon, so zenith angle $= 90° - 50° = 40°$
 

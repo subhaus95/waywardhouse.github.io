@@ -100,7 +100,7 @@ $$\Delta\phi_{\text{topo}} = -\frac{4\pi}{\lambda} \cdot \left(-\frac{B_\perp h}
 
 This is the **topographic phase** — it is removed using a digital elevation model (DEM) to produce a **differential interferogram** containing primarily the deformation signal.
 
-The **altitude of ambiguity** $h_a$ [m] is the height difference that produces one full phase cycle ($2\pi$) of topographic phase:
+The **altitude of ambiguity** $h_a$ [m] is the height difference that produces one full phase cycle (&#36;2\pi$) of topographic phase:
 
 $$h_a = \frac{\lambda R \sin\theta_i}{2 B_\perp}$$
 
@@ -128,11 +128,11 @@ This is the **half-wavelength sensitivity**: each fringe in the interferogram re
 
 ### 3.4 Phase Unwrapping
 
-The interferometric phase is inherently **wrapped** — it is only known modulo $2\pi$, since $e^{j\phi}$ is periodic. The observed phase at pixel $(i,j)$ is:
+The interferometric phase is inherently **wrapped** — it is only known modulo &#36;2\pi$, since $e^{j\phi}$ is periodic. The observed phase at pixel $(i,j)$ is:
 
 $$\Delta\phi_{\text{obs}}(i,j) = W[\Delta\phi_{\text{true}}(i,j)] \in (-\pi, \pi]$$
 
-where $W[\cdot]$ is the wrapping operator. To recover the true (unwrapped) phase, we must add the correct integer multiple of $2\pi$ at each pixel:
+where $W[\cdot]$ is the wrapping operator. To recover the true (unwrapped) phase, we must add the correct integer multiple of &#36;2\pi$ at each pixel:
 
 $$\Delta\phi_{\text{true}}(i,j) = \Delta\phi_{\text{obs}}(i,j) + 2\pi n(i,j)$$
 
@@ -200,7 +200,7 @@ The area is subsiding at approximately 15.2 cm per 6 months = **30.4 cm yr⁻¹*
 
 $$h_a = \frac{0.056 \times 700{,}000 \times \sin 56°}{2 \times 45} = \frac{0.056 \times 700{,}000 \times 0.829}{90} = \frac{32{,}494}{90} = 361 \text{ m}$$
 
-A 5 m DEM error introduces $5/361 = 0.014$ fringes of topographic phase error — negligible compared to 4.5 deformation fringes. The short baseline makes this interferogram very insensitive to topographic errors.
+A 5 m DEM error introduces &#36;5/361 = 0.014$ fringes of topographic phase error — negligible compared to 4.5 deformation fringes. The short baseline makes this interferogram very insensitive to topographic errors.
 
 ---
 
@@ -296,7 +296,7 @@ The technique's limitation — line-of-sight sensitivity — is its primary cons
 
 **Atmospheric delays dominate over small deformation signals.** A 10 cm change in water vapour column height changes the microwave path delay by approximately 2–4 cm, comparable to the deformation signals of slow creep or inter-seismic strain. Single interferograms cannot separate atmospheric and deformation contributions. Time-series methods are essential for signals below $\sim 5$ cm.
 
-**Phase unwrapping errors propagate.** An unwrapping error of $2\pi$ at one location (adding or removing one fringe incorrectly) propagates as a constant offset or a ramp across all pixels connected to that location by the unwrapping path. In rapidly deforming areas (post-seismic landslides, active volcanoes) where the phase gradient exceeds $\pi$ per pixel, unwrapping necessarily fails and the deformation field is only partially recoverable.
+**Phase unwrapping errors propagate.** An unwrapping error of &#36;2\pi$ at one location (adding or removing one fringe incorrectly) propagates as a constant offset or a ramp across all pixels connected to that location by the unwrapping path. In rapidly deforming areas (post-seismic landslides, active volcanoes) where the phase gradient exceeds $\pi$ per pixel, unwrapping necessarily fails and the deformation field is only partially recoverable.
 
 **Temporal decorrelation over vegetation.** In tropical and temperate forests, a 12-day Sentinel-1 repeat interval is often sufficient to decorrelate the signal — leaves move in the wind, vegetation grows, and the coherence falls below 0.3. Longer-wavelength L-band SAR (ALOS-2, NISAR) maintains coherence longer over vegetation because the longer wavelength is less sensitive to small-scale surface changes.
 
@@ -326,6 +326,6 @@ $$\gamma = \frac{|\langle s_1 s_2^*\rangle|}{\sqrt{\langle|s_1|^2\rangle\langle|
 
 **Phase and the complex exponential.** A signal $s = Ae^{j\phi} = A(\cos\phi + j\sin\phi)$ stores amplitude $A = |s|$ and phase $\phi = \arg(s)$. Multiplying two signals $s_1 e^{j\phi_1}$ and $s_2^* = s_2 e^{-j\phi_2}$ gives $s_1 s_2^* = A_1 A_2 e^{j(\phi_1-\phi_2)}$ — the product carries the phase difference. This is why interferogram formation is simply pixel-by-pixel complex multiplication: the absolute phases (huge numbers) cancel, leaving the difference (small, informative).
 
-**Wrapping and modular arithmetic.** The wrapped phase $W[\phi] = \phi - 2\pi \lfloor(\phi+\pi)/(2\pi)\rfloor$ maps any real number to $(-\pi, \pi]$. Phase unwrapping is the inverse problem: given the wrapped values, recover the original. It is equivalent to the problem of determining which multiple of $2\pi$ to add at each pixel, given only the constraint that the unwrapped field is smooth.
+**Wrapping and modular arithmetic.** The wrapped phase $W[\phi] = \phi - 2\pi \lfloor(\phi+\pi)/(2\pi)\rfloor$ maps any real number to $(-\pi, \pi]$. Phase unwrapping is the inverse problem: given the wrapped values, recover the original. It is equivalent to the problem of determining which multiple of &#36;2\pi$ to add at each pixel, given only the constraint that the unwrapped field is smooth.
 
 **Line-of-sight projection.** For a satellite looking at incidence angle $\theta_i$ from vertical, the LOS unit vector has components $(\sin\theta_i, 0, \cos\theta_i)$ in the (east, north, up) frame (for a right-looking satellite on a descending pass). The LOS displacement is $d_{\text{LOS}} = \mathbf{d} \cdot \hat{\mathbf{LOS}}$ — the dot product of the 3D displacement vector with the LOS unit vector. For predominantly vertical motion: $d_{\text{LOS}} = d_v \cos\theta_i$, giving $d_v = d_{\text{LOS}}/\cos\theta_i$.

@@ -85,7 +85,7 @@ Any function on a sphere can be decomposed into spherical harmonics $Y_n^m(\thet
 $$V(r,\theta,\phi) = \frac{GM_\oplus}{r}\sum_{n=0}^{\infty}\sum_{m=-n}^{n} \left(\frac{R_\oplus}{r}\right)^n C_n^m Y_n^m(\theta,\phi)$$
 
 where:
-- $n$ is the spherical harmonic degree (related to spatial scale: degree $n$ corresponds to a spatial wavelength of approximately $2\pi R_\oplus / n \approx 40{,}000/n$ km)
+- $n$ is the spherical harmonic degree (related to spatial scale: degree $n$ corresponds to a spatial wavelength of approximately &#36;2\pi R_\oplus / n \approx 40{,}000/n$ km)
 - $m$ is the order
 - $C_n^m$ are the **Stokes coefficients** — the amplitudes of each harmonic component
 
@@ -147,8 +147,8 @@ For ice sheet studies, GIA is the dominant systematic error — Greenland and An
 **Setting:** We want to estimate the order-of-magnitude gravitational perturbation from the loss of 1 km³ of water from an aquifer, and compare it to the GRACE detection threshold.
 
 **Given:**
-- Aquifer area: $A = 50{,}000$ km² = $5 \times 10^{10}$ m² (roughly the size of the Central Valley)
-- Volume loss: $\Delta V_w = 1$ km³ = $10^9$ m³
+- Aquifer area: $A = 50{,}000$ km² = &#36;5 \times 10^{10}$ m² (roughly the size of the Central Valley)
+- Volume loss: $\Delta V_w = 1$ km³ = &#36;10^9$ m³
 - Water density: $\rho_w = 1000$ kg m⁻³
 - Satellite altitude: $h = 500$ km above the surface
 
@@ -178,7 +178,7 @@ As the lead satellite passes over the anomaly, it experiences this acceleration 
 
 $$\Delta\dot{\rho} \approx \Delta g \times (a/V_{\text{orb}}) = 2.55 \times 10^{-10} \times 16.6 = 4.2 \times 10^{-9} \text{ m s}^{-1}$$
 
-This is $4.2 \times 10^{-3}$ μm s⁻¹ — below GRACE's 0.1 μm s⁻¹ noise floor for a single pass. However, GRACE accumulated $\sim 130$ passes per month over a given region, and the monthly average improved sensitivity by $\sqrt{130} \approx 11\times$, bringing the effective threshold to $\sim 0.009$ μm s⁻¹ — just barely detecting the 2 cm equivalent water height anomaly.
+This is &#36;4.2 \times 10^{-3}$ μm s⁻¹ — below GRACE's 0.1 μm s⁻¹ noise floor for a single pass. However, GRACE accumulated $\sim 130$ passes per month over a given region, and the monthly average improved sensitivity by $\sqrt{130} \approx 11\times$, bringing the effective threshold to $\sim 0.009$ μm s⁻¹ — just barely detecting the 2 cm equivalent water height anomaly.
 
 This explains why GRACE needed monthly averaging to detect groundwater signals, and why its spatial resolution is coarse: the signal-to-noise ratio for a given mass anomaly improves with the square root of the number of independent passes.
 
@@ -313,7 +313,7 @@ $$\Delta g_{\text{disk}} = 2\pi G \Delta\sigma \left(1 - \frac{h}{\sqrt{h^2 + a^
 
 ## Math Refresher
 
-**Gravitational potential vs. acceleration.** The gravitational potential $V$ [m² s⁻²] is the potential energy per unit mass. Gravitational acceleration $\mathbf{g}$ is the gradient of $V$: $\mathbf{g} = \nabla V$ (or $g = dV/dr$ in the radial direction). The potential decreases as $1/r$ with distance; acceleration decreases as $1/r^2$. GRACE measures potential differences (via range rate) rather than accelerations directly — this is important because the potential from a surface mass decreases more slowly with altitude than the acceleration, making it slightly easier to detect at satellite altitude.
+**Gravitational potential vs. acceleration.** The gravitational potential $V$ [m² s⁻²] is the potential energy per unit mass. Gravitational acceleration $\mathbf{g}$ is the gradient of $V$: $\mathbf{g} = \nabla V$ (or $g = dV/dr$ in the radial direction). The potential decreases as &#36;1/r$ with distance; acceleration decreases as &#36;1/r^2$. GRACE measures potential differences (via range rate) rather than accelerations directly — this is important because the potential from a surface mass decreases more slowly with altitude than the acceleration, making it slightly easier to detect at satellite altitude.
 
 **Spherical harmonics as latitude-longitude modes.** Just as a Fourier series decomposes a 1D periodic function into $\sin$ and $\cos$ modes, spherical harmonics decompose a function on a sphere into modes indexed by degree $n$ (related to total spatial wavenumber) and order $m$ (related to the east-west wavenumber). Degree 1 harmonics represent a dipole (shift of the Earth's centre of mass); degree 2, quadrupole patterns; higher degrees, increasingly fine spatial structures. GRACE resolves up to degree ~60, corresponding to spatial wavelengths of $\geq 40{,}000/60 \approx 670$ km.
 

@@ -332,4 +332,44 @@ All figures in Canadian dollars unless otherwise noted. International trade data
 
 ---
 
+## References
+
+Alberta Agriculture and Irrigation. 2024. *Agri-Food Trade Statistics*. Edmonton: Government of Alberta. <https://www.alberta.ca/agri-food-trade-statistics>
+
+Alberta Agriculture and Irrigation. 2024. *Alberta Agri-Food Exports*. Open Government Portal. Edmonton: Government of Alberta. <https://open.alberta.ca/publications/alberta-agri-food-exports>
+
+ATB Financial. 2024. "Beyond Our Borders: Alberta International Exports to December 2024." *The Twenty-Four*. Edmonton: ATB Financial. <https://www.atb.com/company/insights/the-twenty-four/alberta-international-exports-to-december-2024/>
+
+Canada. *Constitution Act, 1982*, s. 36(2). Ottawa: Government of Canada. <https://laws-lois.justice.gc.ca/eng/const/page-16.html>
+
+Canada Energy Regulator (CER). 2025. "Market Snapshot: Trans Mountain Expansion Eases Pipeline Constraints and Increases Exports to Overseas Markets." Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-trans-mountain-expansion-eases-pipeline-constraints-and-increases-exports-to-overseas-markets.html>
+
+Canadian Association of Petroleum Producers (CAPP). 2024. *Crude Oil Forecast, Markets and Transportation*. Calgary: CAPP. <https://www.capp.ca/resources/crude-oil-forecast/>
+
+Elections Alberta. 2021. *Official Results: 2021 Referendum on Equalization*. Edmonton: Elections Alberta. <https://www.elections.ab.ca/elections/referendum/>
+
+Fairness Alberta. 2024. *Alberta's Fiscal Contributions to Canada: CPP, EI, and Federal Transfers*. Edmonton: Fairness Alberta. <https://fairnessalberta.ca/fiscal-fairness/>
+
+Fraser Institute. 2025. "Understanding Alberta's Role in National Programs, Including the Canada Pension Plan." Vancouver: Fraser Institute. <https://www.fraserinstitute.org/studies/understanding-albertas-role-national-programs-including-canada-pension-plan>
+
+Government of Alberta. 2025. *Alberta Economic Dashboard: International Merchandise Exports*. Edmonton: Treasury Board and Finance. <https://economicdashboard.alberta.ca/dashboard/international-merchandise-exports/>
+
+Library of Parliament. 2024. *Alberta's Merchandise Trade with the World*. Publication No. 2024-501-E. Ottawa: Library of Parliament. <https://lop.parl.ca/sites/PublicWebsite/default/en_CA/ResearchPublications/TradeAndInvestment/2024501E>
+
+Statistics Canada. 2024. *Canadian International Merchandise Trade Database (Trade Data Online)*. Ottawa: Statistics Canada. <https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2018011-eng.htm>
+
+Statistics Canada. 2024. *Consolidated Canadian Government Finance Statistics, 2024*. Ottawa: Statistics Canada. <https://www150.statcan.gc.ca/n1/daily-quotidien/251121/dq251121b-eng.htm>
+
+Statistics Canada. 2025. *Provincial and Territorial Economic Accounts, 2024*. Ottawa: Statistics Canada. <https://www150.statcan.gc.ca/n1/daily-quotidien/251106/dq251106a-eng.htm>
+
+Statistics Canada. 2025. *Interprovincial and International Trade Flows, Basic Prices, Summary Level*. Table 12-10-0088-01. Ottawa: Statistics Canada. <https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1210008801>
+
+Trans Mountain Corporation. 2024. *Trans Mountain Announces Milestones of Commercial Service for Expanded System*. Burnaby: Trans Mountain Corporation. <https://www.transmountain.com/news/trans-mountain-announces-milestones-of-commercial-service-for-expanded-system>
+
+Tombe, Trevor. 2018. "Alberta's Fiscal Future." *School of Public Policy Research Papers* 11 (23). Calgary: University of Calgary. <https://doi.org/10.11575/sppp.v11i0.43007>
+
+World's Top Exports. 2024. "Alberta's Top Exports 2024." <https://www.worldstopexports.com/albertas-top-exports/>
+
+---
+
 *· Next in the Series: [The Texas of the North](/texas-of-the-north/)*

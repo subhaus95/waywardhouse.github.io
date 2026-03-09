@@ -17,12 +17,12 @@ math_core:
   - "Resource rent"
   - "Fiscal regimes"
   - "NPV of royalty stream"
-excerpt: "Norway started its sovereign wealth fund in 1990 with oil revenues. Alberta started its Heritage Fund in 1976. Today Norway's fund holds $1.7 trillion; Alberta's holds $18 billion. Both sat on comparable oil wealth. The difference is entirely in how they designed their royalty regimes and what they chose to do with the proceeds — a lesson in fiscal policy that still echoes through every Alberta budget."
+excerpt: "Norway started its sovereign wealth fund in 1990 with oil revenues. Alberta started its Heritage Fund in 1976. Today Norway's fund holds &#36;1.7 trillion; Alberta's holds &#36;18 billion. Both sat on comparable oil wealth. The difference is entirely in how they designed their royalty regimes and what they chose to do with the proceeds — a lesson in fiscal policy that still echoes through every Alberta budget."
 ---
 
-In 1976, Premier Peter Lougheed established the Alberta Heritage Savings Trust Fund. The premise was straightforward: Alberta's oil wealth was finite and non-renewable, so a portion of royalty revenues should be saved for future generations. For a few years, it worked. Then in 1987, deposits stopped. The fund, which held $12 billion at that point, sat largely idle for four decades. Today it holds about $18 billion — roughly $14,000 per Albertan.
+In 1976, Premier Peter Lougheed established the Alberta Heritage Savings Trust Fund. The premise was straightforward: Alberta's oil wealth was finite and non-renewable, so a portion of royalty revenues should be saved for future generations. For a few years, it worked. Then in 1987, deposits stopped. The fund, which held &#36;12 billion at that point, sat largely idle for four decades. Today it holds about &#36;18 billion — roughly &#36;14,000 per Albertan.
 
-In 1990, Norway established its Government Pension Fund Global on identical logic. Today it holds $1.7 trillion — roughly $310,000 per Norwegian.
+In 1990, Norway established its Government Pension Fund Global on identical logic. Today it holds &#36;1.7 trillion — roughly &#36;310,000 per Norwegian.
 
 Both countries extracted their oil. Both collected royalties. The difference is almost entirely fiscal design and political will. Understanding it requires understanding what resource rents are, how royalty regimes work, and why some approaches to rent capture destroy the investment they are trying to tax.
 
@@ -115,7 +115,7 @@ The fragility of Alberta's fiscal position becomes visible in its revenue compos
 <div data-viz="echarts" data-options='{"title": {"text": "Alberta Government Revenue by Source", "subtext": "Boom year (2022–23) vs Bust year (2015–16), CAD billion"}, "tooltip": {"trigger": "item", "formatter": "{b}: ${c}B ({d}%)"}, "legend": {"bottom": 0}, "series": [{"name": "Boom Year 2022-23", "type": "pie", "radius": ["30%", "55%"], "center": ["25%", "50%"], "data": [{"value": 25.2, "name": "Royalties"}, {"value": 7.8, "name": "Corporate Tax"}, {"value": 14.5, "name": "Federal Transfers"}, {"value": 12.4, "name": "Personal Income Tax"}, {"value": 7.1, "name": "Other"}], "label": {"formatter": "{b}\n${c}B"}}, {"name": "Bust Year 2015-16", "type": "pie", "radius": ["30%", "55%"], "center": ["75%", "50%"], "data": [{"value": 2.8, "name": "Royalties"}, {"value": 4.9, "name": "Corporate Tax"}, {"value": 9.8, "name": "Federal Transfers"}, {"value": 10.1, "name": "Personal Income Tax"}, {"value": 5.2, "name": "Other"}], "label": {"formatter": "{b}\n${c}B"}}]}'>
 </div>
 
-The contrast is dramatic: royalty revenue of $25.2 billion in the boom year (2022–23) versus $2.8 billion in the bust year (2015–16) — a nine-fold swing, while total government spending remained relatively stable. This volatility is the direct consequence of high rent capture dependency without a stabilisation fund.
+The contrast is dramatic: royalty revenue of &#36;25.2 billion in the boom year (2022–23) versus &#36;2.8 billion in the bust year (2015–16) — a nine-fold swing, while total government spending remained relatively stable. This volatility is the direct consequence of high rent capture dependency without a stabilisation fund.
 
 ## The Royalty Holiday Problem
 
@@ -132,3 +132,29 @@ Each of these responses reduces effective rent capture without reducing producti
 ---
 
 **Next in this cluster:** Model 19 — The Resource Curse examines how even well-captured resource rents can generate long-run economic damage through Dutch disease, volatility transmission, and the staples trap — and what this means for Alberta's economic geography.
+
+## References
+
+Alberta Treasury Board and Finance. 2025. *Alberta Heritage Savings Trust Fund 2024–25 Annual Report*. Government of Alberta. <https://open.alberta.ca/dataset/3675e470-646e-4f8a-86a7-c36c6f45471a/resource/09ab213a-a4ba-45dd-b130-e01816f96cc9/download/tbf-alberta-heritage-savings-trust-fund-annual-report-2024-2025.pdf>
+
+Government of Alberta. 2025. *Heritage Savings Trust Fund*. <https://www.alberta.ca/heritage-savings-trust-fund>
+
+Government of Alberta. 2025. *Historical Royalty Revenue Data*. <https://www.alberta.ca/historical-royalty-revenue-data>
+
+Government of Alberta. 2025. *Oil Sands Royalties — Overview*. <https://www.alberta.ca/royalty-oil-sands>
+
+Government of Alberta. 2025. *Oil Sands Royalty Rates*. <https://www.alberta.ca/oil-sands-royalty-rates>
+
+Government of Alberta. 2025. *Royalty Overview*. <https://www.alberta.ca/royalty-overview>
+
+Hotelling, Harold. 1931. "The Economics of Exhaustible Resources." *Journal of Political Economy* 39 (2): 137–175. <https://doi.org/10.1086/254195>
+
+Norges Bank Investment Management. 2025. *Annual Report 2024*. <https://www.nbim.no/contentassets/490f9f062cfc4694b12c45f4d04ab0a5/annual_report_2024.pdf>
+
+Norsk Petroleum. 2025. *The Petroleum Tax System*. <https://www.norskpetroleum.no/en/economy/petroleum-tax/>
+
+Norsk Petroleum. 2025. *The Government's Revenues*. <https://www.norskpetroleum.no/en/economy/governments-revenues/>
+
+Sachs, Jeffrey D., and Andrew M. Warner. 1995. "Natural Resource Abundance and Economic Growth." NBER Working Paper 5398. National Bureau of Economic Research. <https://www.nber.org/papers/w5398>
+
+van der Ploeg, Frederick. 2011. "Natural Resources: Curse or Blessing?" *Journal of Economic Literature* 49 (2): 366–420. <https://doi.org/10.1257/jel.49.2.366>

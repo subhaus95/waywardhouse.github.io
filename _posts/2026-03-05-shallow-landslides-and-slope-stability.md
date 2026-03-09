@@ -130,7 +130,7 @@ The factor of safety under full saturation becomes:
 
 $$FS_{\text{sat}} = \frac{c'}{\rho_s g z \sin\beta} + \frac{(\rho_s - \rho_w)\cos\beta \tan\phi'}{\rho_s \sin\beta}$$
 
-Defining the relative saturation $m = h_w / z$ (fraction of soil column that is saturated, $0 \leq m \leq 1$):
+Defining the relative saturation $m = h_w / z$ (fraction of soil column that is saturated, &#36;0 \leq m \leq 1$):
 
 $$FS(m) = \frac{c'}{\rho_s g z \sin\beta} + \frac{[1 - m(\rho_w/\rho_s)]\cos\beta \tan\phi'}{\sin\beta}$$
 
@@ -142,7 +142,7 @@ Forest roots act as tensile reinforcement across the failure plane, adding an ap
 
 $$FS_{\text{root}} = \frac{c' + c_r}{\rho_s g z \sin\beta} + \frac{[1-m(\rho_w/\rho_s)]\cos\beta \tan\phi'}{\sin\beta}$$
 
-Root reinforcement values depend on species and root density. Conifers in the Pacific Northwest typically contribute $c_r = 2{,}000$–$10{,}000$ Pa; grasses contribute $500$–$2{,}000$ Pa; clearcut slopes within a few years of harvest have $c_r \approx 0$ (roots decay faster than new roots develop).
+Root reinforcement values depend on species and root density. Conifers in the Pacific Northwest typically contribute $c_r = 2{,}000$–&#36;10{,}000$ Pa; grasses contribute &#36;500$–&#36;2{,}000$ Pa; clearcut slopes within a few years of harvest have $c_r \approx 0$ (roots decay faster than new roots develop).
 
 A 10,000 Pa root reinforcement on a slope with $\rho_s = 1,500$ kg m⁻³ and $z = 1.5$ m adds:
 
@@ -154,7 +154,7 @@ At $\beta = 30°$, $\Delta FS = 10000 / 11036 = 0.91$ — forest roots add nearl
 
 Setting FS = 1 and solving for the critical saturation $m^*$:
 
-$$1 = \frac{c' + c_r}{\rho_s g z \sin\beta} + \frac{[1-m^*(\rho_w/\rho_s)]\cos\beta \tan\phi'}{\sin\beta}$$
+$&#36;1 = \frac{c' + c_r}{\rho_s g z \sin\beta} + \frac{[1-m^*(\rho_w/\rho_s)]\cos\beta \tan\phi'}{\sin\beta}$$
 
 Rearranging:
 

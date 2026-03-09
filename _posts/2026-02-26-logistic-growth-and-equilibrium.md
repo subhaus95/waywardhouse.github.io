@@ -68,14 +68,14 @@ Where:
 
 **Interpretation of the term** $\left(1 - \frac{N}{K}\right)$:
 
-| Population | $N/K$ | $1 - N/K$ | Growth |
+| Population | $N/K$ | &#36;1 - N/K$ | Growth |
 |------------|-------|-----------|--------|
 | $N \ll K$ (small) | ≈ 0 | ≈ 1 | Nearly exponential |
 | $N = K/2$ | 0.5 | 0.5 | Half the max rate |
 | $N = K$ | 1 | 0 | No growth |
 | $N > K$ | > 1 | < 0 | **Decline** |
 
-When $N$ is small, $1 - N/K \approx 1$, and we recover exponential growth.  
+When $N$ is small, &#36;1 - N/K \approx 1$, and we recover exponential growth.  
 When $N = K$, the brake term becomes zero — growth stops.  
 When $N > K$ (overshoot), the brake term is negative — the population declines back toward $K$.
 
@@ -123,7 +123,7 @@ $$rN\left(1 - \frac{N}{K}\right) = 0$$
 
 This is zero when:
 1. $N = 0$ (extinction equilibrium)
-2. $1 - N/K = 0 \Rightarrow N = K$ (carrying capacity equilibrium)
+2. &#36;1 - N/K = 0 \Rightarrow N = K$ (carrying capacity equilibrium)
 
 **Two equilibrium points:** $N^* = 0$ and $N^* = K$.
 
@@ -139,8 +139,8 @@ An equilibrium is **unstable** if small perturbations grow away from it.
 - **$N = 0$ is unstable**
 
 **At $N^* = K$:**  
-- If $N$ is slightly below $K$, then $1 - N/K > 0$, so $\frac{dN}{dt} > 0$ → population increases toward $K$
-- If $N$ is slightly above $K$, then $1 - N/K < 0$, so $\frac{dN}{dt} < 0$ → population decreases toward $K$
+- If $N$ is slightly below $K$, then &#36;1 - N/K > 0$, so $\frac{dN}{dt} > 0$ → population increases toward $K$
+- If $N$ is slightly above $K$, then &#36;1 - N/K < 0$, so $\frac{dN}{dt} < 0$ → population decreases toward $K$
 - **$N = K$ is stable**
 
 This is **negative feedback** — deviations from the equilibrium are self-correcting.
@@ -167,11 +167,11 @@ Euler's method: $N_{i+1} = N_i + \frac{dN}{dt}\bigg|_{N_i} \cdot \Delta t$
 
 | Year | $N$ | $\frac{dN}{dt} = 0.4N(1 - N/500)$ | $N + \frac{dN}{dt} \cdot 1$ |
 |------|-----|----------------------------------|------------------------------|
-| 0    | 50  | $0.4(50)(1 - 50/500) = 19.0$    | 69.0                        |
-| 1    | 69  | $0.4(69)(1 - 69/500) = 23.7$    | 92.7                        |
-| 2    | 92.7| $0.4(92.7)(1 - 92.7/500) = 30.2$| 122.9                       |
-| 3    | 122.9| $0.4(122.9)(1 - 122.9/500) = 37.1$| 160.0                     |
-| 4    | 160.0| $0.4(160.0)(1 - 160.0/500) = 43.5$| 203.5                     |
+| 0    | 50  | &#36;0.4(50)(1 - 50/500) = 19.0$    | 69.0                        |
+| 1    | 69  | &#36;0.4(69)(1 - 69/500) = 23.7$    | 92.7                        |
+| 2    | 92.7| &#36;0.4(92.7)(1 - 92.7/500) = 30.2$| 122.9                       |
+| 3    | 122.9| &#36;0.4(122.9)(1 - 122.9/500) = 37.1$| 160.0                     |
+| 4    | 160.0| &#36;0.4(160.0)(1 - 160.0/500) = 43.5$| 203.5                     |
 | 5    | 203.5| —                                | **203.5**                   |
 
 After 5 years: **$N \approx 204$ deer**
@@ -465,7 +465,7 @@ To find the maximum, take the derivative with respect to $N$ and set it to zero:
 
 $$\frac{d}{dN}\left[rN\left(1 - \frac{N}{K}\right)\right] = r\left(1 - \frac{2N}{K}\right) = 0$$
 
-$$1 - \frac{2N}{K} = 0 \Rightarrow N = \frac{K}{2}$$
+$&#36;1 - \frac{2N}{K} = 0 \Rightarrow N = \frac{K}{2}$$
 
 The population grows **fastest** at half the carrying capacity.
 
@@ -475,7 +475,7 @@ The population grows **fastest** at half the carrying capacity.
 
 If $N > K$ (overshoot), then:
 
-$$1 - \frac{N}{K} < 0 \Rightarrow \frac{dN}{dt} < 0$$
+$&#36;1 - \frac{N}{K} < 0 \Rightarrow \frac{dN}{dt} < 0$$
 
 The population **declines** back toward $K$. This is the stabilizing feedback.
 

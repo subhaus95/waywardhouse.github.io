@@ -77,7 +77,7 @@ $$\text{CaCO}_3 + \text{CO}_2 + \text{H}_2\text{O} \rightarrow \text{Ca}^{2+} + 
 
 **2. Silicate hydrolysis (slow):**
 
-$$2\text{NaAlSi}_3\text{O}_8 + 2\text{CO}_2 + 11\text{H}_2\text{O} \rightarrow \text{Al}_2\text{Si}_2\text{O}_5(\text{OH})_4 + 2\text{Na}^+ + 2\text{HCO}_3^- + 4\text{H}_4\text{SiO}_4$$
+$&#36;2\text{NaAlSi}_3\text{O}_8 + 2\text{CO}_2 + 11\text{H}_2\text{O} \rightarrow \text{Al}_2\text{Si}_2\text{O}_5(\text{OH})_4 + 2\text{Na}^+ + 2\text{HCO}_3^- + 4\text{H}_4\text{SiO}_4$$
 
 (Albite → Kaolinite)
 
@@ -87,7 +87,7 @@ $$2\text{NaAlSi}_3\text{O}_8 + 2\text{CO}_2 + 11\text{H}_2\text{O} \rightarrow \
 
 **3. Sulfide oxidation:**
 
-$$2\text{FeS}_2 + 7\text{O}_2 + 2\text{H}_2\text{O} \rightarrow 2\text{Fe}^{2+} + 4\text{SO}_4^{2-} + 4\text{H}^+$$
+$&#36;2\text{FeS}_2 + 7\text{O}_2 + 2\text{H}_2\text{O} \rightarrow 2\text{Fe}^{2+} + 4\text{SO}_4^{2-} + 4\text{H}^+$$
 
 **Products:** Iron, sulfate, acidity  
 **Rate:** Variable  
@@ -181,7 +181,7 @@ $$C(\tau) = C_{\text{eq}} (1 - e^{-k\tau})$$
 **Short residence:** $C \ll C_{\text{eq}}$ (kinetically limited)  
 **Long residence:** $C \rightarrow C_{\text{eq}}$ (equilibrium)
 
-**Typical subglacial:** $k \sim 10^{-6}$ to $10^{-5}$ s⁻¹
+**Typical subglacial:** $k \sim 10^{-6}$ to &#36;10^{-5}$ s⁻¹
 
 ### Two-Component Mixing Model
 
@@ -686,7 +686,7 @@ Where $z_i$ = ion charge, $C_i$ = concentration (meq/L).
 Cations: Ca²⁺, Mg²⁺, Na⁺, K⁺  
 Anions: HCO₃⁻, SO₄²⁻, Cl⁻
 
-$$2[\text{Ca}^{2+}] + 2[\text{Mg}^{2+}] + [\text{Na}^+] + [\text{K}^+] = [\text{HCO}_3^-] + 2[\text{SO}_4^{2-}] + [\text{Cl}^-]$$
+$&#36;2[\text{Ca}^{2+}] + 2[\text{Mg}^{2+}] + [\text{Na}^+] + [\text{K}^+] = [\text{HCO}_3^-] + 2[\text{SO}_4^{2-}] + [\text{Cl}^-]$$
 
 **Check:** Should balance within ±5% (analytical quality control)
 

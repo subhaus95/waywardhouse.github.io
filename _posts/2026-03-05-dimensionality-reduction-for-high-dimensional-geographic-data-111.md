@@ -42,7 +42,7 @@ math_prerequisites: >
   metric.
 ---
 
-The Airborne Visible/Infrared Imaging Spectrometer (AVIRIS) generates 224 spectral bands for every pixel in its imagery — sampling reflected electromagnetic radiation from 400 to 2500 nanometres in 10 nm increments. For a 1000 × 1000 pixel scene, that is $10^6 \times 224 = 2.24 \times 10^8$ numbers. Storing, processing, and modelling this data naively would require working in a 224-dimensional feature space where all standard algorithms — nearest-neighbour search, regression, clustering — become slow, unreliable, or meaningless due to the **curse of dimensionality**: in high dimensions, all distances become similar, volume concentrates in thin shells near the surface of hyperspheres, and training data becomes exponentially sparse.
+The Airborne Visible/Infrared Imaging Spectrometer (AVIRIS) generates 224 spectral bands for every pixel in its imagery — sampling reflected electromagnetic radiation from 400 to 2500 nanometres in 10 nm increments. For a 1000 × 1000 pixel scene, that is &#36;10^6 \times 224 = 2.24 \times 10^8$ numbers. Storing, processing, and modelling this data naively would require working in a 224-dimensional feature space where all standard algorithms — nearest-neighbour search, regression, clustering — become slow, unreliable, or meaningless due to the **curse of dimensionality**: in high dimensions, all distances become similar, volume concentrates in thin shells near the surface of hyperspheres, and training data becomes exponentially sparse.
 
 Dimensionality reduction solves this problem by finding a low-dimensional representation that preserves the structure of the data — either the variance structure (PCA), the local neighbourhood structure (t-SNE), or the global topological structure (UMAP).
 
@@ -209,7 +209,7 @@ Approximating from the data pattern: Blue, Green, and Red are highly correlated 
 
 **PC1 scores:** Large negative for bare soil pixels (high visible, low NIR → large positive loading × visible − negative loading × NIR = large value; but with the sign convention, bare soil gets positive PC1 scores). Forest pixels get negative PC1 scores (low visible, high NIR). PC1 ≈ NDVI inverted — the dominant spectral contrast.
 
-**Variance explained:** If $\lambda_1 = 0.021$, $\lambda_2 = 0.003$, $\lambda_3 = 0.001$, $\lambda_4 = 0.0002$, then PC1 alone explains $0.021/0.0252 = 83\%$ of total variance. Two components capture 95%.
+**Variance explained:** If $\lambda_1 = 0.021$, $\lambda_2 = 0.003$, $\lambda_3 = 0.001$, $\lambda_4 = 0.0002$, then PC1 alone explains &#36;0.021/0.0252 = 83\%$ of total variance. Two components capture 95%.
 
 ---
 

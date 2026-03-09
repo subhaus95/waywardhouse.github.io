@@ -588,7 +588,7 @@ await new Promise(resolve => {
 - 1300 km crosses permafrost
 - Elevated on vertical support members
 - Thermosyphons prevent thaw
-- Maintenance cost: $100s millions annually
+- Maintenance cost: &#36;100s millions annually
 
 **Arctic communities:**
 - Buildings tilting, cracking

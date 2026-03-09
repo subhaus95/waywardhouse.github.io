@@ -565,7 +565,7 @@ $$\begin{pmatrix} x' \\ y' \\ z' \end{pmatrix} = \begin{pmatrix}
 ## Summary
 
 - **Ground track:** Path traced by the sub-satellite point on Earth's surface
-- **Westward shift:** Each orbit crosses the equator ~$360° \times T/86164$ west of the previous
+- **Westward shift:** Each orbit crosses the equator ~&#36;360° \times T/86164$ west of the previous
 - **Inclination** determines maximum latitude reached (±$i$)
 - **Polar orbits** ($i = 90°$) provide global coverage
 - **Sun-synchronous orbits** ($i \approx 98°$) maintain constant local solar time

@@ -79,7 +79,7 @@ The diagram shows the four models as nodes in the causal graph. The red node (Ba
 
 ### 3.1 Bid-Rent Gradient
 
-Calgary's downtown core — approximately the area bounded by the Bow River to the north, 12th Avenue to the south, 4th Street SE to the east, and 8th Street SW to the west — has the steepest rent gradient of any Canadian city outside Toronto and Vancouver. Class-A office rents in the core ran $\$40$–$\$55$ per square foot annually at the 2014 oil-price peak. By 2020, vacancy rates had exceeded 30% and effective rents in some buildings had fallen below $\$20$ per square foot — one of the most dramatic gradient collapses of any major North American CBD.
+Calgary's downtown core — approximately the area bounded by the Bow River to the north, 12th Avenue to the south, 4th Street SE to the east, and 8th Street SW to the west — has the steepest rent gradient of any Canadian city outside Toronto and Vancouver. Class-A office rents in the core ran $\&#36;40$–$\&#36;55$ per square foot annually at the 2014 oil-price peak. By 2020, vacancy rates had exceeded 30% and effective rents in some buildings had fallen below $\&#36;20$ per square foot — one of the most dramatic gradient collapses of any major North American CBD.
 
 This collapse is the bid-rent mechanism working in reverse: when the value of central proximity falls — because energy firms vacate offices and reduce face-to-face operations — the equilibrium rent gradient flattens. The "trophy" premium for the innermost location evaporates.
 
@@ -242,3 +242,23 @@ Understanding the integrated system does not make these transitions easy. But it
 ---
 
 This model completes the **UE — Urban Economic Systems** cluster. The five models together provide a coherent analytical vocabulary for reading any city: bid-rent explains the spatial structure of rents and land use; agglomeration explains the productivity premium of density; Zipf's Law places the city in the national hierarchy; the economic base explains how external shocks transmit to total employment; and the integrated system shows how all four interact as a single causal feedback loop. Calgary — resource-specialised, polycentric, mid-ranked in the national hierarchy, and acutely exposed to commodity cycles — is the worked example that gives the theory its sharpest edges.
+
+## References
+
+Alonso, William. 1964. *Location and Land Use: Toward a General Theory of Land Rent*. Cambridge, MA: Harvard University Press. <https://doi.org/10.4159/harvard.9780674730854>
+
+CBRE. 2020. "Calgary Office Market Reports." Calgary: CBRE Canada. <https://www.cbre.ca/offices/calgary>
+
+Gabaix, Xavier. 1999. "Zipf's Law for Cities: An Explanation." *Quarterly Journal of Economics* 114 (3): 739–767. <https://doi.org/10.1162/003355399556133>
+
+Glaeser, Edward L. 2011. *Triumph of the City: How Our Greatest Invention Makes Us Richer, Smarter, Greener, Healthier, and Happier*. New York: Penguin Press. (no public URL available)
+
+Jacobs, Jane. 1969. *The Economy of Cities*. New York: Random House. (no public URL available)
+
+Rosenthal, Stuart S., and William C. Strange. 2004. "Evidence on the Nature and Sources of Agglomeration Economies." In *Handbook of Regional and Urban Economics*, vol. 4, edited by J. Vernon Henderson and Jacques-François Thisse, 2119–2171. Amsterdam: Elsevier. <https://www.sciencedirect.com/science/article/pii/S1574008004800063>
+
+Statistics Canada. 2020. "How Do Workers Displaced from Energy-producing Sectors Fare after Job Loss? Evidence from the Oil and Gas Industry." Economic Insights, Catalogue no. 11-626-X, No. 123. <https://www150.statcan.gc.ca/n1/pub/11-626-x/11-626-x2020021-eng.htm>
+
+Statistics Canada. 2022. "Annual Review of the Labour Market, 2016." Statistics Canada Catalogue no. 75-004-M. <https://www150.statcan.gc.ca/n1/pub/75-004-m/75-004-m2017001-eng.htm>
+
+Statistics Canada. 2022. "Population and Dwelling Count Highlight Tables, 2021 Census of Population." <https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/hlt-fst/pd-pl/List-cma-tca.cfm?Lang=Eng&T=1601&S=86&O=A>

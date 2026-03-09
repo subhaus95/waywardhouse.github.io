@@ -83,7 +83,7 @@ where $\alpha$ is surface albedo, $K_\downarrow$ is incoming shortwave [W m⁻²
 
 $$L_\uparrow = \varepsilon_s \sigma T_s^4$$
 
-Here $\varepsilon_s \approx 0.95$–$0.98$ is surface emissivity, $\sigma = 5.67 \times 10^{-8}$ W m⁻² K⁻⁴ is the Stefan-Boltzmann constant, and $T_s$ is surface temperature in Kelvin.
+Here $\varepsilon_s \approx 0.95$–&#36;0.98$ is surface emissivity, $\sigma = 5.67 \times 10^{-8}$ W m⁻² K⁻⁴ is the Stefan-Boltzmann constant, and $T_s$ is surface temperature in Kelvin.
 
 Typical midday values in summer:
 
@@ -97,7 +97,7 @@ Typical midday values in summer:
 
 ### 3.2 The Bowen Ratio and Evaporation Suppression
 
-The **Bowen ratio** $\beta = Q_H / Q_E$ summarises the sensible-to-latent partition. For vegetated rural surfaces in summer, $\beta \approx 0.3$–$0.6$. For dense impervious urban surfaces, $\beta \approx 3$–$10$.
+The **Bowen ratio** $\beta = Q_H / Q_E$ summarises the sensible-to-latent partition. For vegetated rural surfaces in summer, $\beta \approx 0.3$–&#36;0.6$. For dense impervious urban surfaces, $\beta \approx 3$–&#36;10$.
 
 If the latent heat pathway is suppressed by impervious fraction $f_i$, the increase in sensible heat flux is approximately:
 
@@ -127,7 +127,7 @@ The spatial distribution of $Q_F$ is strongly heterogeneous. Dense commercial co
 
 ### 3.4 Sky View Factor and Nocturnal Cooling Suppression
 
-The **sky view factor** $\psi_s$ [0–1] is the fraction of the upper hemisphere visible as sky from a point at street level. An open rural surface has $\psi_s = 1$; a narrow street canyon may have $\psi_s = 0.2$–$0.4$.
+The **sky view factor** $\psi_s$ [0–1] is the fraction of the upper hemisphere visible as sky from a point at street level. An open rural surface has $\psi_s = 1$; a narrow street canyon may have $\psi_s = 0.2$–&#36;0.4$.
 
 Nocturnal cooling occurs by longwave radiation to the sky. Net longwave loss from the surface:
 
@@ -180,11 +180,11 @@ Typical North American coefficients: $A \approx 3°\text{C}$, $B \approx 2°\tex
 
 ### 3.7 Green Infrastructure Mitigation
 
-**Cool roofs** increase albedo from $\alpha \approx 0.10$ (dark) to $\alpha \approx 0.65$–$0.80$ (white). Reduction in absorbed solar radiation per unit roof area:
+**Cool roofs** increase albedo from $\alpha \approx 0.10$ (dark) to $\alpha \approx 0.65$–&#36;0.80$ (white). Reduction in absorbed solar radiation per unit roof area:
 
 $$\Delta Q_{\text{cool roof}} = \Delta\alpha \cdot K_\downarrow$$
 
-For $\Delta\alpha = 0.55$ and summer noon $K_\downarrow = 600$ W m⁻²: $\Delta Q = 330$ W m⁻². City-scale effect depends on roof fraction of plan area (typically 20–35%). A city with 25% roof coverage achieves $0.25 \times 330 = 82.5$ W m⁻² average reduction in absorbed radiation — comparable to removing a large fraction of the UHI forcing.
+For $\Delta\alpha = 0.55$ and summer noon $K_\downarrow = 600$ W m⁻²: $\Delta Q = 330$ W m⁻². City-scale effect depends on roof fraction of plan area (typically 20–35%). A city with 25% roof coverage achieves &#36;0.25 \times 330 = 82.5$ W m⁻² average reduction in absorbed radiation — comparable to removing a large fraction of the UHI forcing.
 
 Cool roofs are **less effective in cold climates**: in winter, dark roofs usefully absorb solar radiation for space heating. A Canadian analysis must account for the seasonal sign reversal.
 
@@ -192,7 +192,7 @@ Cool roofs are **less effective in cold climates**: in winter, dark roofs useful
 
 $$Q_E^{\text{tree}} = \frac{\dot{m}_{ET} L_v}{A_{\text{canopy}}}$$
 
-For $\dot{m} = 200$ L day⁻¹ = $2.31 \times 10^{-3}$ kg s⁻¹, $L_v = 2.45 \times 10^6$ J kg⁻¹, $A_{\text{canopy}} = 25$ m²:
+For $\dot{m} = 200$ L day⁻¹ = &#36;2.31 \times 10^{-3}$ kg s⁻¹, $L_v = 2.45 \times 10^6$ J kg⁻¹, $A_{\text{canopy}} = 25$ m²:
 
 $$Q_E^{\text{tree}} = \frac{2.31 \times 10^{-3} \times 2.45 \times 10^6}{25} = 226 \text{ W m}^{-2}$$
 
@@ -202,7 +202,7 @@ Under-canopy temperatures are typically 2–5°C cooler than adjacent sun-expose
 
 $$\Delta T_{\text{park}}(d) = \Delta T_{\max} e^{-d/d_0}$$
 
-where $\Delta T_{\max} \approx 1$–$4$°C at the park edge and $d_0 \approx 100$–$400$ m is the e-folding decay distance. Parks larger than 1 ha typically produce measurable cooling; parks larger than 10 ha produce city-scale microclimate effects extending hundreds of metres into surrounding streets.
+where $\Delta T_{\max} \approx 1$–&#36;4$°C at the park edge and $d_0 \approx 100$–&#36;400$ m is the e-folding decay distance. Parks larger than 1 ha typically produce measurable cooling; parks larger than 10 ha produce city-scale microclimate effects extending hundreds of metres into surrounding streets.
 
 ---
 
@@ -236,7 +236,7 @@ $$\Delta Q_{\text{city}} = 0.25 \times 0.50 \times 480 = 60 \text{ W m}^{-2}$$
 
 UHI forcing (summer) $\approx Q_F + \Delta Q_H \approx 25 + 90 = 115$ W m⁻²
 
-Reduction: $60/115 = 52\%$ of UHI forcing — but this analysis ignores the winter heating penalty. For Edmonton, the net annual benefit of cool roofs is substantially lower than the summer benefit alone.
+Reduction: &#36;60/115 = 52\%$ of UHI forcing — but this analysis ignores the winter heating penalty. For Edmonton, the net annual benefit of cool roofs is substantially lower than the summer benefit alone.
 
 ---
 

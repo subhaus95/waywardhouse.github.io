@@ -129,7 +129,7 @@ Migration flows between regions follow the gravity model (Essay D10):
 
 $$M_{ij} = k \frac{O_i D_j}{d_{ij}^\beta}$$
 
-where $M_{ij}$ is the number of migrants from $i$ to $j$, $O_i$ is the sending population of $i$, $D_j$ is the attractiveness of $j$ (employment rate, wage level, housing cost), and $d_{ij}$ is distance. The exponent $\beta \approx 1.5$–$2.0$ for interprovincial migration in Canada.
+where $M_{ij}$ is the number of migrants from $i$ to $j$, $O_i$ is the sending population of $i$, $D_j$ is the attractiveness of $j$ (employment rate, wage level, housing cost), and $d_{ij}$ is distance. The exponent $\beta \approx 1.5$–&#36;2.0$ for interprovincial migration in Canada.
 
 The **push-pull framework** decomposes migration probability into:
 - **Push factors** in origin $i$: unemployment, low wages, high cost of living, natural disasters
@@ -152,7 +152,7 @@ The **old-age dependency ratio** (OADR) measures the burden of supporting elderl
 
 $$\text{OADR} = \frac{N_{65+}}{N_{15-64}}$$
 
-As TFR falls below replacement and life expectancy rises, OADR increases. Canada's OADR was $0.21$ in 2000, $0.31$ in 2020, and is projected at $0.45$–$0.50$ by 2040 (assuming continued immigration).
+As TFR falls below replacement and life expectancy rises, OADR increases. Canada's OADR was &#36;0.21$ in 2000, &#36;0.31$ in 2020, and is projected at &#36;0.45$–&#36;0.50$ by 2040 (assuming continued immigration).
 
 The **demographic dividend** occurs when the working-age population is large relative to both young and old dependents — a transitional phase when fertility has fallen but the large cohort born during the high-fertility period has not yet aged into the elderly group. Countries in the demographic dividend experience rapid economic growth potential from a large, productive workforce with low dependency. East Asian economic growth from 1965–1995 was partly attributable to this dividend; Sub-Saharan Africa is currently entering it.
 
@@ -168,7 +168,7 @@ The **vacancy rate dynamics** can be modelled as:
 
 $$\frac{dV}{dt} = \alpha(V_{\text{eq}} - V) + \beta \frac{dN}{dt}$$
 
-where $V$ is the vacancy rate, $V_{\text{eq}}$ is the natural vacancy rate (the frictional rate in a healthy market, $\approx 3$–$5\%$), and $dN/dt$ is the population change rate. Population decline ($dN/dt < 0$) pushes vacancy above equilibrium; the market adjustment rate $\alpha$ determines how quickly demolition and conversion respond.
+where $V$ is the vacancy rate, $V_{\text{eq}}$ is the natural vacancy rate (the frictional rate in a healthy market, $\approx 3$–&#36;5\%$), and $dN/dt$ is the population change rate. Population decline ($dN/dt < 0$) pushes vacancy above equilibrium; the market adjustment rate $\alpha$ determines how quickly demolition and conversion respond.
 
 For a city losing 1% of population per year ($dN/dt = -0.01 N$), the excess vacancy rate accumulates at $\beta \times 0.01$ per year — generating vacancy concentrations that, if not managed through demolition and land bank programmes, create persistent derelict landscapes.
 
@@ -208,7 +208,7 @@ Natural increase = 247 − 180 = +67 persons over 5 years.
 
 **Step 3: Net migration (young adult out-migration)**
 
-Assume 15% of 15–24 year olds leave in 5 years (net out-migration): $0.15 \times 600 = 90$ persons.
+Assume 15% of 15–24 year olds leave in 5 years (net out-migration): &#36;0.15 \times 600 = 90$ persons.
 
 **Net population change:** $+67 - 90 = -23$ persons → community is shrinking slightly.
 
@@ -317,7 +317,7 @@ The 2045 projection shows population decline concentrated in the young adult (15
 
 ## 7. Interpretation
 
-The Leslie matrix is more than a computational device — it encodes the demographic structure of a population and reveals the long-run trajectory encoded in current vital rates. The dominant eigenvalue $\lambda_1 < 1$ for the Alberta community reflects not the current year's growth rate but the long-run trajectory implied by the age-specific rates: if nothing changes, the community's age structure will converge to the stable distribution and decline at rate $1 - \lambda_1$ per period.
+The Leslie matrix is more than a computational device — it encodes the demographic structure of a population and reveals the long-run trajectory encoded in current vital rates. The dominant eigenvalue $\lambda_1 < 1$ for the Alberta community reflects not the current year's growth rate but the long-run trajectory implied by the age-specific rates: if nothing changes, the community's age structure will converge to the stable distribution and decline at rate &#36;1 - \lambda_1$ per period.
 
 The spatial dimension adds critical complexity. National-level demographic decline is a slow, reversible process with policy levers (immigration, pronatalist incentives). Local decline, driven by selective out-migration, is faster and harder to reverse: the young adults who leave take their future fertility, productivity, and tax payments with them. Their departure reduces the services and social vibrancy that might have attracted others, accelerating the spiral.
 

@@ -333,35 +333,37 @@ Oil will be needed for decades, and Alberta's oil will be among it. But the term
 
 ---
 
-## Sources and References
+## References
 
-International Energy Agency (IEA). *Oil 2025: Analysis and Forecast to 2030*. Paris: IEA, 2025.
+Centre for Research on Energy and Clean Air (CREA). 2025. *Monthly Analysis of Russian Fossil Fuel Exports and Revenues*. Helsinki: CREA. <https://energyandcleanair.org/russia-fossil-fuel-tracker/>
 
-International Energy Agency (IEA). *Oil Market Reports*: Monthly editions, 2025.
+China National Energy Administration (NEA). 2025. *2024 National Energy Development Statistical Bulletin*. Beijing: NEA. <https://www.nea.gov.cn/> (Chinese-language official source; no English-language direct URL available)
 
-International Energy Agency (IEA). *Global Energy Review 2025*.
+Ember. 2025. "Wind and Solar Generated a Quarter of China's Electricity in 2024." April 2025. London: Ember. <https://ember-energy.org/latest-insights/wind-and-solar-generated-a-quarter-of-chinas-electricity-in-2024/>
 
-U.S. Energy Information Administration (EIA). *Short-Term Energy Outlook*, February 2026.
+Enerdata. 2025. "China Installs Record Capacity for Solar (+45%) and Wind (+18%) in 2024." February 2025. Grenoble: Enerdata. <https://www.enerdata.net/publications/daily-energy-news/china-installs-record-capacity-solar-45-and-wind-18-2024.html>
 
-Brookings Institution. *Stiffening European Sanctions Against the Russian Oil Trade*. January 2026.
+Follow the Money (FTM). 2025. "Russia's Shadow Fleet Shakes Off Western Sanctions to Keep Oil Revenues Flowing." December 2025. Amsterdam: FTM. <https://www.ftm.eu/articles/russia-shadow-fleet-western-sanctions-oil-revenues>
 
-Centre for Research on Energy and Clean Air (CREA). *Monthly Analysis of Russian Fossil Fuel Exports*. 2024–2025.
+International Energy Agency (IEA). 2025. *Global EV Outlook 2025*. Paris: IEA. <https://www.iea.org/reports/global-ev-outlook-2025>
 
-Mitrova, Tatyana. "Into the Shadows." *The Insider* / Columbia University CGEP, December 2025.
+International Energy Agency (IEA). 2025. *Oil 2025: Analysis and Forecast to 2030*. Paris: IEA. <https://www.iea.org/reports/oil-2025>
 
-Kpler Intelligence. *Russian Oil Flows Under Sanctions*. December 2025.
+International Energy Agency (IEA). 2025. *Oil Market Report*. Monthly editions. Paris: IEA. <https://www.iea.org/reports/oil-market-report>
 
-Follow the Money (FTM). "Russia's Shadow Fleet Shakes Off Sanctions." December 2025.
+Kpler Intelligence. 2025. "Assessing the Impact of Sanctions on Russia's Shadow Fleet." October 2025. Brussels: Kpler. <https://www.kpler.com/blog/assessing-the-impact-of-sanctions-on-russias-shadow-fleet>
 
-Enerdata. "China Installs Record Solar and Wind Capacity in 2024." February 2025.
+OPEC. 2024. *Annual Statistical Bulletin 2024*. Vienna: OPEC. <https://www.opec.org/opec_web/en/publications/202.htm>
 
-Ember Energy. "Wind and Solar Over a Quarter of China's Electricity." April 2025.
+OPEC. 2024. *World Oil Outlook 2050*. Vienna: OPEC. <https://www.opec.org/opec_web/en/publications/340.htm>
 
-OPEC. *Annual Statistical Bulletin 2024*. Vienna: OPEC, 2024.
+S&P Global Commodity Insights. 2025. "Infographic: China's Solar Capacity Growth Sets New Record in 2024." January 2025. New York: S&P Global. <https://www.spglobal.com/commodity-insights/en/news-research/latest-news/012425-infographic-china-solar-capacity-coal-electricity-renewable-energy-hydro-wind>
 
-OPEC. *World Oil Outlook 2050*: Chapter 3 — Oil Demand.
+U.S. Energy Information Administration (EIA). 2025. "China's Solar Capacity Installations Grew Rapidly in 2024." *Today in Energy*. Washington, DC: EIA. <https://www.eia.gov/todayinenergy/detail.php?id=65064>
 
-Argus Media. Urals Crude Price Data, 2024–2025.
+U.S. Energy Information Administration (EIA). 2025. "Russia's Oil Exports Have Decreased Modestly Since 2022, Shifting Toward Asia." *Today in Energy*. Washington, DC: EIA. <https://www.eia.gov/todayinenergy/detail.php?id=65885>
+
+U.S. Energy Information Administration (EIA). 2026. *Short-Term Energy Outlook*, February 2026. Washington, DC: EIA. <https://www.eia.gov/outlooks/steo/>
 
 ---
 

@@ -246,7 +246,7 @@ $$V_{required} = (Q_{in} - Q_{out}) \times t_d$$
 Where:
 - $Q_{in}$ = post-development peak
 - $Q_{out}$ = allowable release rate (= $Q_{pre}$)
-- $t_d$ = detention time (typically $2-3 \times t_c$)
+- $t_d$ = detention time (typically &#36;2-3 \times t_c$)
 
 **More accurate (routing):**
 
@@ -423,7 +423,7 @@ Top area (with 3:1 side slopes): ~1200 m² (35 × 35 m)
 
 Design to capture first 25 mm (water quality storm):
 
-Impervious area: $1.5 + 2.5 = 4$ ha
+Impervious area: &#36;1.5 + 2.5 = 4$ ha
 
 $$A_{bio} = \frac{40000 \times 0.025 \times 0.9}{0.35 \times 0.9}$$
 
@@ -690,9 +690,9 @@ Regulatory limit on pollutant loading.
 
 **Cost comparison:**
 
-Traditional detention: $50-150/m³ storage  
-Bioretention: $200-400/m²  
-Permeable pavement: $25-75/m² premium over conventional
+Traditional detention: &#36;50-150/m³ storage  
+Bioretention: &#36;200-400/m²  
+Permeable pavement: &#36;25-75/m² premium over conventional
 
 **Benefits beyond storage:**
 - Water quality treatment
@@ -724,7 +724,7 @@ Treat 90% of average annual rainfall.
 
 Some jurisdictions require GI for all new development.
 
-Philadelphia: Green City, Clean Waters ($2 billion GI program)
+Philadelphia: Green City, Clean Waters (&#36;2 billion GI program)
 
 ---
 

@@ -258,7 +258,7 @@ $K_s = \sqrt{9.37/5.24} \times (\text{correction}) \approx 1.34$ (from full iter
 
 $H_b = 2.0 \times 1.34 = 2.68$ m; Breaking criterion: $H_b/h_b = 2.68/2.8 = 0.957 > 0.78$
 
-Try $h_b = 3.5$ m: $K_s \approx 1.25$, $H_b = 2.50$ m; ratio = $2.50/3.5 = 0.71 < 0.78$
+Try $h_b = 3.5$ m: $K_s \approx 1.25$, $H_b = 2.50$ m; ratio = &#36;2.50/3.5 = 0.71 < 0.78$
 
 Breaking depth is between 2.8 and 3.5 m — approximately $h_b \approx 3.1$ m. At this depth, $H_b \approx 0.78 \times 3.1 = 2.42$ m.
 

@@ -307,4 +307,44 @@ All U.S. dollar figures in USD; Canadian figures in CAD unless noted. Exchange r
 
 ---
 
+## References
+
+Bureau of Economic Analysis (BEA). 2024. *Gross Domestic Product by State, 2023*. Washington, DC: U.S. Department of Commerce. <https://www.bea.gov/data/gdp/gdp-state>
+
+Canada Energy Regulator (CER). 2025. "Market Snapshot: Canada Sets New Record in Crude Oil Production in 2024 and First Half of 2025." Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-canada-sets-new-record-in-crude-oil-production-in-2024-and-first-half-of-2025.html>
+
+Canadian Association of Petroleum Producers (CAPP). 2024. *Crude Oil Forecast, Markets and Transportation*. Calgary: CAPP. <https://www.capp.ca/resources/crude-oil-forecast/>
+
+Canadian Energy Centre. 2024. "97% of Canada's 163 Billion Barrels of Proven Oil Reserves Are in Alberta's Oil Sands." Calgary: CEC. <https://www.canadianenergycentre.ca/graphic-97-of-canadas-163-billion-barrels-of-proven-oil-reserves-are-in-albertas-oil-sands/>
+
+Enverus Intelligence Research. 2025. *Oil Sands Cost Structure and SAGD Economics*. April 2025. Austin: Enverus. (subscription research service; no public URL available)
+
+Fairness Alberta. 2024. *Alberta's Fiscal Contributions to Canada*. Edmonton: Fairness Alberta. <https://fairnessalberta.ca/fiscal-fairness/>
+
+Federal Deposit Insurance Corporation (FDIC). 1997. *History of the Eighties — Lessons for the Future, Volume I: An Examination of the Banking Crises of the 1980s and Early 1990s*. Washington, DC: FDIC. <https://www.fdic.gov/bank/historical/history/>
+
+Federal Energy Regulatory Commission (FERC). 2024. *What FERC Does*. Washington, DC: FERC. <https://www.ferc.gov/what-ferc-does>
+
+Fraser Institute. 2025. "Understanding Alberta's Role in National Programs, Including the Canada Pension Plan." Vancouver: Fraser Institute. <https://www.fraserinstitute.org/studies/understanding-albertas-role-national-programs-including-canada-pension-plan>
+
+Kansas City Federal Reserve. 2020. *The Oklahoma Economist: Energy Boom and Bust Impacts*. Kansas City: Federal Reserve Bank of Kansas City. <https://www.kansascityfed.org/oklahomacity/oklahoma-economist/>
+
+Library of Parliament. 2024. *Alberta's Merchandise Trade with the World*. Publication No. 2024-501-E. Ottawa: Library of Parliament. <https://lop.parl.ca/sites/PublicWebsite/default/en_CA/ResearchPublications/TradeAndInvestment/2024501E>
+
+Oklahoma Energy Resources Board (OERB). 2024. *Oil and Natural Gas's Economic Contribution to Oklahoma, FY 2024*. Oklahoma City: OERB. <https://www.oerb.com/what-we-do/research>
+
+Rockefeller Institute of Government. 2023. *New York's Balance of Payments with the Federal Government, 2022 Edition*. Albany: Rockefeller Institute. <https://rockinst.org/issue-area/balance-of-payments-2022/>
+
+Statistics Canada. 2025. *Provincial and Territorial Economic Accounts, 2024*. Ottawa: Statistics Canada. <https://www150.statcan.gc.ca/n1/daily-quotidien/251106/dq251106a-eng.htm>
+
+U.S. Census Bureau. 2024. *American Community Survey: Income and Poverty in the United States, 2023*. Washington, DC: U.S. Census Bureau. <https://www.census.gov/topics/income-poverty/poverty.html>
+
+U.S. Energy Information Administration (EIA). 2024. *Permian Basin Drilling Productivity Report*. Washington, DC: EIA. <https://www.eia.gov/petroleum/drilling/#tabs-summary-2>
+
+U.S. Energy Information Administration (EIA). 2024. *Texas State Energy Profile*. Washington, DC: EIA. <https://www.eia.gov/state/analysis.php?sid=TX>
+
+World's Top Exports. 2024. "Top Exports from Texas 2024." <https://www.worldstopexports.com/top-10-exports-from-texas/>
+
+---
+
 *Previous: [A Trade Reality Check](/alberta-trade-reality-check/) · Next: [Contested Ground](/global-energy-markets/)*

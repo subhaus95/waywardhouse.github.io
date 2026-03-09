@@ -72,7 +72,7 @@ where $Q_{\text{in}}$ = inflow (natural streamflow), $Q_{\text{out}}$ = controll
 
 $$S(t+1) = S(t) + Q_{\text{in}}(t)\Delta t - Q_{\text{out}}(t)\Delta t - E(t)\Delta t$$
 
-subject to $0 \leq S(t) \leq S_{\max}$. When $S(t+1) > S_{\max}$, the excess **spills**; when $S(t+1) < 0$, there is a **shortage** of magnitude $|S(t+1)|$.
+subject to &#36;0 \leq S(t) \leq S_{\max}$. When $S(t+1) > S_{\max}$, the excess **spills**; when $S(t+1) < 0$, there is a **shortage** of magnitude $|S(t+1)|$.
 
 ### 3.2 The Sequent Peak Algorithm
 
@@ -94,7 +94,7 @@ $$K_{t_1,t_2} = X_{t_1} - \min_{t_1 \le t \le t_2}(X_t)$$
 
 $$K = \max_{t_1,t_2} K_{t_1,t_2}$$
 
-The algorithm is applied to the inflow sequence repeated twice (length $2n$) to handle droughts that straddle the record's start/end boundary.
+The algorithm is applied to the inflow sequence repeated twice (length &#36;2n$) to handle droughts that straddle the record's start/end boundary.
 
 **Intuition:** $X_t$ rises during surplus periods (reservoir filling) and falls during deficits (reservoir draining). The maximum drop from any peak to its subsequent trough is exactly the storage needed to bridge that drought without running dry.
 

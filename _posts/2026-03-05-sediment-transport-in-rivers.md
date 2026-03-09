@@ -123,7 +123,7 @@ and $q_b$ [m² s⁻¹] is bedload transport per unit channel width, $s = \rho_s/
 
 $$q_b = 8 (\tau^* - \tau^*_c)^{3/2} \sqrt{(s-1)g D^3}$$
 
-The $(3/2)$ exponent in the MPM formula arises from the physics: transport rate scales with both the number of grains in motion (proportional to $\tau^* - \tau^*_c$) and the velocity of those grains (also proportional to $\tau^* - \tau^*_c$, raised to the $1/2$). Their product gives the $3/2$ power.
+The $(3/2)$ exponent in the MPM formula arises from the physics: transport rate scales with both the number of grains in motion (proportional to $\tau^* - \tau^*_c$) and the velocity of those grains (also proportional to $\tau^* - \tau^*_c$, raised to the &#36;1/2$). Their product gives the &#36;3/2$ power.
 
 Total bedload discharge [m³ s⁻¹] for a channel of width $W$ is $Q_b = q_b \times W$, or in mass units [kg s⁻¹]: $\dot{M}_b = \rho_s q_b W$.
 
@@ -150,8 +150,8 @@ where:
 
 The Rouse number controls the shape of the profile:
 - $Z > 2.5$: sediment essentially all in bedload, negligible suspension
-- $1.2 < Z < 2.5$: mixed transport, grains near bed
-- $0.8 < Z < 1.2$: graded suspension, concentration decreases upward
+- &#36;1.2 < Z < 2.5$: mixed transport, grains near bed
+- &#36;0.8 < Z < 1.2$: graded suspension, concentration decreases upward
 - $Z < 0.2$: near-uniform distribution, fine washload
 
 ### 3.5 Settling Velocity
@@ -170,7 +170,7 @@ Continuous measurement of suspended sediment concentration is expensive. The sta
 
 $$Q_s = a Q^b$$
 
-where $Q_s$ [kg s⁻¹] is the suspended sediment discharge, $Q$ [m³ s⁻¹] is water discharge, and $a$, $b$ are empirically fitted constants. Typical values: $b \approx 1.5$–$2.5$.
+where $Q_s$ [kg s⁻¹] is the suspended sediment discharge, $Q$ [m³ s⁻¹] is water discharge, and $a$, $b$ are empirically fitted constants. Typical values: $b \approx 1.5$–&#36;2.5$.
 
 In log-log space, the rating curve is linear:
 

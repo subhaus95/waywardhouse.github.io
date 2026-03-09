@@ -41,7 +41,7 @@ How much carbon does a forest fix per day?
 
 Photosynthesis is the process where plants use light energy to convert CO₂ and water into sugars and oxygen:
 
-$$6\text{CO}_2 + 6\text{H}_2\text{O} + \text{light} \to \text{C}_6\text{H}_{12}\text{O}_6 + 6\text{O}_2$$
+$&#36;6\text{CO}_2 + 6\text{H}_2\text{O} + \text{light} \to \text{C}_6\text{H}_{12}\text{O}_6 + 6\text{O}_2$$
 
 The rate depends on:
 - **Light intensity** (more light → more photosynthesis, up to a point)
@@ -148,7 +148,7 @@ Solve for $I_c$:
 
 $$I_c = \frac{R_d A_{\text{max}}}{\phi(A_{\text{max}} - R_d)}$$
 
-**Typical value:** $I_c \approx 20$–$50$ μmol/m²/s (dim indoor light).
+**Typical value:** $I_c \approx 20$–&#36;50$ μmol/m²/s (dim indoor light).
 
 ### From Leaf to Canopy
 

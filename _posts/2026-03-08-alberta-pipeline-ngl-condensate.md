@@ -261,15 +261,15 @@ diluent supply chain from local processing alone.
 
 **Step 4 — Diluent value:**
 
-At a condensate price of approximately USD $55/bbl (roughly WTI less a
-$20 quality discount, converted at 0.73 CAD/USD):
+At a condensate price of approximately USD &#36;55/bbl (roughly WTI less a
+&#36;20 quality discount, converted at 0.73 CAD/USD):
 
-$$P_{\text{condensate, CAD}} = \frac{55}{0.73} \approx \$75.3 \text{ CAD/bbl}$$
+$$P_{\text{condensate, CAD}} = \frac{55}{0.73} \approx \&#36;75.3 \text{ CAD/bbl}$$
 
 Annual value of Cochin's 95,000 bbl/d:
-$$V = 95{,}000 \times 365 \times 75.3 \approx \$2.61 \text{ billion CAD/yr}$$
+$$V = 95{,}000 \times 365 \times 75.3 \approx \&#36;2.61 \text{ billion CAD/yr}$$
 
-A single condensate import pipeline represents over $2.6 billion in
+A single condensate import pipeline represents over &#36;2.6 billion in
 annual input supply to the oil sands industry.
 
 ---
@@ -784,7 +784,7 @@ for oil sands production. The key quantitative facts:
 - The **Cochin pipeline reversal** (2014) demonstrates that existing
   infrastructure can be adapted to serve new market needs — adding
   95,000 bbl/d of condensate import capacity worth approximately
-  **CAD $2.6 billion/year**
+  **CAD &#36;2.6 billion/year**
 - NGL fractionation also produces the **ethane feedstock** for Alberta's
   petrochemical industry — the polyethylene and other plastics produced
   at Joffre and Scotford
@@ -838,6 +838,30 @@ comparing figures across sources.
 
 All volume figures are approximate and represent 2023–2024 conditions unless
 otherwise noted. NGL compositions and yields are representative WCSB averages.
+
+---
+
+## References
+
+Alberta Energy Regulator. 2024. *ST98: Alberta Energy Outlook — Crude Bitumen Production*. Calgary: AER. <https://www.aer.ca/data-and-performance-reports/statistical-reports/alberta-energy-outlook-st98/crude-bitumen/crude-bitumen-production>
+
+Canada Energy Regulator. 2021. *Canada's Pipeline System 2021: Natural Gas Liquids Pipeline Transportation System*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/canadas-pipeline-system/2021/natural-gas-liquids-pipeline-transportation-system.html>
+
+Canada Energy Regulator. 2023. *Canada's Energy Future 2023: Modelling Methods — Natural Gas Liquids*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/canada-energy-future/2023-modeling-methods/natural-gas-liquids/>
+
+Canada Energy Regulator. 2024. *Pipeline Profiles: Cochin Pipeline*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/pipeline-profiles/oil-and-liquids/pipeline-profiles-cochin-pipeline.html>
+
+Canada Energy Regulator. 2025. *Market Snapshot: Annual Trade Summary — Natural Gas Liquids Exports*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-annual-trade-summary-natural-gas-liquids-exports.html>
+
+Canadian Association of Petroleum Producers. 2024. *Crude Oil Market Fundamentals*. Calgary: CAPP. <https://www.capp.ca/wp-content/uploads/2024/03/Crude-Oil-Market-Fundamentals.pdf>
+
+Kinder Morgan. 2014. "Cochin Reversal Project." Kinder Morgan Products Pipelines. <https://www.kindermorgan.com/business/products_pipelines/cochin.aspx>
+
+Natural Resources Canada. 2024. *Energy Fact Book 2024–2025*. Ottawa: NRCan. <https://energy-information.canada.ca/en/energy-facts>
+
+North American Energy Pipelines. 2014. "Kinder Morgan, Velocity Midstream Convert Cochin Pipeline to Serve New Purpose." <https://www.napipelines.com/transforming-old-to-new/>
+
+Pembina Pipeline Corporation. 2023. *Annual Information Form*. Calgary: Pembina. <https://www.pembina.com/getattachment/a06f7efa-2898-479e-9794-c6744122c27e/aif-ppc-q4-2023-final.pdf>
 
 ---
 

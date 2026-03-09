@@ -161,9 +161,9 @@ About **5%** of incoming light reaches the forest floor.
 
 **(b) Depth where $I = 0.1 I_0$**
 
-$$0.1 I_0 = I_0 e^{-kL}$$
+$&#36;0.1 I_0 = I_0 e^{-kL}$$
 
-$$0.1 = e^{-0.5L}$$
+$&#36;0.1 = e^{-0.5L}$$
 
 Take natural log:
 
@@ -328,10 +328,10 @@ The extinction coefficient $k$ depends on:
 3. **Canopy clumping** — clumped foliage increases $k$ (gaps let light through, but dense clumps block heavily)
 
 **Typical values:**
-- Grasslands, crops: $k \approx 0.4$–$0.5$
-- Temperate deciduous forests: $k \approx 0.5$–$0.6$
-- Tropical rainforests: $k \approx 0.6$–$0.8$
-- Conifer forests: $k \approx 0.4$–$0.5$ (needle geometry)
+- Grasslands, crops: $k \approx 0.4$–&#36;0.5$
+- Temperate deciduous forests: $k \approx 0.5$–&#36;0.6$
+- Tropical rainforests: $k \approx 0.6$–&#36;0.8$
+- Conifer forests: $k \approx 0.4$–&#36;0.5$ (needle geometry)
 
 ### Understorey Adaptation
 

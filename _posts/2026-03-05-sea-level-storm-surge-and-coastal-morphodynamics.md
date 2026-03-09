@@ -80,7 +80,7 @@ $$\dot{\text{RSL}} = \dot{\text{SL}}_{\text{eustatic}} - \dot{h}_{\text{VLM}}$$
 
 where positive VLM means land rising (reducing RSL change) and negative VLM means land subsiding (amplifying RSL rise). Eustatic sea level rise is currently $\approx 3.7$ mm yr⁻¹ (2006–2018 satellite altimeter average). VLM ranges from +10 mm yr⁻¹ in Fennoscandia (post-glacial isostatic rebound) to -25 mm yr⁻¹ in parts of the Mississippi Delta (compaction + fluid withdrawal).
 
-For the Fraser Delta in British Columbia: eustatic rise $\approx 3$ mm yr⁻¹, VLM $\approx -1$ to $-3$ mm yr⁻¹ (slow deltaic subsidence), giving RSL rise $\approx 4$–$6$ mm yr⁻¹.
+For the Fraser Delta in British Columbia: eustatic rise $\approx 3$ mm yr⁻¹, VLM $\approx -1$ to $-3$ mm yr⁻¹ (slow deltaic subsidence), giving RSL rise $\approx 4$–&#36;6$ mm yr⁻¹.
 
 ### 3.2 Storm Surge: The Momentum Balance
 
@@ -138,7 +138,7 @@ For a typical low-energy beach: $L^* = 500$ m, $B = 1.5$ m, $D_c = 6$ m. For $\D
 
 $$R = \frac{500}{1.5 + 6} \times 0.5 = \frac{500}{7.5} \times 0.5 = 66.7 \times 0.5 = 33 \text{ m}$$
 
-A 33 m retreat for 0.5 m of sea level rise. The **Bruun ratio** $R/\Delta S = L^*/(B+D_c) \approx 50$–$200$ for most beaches — typically cited as "50 to 200 m of retreat per metre of sea level rise."
+A 33 m retreat for 0.5 m of sea level rise. The **Bruun ratio** $R/\Delta S = L^*/(B+D_c) \approx 50$–&#36;200$ for most beaches — typically cited as "50 to 200 m of retreat per metre of sea level rise."
 
 **Important caveat:** The Bruun Rule assumes that all eroded material is redistributed offshore within the active profile — no longshore transport, no net losses offshore. It is a geometric identity, not a physical model of the erosion process. On coasts with significant longshore transport gradients, the Bruun Rule underestimates actual retreat.
 
@@ -352,4 +352,4 @@ $$\text{CVI} = \sqrt{\frac{a \cdot b \cdot c \cdot d \cdot e \cdot f}{6}} \quad 
 
 **The geometric mean in CVI.** The arithmetic mean $(a+b+\ldots)/n$ is appropriate when variables are independent and additive. The geometric mean $(a \times b \times \ldots)^{1/n}$ is appropriate when variables are multiplicative — when a very high score on one variable should significantly elevate the combined index regardless of others. The geometric mean is always less than or equal to the arithmetic mean (AM-GM inequality), and the two coincide only when all scores are equal.
 
-**Exponential decay.** The surge decay formula $\eta(t) = \eta_{\max} e^{-t/\tau}$ has the same mathematical form as radioactive decay, first-order chemical reactions, and the RC circuit voltage discharge. In all these cases, the rate of decrease is proportional to the current value: $d\eta/dt = -\eta/\tau$. The timescale $\tau$ is the time required for the quantity to fall to $1/e \approx 37\%$ of its initial value — equivalently, after $2\tau$ it is at $14\%$, and after $3\tau$ at $5\%$.
+**Exponential decay.** The surge decay formula $\eta(t) = \eta_{\max} e^{-t/\tau}$ has the same mathematical form as radioactive decay, first-order chemical reactions, and the RC circuit voltage discharge. In all these cases, the rate of decrease is proportional to the current value: $d\eta/dt = -\eta/\tau$. The timescale $\tau$ is the time required for the quantity to fall to &#36;1/e \approx 37\%$ of its initial value — equivalently, after &#36;2\tau$ it is at &#36;14\%$, and after &#36;3\tau$ at &#36;5\%$.

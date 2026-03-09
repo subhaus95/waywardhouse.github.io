@@ -58,11 +58,11 @@ Reading the diagram: oil price feeds both the Hotelling extraction decision and 
 
 The scenario analysis holds the supply cost curve and royalty regime constant and varies only the oil price trajectory. This isolates the price effect on all downstream variables.
 
-**Scenario 1 — High Oil ($90+ WTI average):** Energy transition proceeds slower than expected, global demand remains elevated, pipeline capacity is sufficient. Alberta operates near full production capacity. Royalties are at post-payout rates. Government revenues are strong.
+**Scenario 1 — High Oil (&#36;90+ WTI average):** Energy transition proceeds slower than expected, global demand remains elevated, pipeline capacity is sufficient. Alberta operates near full production capacity. Royalties are at post-payout rates. Government revenues are strong.
 
-**Scenario 2 — Medium Oil ($65–75 WTI average):** Energy transition proceeds at the IEA "Stated Policies" pace. Global oil demand peaks around 2030 and slowly declines. Alberta production is roughly flat. Some high-cost mining projects are marginal. Government revenues are adequate but not generous.
+**Scenario 2 — Medium Oil (&#36;65–75 WTI average):** Energy transition proceeds at the IEA "Stated Policies" pace. Global oil demand peaks around 2030 and slowly declines. Alberta production is roughly flat. Some high-cost mining projects are marginal. Government revenues are adequate but not generous.
 
-**Scenario 3 — Low Oil ($45–55 WTI average):** Energy transition accelerates, EV adoption and industrial electrification reduce oil demand faster than expected. WTI falls as OPEC+ loses pricing discipline. Alberta SAGD operations are near or below full-cycle break-even. Several mining projects curtail production. Royalty revenues collapse.
+**Scenario 3 — Low Oil (&#36;45–55 WTI average):** Energy transition accelerates, EV adoption and industrial electrification reduce oil demand faster than expected. WTI falls as OPEC+ loses pricing discipline. Alberta SAGD operations are near or below full-cycle break-even. Several mining projects curtail production. Royalty revenues collapse.
 
 The Hotelling price paths for these three scenarios:
 
@@ -72,14 +72,14 @@ $$P_{\text{Low}}(t) = 50 - 1.5t \quad \text{(gradual demand-driven decline)}$$
 
 Each scenario produces a different government revenue profile, which then flows through to the Heritage Fund, program spending, and fiscal sustainability.
 
-## Waterfall: How a $20 Price Change Flows Through the System
+## Waterfall: How a &#36;20 Price Change Flows Through the System
 
-Before running the full scenarios, it is useful to understand the sensitivity of each system component to a $20 WTI price change. The waterfall chart traces this from wellhead to spending capacity.
+Before running the full scenarios, it is useful to understand the sensitivity of each system component to a &#36;20 WTI price change. The waterfall chart traces this from wellhead to spending capacity.
 
 <div data-viz="echarts" data-options='{"title": {"text": "Impact of $20 WTI Price Change on Alberta Fiscal System", "subtext": "Illustrative annual flow, CAD billion"}, "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}}, "xAxis": {"type": "category", "data": ["Gross Revenue\n(all producers)", "Less: Operating\nCosts (fixed)", "Less: Transport\n& WCS Discount", "= Pre-royalty\nNetback", "Less: Royalties\n(~12% avg)", "= Producer\nProfit Change", "Government\nRoyalty Revenue", "Heritage Fund\nContribution\n(if saved)", "Spending\nCapacity"]}, "yAxis": {"type": "value", "name": "CAD Billion", "min": -5, "max": 30}, "series": [{"name": "Cumulative Impact", "type": "bar", "data": [28, -3, -2, 23, -2.8, 20.2, 2.8, 0.5, 2.3], "itemStyle": {"color": ["#5470c6","#ee6666","#ee6666","#5470c6","#ee6666","#91cc75","#5470c6","#fac858","#73c0de"]}, "label": {"show": true, "position": "top", "formatter": "{c}B"}}]}'>
 </div>
 
-The waterfall shows that a $20 WTI price change generates roughly $28 billion in additional gross revenue across Alberta's oil sector (at ~1.4 Mbd production). But operating costs, transport costs, and the WCS discount are largely fixed — they do not scale with price. So most of the price gain flows through to netback. The royalty capture (at an average effective rate of ~12%) is only $2.8 billion — reflecting how low Alberta's effective royalty rate is relative to gross revenues.
+The waterfall shows that a &#36;20 WTI price change generates roughly &#36;28 billion in additional gross revenue across Alberta's oil sector (at ~1.4 Mbd production). But operating costs, transport costs, and the WCS discount are largely fixed — they do not scale with price. So most of the price gain flows through to netback. The royalty capture (at an average effective rate of ~12%) is only &#36;2.8 billion — reflecting how low Alberta's effective royalty rate is relative to gross revenues.
 
 The Heritage Fund contribution depends on whether the government chooses to save. In reality, almost none of Alberta's recent boom revenues have been directed to the Heritage Fund — they have been used to eliminate the fiscal deficit accumulated during the bust.
 
@@ -98,21 +98,21 @@ The sensitivity analysis holds production fixed and varies the two most controll
 
 | | Low Royalty (8%) | Mid Royalty (15%) | High Royalty (25%) |
 |---|---|---|---|
-| **Low Oil ($50)** | $2.8B | $5.2B | $8.7B |
-| **Mid Oil ($70)** | $5.6B | $10.5B | $17.5B |
-| **High Oil ($90)** | $8.4B | $15.7B | $26.2B |
+| **Low Oil (&#36;50)** | &#36;2.8B | &#36;5.2B | &#36;8.7B |
+| **Mid Oil (&#36;70)** | &#36;5.6B | &#36;10.5B | &#36;17.5B |
+| **High Oil (&#36;90)** | &#36;8.4B | &#36;15.7B | &#36;26.2B |
 
 *Illustrative annual royalty revenues, CAD billion, assuming ~1.4 Mbd production*
 
-The table reveals that doubling the royalty rate (from 8% to 15%) increases government revenues more than increasing the oil price by $20/bbl at the same royalty rate. Fiscal regime design is a larger lever than oil price — within any given price environment, the government has more control over rent capture than over the commodity cycle.
+The table reveals that doubling the royalty rate (from 8% to 15%) increases government revenues more than increasing the oil price by &#36;20/bbl at the same royalty rate. Fiscal regime design is a larger lever than oil price — within any given price environment, the government has more control over rent capture than over the commodity cycle.
 
 ## The Energy Transition Overlay
 
 The energy transition changes the Hotelling analysis in two ways:
 
-**Demand-side:** The backstop price $\bar{P}$ is falling as renewable energy, electric vehicles, and green hydrogen become cheaper. The IEA estimates that in a Net Zero scenario, the price of oil-equivalent energy from alternatives reaches $45–60/bbl by 2040. If this becomes the backstop, the entire Hotelling price path shifts down — and the optimal extraction strategy is to front-load production now, before the backstop arrives.
+**Demand-side:** The backstop price $\bar{P}$ is falling as renewable energy, electric vehicles, and green hydrogen become cheaper. The IEA estimates that in a Net Zero scenario, the price of oil-equivalent energy from alternatives reaches &#36;45–60/bbl by 2040. If this becomes the backstop, the entire Hotelling price path shifts down — and the optimal extraction strategy is to front-load production now, before the backstop arrives.
 
-**Cost-side:** Carbon pricing adds a cost penalty to extraction. At $80/tonne CO₂, the oil sands (which emit roughly 0.04–0.08 tonnes CO₂ per barrel of production emissions) face an additional $3–6/bbl in carbon costs. For thin-margin high-cost operations, this can tip the economics.
+**Cost-side:** Carbon pricing adds a cost penalty to extraction. At &#36;80/tonne CO₂, the oil sands (which emit roughly 0.04–0.08 tonnes CO₂ per barrel of production emissions) face an additional &#36;3–6/bbl in carbon costs. For thin-margin high-cost operations, this can tip the economics.
 
 The interaction is important: a falling backstop price argues for faster extraction now; a rising carbon cost argues for slower extraction (reduces the net price). These two forces partially offset but do not cancel — the net effect is to compress the economically viable window for oil sands development from "decades" to "perhaps 15–20 years."
 
@@ -141,11 +141,11 @@ Understanding this geography matters for the supply cost analysis: the three reg
 
 Running all four models together produces several conclusions that no individual model could generate:
 
-**Conclusion 1: The rent capture failure is the most actionable problem.** Alberta cannot control the oil price or the energy transition timeline. It can control the royalty rate. The sensitivity table shows that moving from an 8% effective royalty rate to 15% would add $5–10 billion annually at current prices — enough to fund a credible Heritage Fund accumulation. This is a policy choice, not a geological constraint.
+**Conclusion 1: The rent capture failure is the most actionable problem.** Alberta cannot control the oil price or the energy transition timeline. It can control the royalty rate. The sensitivity table shows that moving from an 8% effective royalty rate to 15% would add &#36;5–10 billion annually at current prices — enough to fund a credible Heritage Fund accumulation. This is a policy choice, not a geological constraint.
 
 **Conclusion 2: The Hotelling rule argues for faster extraction as the transition accelerates.** The energy transition is lowering the backstop price and shortening the economically viable window. Optimal control theory says: extract more now. But this conflicts with the resource curse logic (diversify, slow down) and the royalty regime logic (capture rent before it evaporates). The three models give contradictory policy signals.
 
-**Conclusion 3: The non-resource fiscal base is Alberta's genuine long-run asset.** The sensitivity analysis shows non-resource revenues of $42–54 billion — larger and more stable than royalty revenues in all but the high-oil scenario. Alberta's income tax revenue, corporate tax from non-oil sectors, and federal transfer payments are the foundation; oil is a bonus, not the base. Policy that treats oil as the base and the rest as supplementary has the fiscal structure exactly backwards.
+**Conclusion 3: The non-resource fiscal base is Alberta's genuine long-run asset.** The sensitivity analysis shows non-resource revenues of &#36;42–54 billion — larger and more stable than royalty revenues in all but the high-oil scenario. Alberta's income tax revenue, corporate tax from non-oil sectors, and federal transfer payments are the foundation; oil is a bonus, not the base. Policy that treats oil as the base and the rest as supplementary has the fiscal structure exactly backwards.
 
 **Conclusion 4: The staples trap is sticky.** The capabilities created by oil sands development — reservoir engineering, heavy equipment operations, project finance — have limited relatedness to the capabilities needed for economic diversification. The transition requires deliberate investment in building new capability clusters, not just waiting for market forces to redirect existing capabilities.
 
@@ -154,3 +154,37 @@ The integrated resource system is not a pessimistic model. It is a realistic one
 ---
 
 **This completes Cluster RE — Resource Economics.** The cluster models read in sequence: Model 16 (Hotelling rule) → Model 17 (supply cost curves) → Model 18 (royalty regimes) → Model 19 (resource curse) → Model 20 (integrated system). Returning to Model 16 after reading Model 20 reveals how each piece of the derivation connects to the real outcomes tracked in this synthesis.
+
+## References
+
+Alberta Energy Regulator. 2025. *Alberta Energy Outlook (ST98): Crude Bitumen Production*. <https://www.aer.ca/data-and-performance-reports/statistical-reports/alberta-energy-outlook-st98/crude-bitumen/crude-bitumen-production>
+
+Alberta Energy Regulator. 2025. *Alberta Energy Outlook (ST98): Crude Bitumen Supply Costs*. <https://www.aer.ca/data-and-performance-reports/statistical-reports/alberta-energy-outlook-st98/crude-bitumen/crude-bitumen-supply-costs>
+
+Alberta Energy Regulator. 2025. *Alberta Energy Outlook (ST98): Reserves*. <https://www.aer.ca/data-and-performance-reports/statistical-reports/alberta-energy-outlook-st98/reserves>
+
+Alberta Treasury Board and Finance. 2025. *Alberta Heritage Savings Trust Fund 2024–25 Annual Report*. Government of Alberta. <https://open.alberta.ca/dataset/3675e470-646e-4f8a-86a7-c36c6f45471a/resource/09ab213a-a4ba-45dd-b130-e01816f96cc9/download/tbf-alberta-heritage-savings-trust-fund-annual-report-2024-2025.pdf>
+
+Government of Alberta. 2025. *Heritage Savings Trust Fund*. <https://www.alberta.ca/heritage-savings-trust-fund>
+
+Government of Alberta. 2025. *Historical Royalty Revenue Data*. <https://www.alberta.ca/historical-royalty-revenue-data>
+
+Government of Alberta. 2025. *Oil Sands Facts and Statistics*. <https://www.alberta.ca/oil-sands-facts-and-statistics>
+
+Government of Alberta. 2025. *Oil Sands Royalties — Overview*. <https://www.alberta.ca/royalty-oil-sands>
+
+Hotelling, Harold. 1931. "The Economics of Exhaustible Resources." *Journal of Political Economy* 39 (2): 137–175. <https://doi.org/10.1086/254195>
+
+International Energy Agency. 2021. *Net Zero by 2050: A Roadmap for the Global Energy Sector*. Paris: IEA. <https://www.iea.org/reports/net-zero-by-2050>
+
+International Energy Agency. 2023. *The Oil and Gas Industry in Net Zero Transitions*. Paris: IEA. <https://www.iea.org/reports/the-oil-and-gas-industry-in-net-zero-transitions>
+
+Norges Bank Investment Management. 2025. *Annual Report 2024*. <https://www.nbim.no/contentassets/490f9f062cfc4694b12c45f4d04ab0a5/annual_report_2024.pdf>
+
+Norsk Petroleum. 2025. *The Petroleum Tax System*. <https://www.norskpetroleum.no/en/economy/petroleum-tax/>
+
+Sachs, Jeffrey D., and Andrew M. Warner. 1995. "Natural Resource Abundance and Economic Growth." NBER Working Paper 5398. National Bureau of Economic Research. <https://www.nber.org/papers/w5398>
+
+van der Ploeg, Frederick. 2011. "Natural Resources: Curse or Blessing?" *Journal of Economic Literature* 49 (2): 366–420. <https://doi.org/10.1257/jel.49.2.366>
+
+World Bank. 2025. *Commodity Markets*. <https://www.worldbank.org/en/research/commodity-markets>

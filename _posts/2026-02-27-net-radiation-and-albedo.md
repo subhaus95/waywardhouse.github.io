@@ -525,7 +525,7 @@ $$R_n = L_{\downarrow} - L_{\uparrow}$$
 **Earth's average albedo:** $\alpha \approx 0.30$ (clouds 0.50, oceans 0.08, land ~0.15 average)
 
 **Incoming solar** (top of atmosphere): ~1361 W/m²  
-**After reflection:** $1361 \times 0.70 = 953$ W/m² absorbed
+**After reflection:** &#36;1361 \times 0.70 = 953$ W/m² absorbed
 
 This absorbed energy must be balanced by outgoing longwave radiation to maintain stable temperature.
 
@@ -610,11 +610,11 @@ The Stefan-Boltzmann law comes from **Planck's law** integrated over all wavelen
 
 ### Computing Fourth Powers
 
-$$288^4 = 288 \times 288 \times 288 \times 288$$
+$&#36;288^4 = 288 \times 288 \times 288 \times 288$$
 
 Easier method:
 
-$$288^4 = (288^2)^2 = (82944)^2 = 6,879,707,136$$
+$&#36;288^4 = (288^2)^2 = (82944)^2 = 6,879,707,136$$
 
 Then multiply by $\sigma = 5.67 \times 10^{-8}$:
 

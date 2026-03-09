@@ -279,7 +279,7 @@ planning horizon for BC fuel supply management.
 
 $$V_{\text{interface}} \approx 11.75 \times 16^{1.1} \times 715^{0.5}$$
 
-$$16^{1.1} \approx 21.1 \qquad 715^{0.5} \approx 26.7$$
+$&#36;16^{1.1} \approx 21.1 \qquad 715^{0.5} \approx 26.7$$
 
 $$V_{\text{interface}} \approx 11.75 \times 21.1 \times 26.7
 \approx 6{,}625 \text{ bbl}$$
@@ -891,13 +891,13 @@ $$\text{Crack spread} = P_{\text{products}} - P_{\text{crude}}$$
 
 A common approximation is the **3-2-1 crack spread**: 3 barrels of crude
 produce 2 barrels of gasoline and 1 barrel of diesel. If gasoline is
-$100/bbl, diesel is $110/bbl, and crude is $75/bbl:
+&#36;100/bbl, diesel is &#36;110/bbl, and crude is &#36;75/bbl:
 
 $$\text{3-2-1 spread} = \frac{2 \times 100 + 1 \times 110}{3} - 75
-= \frac{310}{3} - 75 = 103.3 - 75 = \$28.3/\text{bbl}$$
+= \frac{310}{3} - 75 = 103.3 - 75 = \&#36;28.3/\text{bbl}$$
 
 This spread compensates the refiner for operating costs, capital recovery,
-and profit. When it narrows below ~$10–15/bbl, refinery margins are thin
+and profit. When it narrows below ~&#36;10–15/bbl, refinery margins are thin
 and throughput reductions become economic.
 
 ---
@@ -918,6 +918,28 @@ and throughput reductions become economic.
 All refinery capacity figures are nameplate. Actual throughput varies
 with feedstock availability, turnaround scheduling, and market conditions.
 Terminal storage estimates are approximate.
+
+---
+
+## References
+
+Canada Energy Regulator. 2024. *Pipeline Profiles: Trans Mountain Expanded System*. Calgary: CER. <https://apps.cer-rec.gc.ca/PPS/en/pipeline-profiles/trans-mountain-expanded-system>
+
+Canadian Fuels Association. n.d. "Co-op's Regina Refinery Is Indisputably Local." Ottawa: Canadian Fuels Association. <https://www.canadianfuels.ca/co-ops-regina-refinery-is-indisputably-local/>
+
+Co-operative Refinery Complex. n.d. *Co-op Refinery Complex*. Regina: Federated Co-operatives Limited. <https://www.fcl.crs/our-business/refinery>
+
+Imperial Oil. 2024. "Strathcona Refinery." Calgary: Imperial Oil. <https://www.imperialoil.ca/company/operations/strathcona>
+
+Menon, E. Shashi. 2004. *Liquid Pipeline Hydraulics*. New York: Marcel Dekker. (No public URL available — standard pipeline engineering reference.)
+
+Natural Resources Canada. 2024. *Energy Fact Book 2024–2025*. Ottawa: NRCan. <https://energy-information.canada.ca/en/energy-facts>
+
+North West Redwater Partnership. 2024. *The Sturgeon Refinery*. Sturgeon County: NWR. <https://nwrsturgeonrefinery.com/about/about-us/>
+
+Statistics Canada. 2025. "The Trans Mountain Pipeline Is Delivering." Ottawa: Statistics Canada. <https://www.statcan.gc.ca/o1/en/plus/8439-trans-mountain-pipeline-delivering>
+
+Trans Mountain Corporation. 2024. *Trans Mountain Pipeline System*. Calgary: Trans Mountain. <https://www.transmountain.com/pipeline-system>
 
 ---
 

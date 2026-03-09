@@ -63,7 +63,7 @@ Photosynthesis fixes atmospheric CO₂ into organic matter using light energy. T
 
 The idealised net photosynthesis equation:
 
-$$6\,\text{CO}_2 + 6\,\text{H}_2\text{O} + \text{light energy} \to \text{C}_6\text{H}_{12}\text{O}_6 + 6\,\text{O}_2$$
+$&#36;6\,\text{CO}_2 + 6\,\text{H}_2\text{O} + \text{light energy} \to \text{C}_6\text{H}_{12}\text{O}_6 + 6\,\text{O}_2$$
 
 One mole of glucose (180 g) is produced from 6 moles of CO₂ (6 × 44 = 264 g). Carbon mass ratio:
 
@@ -299,7 +299,7 @@ The MODIS MOD17 product provides global 8-day GPP at 500 m resolution by applyin
 
 ## 9. Summary
 
-The photosynthesis equation $6\text{CO}_2 + 6\text{H}_2\text{O} \to \text{C}_6\text{H}_{12}\text{O}_6 + 6\text{O}_2$ fixes 12/44 = 0.273 g C per g CO₂ absorbed. The Monteith LUE model expresses GPP as:
+The photosynthesis equation &#36;6\text{CO}_2 + 6\text{H}_2\text{O} \to \text{C}_6\text{H}_{12}\text{O}_6 + 6\text{O}_2$ fixes 12/44 = 0.273 g C per g CO₂ absorbed. The Monteith LUE model expresses GPP as:
 
 $$\text{GPP} = \varepsilon \times \text{fAPAR} \times \text{PAR} \times f(T) \times f(W)$$
 

@@ -62,7 +62,7 @@ $$T_B = \varepsilon \cdot T$$
 
 A satellite radiometer measures $T_B$. From this measurement we want to recover geophysical variables (soil moisture, sea ice fraction, snow depth) that control $\varepsilon$.
 
-The key leverage: water in its various phases has very different microwave emissivities. Liquid water has low emissivity ($\varepsilon \approx 0.4$–$0.6$); frozen water (ice, snow) has high emissivity ($\varepsilon \approx 0.8$–$0.95$); dry soil has intermediate emissivity ($\varepsilon \approx 0.9$–$0.95$). Adding water to soil dramatically lowers its emissivity — this is the signal exploited for soil moisture retrieval.
+The key leverage: water in its various phases has very different microwave emissivities. Liquid water has low emissivity ($\varepsilon \approx 0.4$–&#36;0.6$); frozen water (ice, snow) has high emissivity ($\varepsilon \approx 0.8$–&#36;0.95$); dry soil has intermediate emissivity ($\varepsilon \approx 0.9$–&#36;0.95$). Adding water to soil dramatically lowers its emissivity — this is the signal exploited for soil moisture retrieval.
 
 ---
 
@@ -76,7 +76,7 @@ $$B_\nu(\nu, T) = \frac{2h\nu^3}{c^2} \frac{1}{e^{h\nu/k_B T} - 1}$$
 
 where $h = 6.626 \times 10^{-34}$ J s is Planck's constant, $k_B = 1.381 \times 10^{-23}$ J K⁻¹ is Boltzmann's constant, $\nu$ [Hz] is frequency, and $c = 3 \times 10^8$ m s⁻¹.
 
-At microwave frequencies ($\nu = 1$–$100$ GHz), the condition $h\nu \ll k_B T$ is well satisfied for Earth temperatures ($T \approx 270$ K). The exponential in the denominator can be expanded: $e^{h\nu/k_B T} - 1 \approx h\nu/k_B T$, giving the **Rayleigh-Jeans approximation**:
+At microwave frequencies ($\nu = 1$–&#36;100$ GHz), the condition $h\nu \ll k_B T$ is well satisfied for Earth temperatures ($T \approx 270$ K). The exponential in the denominator can be expanded: $e^{h\nu/k_B T} - 1 \approx h\nu/k_B T$, giving the **Rayleigh-Jeans approximation**:
 
 $$B_\nu \approx \frac{2\nu^2 k_B T}{c^2} = \frac{2k_B T}{\lambda^2}$$
 
@@ -96,13 +96,13 @@ $$r_V = \left|\frac{\varepsilon_r\cos\theta_i - \sqrt{\varepsilon_r - \sin^2\the
 
 where $\varepsilon_r$ is the complex relative permittivity (dielectric constant) of the surface and $\theta_i$ is the incidence angle. Subscripts H and V denote horizontal and vertical polarisations.
 
-The dielectric constant of dry soil is approximately $\varepsilon_r \approx 3$–$5$. Liquid water has $\varepsilon_r \approx 80$ at microwave frequencies — dramatically higher. Adding even a small volume fraction of liquid water to soil raises $\varepsilon_r$ substantially, lowering emissivity and brightness temperature.
+The dielectric constant of dry soil is approximately $\varepsilon_r \approx 3$–&#36;5$. Liquid water has $\varepsilon_r \approx 80$ at microwave frequencies — dramatically higher. Adding even a small volume fraction of liquid water to soil raises $\varepsilon_r$ substantially, lowering emissivity and brightness temperature.
 
 The **Wang-Schmugge mixing model** relates $\varepsilon_r$ of a soil mixture to its volumetric water content $m_v$ [m³ m⁻³]:
 
 $$\varepsilon_r(m_v) = \varepsilon_{\text{dry}} + (\varepsilon_{\text{wet}} - \varepsilon_{\text{dry}}) \cdot f(m_v)$$
 
-where $f(m_v)$ is a transition function that accounts for bound vs. free water. For practical purposes, a linearised approximation works well over the range $0 < m_v < 0.4$:
+where $f(m_v)$ is a transition function that accounts for bound vs. free water. For practical purposes, a linearised approximation works well over the range &#36;0 < m_v < 0.4$:
 
 $$\varepsilon_r \approx \varepsilon_{\text{dry}} + b \cdot m_v, \quad b \approx 150 \text{ to } 200$$
 
@@ -139,7 +139,7 @@ PR decreases as soil moisture increases (both polarisations are affected but dif
 
 ### 3.5 Sea Ice Concentration
 
-Sea ice has $T_B \approx 240$–$260$ K at 19 GHz; open ocean has $T_B \approx 140$–$180$ K. The contrast ($\sim 80$–$100$ K) enables accurate sea ice mapping. The **NASA Team algorithm** uses the polarisation ratio and spectral gradient to retrieve ice concentration $C$ [0–1]:
+Sea ice has $T_B \approx 240$–&#36;260$ K at 19 GHz; open ocean has $T_B \approx 140$–&#36;180$ K. The contrast ($\sim 80$–&#36;100$ K) enables accurate sea ice mapping. The **NASA Team algorithm** uses the polarisation ratio and spectral gradient to retrieve ice concentration $C$ [0–1]:
 
 $$C = \frac{T_B^{\text{obs}} - T_B^{\text{ocean}}}{T_B^{\text{ice}} - T_B^{\text{ocean}}}$$
 
@@ -159,11 +159,11 @@ Dry snow scatters microwave radiation — each ice grain scatters incident radia
 
 $$\text{SWE} [mm] = A (T_{B19H} - T_{B37H})$$
 
-where $A \approx 4.8$ mm K⁻¹ is an empirical constant. The physical basis: 37 GHz is more strongly scattered by snow grains than 19 GHz, so deeper (higher SWE) snowpacks produce larger negative gradients (lower 37 GHz $T_B$ relative to 19 GHz). Typical values: $T_{B19} - T_{B37} \approx 5$–$50$ K, corresponding to SWE = 24–240 mm.
+where $A \approx 4.8$ mm K⁻¹ is an empirical constant. The physical basis: 37 GHz is more strongly scattered by snow grains than 19 GHz, so deeper (higher SWE) snowpacks produce larger negative gradients (lower 37 GHz $T_B$ relative to 19 GHz). Typical values: $T_{B19} - T_{B37} \approx 5$–&#36;50$ K, corresponding to SWE = 24–240 mm.
 
 ### 3.7 Atmospheric Opacity and All-Weather Capability
 
-Clouds are transparent at microwave frequencies below about 10 GHz because water droplets in clouds are much smaller than the wavelength and scatter negligibly. Rain is partially opaque above $\sim$10 GHz. For frequencies used in soil moisture (1.4 GHz L-band) and sea ice (6–37 GHz) retrieval, the atmosphere is effectively transparent except during heavy rain, providing the all-weather capability that distinguishes passive microwave from optical and near-infrared sensors.
+Clouds are transparent at microwave frequencies below about 10 GHz because water droplets in clouds are much smaller than the wavelength and scatter negligibly. Rain is partially opaque above $\sim&#36;10 GHz. For frequencies used in soil moisture (1.4 GHz L-band) and sea ice (6–37 GHz) retrieval, the atmosphere is effectively transparent except during heavy rain, providing the all-weather capability that distinguishes passive microwave from optical and near-infrared sensors.
 
 The atmosphere does contribute a downwelling brightness temperature that is reflected from the surface and reaches the satellite:
 
@@ -189,15 +189,15 @@ $$\varepsilon_{H,\text{obs}} = T_{BH} / T_s = 255 / 285 = 0.895$$
 
 **Step 2: Remove roughness correction** (solve for flat-surface emissivity)
 
-$$0.895 = 1 - (1-\varepsilon_{H,\text{flat}}) e^{-0.15 \cos^2 40°}$$
+$&#36;0.895 = 1 - (1-\varepsilon_{H,\text{flat}}) e^{-0.15 \cos^2 40°}$$
 
 $$e^{-0.15 \times 0.587} = e^{-0.0880} = 0.9157$$
 
-$$1 - 0.895 = (1-\varepsilon_{H,\text{flat}}) \times 0.9157$$
+$&#36;1 - 0.895 = (1-\varepsilon_{H,\text{flat}}) \times 0.9157$$
 
-$$0.105 = (1-\varepsilon_{H,\text{flat}}) \times 0.9157$$
+$&#36;0.105 = (1-\varepsilon_{H,\text{flat}}) \times 0.9157$$
 
-$$1 - \varepsilon_{H,\text{flat}} = 0.1147 \implies \varepsilon_{H,\text{flat}} = 0.885$$
+$&#36;1 - \varepsilon_{H,\text{flat}} = 0.1147 \implies \varepsilon_{H,\text{flat}} = 0.885$$
 
 $$r_H = 1 - 0.885 = 0.115$$
 
@@ -211,11 +211,11 @@ $$\sqrt{r_H} = 0.339 = \frac{0.766 - \sqrt{\varepsilon_r - 0.413}}{0.766 + \sqrt
 
 Let $x = \sqrt{\varepsilon_r - 0.413}$:
 
-$$0.339(0.766 + x) = 0.766 - x$$
+$&#36;0.339(0.766 + x) = 0.766 - x$$
 
-$$0.260 + 0.339x = 0.766 - x$$
+$&#36;0.260 + 0.339x = 0.766 - x$$
 
-$$1.339x = 0.506 \implies x = 0.378$$
+$&#36;1.339x = 0.506 \implies x = 0.378$$
 
 $$\varepsilon_r - 0.413 = 0.143 \implies \varepsilon_r = 0.556$$
 
@@ -353,7 +353,7 @@ The 40-year continuous sea ice record from passive microwave instruments (SMMR, 
 
 **Open water in the footprint.** Passive microwave radiometers have coarse spatial resolution — 25–40 km for most operational systems. If a lake, river, or flooded field occupies even 5% of the footprint, the very low emissivity of open water ($\varepsilon \approx 0.4$) substantially lowers $T_B$, mimicking high soil moisture. Land-water masks and fractional water corrections are applied but cannot fully resolve sub-footprint heterogeneity.
 
-**Frozen soil.** When soil is frozen, its dielectric constant drops from the high values of liquid water to values similar to ice ($\varepsilon_r \approx 4$–$6$). The brightness temperature rises and the soil moisture retrieval gives anomalously low values — not because the soil is dry, but because the water is frozen. Freeze-thaw detection algorithms must precede soil moisture retrieval in seasonally cold regions.
+**Frozen soil.** When soil is frozen, its dielectric constant drops from the high values of liquid water to values similar to ice ($\varepsilon_r \approx 4$–&#36;6$). The brightness temperature rises and the soil moisture retrieval gives anomalously low values — not because the soil is dry, but because the water is frozen. Freeze-thaw detection algorithms must precede soil moisture retrieval in seasonally cold regions.
 
 **RFI (radio frequency interference).** The 1.4 GHz L-band is internationally protected for passive use, but nearby radar, GPS, and communications signals leak into the radiometer band in densely populated regions. SMAP employs digital detection and RFI mitigation algorithms, but significant contamination remains over Europe, the Middle East, and parts of Asia.
 

@@ -247,12 +247,12 @@ $$\text{SWE} = \rho(x,y) \times d(x,y)$$
 
 **Passive microwave (basin average):**
 - $\Delta T_B = 50$ K
-- SWE = $1.59 \times 50 = 79.5$ mm (underestimate due to saturation)
+- SWE = &#36;1.59 \times 50 = 79.5$ mm (underestimate due to saturation)
 
 **LiDAR (sample area, 2500m elevation):**
 - Average depth: 1.8 m
 - Estimated density: 300 kg/m³
-- SWE = $0.300 \times 1.8 = 540$ mm
+- SWE = &#36;0.300 \times 1.8 = 540$ mm
 
 **Basin characteristics:**
 - Area: 500 km²

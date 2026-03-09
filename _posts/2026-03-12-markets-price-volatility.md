@@ -20,7 +20,7 @@ math_core:
 excerpt: "WTI crude oil has historical annualised volatility of roughly 35% — about twice the volatility of the S&P 500. But Alberta's wellhead netback has volatility significantly higher than WTI, because the WCS-WTI differential is itself volatile and correlated with oil price declines. When WTI falls, the differential widens at the same time. Landlocked heavy-oil producers face a double jeopardy: they receive less than benchmark when times are good, and they take larger losses than benchmark when times are bad."
 ---
 
-Alberta's provincial government budget in fiscal year 2014–15 assumed WTI would average $94/bbl. The actual average was $81/bbl. The next year, it was $53/bbl. The year after that, $46/bbl. Over three years, the provincial government experienced a revenue shortfall of roughly $30 billion relative to its planning assumptions — a consequence of commodity price volatility that was entirely predictable in its existence, if not its timing.
+Alberta's provincial government budget in fiscal year 2014–15 assumed WTI would average &#36;94/bbl. The actual average was &#36;81/bbl. The next year, it was &#36;53/bbl. The year after that, &#36;46/bbl. Over three years, the provincial government experienced a revenue shortfall of roughly &#36;30 billion relative to its planning assumptions — a consequence of commodity price volatility that was entirely predictable in its existence, if not its timing.
 
 Volatility is not a peripheral feature of commodity markets. It is their central characteristic. Understanding why commodity prices are volatile, how volatility clusters and propagates, and why some geographies experience amplified volatility while others are shielded from it is essential for any serious analysis of resource-dependent economies.
 
@@ -107,7 +107,7 @@ The derivative with respect to WTI is:
 
 $$\frac{d(\text{Netback})}{dP_{\text{WTI}}} = 1 - \frac{d\Delta_{\text{diff}}}{dP_{\text{WTI}}}$$
 
-Historical data suggests $d\Delta_{\text{diff}}/dP_{\text{WTI}} \approx -0.3$ to $-0.5$ — a $1 fall in WTI is typically associated with a $0.30–$0.50 widening in the WCS-WTI differential. This means the Alberta netback falls by $1.30–$1.50 for every $1 fall in WTI. The amplification is real and persistent.
+Historical data suggests $d\Delta_{\text{diff}}/dP_{\text{WTI}} \approx -0.3$ to $-0.5$ — a &#36;1 fall in WTI is typically associated with a &#36;0.30–&#36;0.50 widening in the WCS-WTI differential. This means the Alberta netback falls by &#36;1.30–&#36;1.50 for every &#36;1 fall in WTI. The amplification is real and persistent.
 
 ## Revenue at Risk
 
@@ -118,15 +118,15 @@ If annual royalty revenue $R$ is approximately log-normally distributed with mea
 $$R_{5\%} = \exp\left(\ln(\mu_R) - 1.645 \cdot \sigma_R\right)$$
 
 For Alberta government oil royalty revenues, historical parameters (2010–2024) are approximately:
-- Mean annual royalty revenue: ~$10 billion CAD
-- Standard deviation: ~$7 billion CAD
+- Mean annual royalty revenue: ~&#36;10 billion CAD
+- Standard deviation: ~&#36;7 billion CAD
 - Coefficient of variation: ~70%
 
 This implies the 5th percentile revenue is approximately:
 
-$$R_{5\%} = \exp(\ln(10) - 1.645 \times 0.7 \times \ln(10) / \ln(10)) \approx \$2.5 \text{ billion}$$
+$$R_{5\%} = \exp(\ln(10) - 1.645 \times 0.7 \times \ln(10) / \ln(10)) \approx \&#36;2.5 \text{ billion}$$
 
-At the 5th percentile, royalty revenues are about 25% of their mean — a catastrophic fiscal shock. This occurred in 2015–16 ($2.8 billion in royalties) and again in 2020–21 ($2.3 billion).
+At the 5th percentile, royalty revenues are about 25% of their mean — a catastrophic fiscal shock. This occurred in 2015–16 (&#36;2.8 billion in royalties) and again in 2020–21 (&#36;2.3 billion).
 
 For fiscal planning purposes, the Alberta government should budget at or near the 5th percentile and treat any royalty revenue above that as a windfall to be directed to the Heritage Fund. In practice, Alberta has historically budgeted at or above the 50th percentile and been surprised by the downside.
 
@@ -145,7 +145,7 @@ This high beta reflects the royalty dependence identified in the RE cluster: whe
 <div data-viz="echarts" data-options='{"title": {"text": "Alberta Government Revenue: With vs Without Oil Royalties", "subtext": "Illustrating total revenue volatility reduction through fiscal diversification (CAD billion)"}, "tooltip": {"trigger": "axis"}, "legend": {"data": ["Total Revenue (historical)", "Non-royalty Revenue (stable base)", "Royalty Revenue (volatile)", "Diversified Target (royalties capped at 15%)"], "bottom": 0}, "xAxis": {"type": "category", "data": ["2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"]}, "yAxis": {"type": "value", "name": "CAD Billion", "min": 0, "max": 80}, "series": [{"name": "Non-royalty Revenue (stable base)", "type": "bar", "stack": "revenue", "data": [32, 34, 35, 36, 37, 33, 32, 34, 35, 36, 32, 35, 40, 43, 45], "itemStyle": {"color": "#5470c6"}}, {"name": "Royalty Revenue (volatile)", "type": "bar", "stack": "revenue", "data": [8, 9, 8, 7, 9, 3, 2, 5, 9, 5, 2, 8, 25, 16, 12], "itemStyle": {"color": "#ee6666", "opacity": 0.8}}, {"name": "Total Revenue (historical)", "type": "line", "data": [40, 43, 43, 43, 46, 36, 34, 39, 44, 41, 34, 43, 65, 59, 57], "lineStyle": {"width": 2, "type": "dashed"}, "itemStyle": {"color": "#333"}}, {"name": "Diversified Target (royalties capped at 15%)", "type": "line", "smooth": true, "data": [38, 40, 41, 42, 43, 38, 37, 40, 41, 41, 37, 40, 46, 49, 52], "lineStyle": {"width": 2}, "itemStyle": {"color": "#fac858"}}]}'>
 </div>
 
-The chart makes the stability case for fiscal diversification concrete. The royalty-inclusive revenue (stacked bars) swings from $34 billion in bust years to $65 billion in the 2022 boom — a $31 billion range. A diversification strategy that caps the royalty contribution and directs excess to a stabilisation fund would produce a smoother, more predictable revenue profile (gold line) — with lower peak revenues but dramatically lower trough risks.
+The chart makes the stability case for fiscal diversification concrete. The royalty-inclusive revenue (stacked bars) swings from &#36;34 billion in bust years to &#36;65 billion in the 2022 boom — a &#36;31 billion range. A diversification strategy that caps the royalty contribution and directs excess to a stabilisation fund would produce a smoother, more predictable revenue profile (gold line) — with lower peak revenues but dramatically lower trough risks.
 
 ## Diversification as Volatility Management
 
@@ -162,3 +162,23 @@ Alberta's high revenue beta — and the predictable fiscal crises that accompany
 ---
 
 **Next in this cluster:** Model 25 — The Integrated Price System synthesises benchmarks, spatial arbitrage, forward pricing, and volatility into a single geographic framework — and closes the cluster with a scenario analysis of Alberta's price surface under three infrastructure futures to 2030.
+
+## References
+
+Alberta Treasury Board and Finance. 2015. *Budget 2015: A Plan for Jobs and the Economy*. Edmonton: Government of Alberta. <https://open.alberta.ca/publications/budget-2015>
+
+Bollerslev, Tim. 1986. "Generalised Autoregressive Conditional Heteroscedasticity." *Journal of Econometrics* 31 (3): 307–327. <https://doi.org/10.1016/0304-4076(86)90063-1>
+
+Canada Energy Regulator. 2024. "Crude Oil Price Differential." Government of Canada. <https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/crude-oil-petroleum-products/crude-oil-price-differential/>
+
+Engle, Robert F. 1982. "Autoregressive Conditional Heteroscedasticity with Estimates of the Variance of United Kingdom Inflation." *Econometrica* 50 (4): 987–1007. <https://doi.org/10.2307/1912773>
+
+Fattouh, Bassam. 2011. "An Anatomy of the Crude Oil Pricing System." Oxford Institute for Energy Studies Working Paper WPM 40. <https://www.oxfordenergy.org/publications/an-anatomy-of-the-crude-oil-pricing-system/>
+
+Government of Alberta. 2023. *Annual Report 2022–23: Treasury Board and Finance*. Edmonton: Government of Alberta. <https://open.alberta.ca/publications/treasury-board-and-finance-annual-report>
+
+Peltzman, Sam. 2000. "Prices Rise Faster than They Fall." *Journal of Political Economy* 108 (3): 466–502. <https://doi.org/10.1086/262126>
+
+Pindyck, Robert S. 2004. "Volatility and Commodity Price Dynamics." *Journal of Futures Markets* 24 (11): 1029–1047. <https://doi.org/10.1002/fut.20120>
+
+World Bank. 2025. "Commodity Markets (Pink Sheet)." World Bank Group. <https://www.worldbank.org/en/research/commodity-markets>

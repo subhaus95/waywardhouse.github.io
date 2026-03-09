@@ -127,7 +127,7 @@ ISCO destroys contaminants in the subsurface by injecting a strong oxidant — p
 
 **PCE destruction by permanganate:**
 
-$$3\text{C}_2\text{Cl}_4 + 4\text{KMnO}_4 \rightarrow 6\text{CO}_2 + 4\text{KCl} + 4\text{MnO}_2 + 2\text{Cl}_2$$
+$&#36;3\text{C}_2\text{Cl}_4 + 4\text{KMnO}_4 \rightarrow 6\text{CO}_2 + 4\text{KCl} + 4\text{MnO}_2 + 2\text{Cl}_2$$
 
 Stoichiometric ratio: 4 mol KMnO₄ per 3 mol PCE.
 
@@ -208,7 +208,7 @@ The stagnation point is 5.6 m upgradient of the well — a relatively small capt
 
 **Step 4: ISCO requirement** (TCE source mass = 80 kg)
 
-TCE + permanganate: $2\text{KMnO}_4 + \text{C}_2\text{HCl}_3 \rightarrow 2\text{CO}_2 + 2\text{MnO}_2 + 2\text{KCl} + \text{HCl}$
+TCE + permanganate: &#36;2\text{KMnO}_4 + \text{C}_2\text{HCl}_3 \rightarrow 2\text{CO}_2 + 2\text{MnO}_2 + 2\text{KCl} + \text{HCl}$
 
 Stoichiometric ratio: $(2 \times 158.0)/(131.4) = 316/131.4 = 2.41$ kg KMnO₄/kg TCE
 
@@ -220,7 +220,7 @@ $\text{NOD mass} = 3 \times 10^{-3} \times 1800 \times 1000 = 5400$ kg
 
 $M_{\text{total}} = (193 + 5400) \times 2 \text{ (safety factor)} = 11{,}186$ kg KMnO₄
 
-At $\$1.50$/kg, reagent cost ≈ $\$16{,}800.
+At $\&#36;1.50$/kg, reagent cost ≈ $\&#36;16{,}800.
 
 ---
 
@@ -345,7 +345,7 @@ The NPV comparison shows that pump-and-treat is economically justified primarily
 
 **MNA requires long-term institutional memory.** A 30-year MNA programme requires maintaining monitoring wells, records, and institutional knowledge across multiple ownership and regulatory transitions. Sites that were accepted for MNA in the 1990s have in some cases lost their monitoring programmes, been redeveloped without proper assessment, and created new exposure pathways. MNA is not a "walk away" strategy — it requires sustained commitment that many organisations and regulatory agencies are poorly equipped to maintain.
 
-**Discount rates systematically underweight future costs.** A 5% discount rate reduces a $1M cost in year 30 to $231K present value — an 77% reduction. This means long-duration remediation (pump-and-treat for 50 years) appears less expensive in NPV terms than it actually is in undiscounted terms. The choice of discount rate is not politically neutral: lower rates favour long-duration approaches; higher rates favour front-loaded capital investment (like ISCO). For projects with environmental and public health consequences, zero or near-zero discount rates for benefit and harm are defensible in principle, even if unconventional in practice.
+**Discount rates systematically underweight future costs.** A 5% discount rate reduces a &#36;1M cost in year 30 to &#36;231K present value — an 77% reduction. This means long-duration remediation (pump-and-treat for 50 years) appears less expensive in NPV terms than it actually is in undiscounted terms. The choice of discount rate is not politically neutral: lower rates favour long-duration approaches; higher rates favour front-loaded capital investment (like ISCO). For projects with environmental and public health consequences, zero or near-zero discount rates for benefit and harm are defensible in principle, even if unconventional in practice.
 
 ---
 

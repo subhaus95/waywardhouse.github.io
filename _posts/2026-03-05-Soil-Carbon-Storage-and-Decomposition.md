@@ -172,7 +172,7 @@ Sequestration rates decline over time as soils approach the new (higher) equilib
 
 ## 4. Worked Example by Hand
 
-**Setting:** Prairie cropland in southern Alberta converted from cultivated to no-till with cover crops. Initial SOC = 3,000 g C m⁻², input $I = 80$ g C m⁻² yr⁻¹, $k = 0.025$ yr⁻¹ (MRT = 40 yr). After conversion: input increases to $I' = 110$ g C m⁻² yr⁻¹ ($+30$ g, from cover crop roots and residues), $k$ slightly decreases to $0.023$ yr⁻¹ (less disturbance).
+**Setting:** Prairie cropland in southern Alberta converted from cultivated to no-till with cover crops. Initial SOC = 3,000 g C m⁻², input $I = 80$ g C m⁻² yr⁻¹, $k = 0.025$ yr⁻¹ (MRT = 40 yr). After conversion: input increases to $I' = 110$ g C m⁻² yr⁻¹ ($+30$ g, from cover crop roots and residues), $k$ slightly decreases to &#36;0.023$ yr⁻¹ (less disturbance).
 
 **Initial steady state:** $C^*_0 = 80/0.025 = 3,200$ g m⁻² (currently at 3,000 — below equilibrium, already building toward 3,200).
 
@@ -184,7 +184,7 @@ Sequestration rates decline over time as soils approach the new (higher) equilib
 
 Rate = $(C^*_{\text{new}} - C(0)) \times k' = (4783 - 3000) \times 0.023 \approx 41$ g C m⁻² yr⁻¹ initially, declining over decades.
 
-Equivalent to: $41 \times 44/12 / 100 \approx 1.5$ t CO₂ ha⁻¹ yr⁻¹ in first years.
+Equivalent to: &#36;41 \times 44/12 / 100 \approx 1.5$ t CO₂ ha⁻¹ yr⁻¹ in first years.
 
 ---
 

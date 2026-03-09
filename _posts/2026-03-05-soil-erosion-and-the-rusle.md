@@ -116,8 +116,8 @@ $$L = \left(\frac{\lambda}{22.13}\right)^m$$
 
 where the exponent $m$ depends on slope steepness:
 - $m = 0.2$ for $\theta < 1°$
-- $m = 0.3$ for $1° \leq \theta < 3°$
-- $m = 0.4$ for $3° \leq \theta < 5°$
+- $m = 0.3$ for &#36;1° \leq \theta < 3°$
+- $m = 0.4$ for &#36;3° \leq \theta < 5°$
 - $m = 0.5$ for $\theta \geq 5°$
 
 The steepness factor $S$ uses different equations below and above 9% gradient (about 5.1°):
@@ -226,7 +226,7 @@ $$= 120 \times 0.038 \times 1.541 \times 0.04 = \mathbf{0.28} \text{ t ha}^{-1} 
 
 **Reduction:** $(1.97 - 0.28) / 1.97 = 85.7\%$ reduction in annual soil loss from a change in management alone, with no modification to the landscape itself. The topography and soil are unchanged; only C and P change.
 
-This illustrates the fundamental leverage of conservation practice: because RUSLE is multiplicative, reducing C and P together produces compounding gains. Cutting C by $0.08/0.28 = 0.286\times$ and P by $0.50\times$ gives a combined factor of $0.286 \times 0.50 = 0.143\times$ — the product of independent improvements.
+This illustrates the fundamental leverage of conservation practice: because RUSLE is multiplicative, reducing C and P together produces compounding gains. Cutting C by &#36;0.08/0.28 = 0.286\times$ and P by &#36;0.50\times$ gives a combined factor of &#36;0.286 \times 0.50 = 0.143\times$ — the product of independent improvements.
 
 ---
 
@@ -341,6 +341,6 @@ $$L = \left(\frac{\lambda}{22.13}\right)^m, \quad S = 10.8 \sin\theta + 0.03 \;(
 
 **Why multiplication?** The RUSLE product structure implies that if any factor is zero, the total is zero — no rainfall means no erosion regardless of slope, no matter how erodible the soil. This is physically correct. It also implies that the factors are statistically independent controls, which is an approximation but a useful one.
 
-**Percent slope and degrees.** Slope steepness $s$ in percent is $100 \times \tan\theta$. For small angles, $\tan\theta \approx \sin\theta \approx \theta$ (in radians), so percent slope is approximately $\theta \times (180/\pi) \times (1/0.573) \approx \theta^\circ \times 1.75$. A 10% slope is approximately 5.7°.
+**Percent slope and degrees.** Slope steepness $s$ in percent is &#36;100 \times \tan\theta$. For small angles, $\tan\theta \approx \sin\theta \approx \theta$ (in radians), so percent slope is approximately $\theta \times (180/\pi) \times (1/0.573) \approx \theta^\circ \times 1.75$. A 10% slope is approximately 5.7°.
 
 **Power functions and exponents.** The L factor uses $(\lambda/22.13)^m$. When $m = 0.5$, this is a square root — doubling the slope length increases L by $\sqrt{2} \approx 1.41$, not 2. Erosion is sublinear in slope length: long slopes produce more erosion per unit area than short ones, but the relationship tapers off. This reflects the fact that sediment transport capacity grows with flow depth, which grows slower than linearly with contributing length.

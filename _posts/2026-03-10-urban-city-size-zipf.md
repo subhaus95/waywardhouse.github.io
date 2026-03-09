@@ -228,3 +228,17 @@ Understanding where a city sits relative to the Zipf prediction — above the li
 ---
 
 Next in this cluster: **The Urban Economic Base** moves inside the city to ask: which industries actually drive growth, and how does a shock to the export sector — like an oil price collapse — amplify through the local economy via the multiplier effect?
+
+## References
+
+Auerbach, Felix. 1913. "Das Gesetz der Bevölkerungskonzentration." *Petermanns Geographische Mitteilungen* 59: 74–76. <https://archive.org/details/Auerbach1913>
+
+Gabaix, Xavier. 1999. "Zipf's Law for Cities: An Explanation." *Quarterly Journal of Economics* 114 (3): 739–767. <https://doi.org/10.1162/003355399556133>
+
+Gibrat, Robert. 1931. *Les Inégalités Économiques*. Paris: Librairie du Recueil Sirey. (no public URL available)
+
+Jefferson, Mark. 1939. "The Law of the Primate City." *Geographical Review* 29 (2): 226–232. (no public URL available; indexed at <https://www.semanticscholar.org/paper/The-Law-of-the-Primate-City-Jefferson/189e023c7e53ad4e9a321ca7076d2f2b995f722d>)
+
+Statistics Canada. 2022. "Population and Dwelling Count Highlight Tables, 2021 Census of Population." <https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/hlt-fst/pd-pl/List-cma-tca.cfm?Lang=Eng&T=1601&S=86&O=A>
+
+Zipf, George Kingsley. 1949. *Human Behavior and the Principle of Least Effort: An Introduction to Human Ecology*. Cambridge, MA: Addison-Wesley Press. (no public URL available)

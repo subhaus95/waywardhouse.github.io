@@ -1,0 +1,31 @@
+name: QA Posts
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - '_posts/**'
+  pull_request:
+    paths:
+      - '_posts/**'
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # enough for git diff HEAD~1 HEAD in --changed mode
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run QA checks (changed posts only)
+        run: python3 scripts/qa-posts.py --changed
+
+      - name: Run QA checks (all posts — full scan on main)
+        if: github.ref == 'refs/heads/main'
+        run: python3 scripts/qa-posts.py

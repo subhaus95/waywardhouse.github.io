@@ -236,11 +236,11 @@ dist[all others] = ∞
 Neighbors: (0,1) and (1,0)
 
 Update (0,1):
-- Edge cost = $1 \times \frac{1 + 5}{2} = 3$
+- Edge cost = &#36;1 \times \frac{1 + 5}{2} = 3$
 - `dist[0,1] = 0 + 3 = 3`
 
 Update (1,0):
-- Edge cost = $1 \times \frac{1 + 1}{2} = 1$
+- Edge cost = &#36;1 \times \frac{1 + 1}{2} = 1$
 - `dist[1,0] = 0 + 1 = 1`
 
 **Iteration 2:** Process (1,0), cost = 1 (minimum unvisited)
@@ -248,11 +248,11 @@ Update (1,0):
 Neighbors: (0,0) [visited], (1,1), (2,0)
 
 Update (1,1):
-- Edge cost = $1 \times \frac{1 + 1}{2} = 1$
+- Edge cost = &#36;1 \times \frac{1 + 1}{2} = 1$
 - `dist[1,1] = 1 + 1 = 2`
 
 Update (2,0):
-- Edge cost = $1 \times \frac{1 + 5}{2} = 3$
+- Edge cost = &#36;1 \times \frac{1 + 5}{2} = 3$
 - `dist[2,0] = 1 + 3 = 4`
 
 **Continue...**

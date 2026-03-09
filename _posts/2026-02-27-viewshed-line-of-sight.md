@@ -218,30 +218,30 @@ Check visibility of cells along row 2 (eastward from observer).
 
 Ground elevation: 20m  
 Horizontal distance: $d = 1$ cell = 30m (assume 30m cell size)  
-Elevation difference: $20 - 20 = 0$ m  
+Elevation difference: &#36;20 - 20 = 0$ m  
 Angle: $\alpha = \arctan(0/30) = 0°$
 
 **Visible** (no obstruction yet)  
-Max angle: $0°$
+Max angle: &#36;0°$
 
 **Cell (2,4):** 2 cells east
 
 Ground elevation: 22m  
 Distance: $d = 2 \times 30 = 60$ m  
-Elevation difference: $22 - 20 = 2$ m  
+Elevation difference: &#36;22 - 20 = 2$ m  
 Angle: $\alpha = \arctan(2/60) = 1.91°$
 
-**Compare to max angle:** $1.91° > 0°$ → **Visible**  
-Update max angle: $1.91°$
+**Compare to max angle:** &#36;1.91° > 0°$ → **Visible**  
+Update max angle: &#36;1.91°$
 
 **Cell (3,3):** 1 cell southeast
 
 Ground elevation: 18m  
 Distance: $d = \sqrt{30^2 + 30^2} = 42.4$ m  
-Elevation difference: $18 - 20 = -2$ m  
+Elevation difference: &#36;18 - 20 = -2$ m  
 Angle: $\alpha = \arctan(-2/42.4) = -2.70°$
 
-**Compare to max in SE direction:** Assume max was $0°$ (flat)  
+**Compare to max in SE direction:** Assume max was &#36;0°$ (flat)  
 $-2.70° < 0°$ → **Not visible** (below horizon)
 
 **Continue for all cells...**
@@ -711,7 +711,7 @@ $$z_0 + t(z_1 - z_0) = z_{\text{terrain}}$$
 
 $$t = \frac{z_{\text{terrain}} - z_0}{z_1 - z_0}$$
 
-**If $0 < t < 1$:** Ray intersects terrain → blocked  
+**If &#36;0 < t < 1$:** Ray intersects terrain → blocked  
 **If $t < 0$ or $t > 1$:** No intersection → clear
 
 ### Elevation Angle

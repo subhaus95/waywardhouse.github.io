@@ -49,7 +49,7 @@ The core insight is that finding the "best" initial condition is equivalent to m
 
 ## 1. The Question
 
-How do we assimilate a billion observations per day into a model with $10^7$ state variables? How are satellite radiances connected to model state variables through observation operators? How do background error covariances control the spatial spreading of observational information? And how does the 4D-Var method extend assimilation to use observations over a time window to constrain the initial state?
+How do we assimilate a billion observations per day into a model with &#36;10^7$ state variables? How are satellite radiances connected to model state variables through observation operators? How do background error covariances control the spatial spreading of observational information? And how does the 4D-Var method extend assimilation to use observations over a time window to constrain the initial state?
 
 ---
 
@@ -83,7 +83,7 @@ $$= \mathbf{x}^b + \mathbf{B}H^\top(H\mathbf{B}H^\top + \mathbf{R})^{-1}(\mathbf
 
 The $\mathbf{B}$ matrix (background error covariance) in 3D-Var plays the role of $\mathbf{P}^b$ in the Kalman filter. Unlike the Kalman filter where $\mathbf{P}^b$ is updated at each cycle, in 3D-Var $\mathbf{B}$ is fixed — it is estimated statistically from an ensemble of forecast error pairs and is held constant throughout the operational cycle.
 
-**Why not just solve the linear system directly?** Because $\mathbf{B}$ is $n \times n$ with $n = 10^7$ — it cannot be stored explicitly (requires $10^{14}$ elements). Instead, $\mathbf{B}$ is implicitly represented through a sequence of operators: spectral transforms, recursive filters, and balance operators that collectively produce the same effect as multiplying by $\mathbf{B}^{1/2}$. The cost function is minimised using an iterative gradient descent algorithm (L-BFGS or conjugate gradient) that only requires evaluating $J$ and $\nabla J$, not forming $\mathbf{B}$ explicitly.
+**Why not just solve the linear system directly?** Because $\mathbf{B}$ is $n \times n$ with $n = 10^7$ — it cannot be stored explicitly (requires &#36;10^{14}$ elements). Instead, $\mathbf{B}$ is implicitly represented through a sequence of operators: spectral transforms, recursive filters, and balance operators that collectively produce the same effect as multiplying by $\mathbf{B}^{1/2}$. The cost function is minimised using an iterative gradient descent algorithm (L-BFGS or conjugate gradient) that only requires evaluating $J$ and $\nabla J$, not forming $\mathbf{B}$ explicitly.
 
 ### 3.2 Background Error Covariance $\mathbf{B}$
 
@@ -101,7 +101,7 @@ The background error covariance $\mathbf{B}_{ij} = \text{Cov}(\varepsilon_i^b, \
 
 The observation error $\boldsymbol{\epsilon}^o = \mathbf{y}^o - h(\mathbf{x}^t)$ (difference between observation and truth-equivalent) has three components:
 
-1. **Instrument error:** Measurement noise intrinsic to the sensor ($\sim$0.1–1 K for infrared sounders)
+1. **Instrument error:** Measurement noise intrinsic to the sensor ($\sim&#36;0.1–1 K for infrared sounders)
 2. **Representativeness error:** The observation represents a sub-grid scale process that the model cannot resolve (most important for precipitation and surface observations)
 3. **Forward model error:** Error in the observation operator $h$ (e.g., radiative transfer model approximations)
 
@@ -181,11 +181,11 @@ $$= 200(x-0.28)^2 + 1250(x-0.25)^2 + 200(x-0.22)^2$$
 
 **Gradient:** $\nabla J = 400(x-0.28) + 2500(x-0.25) + 400(x-0.22) = 0$
 
-$$3300x = 400(0.28) + 2500(0.25) + 400(0.22) = 112 + 625 + 88 = 825$$
+$&#36;3300x = 400(0.28) + 2500(0.25) + 400(0.22) = 112 + 625 + 88 = 825$$
 
 $$x^a = 825/3300 = 0.250 \text{ m}^3/\text{m}^3$$
 
-**Analysis uncertainty:** $1/P^a = 1/B + 1/R_1 + 1/R_2 = 400 + 2500 + 400 = 3300 \Rightarrow P^a = 0.000303$, $\sigma^a = 0.0174$ m³/m³.
+**Analysis uncertainty:** &#36;1/P^a = 1/B + 1/R_1 + 1/R_2 = 400 + 2500 + 400 = 3300 \Rightarrow P^a = 0.000303$, $\sigma^a = 0.0174$ m³/m³.
 
 The in-situ probe carries the most weight (precision 2500 vs. 400 each for background and satellite) and pulls the analysis toward 0.25. The analysis is the precision-weighted average, and the analysis variance is smaller than any individual component.
 
@@ -346,7 +346,7 @@ $$\mathbf{x}^a = \mathbf{x}^b + \mathbf{B}H^\top(H\mathbf{B}H^\top + \mathbf{R})
 
 $$\nabla J = \mathbf{B}^{-1}(\mathbf{x}-\mathbf{x}^b) - H^\top\mathbf{R}^{-1}(\mathbf{y}^o - H\mathbf{x})$$
 
-$$1/P^a = 1/B + \sum_i H_i^2/R_i \quad\text{[scalar, multiple obs]}$$
+$&#36;1/P^a = 1/B + \sum_i H_i^2/R_i \quad\text{[scalar, multiple obs]}$$
 
 ---
 
@@ -354,4 +354,4 @@ $$1/P^a = 1/B + \sum_i H_i^2/R_i \quad\text{[scalar, multiple obs]}$$
 
 **The adjoint operator.** For a linear operator $H: \mathbb{R}^n \to \mathbb{R}^p$ (a matrix), the adjoint is its transpose $H^\top: \mathbb{R}^p \to \mathbb{R}^n$. In 4D-Var, the adjoint of the full model $\mathcal{M}_{0\to N}$ maps a sensitivity at time $N$ (gradient of $J$ with respect to the final state) back to time 0 (gradient with respect to the initial state). This is computed by running the model backwards in time, propagating sensitivity rather than state. The computational cost of one adjoint run equals approximately one forward run — the reason 4D-Var is expensive is not that the adjoint is hard to run, but that many forward-adjoint cycles are needed to converge the minimisation.
 
-**Quadratic minimisation.** The 3D-Var cost function $J(\mathbf{x})$ is a quadratic form — a bowl-shaped surface in $n$-dimensional space with exactly one minimum. Gradient descent on a quadratic function converges exactly in $n$ steps using the conjugate gradient method. In practice, the effective dimensionality is much smaller (the leading eigenvectors of $\mathbf{B}$ and $H^\top\mathbf{R}^{-1}H$ span only a few hundred to a few thousand directions), so convergence is achieved in 50–100 iterations rather than $10^7$. The structure of $\mathbf{B}$ (smooth, large-scale covariances) is what allows such rapid convergence — a poorly conditioned $\mathbf{B}$ would require many more iterations.
+**Quadratic minimisation.** The 3D-Var cost function $J(\mathbf{x})$ is a quadratic form — a bowl-shaped surface in $n$-dimensional space with exactly one minimum. Gradient descent on a quadratic function converges exactly in $n$ steps using the conjugate gradient method. In practice, the effective dimensionality is much smaller (the leading eigenvectors of $\mathbf{B}$ and $H^\top\mathbf{R}^{-1}H$ span only a few hundred to a few thousand directions), so convergence is achieved in 50–100 iterations rather than &#36;10^7$. The structure of $\mathbf{B}$ (smooth, large-scale covariances) is what allows such rapid convergence — a poorly conditioned $\mathbf{B}$ would require many more iterations.

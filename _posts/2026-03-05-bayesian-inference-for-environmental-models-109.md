@@ -97,7 +97,7 @@ A prior encodes knowledge before observing data. Choices:
 
 $$p|\mathbf{y} \sim \text{Beta}(\alpha + k,\ \beta + n - k)$$
 
-If we start with $\text{Beta}(1,1)$ (uniform, no prior knowledge) and observe 7 occupied sites out of 10: posterior is $\text{Beta}(8, 4)$, with mean $8/12 = 0.667$ and 90% credible interval $[0.42, 0.89]$.
+If we start with $\text{Beta}(1,1)$ (uniform, no prior knowledge) and observe 7 occupied sites out of 10: posterior is $\text{Beta}(8, 4)$, with mean &#36;8/12 = 0.667$ and 90% credible interval $[0.42, 0.89]$.
 
 **Weakly informative priors** — constrain parameters to physically plausible ranges without strongly influencing the posterior when data are plentiful. For a decay rate $k > 0$: half-normal or log-normal prior centred near the expected order of magnitude.
 
@@ -229,7 +229,7 @@ $\ln p(21.5|k=0.06) = -2.072 - \frac{(21.5-16.53)^2}{18} = -2.072 - 1.370 = -3.4
 
 **Acceptance ratio (MH step):** Proposing $k = 0.06$ from $k = 0.05$: $\alpha = \min(1, 0.00916/0.1216) = 0.075$. Reject with probability 0.925 — the proposal is much worse and usually rejected, so the chain stays at 0.05.
 
-**True posterior mean** (analytically for this conjugate-like case): The observed ratio $21.5/100 = 0.215 = e^{-30k}$ gives the MLE $k_{\text{MLE}} = -\ln(0.215)/30 = 1.537/30 = 0.0512$ day⁻¹. The posterior will be near this value, pulled slightly toward the prior mean of 0.05.
+**True posterior mean** (analytically for this conjugate-like case): The observed ratio &#36;21.5/100 = 0.215 = e^{-30k}$ gives the MLE $k_{\text{MLE}} = -\ln(0.215)/30 = 1.537/30 = 0.0512$ day⁻¹. The posterior will be near this value, pulled slightly toward the prior mean of 0.05.
 
 ---
 
@@ -389,4 +389,4 @@ $$B_{12} = \frac{p(\mathbf{y}|M_1)}{p(\mathbf{y}|M_2)} \quad\text{[Bayes factor]
 
 **Conditional probability and independence.** The conditional probability $p(A|B) = p(A\cap B)/p(B)$ asks: given that $B$ occurred, how probable is $A$? If $A$ and $B$ are independent, $p(A|B) = p(A)$ — knowing $B$ provides no information about $A$. Bayes' theorem is nothing more than two applications of the conditional probability definition; its power comes from inverting the conditioning — from $p(\text{data}|\text{parameter})$ (the forward model) to $p(\text{parameter}|\text{data})$ (the inference we actually want).
 
-**Log-probabilities and numerical stability.** Probabilities of multiple observations are products of numbers between 0 and 1. With 100 observations each having probability 0.1, the joint probability is $0.1^{100} = 10^{-100}$ — smaller than any floating-point number. Working in log-space converts products to sums: $\ln(0.1^{100}) = 100\ln(0.1) = -230.3$ — perfectly representable. The MCMC acceptance ratio $\alpha = \min(1, r)$ with $r = p(\theta^*)/p(\theta_{t-1})$ is computed as $r = \exp(\ln p(\theta^*) - \ln p(\theta_{t-1}))$ — the difference of log-posteriors — which never underflows.
+**Log-probabilities and numerical stability.** Probabilities of multiple observations are products of numbers between 0 and 1. With 100 observations each having probability 0.1, the joint probability is &#36;0.1^{100} = 10^{-100}$ — smaller than any floating-point number. Working in log-space converts products to sums: $\ln(0.1^{100}) = 100\ln(0.1) = -230.3$ — perfectly representable. The MCMC acceptance ratio $\alpha = \min(1, r)$ with $r = p(\theta^*)/p(\theta_{t-1})$ is computed as $r = \exp(\ln p(\theta^*) - \ln p(\theta_{t-1}))$ — the difference of log-posteriors — which never underflows.

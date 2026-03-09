@@ -85,17 +85,17 @@ where:
 
 The scarcity rent is the shadow price of the finite stock — it compensates the owner for permanently depleting a non-renewable asset. It rises at rate $r$ over time. The extraction cost (if constant) does not rise.
 
-**Alberta illustration:** The oil sands have a marginal extraction cost of roughly $25–35 per barrel for SAGD operations, compared to roughly $5–10 for conventional Alberta oil and $2–5 for Middle Eastern conventional. This means:
+**Alberta illustration:** The oil sands have a marginal extraction cost of roughly &#36;25–35 per barrel for SAGD operations, compared to roughly &#36;5–10 for conventional Alberta oil and &#36;2–5 for Middle Eastern conventional. This means:
 
-- At $80 WTI, an Alberta SAGD producer earns a scarcity rent of roughly $45–55/bbl
-- A Saudi producer earns a scarcity rent of roughly $70–75/bbl — much larger
+- At &#36;80 WTI, an Alberta SAGD producer earns a scarcity rent of roughly &#36;45–55/bbl
+- A Saudi producer earns a scarcity rent of roughly &#36;70–75/bbl — much larger
 - High extraction costs compress the scarcity rent, which is why conventional producers have more to lose from depletion
 
 The royalty charged by the Alberta government is supposed to capture some portion of this scarcity rent — the return that belongs, in principle, to the resource's public owners.
 
 ## The Backstop Technology
 
-Extraction stops when the price reaches the **backstop technology** price — the cost of a substitute that can perfectly replace the resource. If oil can be replaced by synthetic fuel at $150/bbl, then no one will pay more than $150 for conventional oil, regardless of scarcity.
+Extraction stops when the price reaches the **backstop technology** price — the cost of a substitute that can perfectly replace the resource. If oil can be replaced by synthetic fuel at &#36;150/bbl, then no one will pay more than &#36;150 for conventional oil, regardless of scarcity.
 
 The backstop price $\bar{P}$ sets the terminal condition for the Hotelling path. The initial price $P_0$ is determined by:
 
@@ -122,18 +122,18 @@ The chart shows three stylised Hotelling paths with different interest rates, al
 
 ## Does Oil Actually Follow the Hotelling Rule?
 
-The empirical track record is mixed. Observed oil prices are far more volatile than any Hotelling path would predict — they whipsaw with geopolitical events, OPEC decisions, demand shocks, and financial crises. The 2014 price collapse from $110 to $45 in six months has no counterpart in Hotelling's smooth exponential.
+The empirical track record is mixed. Observed oil prices are far more volatile than any Hotelling path would predict — they whipsaw with geopolitical events, OPEC decisions, demand shocks, and financial crises. The 2014 price collapse from &#36;110 to &#36;45 in six months has no counterpart in Hotelling's smooth exponential.
 
 What the rule gets right is the **long-run framework**. Over decades, resource prices do tend to reflect scarcity — they have risen in real terms for most finite commodities over the past century, broadly consistent with Hotelling's logic. The rule is best understood as a description of the gravity well that market prices orbit around, not a precise forecast of day-to-day prices.
 
 ## Price Decomposition: Oil Sands vs Conventional
 
-The two-component price structure looks very different across resource types. When WTI is at $60, $80, or $100, the split between extraction cost and scarcity rent is not the same for all producers.
+The two-component price structure looks very different across resource types. When WTI is at &#36;60, &#36;80, or &#36;100, the split between extraction cost and scarcity rent is not the same for all producers.
 
 <div data-viz="echarts" data-options='{"title": {"text": "Price Decomposition: Extraction Cost + Scarcity Rent", "subtext": "By producer type at three WTI price levels"}, "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}}, "legend": {"data": ["Extraction Cost", "Scarcity Rent"], "bottom": 0}, "xAxis": {"type": "category", "data": ["Oilsands\n$60", "Oilsands\n$80", "Oilsands\n$100", "Conventional\n$60", "Conventional\n$80", "Conventional\n$100", "Shale\n$60", "Shale\n$80", "Shale\n$100"]}, "yAxis": {"type": "value", "name": "USD/bbl"}, "series": [{"name": "Extraction Cost", "type": "bar", "stack": "total", "data": [30, 30, 30, 10, 10, 10, 40, 40, 40], "itemStyle": {"color": "#5470c6"}}, {"name": "Scarcity Rent", "type": "bar", "stack": "total", "data": [30, 50, 70, 50, 70, 90, 20, 40, 60], "itemStyle": {"color": "#91cc75"}}]}'>
 </div>
 
-The chart illustrates why conventional producers (Middle East, conventional Alberta) have much larger scarcity rents per barrel than oil sands or shale — and therefore more to lose from depletion. It also shows why at $60 WTI, high-cost oil sands producers are near their break-even: the "scarcity rent" in that column is really almost entirely a return of capital, not economic rent.
+The chart illustrates why conventional producers (Middle East, conventional Alberta) have much larger scarcity rents per barrel than oil sands or shale — and therefore more to lose from depletion. It also shows why at &#36;60 WTI, high-cost oil sands producers are near their break-even: the "scarcity rent" in that column is really almost entirely a return of capital, not economic rent.
 
 ## What This Means for Resource Policy
 
@@ -148,3 +148,21 @@ The Hotelling rule has direct policy implications:
 ---
 
 **Next in this cluster:** Model 17 — Supply Cost Curves and Break-Even Prices translates the Hotelling framework into the practical question of who actually extracts at each price level, and where Alberta's oil sands sit on the global cost curve.
+
+## References
+
+Alberta Energy Regulator. 2025. *Alberta Energy Outlook (ST98): Crude Bitumen Supply Costs*. <https://www.aer.ca/data-and-performance-reports/statistical-reports/alberta-energy-outlook-st98/crude-bitumen/crude-bitumen-supply-costs>
+
+Alberta Energy Regulator. 2025. *Alberta Energy Outlook (ST98): Reserves*. <https://www.aer.ca/data-and-performance-reports/statistical-reports/alberta-energy-outlook-st98/reserves>
+
+Government of Alberta. 2025. *Oil Sands Facts and Statistics*. <https://www.alberta.ca/oil-sands-facts-and-statistics>
+
+Government of Alberta. 2025. *Oil Prices and Value*. <https://www.alberta.ca/oil-prices-and-value>
+
+Hotelling, Harold. 1931. "The Economics of Exhaustible Resources." *Journal of Political Economy* 39 (2): 137–175. <https://doi.org/10.1086/254195>
+
+International Energy Agency. 2021. *Net Zero by 2050: A Roadmap for the Global Energy Sector*. Paris: IEA. <https://www.iea.org/reports/net-zero-by-2050>
+
+Norges Bank Investment Management. 2025. *The Fund*. <https://www.nbim.no/en/>
+
+Pindyck, Robert S. 1978. "The Optimal Exploration and Production of Nonrenewable Resources." *Journal of Political Economy* 86 (5): 841–861. <https://doi.org/10.1086/260711>

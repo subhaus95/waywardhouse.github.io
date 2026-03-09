@@ -187,3 +187,37 @@ For the mountain landscapes, "depleted" is not yet the right word. The Rockies a
 ---
 
 *Visitor data: Travel Alberta, Destination Canada Tourism Snapshot series. Airport statistics: Statistics Canada air carrier traffic data. Parks Canada visitation: Parks Canada Visitor Use Statistics. Wage data: Tourism HR Canada; Government of Alberta. Housing data: CMHC Rental Market Survey. Wildlife crossings: Parks Canada Highway 1 Twinning Project monitoring reports; Clevenger & Waltho (2000, 2005) wildlife crossing research.*
+
+## References
+
+Calgary Airport Authority. 2024. *2023 Annual Report*. <https://www.yyc.com/Portals/0/2024_ANNUAL_REPORT_FINAL.pdf>
+
+Canada Mortgage and Housing Corporation. 2024. *Rental Market Report, January 2024 Edition*. <https://assets.cmhc-schl.gc.ca/sites/cmhc/professional/housing-markets-data-and-research/market-reports/rental-market-report/rental-market-report-2023-en.pdf>
+
+Calgary Stampede. 2019. "Calgary's Stampede Puts Horsepower Behind Economy." *Stampede Newsroom*. <https://news.calgarystampede.com/releases/calgarys-stampede-puts-horsepower-behind-economy>
+
+Clevenger, Anthony P., and Nigel Waltho. 2000. "Factors Influencing the Effectiveness of Wildlife Underpasses in Banff National Park, Alberta, Canada." *Conservation Biology* 14 (1): 47–56. <https://doi.org/10.1046/j.1523-1739.2000.00099-085.x>
+
+Clevenger, Anthony P., and Nigel Waltho. 2005. "Performance Indices to Identify Attributes of Highway Crossing Structures Facilitating Movement of Large Mammals." *Biological Conservation* 121 (3): 453–464. <https://doi.org/10.1016/j.biocon.2004.04.017>
+
+Destination Canada. 2024. "Quarterly Tourism Snapshot — Q4 2023." <https://archives.destinationcanada.com/sites/default/files/archive/1921-Quarterly%20Tourism%20Snapshot%20-%20Q4%202023/DC_QuarterlyTourismSnapshot_Q4%202023_FINAL_EN.pdf>
+
+Destination Canada. 2024. "Tourism Spend." <https://www.destinationcanada.com/en-ca/tourism-spend>
+
+Government of Alberta. 2024. "Minimum Wage." *Employment Standards Rules*. <https://www.alberta.ca/minimum-wage>
+
+Parks Canada. 2024. "Attendance Data for National Parks and Historic Sites, 2023–24." Open Government Portal. <https://open.canada.ca/data/en/dataset/f3288c4d-a273-440e-8693-268ce876fec1>
+
+Parks Canada. 2024. "Wildlife Crossing Structures and Research — Banff National Park." <https://parks.canada.ca/pn-np/ab/banff/nature/conservation/transport/tch-rtc/passages-crossings>
+
+Statistics Canada. 2024. "Consumer Price Index, Monthly, Not Seasonally Adjusted." Table 18-10-0004-01. <https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401>
+
+Statistics Canada. 2024. "Population Estimates, Quarterly." Table 17-10-0009-01. <https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901>
+
+Statistics Canada. 2024. "Travel Survey of Residents of Canada (TSRC)." Survey record 3810. <https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=3810>
+
+Statistics Canada. 2024. "Air Passenger Traffic at Canadian Airports, Annual." Table 23-10-0253-01. <https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310025301>
+
+Tourism HR Canada. 2024. "Tourism Sector Compensation." <https://tourismhr.ca/labour-market-information/tourism-sector-compensation/>
+
+Travel Alberta. 2024. "Economic Impact." *Travel Alberta Industry Hub*. <https://industry.travelalberta.com/research/tourism-indicators/economic-impact>

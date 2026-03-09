@@ -28,7 +28,7 @@ description: >
   variation and Alberta's specific position in the framework.
 excerpt: >
   The Canada-US bilateral trade relationship is the largest in the world, worth
-  roughly CAD$1.4 trillion in goods in 2023. But that aggregate number conceals
+  roughly CAD&#36;1.4 trillion in goods in 2023. But that aggregate number conceals
   enormous provincial variation. Ontario trades nearly twice what Alberta does.
   The gravity model of international trade — one of the most empirically robust
   relationships in all of economics — explains why, and quantifies the role of
@@ -131,9 +131,9 @@ for equivalent international pairs.
 
 Canada and the United States together account for the world's largest bilateral
 trade relationship by value. In 2023, Canadian goods exports to the United States
-reached approximately CAD$630 billion, with imports of roughly CAD$470 billion
+reached approximately CAD&#36;630 billion, with imports of roughly CAD&#36;470 billion
 in goods returning northward, for a two-way goods trade total approaching
-CAD$1.4 trillion. This is larger than any other bilateral goods trade pair in
+CAD&#36;1.4 trillion. This is larger than any other bilateral goods trade pair in
 the world, exceeding even US-China and US-Mexico relationships when measured
 in value terms.
 
@@ -177,7 +177,7 @@ different commodity classifications.
   }]
 }'></div>
 
-*Ontario's dominance reflects both GDP size and geographic proximity to Detroit, Buffalo, and the US manufacturing corridor. Alberta's figure of CAD$175B substantially understates total US-bound flows — crude oil pipeline exports add another CAD$130B+ that does not appear in goods-trade statistics.*
+*Ontario's dominance reflects both GDP size and geographic proximity to Detroit, Buffalo, and the US manufacturing corridor. Alberta's figure of CAD&#36;175B substantially understates total US-bound flows — crude oil pipeline exports add another CAD&#36;130B+ that does not appear in goods-trade statistics.*
 
 ---
 
@@ -270,9 +270,9 @@ This apparent anomaly has several explanations, each of which illuminates a
 different aspect of the gravity model's assumptions.
 
 First and most importantly, the standard goods-trade statistics exclude pipeline
-flows. Alberta's crude oil exports to the United States — roughly CAD$130 billion
+flows. Alberta's crude oil exports to the United States — roughly CAD&#36;130 billion
 per year — move via pipeline and are classified as energy trade rather than goods
-trade. Natural gas pipeline exports add another CAD$25 billion or so. When these
+trade. Natural gas pipeline exports add another CAD&#36;25 billion or so. When these
 are included, Alberta's total economic exchange with the United States is
 substantially larger and aligns much more closely with gravity model predictions.
 The apparent underperformance is largely a statistical artefact of commodity
@@ -417,3 +417,21 @@ and 2026 provincial trade statistics become available.
 ---
 
 *Next in this cluster: [T2 — Canadian Trade Corridors](/canada-trade-corridors/)*
+
+---
+
+## References
+
+Anderson, James E., and Eric van Wincoop. 2003. "Gravity with Gravitas: A Solution to the Border Puzzle." *American Economic Review* 93 (1): 170–192. <https://doi.org/10.1257/000282803321455214>
+
+Global Affairs Canada. 2023. *Canada's State of Trade 2023: Inclusive Trade*. Ottawa: Government of Canada. <https://www.international.gc.ca/transparency-transparence/state-trade-commerce-international/2023.aspx?lang=eng>
+
+McCallum, John. 1995. "National Borders Matter: Canada-U.S. Regional Trade Patterns." *American Economic Review* 85 (3): 615–623. <https://ideas.repec.org/a/aea/aecrev/v85y1995i3p615-23.html>
+
+Statistics Canada. 2024. "Canadian International Merchandise Trade: Annual Review 2023." *The Daily*, May 9, 2024. Ottawa: Statistics Canada. <https://www150.statcan.gc.ca/n1/daily-quotidien/240509/dq240509a-eng.htm>
+
+Statistics Canada. 2024. *Canadian International Merchandise Trade by Province and Country, and by Product Sections, Customs-Based, Annual*. Table 12-10-0173-01. Ottawa: Statistics Canada. <https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1210017301>
+
+Statistics Canada. 2024. *Focus on Canada and the United States: Trade*. Ottawa: Statistics Canada. <https://www.statcan.gc.ca/en/topics-start/canada-united-states/trade>
+
+Tinbergen, Jan. 1962. "An Analysis of World Trade Flows." In *Shaping the World Economy: Suggestions for an International Economic Policy*, edited by Jan Tinbergen, 262–293. New York: Twentieth Century Fund. (No public URL available.)

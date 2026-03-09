@@ -19,7 +19,7 @@ math_core:
 excerpt: "Cities are not just concentrations of people — they are productivity machines. Workers in large dense cities earn 4–8% more than identical workers in small cities, not because they work harder but because density itself raises productivity. This essay derives why, measures how much, and asks what Calgary's energy-sector concentration implies about resilience."
 ---
 
-In 2014, when oil prices collapsed from over $100 to under $50 a barrel, Calgary's unemployment rate rose from roughly 4% to 9% within eighteen months. Edmonton's rose too, but more slowly and by less. Montreal and Toronto barely registered the shock. This asymmetry was not an accident of geography or policy — it was a predictable consequence of how differently these cities had organised their economic bases. Calgary had clustered, deeply and deliberately, into a single sector. That clustering had made it extraordinarily productive in good times. The same clustering made it fragile.
+In 2014, when oil prices collapsed from over &#36;100 to under &#36;50 a barrel, Calgary's unemployment rate rose from roughly 4% to 9% within eighteen months. Edmonton's rose too, but more slowly and by less. Montreal and Toronto barely registered the shock. This asymmetry was not an accident of geography or policy — it was a predictable consequence of how differently these cities had organised their economic bases. Calgary had clustered, deeply and deliberately, into a single sector. That clustering had made it extraordinarily productive in good times. The same clustering made it fragile.
 
 To understand why, we need to distinguish two things that both look like clustering but work through entirely different mechanisms. **Localisation economies** are productivity gains that come from being near other firms in the *same* industry. **Urbanisation economies** are productivity gains that come from being in a *large and diverse* city, regardless of industry. Alfred Marshall identified the first in 1890; Jane Jacobs articulated the second in 1969. The distinction matters enormously for economic policy — and for interpreting what happened to Calgary.
 
@@ -55,7 +55,7 @@ $$\ln(w_i) = \alpha + \beta \ln(\text{density}_j) + \mathbf{X}_i \gamma + \varep
 
 where $w_i$ is the wage of worker $i$, $\text{density}_j$ is the employment density of the city or zone where they work, $\mathbf{X}_i$ is a vector of individual controls (education, experience, occupation), and $\beta$ is the **wage-density elasticity** — the percentage increase in wages associated with a doubling of density.
 
-Across dozens of studies of North American and European cities, $\hat{\beta}$ typically falls in the range $0.04$ to $0.08$. That is: doubling employment density is associated with a 4–8% wage premium. At first glance this seems modest. But consider the difference in density between a small city of 100,000 and a metropolitan area of 5,000,000. A ten-fold difference in density implies a wage premium of $\beta \cdot \ln(10) \approx 0.06 \cdot 2.3 \approx 14\%$ — before controlling for industry composition or worker selection.
+Across dozens of studies of North American and European cities, $\hat{\beta}$ typically falls in the range &#36;0.04$ to &#36;0.08$. That is: doubling employment density is associated with a 4–8% wage premium. At first glance this seems modest. But consider the difference in density between a small city of 100,000 and a metropolitan area of 5,000,000. A ten-fold difference in density implies a wage premium of $\beta \cdot \ln(10) \approx 0.06 \cdot 2.3 \approx 14\%$ — before controlling for industry composition or worker selection.
 
 The challenge for causal identification is that high-ability workers sort into dense cities. The wage premium in Toronto relative to Lethbridge partly reflects the skill of the people who chose to move there, not only the productivity boost from density itself. Identifying the pure agglomeration effect requires instruments for density — historical population levels, geographic constraints, or the density of railroads in 1900 — or longitudinal data tracking the same workers as they move between cities.
 
@@ -202,3 +202,21 @@ The framework also treats agglomeration as a smooth, continuous effect of densit
 ---
 
 Next in this cluster: **Zipf's Law and the City Size Distribution** (Model 13) steps back from individual cities to ask: why do national city systems organise into a predictable rank-size hierarchy, and where does Canada — with its near-equal Edmonton-Calgary pair — fit that pattern?
+
+## References
+
+Glaeser, Edward L. 2011. *Triumph of the City: How Our Greatest Invention Makes Us Richer, Smarter, Greener, Healthier, and Happier*. New York: Penguin Press. (no public URL available)
+
+Jacobs, Jane. 1969. *The Economy of Cities*. New York: Random House. (no public URL available)
+
+Jaffe, Adam B., Manuel Trajtenberg, and Rebecca Henderson. 1993. "Geographic Localization of Knowledge Spillovers as Evidenced by Patent Citations." *Quarterly Journal of Economics* 108 (3): 577–598. <https://doi.org/10.2307/2118401>
+
+Marshall, Alfred. 1890. *Principles of Economics*. London: Macmillan. Book IV, Chapter X. <https://www.marxists.org/reference/subject/economics/marshall/bk4ch10.htm>
+
+Rosenthal, Stuart S., and William C. Strange. 2004. "Evidence on the Nature and Sources of Agglomeration Economies." In *Handbook of Regional and Urban Economics*, vol. 4, edited by J. Vernon Henderson and Jacques-François Thisse, 2119–2171. Amsterdam: Elsevier. <https://www.sciencedirect.com/science/article/pii/S1574008004800063>
+
+Statistics Canada. 2022. "Annual Review of the Labour Market, 2016." Statistics Canada Catalogue no. 75-004-M. <https://www150.statcan.gc.ca/n1/pub/75-004-m/75-004-m2017001-eng.htm>
+
+Statistics Canada. 2022. "Population and Dwelling Count Highlight Tables, 2021 Census of Population." <https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/hlt-fst/pd-pl/List-cma-tca.cfm?Lang=Eng&T=1601&S=86&O=A>
+
+Statistics Canada. 2020. "How Do Workers Displaced from Energy-producing Sectors Fare after Job Loss? Evidence from the Oil and Gas Industry." Economic Insights, Catalogue no. 11-626-X, No. 123. <https://www150.statcan.gc.ca/n1/pub/11-626-x/11-626-x2020021-eng.htm>

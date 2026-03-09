@@ -20,7 +20,7 @@ math_core:
 excerpt: "Not all oil is created equal. The global supply cost curve — the 'supply stack' — arranges every barrel of the world's extractable oil in order of what it costs to produce. Alberta's oil sands sit near the expensive end, which means understanding who shuts down first during a price crash requires knowing where you stand on the stack."
 ---
 
-When the oil price collapsed from $110 to $45 between June and December 2014, the immediate question in Calgary was: who keeps pumping? The answer depends entirely on where each producer sits on the global supply cost curve — the ranked list of every barrel of extractable oil in the world, ordered from cheapest to most expensive.
+When the oil price collapsed from &#36;110 to &#36;45 between June and December 2014, the immediate question in Calgary was: who keeps pumping? The answer depends entirely on where each producer sits on the global supply cost curve — the ranked list of every barrel of extractable oil in the world, ordered from cheapest to most expensive.
 
 This curve is not just an academic tool. It determines which projects get sanctioned, which shut in during downturns, which generate economic rents for governments and shareholders, and which are stranded when the energy transition reshapes demand. Understanding it is prerequisite to understanding Alberta's place in the global energy economy.
 
@@ -48,34 +48,34 @@ The approximate full-cycle break-even ranges by major supply category (2024 esti
 
 | Supply Source | OPEX | Full-Cycle Break-Even |
 |---|---|---|
-| Middle East conventional | $2–5 | $10–25 |
-| Russia onshore conventional | $5–10 | $20–35 |
-| US shale (Permian core) | $15–25 | $35–50 |
-| US shale (non-core) | $25–35 | $45–60 |
-| Alberta conventional | $8–15 | $30–45 |
-| Alberta SAGD (in-situ bitumen) | $20–30 | $45–65 |
-| Deepwater (Gulf of Mexico, Brazil) | $15–25 | $50–70 |
-| Alberta oil sands mining | $35–50 | $65–85 |
-| Arctic / ultra-deepwater | $40–60 | $80–120 |
+| Middle East conventional | &#36;2–5 | &#36;10–25 |
+| Russia onshore conventional | &#36;5–10 | &#36;20–35 |
+| US shale (Permian core) | &#36;15–25 | &#36;35–50 |
+| US shale (non-core) | &#36;25–35 | &#36;45–60 |
+| Alberta conventional | &#36;8–15 | &#36;30–45 |
+| Alberta SAGD (in-situ bitumen) | &#36;20–30 | &#36;45–65 |
+| Deepwater (Gulf of Mexico, Brazil) | &#36;15–25 | &#36;50–70 |
+| Alberta oil sands mining | &#36;35–50 | &#36;65–85 |
+| Arctic / ultra-deepwater | &#36;40–60 | &#36;80–120 |
 
 Alberta spans a wide range — conventional oil is competitive with US shale, while oil sands mining sits near the top of the global cost curve. This heterogeneity within a single jurisdiction is unusual.
 
 <div data-viz="echarts" data-options='{"title": {"text": "Global Oil Supply Stack (Illustrative)", "subtext": "Cumulative capacity vs full-cycle break-even, 2024"}, "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}, "formatter": "{b}: ${c}/bbl break-even"}, "xAxis": {"type": "category", "name": "Cumulative Capacity (Mbd)", "data": ["ME Conv\n(20 Mbd)", "Russia\n(10 Mbd)", "Alta Conv\n(3 Mbd)", "US Shale\nCore (8 Mbd)", "Alta SAGD\n(2 Mbd)", "Deepwater\n(5 Mbd)", "US Shale\nNon-core (4 Mbd)", "Alta Mining\n(1.5 Mbd)", "Arctic\n(1 Mbd)"]}, "yAxis": [{"type": "value", "name": "Break-even (USD/bbl)", "min": 0, "max": 130}, {"type": "value", "name": "Break-even Range", "show": false}], "series": [{"name": "Min Break-even", "type": "bar", "stack": "stack", "itemStyle": {"color": "transparent"}, "data": [10, 20, 30, 35, 45, 50, 45, 65, 80]}, {"name": "Break-even Range", "type": "bar", "stack": "stack", "data": [15, 15, 15, 15, 20, 20, 15, 20, 40], "itemStyle": {"color": "#5470c6", "opacity": 0.8}, "label": {"show": false}}, {"name": "WTI Price ($75)", "type": "line", "markLine": {"data": [{"yAxis": 75, "label": {"formatter": "WTI $75", "position": "end"}, "lineStyle": {"color": "#ee6666", "width": 2, "type": "dashed"}}]}}]}'>
 </div>
 
-The supply stack chart shows break-even ranges (the bar spans minimum to maximum break-even within each category). At $75 WTI, Alberta SAGD operations are near break-even on a full-cycle basis, while Alberta mining and Arctic supply are underwater. Middle Eastern conventional producers earn enormous rents.
+The supply stack chart shows break-even ranges (the bar spans minimum to maximum break-even within each category). At &#36;75 WTI, Alberta SAGD operations are near break-even on a full-cycle basis, while Alberta mining and Arctic supply are underwater. Middle Eastern conventional producers earn enormous rents.
 
 ## The Critical Distinction: OPEX vs Full-Cycle
 
 The difference between operating cost and full-cycle cost creates a well-known dynamic in commodity markets: producers keep pumping below their full-cycle break-even, because the capital is already sunk.
 
-Consider an Alberta SAGD operation that cost $2 billion to build. Its full-cycle break-even (including capital recovery) is $60/bbl. Its OPEX is $25/bbl. When WTI falls to $40:
+Consider an Alberta SAGD operation that cost &#36;2 billion to build. Its full-cycle break-even (including capital recovery) is &#36;60/bbl. Its OPEX is &#36;25/bbl. When WTI falls to &#36;40:
 
-- The project loses money on a full-cycle basis: $40 − $60 = −$20/bbl
-- But it still generates positive cash flow net of operating costs: $40 − $25 = +$15/bbl
-- Rational decision: **keep pumping** — stopping would sacrifice $15/bbl of contribution to fixed and sunk costs
+- The project loses money on a full-cycle basis: &#36;40 − &#36;60 = −&#36;20/bbl
+- But it still generates positive cash flow net of operating costs: &#36;40 − &#36;25 = +&#36;15/bbl
+- Rational decision: **keep pumping** — stopping would sacrifice &#36;15/bbl of contribution to fixed and sunk costs
 
-This logic explains why oil production does not immediately collapse when prices fall. Producers shut in only when price falls below OPEX — the true floor. For SAGD operations, that floor is around $20–25/bbl; for oil sands mining, around $35–50/bbl (because energy costs, diluent, and processing are all higher).
+This logic explains why oil production does not immediately collapse when prices fall. Producers shut in only when price falls below OPEX — the true floor. For SAGD operations, that floor is around &#36;20–25/bbl; for oil sands mining, around &#36;35–50/bbl (because energy costs, diluent, and processing are all higher).
 
 The break-even condition for continuing to operate is:
 
@@ -95,9 +95,9 @@ The **netback** to a producer is:
 
 $$\text{Netback} = P_{\text{WTI}} - \text{quality discount} - \text{transport cost} - \text{WCS differential}$$
 
-In periods of pipeline constraint (as in 2018), the WCS discount widened to $50/bbl — meaning Alberta producers received only $20 when WTI was $70. This completely inverted the economics of high-cost projects and triggered emergency discussions about rail transport and pipeline capacity.
+In periods of pipeline constraint (as in 2018), the WCS discount widened to &#36;50/bbl — meaning Alberta producers received only &#36;20 when WTI was &#36;70. This completely inverted the economics of high-cost projects and triggered emergency discussions about rail transport and pipeline capacity.
 
-The netback framework means Alberta's effective position on the global supply stack is *worse* than its nominal break-even costs suggest. A project with a $55/bbl full-cycle cost may only net $45 when transport and quality discounts are applied — making it uneconomic even at $60 WTI.
+The netback framework means Alberta's effective position on the global supply stack is *worse* than its nominal break-even costs suggest. A project with a &#36;55/bbl full-cycle cost may only net &#36;45 when transport and quality discounts are applied — making it uneconomic even at &#36;60 WTI.
 
 ## Alberta SAGD Break-Even Components Over Time
 
@@ -112,9 +112,9 @@ Several features stand out. Transport costs spiked in 2018 (the pipeline constra
 
 The supply cost curve framework has direct implications for Alberta's resource policy:
 
-**Investment sanctioning:** New projects are only sanctioned when the long-run expected price exceeds the full-cycle LCOS, including a risk premium. At $65 WTI, no new oil sands mining project is economic on a full-cycle basis — which is why no major mining expansion has been sanctioned since 2014.
+**Investment sanctioning:** New projects are only sanctioned when the long-run expected price exceeds the full-cycle LCOS, including a risk premium. At &#36;65 WTI, no new oil sands mining project is economic on a full-cycle basis — which is why no major mining expansion has been sanctioned since 2014.
 
-**Price floor policy:** The OPEX floor determines when the government faces a catastrophic revenue collapse (producers shut in) vs a gradual decline. Understanding the $20–25/bbl SAGD OPEX floor helps budget planners model downside scenarios.
+**Price floor policy:** The OPEX floor determines when the government faces a catastrophic revenue collapse (producers shut in) vs a gradual decline. Understanding the &#36;20–25/bbl SAGD OPEX floor helps budget planners model downside scenarios.
 
 **Pipeline capacity:** The WCS discount analysis shows that transport infrastructure is not a mere logistics issue — it is a direct determinant of whether Alberta's oil is competitive on global markets. The differential between WTI and WCS can determine whether the entire tail of the supply stack is viable.
 
@@ -123,3 +123,23 @@ The supply cost curve framework has direct implications for Alberta's resource p
 ---
 
 **Next in this cluster:** Model 18 — Royalty Regimes and Resource Rents examines how governments design the fiscal systems that capture (or fail to capture) the economic rent sitting above each producer's break-even on the supply stack.
+
+## References
+
+Alberta Energy Regulator. 2025. *Alberta Energy Outlook (ST98): Crude Bitumen Supply Costs*. <https://www.aer.ca/data-and-performance-reports/statistical-reports/alberta-energy-outlook-st98/crude-bitumen/crude-bitumen-supply-costs>
+
+Alberta Energy Regulator. 2025. *Alberta Energy Outlook (ST98): Crude Oil Production*. <https://www.aer.ca/data-and-performance-reports/statistical-reports/alberta-energy-outlook-st98/crude-oil/crude-oil-production>
+
+Canadian Energy Research Institute. 2015. *Canadian Oil Sands Supply Costs and Development Prospects*. CERI Study 152. Natural Resources Canada. <https://natural-resources.canada.ca/sites/nrcan/files/energy/energy-resources/CERI_Study_152_Final_Report.pdf>
+
+Canada Energy Regulator. 2025. *Data and Analysis*. <https://www.cer-rec.gc.ca/en/data-analysis/>
+
+Government of Alberta. 2025. *Oil Sands Facts and Statistics*. <https://www.alberta.ca/oil-sands-facts-and-statistics>
+
+Government of Alberta. 2025. *Oil Prices and Value*. <https://www.alberta.ca/oil-prices-and-value>
+
+Hotelling, Harold. 1931. "The Economics of Exhaustible Resources." *Journal of Political Economy* 39 (2): 137–175. <https://doi.org/10.1086/254195>
+
+International Energy Agency. 2023. *The Oil and Gas Industry in Net Zero Transitions*. Paris: IEA. <https://www.iea.org/reports/the-oil-and-gas-industry-in-net-zero-transitions>
+
+Wikipedia contributors. 2025. "Western Canadian Select." *Wikipedia*. <https://en.wikipedia.org/wiki/Western_Canadian_Select>

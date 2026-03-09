@@ -180,7 +180,7 @@ constraints:
 $$\min \sum_k \sum_{(u,v) \in E} c_k(u,v) \cdot f_k(u,v)$$
 
 subject to:
-- $0 \leq f_k(u,v) \leq \text{cap}_k(u,v)$ for all $k$, $(u,v)$
+- &#36;0 \leq f_k(u,v) \leq \text{cap}_k(u,v)$ for all $k$, $(u,v)$
 - Flow conservation at each node for each commodity $k$
 - Shared capacity constraints where pipelines carry multiple products
 
@@ -246,13 +246,13 @@ to the Midwest but limited onward connections southward.
 
 **Step 2 — Netback comparison by path:**
 
-At WTI $75 USD/bbl, CAD/USD 0.73:
+At WTI &#36;75 USD/bbl, CAD/USD 0.73:
 
 | Destination | Market price (CAD/bbl) | Transport cost (CAD/bbl) | Netback (CAD/bbl) |
 |:---|---:|---:|---:|
-| Superior WI (Enbridge) | $93.2 | $9.9 | $83.3 |
-| Burnaby BC (TMX) | $97.3 | $15.1 | $82.2 |
-| Port Arthur TX (Keystone) | $95.9 | $14.4 | $81.5 |
+| Superior WI (Enbridge) | &#36;93.2 | &#36;9.9 | &#36;83.3 |
+| Burnaby BC (TMX) | &#36;97.3 | &#36;15.1 | &#36;82.2 |
+| Port Arthur TX (Keystone) | &#36;95.9 | &#36;14.4 | &#36;81.5 |
 
 The minimum-cost path from Alberta to each market determines the
 maximum achievable netback. Superior WI offers the best netback in
@@ -416,7 +416,7 @@ net.add_edge("PATOKA",    "CUSHING",     400, 2.0,  "crude")   # Capline (revers
 net.add_edge("CUSHING",   "PORT_ARTHUR", 600, 1.8,  "crude")   # Seaway / Longhorn
 net.add_edge("GUERNSEY",  "CUSHING",     280, 3.5,  "crude")   # Platte Pipeline
 
-# Market prices (CAD/bbl) — WTI $75 USD, exchange 0.73, location differentials
+# Market prices (CAD/bbl) — WTI &#36;75 USD, exchange 0.73, location differentials
 MARKETS = {
     "PATOKA":     102.7,   # WTI Midwest
     "CUSHING":    102.7,   # WTI Cushing
@@ -439,7 +439,7 @@ for sink_id in ["PATOKA", "CUSHING", "PORT_ARTHUR", "BURNABY"]:
 
 # --- Netback surface ---
 print(f"\n=== Netback Price Surface (CAD/bbl) ===\n")
-print(f"  WTI: $75 USD/bbl | Quality discount: $19 CAD/bbl | Exchange: 0.73\n")
+print(f"  WTI: &#36;75 USD/bbl | Quality discount: &#36;19 CAD/bbl | Exchange: 0.73\n")
 
 surface = net.netback_surface("HARDISTY", MARKETS, quality_discount_cad=19.0)
 
@@ -780,7 +780,7 @@ for nid, r in sorted(surface.items(), key=lambda x: -x[1]["netback_cad"]):
 ### Figure 2 — Netback Price Surface by Market Destination
 
 <div data-viz="echarts" style="height:400px" data-options='{
-  "title": {"text": "Crude Oil Netback Price Surface", "subtext": "CAD/bbl from Hardisty AB — WTI $75 USD, quality discount $19 CAD/bbl, exchange 0.73", "left": "center"},
+  "title": {"text": "Crude Oil Netback Price Surface", "subtext": "CAD/bbl from Hardisty AB — WTI &#36;75 USD, quality discount &#36;19 CAD/bbl, exchange 0.73", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "legend": {"data": ["Market price (CAD)", "Transport tariff", "Quality discount", "Netback"], "bottom": 0},
   "grid": {"left": "3%", "right": "4%", "bottom": "15%", "containLabel": true},
@@ -937,8 +937,8 @@ cancellation left the minimum cut in place.
 ### The netback surface is nearly flat — which matters
 
 Figure 2 shows that netback prices across all six major market
-destinations range from approximately CAD $74.7 to $77.0 per barrel —
-a spread of only $2.3/bbl. This relative flatness reflects the fact
+destinations range from approximately CAD &#36;74.7 to &#36;77.0 per barrel —
+a spread of only &#36;2.3/bbl. This relative flatness reflects the fact
 that higher-priced markets (Burnaby, Port Arthur) are also more
 expensive to reach, while cheaper markets (Patoka, Cushing) have lower
 transport costs. The market has largely arbitraged away the geographic
@@ -1023,7 +1023,7 @@ results:
   Superior, Wisconsin — the Mainline itself is not the Gulf binding
   constraint
 - **The netback price surface is nearly flat** across available markets
-  (CAD $74.7–$77.0/bbl range) because transport costs largely absorb
+  (CAD &#36;74.7–&#36;77.0/bbl range) because transport costs largely absorb
   destination price premiums — market access matters most as a binary,
   not as a marginal optimization
 - **The integrated network is structurally robust** with three specific
@@ -1084,6 +1084,34 @@ compute the netback price surface.
 All network parameters are approximate and based on publicly available
 capacity information. The graph model is a strategic simplification;
 it is not suitable for operational pipeline scheduling or engineering design.
+
+---
+
+## References
+
+Alberta Energy Regulator. 2024. *ST98: Alberta Energy Outlook — Crude Bitumen Production*. Calgary: AER. <https://www.aer.ca/data-and-performance-reports/statistical-reports/alberta-energy-outlook-st98/crude-bitumen/crude-bitumen-production>
+
+Brandes, Ulrik. 2001. "A Faster Algorithm for Betweenness Centrality." *Journal of Mathematical Sociology* 25 (2): 163–177. <https://doi.org/10.1080/0022250X.2001.9990249>
+
+Canada Energy Regulator. 2024. *Pipeline Profiles*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/facilities-we-regulate/pipeline-profiles/>
+
+Canada Energy Regulator. 2025. *Market Snapshot: Oil Pipeline Throughputs for 2024 and the First Half of 2025 Remain High*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-oil-pipeline-throughputs-for-2024-and-the-first-half-of-2025-remain-high.html>
+
+Canada Energy Regulator. 2025. *Market Snapshot: Trans Mountain Expansion Eases Pipeline Constraints and Increases Exports to Overseas Markets*. Calgary: CER. <https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2025/market-snapshot-trans-mountain-expansion-eases-pipeline-constraints-and-increases-exports-to-overseas-markets.html>
+
+Dijkstra, Edsger W. 1959. "A Note on Two Problems in Connexion with Graphs." *Numerische Mathematik* 1: 269–271. <https://doi.org/10.1007/BF01386390>
+
+Enbridge Inc. 2025. *Energy Infrastructure Assets*. Calgary: Enbridge. <https://www.enbridge.com/~/media/Enb/Documents/Factsheets/FS_EnergyInfrastructureAssets.pdf>
+
+Ford, Lester R., Jr., and D. Ray Fulkerson. 1962. *Flows in Networks*. Princeton: Princeton University Press. <https://press.princeton.edu/books/hardcover/9780691651842/flows-in-networks>
+
+Statistics Canada. 2025. "Another Record Year for Canadian Crude Oil: Crude Oil Year in Review, 2024." Ottawa: Statistics Canada. <https://www.statcan.gc.ca/o1/en/plus/7940-another-record-year-canadian-crude-oil-crude-oil-year-review-2024>
+
+TC Energy. 2024. *NGTL System*. Calgary: TC Energy. <https://www.tcenergy.com/operations/natural-gas/ngtl-system/>
+
+TC Energy. 2024. *Keystone Pipeline System*. Calgary: TC Energy. <https://www.tcenergy.com/operations/oil-and-liquids/keystone-pipeline-system/>
+
+Trans Mountain Corporation. 2024. *Trans Mountain Pipeline System*. Calgary: Trans Mountain. <https://www.transmountain.com/pipeline-system>
 
 ---
 

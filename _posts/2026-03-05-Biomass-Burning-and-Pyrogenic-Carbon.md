@@ -119,7 +119,7 @@ $$M_C^{\text{burned}} = M_C^{\text{CO}_2} + M_C^{\text{CO}} + M_C^{\text{CH}_4} 
 
 Expressing as fractions of burned carbon:
 
-$$1 = \alpha_{\text{CO}_2} + \alpha_{\text{CO}} + \alpha_{\text{CH}_4} + \alpha_{\text{NMHC}} + \alpha_{\text{BC}}$$
+$&#36;1 = \alpha_{\text{CO}_2} + \alpha_{\text{CO}} + \alpha_{\text{CH}_4} + \alpha_{\text{NMHC}} + \alpha_{\text{BC}}$$
 
 **Emission factors relative to CO₂ (molar ratios, from plume measurements):**
 
@@ -146,7 +146,7 @@ Total CO₂ from a fire:
 
 $$E_{\text{CO}_2} = A \times \beta \times \phi \times \text{EF}_{\text{CO}_2} \times 10^{-3}$$
 
-where $\text{EF}_{\text{CO}_2}$ is in g/kg and the factor $10^{-3}$ converts g to kg. In practice, emission factors are often expressed in t CO₂ per ha:
+where $\text{EF}_{\text{CO}_2}$ is in g/kg and the factor &#36;10^{-3}$ converts g to kg. In practice, emission factors are often expressed in t CO₂ per ha:
 
 $$E_{\text{CO}_2} = A \times \beta \times \phi \times f_C \times \alpha_{\text{CO}_2} \times \frac{44}{12}$$
 
@@ -211,7 +211,7 @@ $$E_{\text{CH}_4} = 2000 \times 12 \times 0.80 \times 5.8 \times 10^{-6} = 111.4
 
 $$E_{\text{total}} \approx 31,296 + 3,342 = 34,638 \text{ t CO}_2\text{-eq}$$
 
-**Carbon neutrality check:** Boreal forest NPP ≈ 2 t C ha⁻¹ yr⁻¹. Time to re-sequester $9,024$ t C:
+**Carbon neutrality check:** Boreal forest NPP ≈ 2 t C ha⁻¹ yr⁻¹. Time to re-sequester &#36;9,024$ t C:
 
 $$t_{\text{reseq}} = \frac{9,024}{2000 \times 2} = 2.3 \text{ years} \quad \text{(for surface fuels)}$$
 

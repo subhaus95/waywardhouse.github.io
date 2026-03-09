@@ -82,7 +82,7 @@ Since pH = $-\log_{10}(a_{\text{H}^+})$, we can write $a_{\text{H}^+} = 10^{-\te
 
 $$r = k_{\text{eff}} \cdot 10^{-n \cdot \text{pH}}$$
 
-This tells us something immediately useful: each unit decrease in pH increases the dissolution rate by a factor of $10^n$. For $n = 0.5$, dropping from pH 6 to pH 5 (the approximate range of natural soil water) roughly triples the weathering rate.
+This tells us something immediately useful: each unit decrease in pH increases the dissolution rate by a factor of &#36;10^n$. For $n = 0.5$, dropping from pH 6 to pH 5 (the approximate range of natural soil water) roughly triples the weathering rate.
 
 ### 3.2 Temperature Dependence: The Arrhenius Equation
 
@@ -140,7 +140,7 @@ Rearranging to solve for $\varepsilon$:
 
 $$\varepsilon = \Lambda\left(\frac{P_0}{N_{\text{surface}}} - \lambda\right)$$
 
-Measuring $N_{\text{surface}}$ in the laboratory gives us $\varepsilon$ — the long-term average erosion rate integrated over the timescale of nuclide accumulation (typically $10^3$–$10^6$ years).
+Measuring $N_{\text{surface}}$ in the laboratory gives us $\varepsilon$ — the long-term average erosion rate integrated over the timescale of nuclide accumulation (typically &#36;10^3$–&#36;10^6$ years).
 
 ---
 
@@ -149,7 +149,7 @@ Measuring $N_{\text{surface}}$ in the laboratory gives us $\varepsilon$ — the 
 **Setting:** A granitic catchment in the Canadian Rockies. Mean annual temperature 4°C (277 K). Soil water pH 5.2. We want to estimate the feldspar dissolution rate and compare it to a tropical analogue at 26°C (299 K).
 
 **Given:**
-- $k_{\text{eff}}$ at 25°C (298 K) = $1.5 \times 10^{-10}$ mol m⁻² s⁻¹ (for K-feldspar at pH 5)
+- $k_{\text{eff}}$ at 25°C (298 K) = &#36;1.5 \times 10^{-10}$ mol m⁻² s⁻¹ (for K-feldspar at pH 5)
 - $n = 0.5$ (reaction order)
 - $E_a = 65{,}000$ J mol⁻¹
 
@@ -171,7 +171,7 @@ $$r_{277} = 0.137 \times 3.77 \times 10^{-13} = 5.16 \times 10^{-14} \text{ mol 
 
 **Step 3: Tropical analogue at 26°C (299 K)** — nearly identical temperature to reference, so $r_{299} \approx r_{298} = 3.77 \times 10^{-13}$ mol m⁻² s⁻¹.
 
-**Ratio:** The tropical site weathers feldspar at $3.77 / 0.516 \approx 7.3\times$ the rate of the alpine site. Over a million years, this predicts a tropical soil column roughly 7 times deeper than the alpine equivalent, consistent with field observation.
+**Ratio:** The tropical site weathers feldspar at &#36;3.77 / 0.516 \approx 7.3\times$ the rate of the alpine site. Over a million years, this predicts a tropical soil column roughly 7 times deeper than the alpine equivalent, consistent with field observation.
 
 **Step 4: ¹⁰Be denudation rate** — suppose a quartz sample from the alpine catchment contains $N = 2.4 \times 10^5$ atoms g⁻¹.
 
@@ -259,7 +259,7 @@ Each curve shows how the Arrhenius temperature dependence lifts dissolution rate
 
 ## 7. Interpretation
 
-The model predicts weathering rates that vary over several orders of magnitude across the Earth's climate zones. Cold, high-latitude environments weather at rates of $10^{-14}$–$10^{-13}$ mol m⁻² s⁻¹; hot, humid tropical environments approach $10^{-12}$–$10^{-11}$ mol m⁻² s⁻¹ for the same minerals.
+The model predicts weathering rates that vary over several orders of magnitude across the Earth's climate zones. Cold, high-latitude environments weather at rates of &#36;10^{-14}$–&#36;10^{-13}$ mol m⁻² s⁻¹; hot, humid tropical environments approach &#36;10^{-12}$–&#36;10^{-11}$ mol m⁻² s⁻¹ for the same minerals.
 
 This is not merely an academic result. It has direct consequences for:
 
@@ -267,7 +267,7 @@ This is not merely an academic result. It has direct consequences for:
 - **River chemistry.** Weathering supplies Ca²⁺, Mg²⁺, Na⁺, K⁺, and Si to rivers. The global silica flux from rivers can be estimated from the dissolution rate model applied to continental lithologies.
 - **Carbon cycle.** Silicate weathering consumes CO₂ via the reaction: CaSiO₃ + CO₂ → CaCO₃ + SiO₂. The temperature sensitivity of weathering creates a geochemical thermostat — a warmer climate accelerates weathering, which draws down atmospheric CO₂, which cools the climate. This feedback operates on million-year timescales.
 
-The cosmogenic nuclide constraint is particularly powerful: it gives us a direct, integrative measurement of erosion rate that bypasses the need to observe the process in real time. A single quartz sample, processed correctly, reveals the average erosion rate over the last $10^4$–$10^6$ years.
+The cosmogenic nuclide constraint is particularly powerful: it gives us a direct, integrative measurement of erosion rate that bypasses the need to observe the process in real time. A single quartz sample, processed correctly, reveals the average erosion rate over the last &#36;10^4$–&#36;10^6$ years.
 
 ---
 
@@ -301,8 +301,8 @@ $$\varepsilon = \Lambda\!\left(\frac{P_0}{N} - \lambda\right) \quad \text{[denud
 
 ## Math Refresher
 
-**Exponential and logarithm review.** The expression $10^{-n \cdot \text{pH}}$ uses the fact that $\log_{10}(a_{\text{H}^+}) = -\text{pH}$, so $a_{\text{H}^+} = 10^{-\text{pH}}$. Raising both sides to the power $n$: $a_{\text{H}^+}^n = 10^{-n \cdot \text{pH}}$. This is just the rule $(a^m)^n = a^{mn}$ applied to base 10.
+**Exponential and logarithm review.** The expression &#36;10^{-n \cdot \text{pH}}$ uses the fact that $\log_{10}(a_{\text{H}^+}) = -\text{pH}$, so $a_{\text{H}^+} = 10^{-\text{pH}}$. Raising both sides to the power $n$: $a_{\text{H}^+}^n = 10^{-n \cdot \text{pH}}$. This is just the rule $(a^m)^n = a^{mn}$ applied to base 10.
 
-**Arrhenius linearisation.** Taking the natural log of $k = A e^{-E_a/RT}$ gives $\ln k = \ln A - E_a/(RT)$. A plot of $\ln k$ versus $1/T$ is therefore a straight line with slope $-E_a/R$. This is how activation energies are measured experimentally: run the reaction at several temperatures, plot $\ln k$ vs $1/T$, and read the slope.
+**Arrhenius linearisation.** Taking the natural log of $k = A e^{-E_a/RT}$ gives $\ln k = \ln A - E_a/(RT)$. A plot of $\ln k$ versus &#36;1/T$ is therefore a straight line with slope $-E_a/R$. This is how activation energies are measured experimentally: run the reaction at several temperatures, plot $\ln k$ vs &#36;1/T$, and read the slope.
 
 **Units in the denudation equation.** The production rate $P_0$ [atoms g⁻¹ yr⁻¹], concentration $N$ [atoms g⁻¹], and attenuation length $\Lambda$ [g cm⁻²] must be dimensionally consistent. The erosion rate $\varepsilon = \Lambda(P_0/N - \lambda)$ has units g cm⁻² yr⁻¹ because $P_0/N$ has units yr⁻¹ and $\Lambda$ has units g cm⁻². To convert to mm yr⁻¹: divide by rock density $\rho_r$ [g cm⁻³] and multiply by 10 (cm → mm).

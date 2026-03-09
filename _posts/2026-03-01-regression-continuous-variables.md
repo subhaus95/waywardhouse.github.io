@@ -41,15 +41,15 @@ Given satellite imagery and a few field measurements, can we predict soil moistu
 
 **Direct measurement doesn't scale.**
 
-Soil moisture probe: One location = $500
+Soil moisture probe: One location = &#36;500
 
 Watershed area: 100 km² = 10 million 10×10m cells
 
-Full coverage: $5 billion (impossible)
+Full coverage: &#36;5 billion (impossible)
 
 **Regression provides solution:**
 
-Measure 100 locations with probes ($50,000).
+Measure 100 locations with probes (&#36;50,000).
 
 Extract satellite features (vegetation, thermal, topography).
 
@@ -233,7 +233,7 @@ $$\boldsymbol{\beta}^{(t+1)} = \boldsymbol{\beta}^{(t)} - \frac{2\alpha}{n}\math
 Too small: Slow convergence  
 Too large: Divergence (overshoots minimum)
 
-Typical: $\alpha = 0.01$ to $0.1$, or adaptive (decrease over time)
+Typical: $\alpha = 0.01$ to &#36;0.1$, or adaptive (decrease over time)
 
 ### Ridge Regression Gradient
 
@@ -259,7 +259,7 @@ Adding $\lambda\mathbf{I}$ ensures invertibility even with correlated features.
 
 **K-Fold Cross-Validation:**
 
-1. Split data into $K$ folds (typical: $K=5$ or $10$)
+1. Split data into $K$ folds (typical: $K=5$ or &#36;10$)
 2. For each fold $k$:
    - Train on $K-1$ folds
    - Test on fold $k$

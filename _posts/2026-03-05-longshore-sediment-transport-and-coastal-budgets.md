@@ -106,7 +106,7 @@ For standard values ($K=0.77$, $\rho_f=1025$ kg m⁻³, $\rho_s=2650$ kg m⁻³,
 
 $$Q_\ell \approx 0.080 \, H_b^{5/2} \sin(2\alpha_b) \quad \text{[m}^3\text{ s}^{-1}\text{]}$$
 
-Note the $H_b^{5/2}$ dependence: doubling wave height increases transport by a factor of $2^{2.5} = 5.66$. Longshore transport is extremely sensitive to wave height — large storms dominate the annual transport budget.
+Note the $H_b^{5/2}$ dependence: doubling wave height increases transport by a factor of &#36;2^{2.5} = 5.66$. Longshore transport is extremely sensitive to wave height — large storms dominate the annual transport budget.
 
 ### 3.3 Net and Gross Transport
 
@@ -196,7 +196,7 @@ $$Q_\ell = 0.080 \times 4.348 \times 0.500 = 0.1739 \text{ m}^3\text{s}^{-1}$$
 
 Annual transport: $Q_n = 0.1739 \times 3.156 \times 10^7 = 5.49 \times 10^6$ m³ yr⁻¹
 
-This is a very high transport rate — consistent with exposed northwest Pacific coastlines. For context, the entire Pacific Outer Coast of the US has estimated annual net longshore transport of $10^5$–$10^6$ m³ yr⁻¹ per reach.
+This is a very high transport rate — consistent with exposed northwest Pacific coastlines. For context, the entire Pacific Outer Coast of the US has estimated annual net longshore transport of &#36;10^5$–&#36;10^6$ m³ yr⁻¹ per reach.
 
 **Step 2: Existing erosion budget**
 
@@ -204,7 +204,7 @@ Erosion rate = 0.8 m yr⁻¹ over 4 km = 4000 m:
 
 $$\dot{V}_{\text{loss}} = 0.8 \times 4000 \times 8 = 25{,}600 \text{ m}^3\text{yr}^{-1}$$
 
-As a fraction of throughgoing transport: $25{,}600 / 5{,}490{,}000 = 0.47\%$ — the beach is losing a very small fraction of throughgoing transport, likely due to a modest transport gradient (slight increase in $Q_\ell$ with $x$ in the southern reach, perhaps from a change in beach orientation).
+As a fraction of throughgoing transport: &#36;25{,}600 / 5{,}490{,}000 = 0.47\%$ — the beach is losing a very small fraction of throughgoing transport, likely due to a modest transport gradient (slight increase in $Q_\ell$ with $x$ in the southern reach, perhaps from a change in beach orientation).
 
 **Step 3: Effect of proposed breakwater** blocking 40% of net transport
 
@@ -318,7 +318,7 @@ The $H_b^{5/2}$ sensitivity of CERC transport also has a policy implication: ann
 
 ## 8. What Could Go Wrong?
 
-**K is highly uncertain.** The CERC coefficient $K$ is fitted to field data with scatter spanning an order of magnitude. Values of $K = 0.4$–$1.2$ are all physically defensible depending on grain size, wave steepness, and measurement method. Transport estimates from CERC should be treated as accurate to a factor of 2–3 at best.
+**K is highly uncertain.** The CERC coefficient $K$ is fitted to field data with scatter spanning an order of magnitude. Values of $K = 0.4$–&#36;1.2$ are all physically defensible depending on grain size, wave steepness, and measurement method. Transport estimates from CERC should be treated as accurate to a factor of 2–3 at best.
 
 **Obliquity correction at large angles.** The $\sin(2\alpha_b)\cos(\alpha_b)$ derivation assumes small-to-moderate approach angles. At angles above 45°, the formula becomes unreliable — in practice, most longshore transport occurs at angles of 5°–30°, so this is rarely a problem in the field but worth knowing.
 
@@ -348,6 +348,6 @@ $$V_{\text{nourish}} = \Delta y \cdot \ell \cdot D_c \cdot R_a \quad \text{[nour
 
 **Flux divergence.** The term $\partial Q_\ell / \partial x$ is the spatial gradient (derivative) of the longshore transport rate. If transport increases with $x$ (the downdrift direction), more sand is leaving a given section than arriving — divergence is positive, and the shoreline retreats. If transport decreases with $x$, more is arriving than leaving — divergence is negative, and the shoreline advances. This is the central operation of the one-line model: converting a transport field into a rate-of-change field by taking its spatial derivative.
 
-**The $H^{5/2}$ exponent.** The CERC formula has $H_b^{5/2}$ because it is the product of wave energy density ($\propto H^2$) and group velocity at breaking ($\propto H^{1/2}$ via $C_g = \sqrt{gh_b}$ and $h_b = H/\gamma$). The $\sin(2\alpha_b)$ term is the product of $\sin\alpha_b$ (alongshore component) and $\cos\alpha_b$ (crest-length factor), using the double-angle identity $2\sin\theta\cos\theta = \sin(2\theta)$.
+**The $H^{5/2}$ exponent.** The CERC formula has $H_b^{5/2}$ because it is the product of wave energy density ($\propto H^2$) and group velocity at breaking ($\propto H^{1/2}$ via $C_g = \sqrt{gh_b}$ and $h_b = H/\gamma$). The $\sin(2\alpha_b)$ term is the product of $\sin\alpha_b$ (alongshore component) and $\cos\alpha_b$ (crest-length factor), using the double-angle identity &#36;2\sin\theta\cos\theta = \sin(2\theta)$.
 
-**Annual vs instantaneous transport.** CERC gives transport in m³ s⁻¹. To convert to annual: multiply by the number of seconds in a year ($3.156 \times 10^7$ s yr⁻¹). For a real wave climate, compute $Q_\ell$ for each sea state (defined by $H_s$, $T_p$, $\alpha$, and occurrence frequency) and sum the contributions. The result is the annual net or gross transport depending on whether opposite directions are subtracted or added.
+**Annual vs instantaneous transport.** CERC gives transport in m³ s⁻¹. To convert to annual: multiply by the number of seconds in a year (&#36;3.156 \times 10^7$ s yr⁻¹). For a real wave climate, compute $Q_\ell$ for each sea state (defined by $H_s$, $T_p$, $\alpha$, and occurrence frequency) and sum the contributions. The result is the annual net or gross transport depending on whether opposite directions are subtracted or added.

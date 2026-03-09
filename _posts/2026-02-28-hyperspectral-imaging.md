@@ -288,11 +288,11 @@ $$\rho(\lambda) = f_{\text{veg}} (\rho_{\text{veg}}(\lambda) - \rho_{\text{soil}
 
 **Solve using one wavelength (800 nm):**
 
-$$0.35 = f_{\text{veg}}(0.50 - 0.20) + 0.20$$
+$&#36;0.35 = f_{\text{veg}}(0.50 - 0.20) + 0.20$$
 
-$$0.35 = 0.30 f_{\text{veg}} + 0.20$$
+$&#36;0.35 = 0.30 f_{\text{veg}} + 0.20$$
 
-$$0.15 = 0.30 f_{\text{veg}}$$
+$&#36;0.15 = 0.30 f_{\text{veg}}$$
 
 $$f_{\text{veg}} = 0.50$$
 

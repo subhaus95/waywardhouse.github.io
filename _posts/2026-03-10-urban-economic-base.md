@@ -57,7 +57,7 @@ $$\Delta E = \Delta B + k\Delta B + k^2 \Delta B + k^3 \Delta B + \cdots$$
 
 $$\Delta E = \Delta B \cdot \sum_{n=0}^{\infty} k^n = \Delta B \cdot \frac{1}{1-k}$$
 
-This is the same multiplier $m = 1/(1-k)$. The series converges provided $0 < k < 1$, which is satisfied as long as some fraction of income leaks out of the local economy (into savings, imports, and taxes).
+This is the same multiplier $m = 1/(1-k)$. The series converges provided &#36;0 < k < 1$, which is satisfied as long as some fraction of income leaks out of the local economy (into savings, imports, and taxes).
 
 The larger the leakage, the smaller the multiplier. Small cities with limited local economic diversity have high leakage — residents must import many goods and services from outside — producing low multipliers. Large, diversified metros like Toronto have more local spending opportunities and less leakage, producing higher multipliers.
 
@@ -217,3 +217,17 @@ Despite these limitations, the economic base multiplier provides the essential l
 ---
 
 Next in this cluster: **The Integrated Urban System** (Model 15) synthesises bid-rent, agglomeration, Zipf's Law, and the economic base into a single causal framework — and applies it to Calgary as a complete worked example of how all four mechanisms interact.
+
+## References
+
+Hoyt, Homer. 1939. *The Structure and Growth of Residential Neighborhoods in American Cities*. Washington, DC: Federal Housing Administration. (no public URL available)
+
+Jacobs, Jane. 1969. *The Economy of Cities*. New York: Random House. (no public URL available)
+
+Moretti, Enrico. 2012. *The New Geography of Jobs*. Boston: Houghton Mifflin Harcourt. (no public URL available)
+
+Statistics Canada. 2020. "How Do Workers Displaced from Energy-producing Sectors Fare after Job Loss? Evidence from the Oil and Gas Industry." Economic Insights, Catalogue no. 11-626-X, No. 123. <https://www150.statcan.gc.ca/n1/pub/11-626-x/11-626-x2020021-eng.htm>
+
+Statistics Canada. 2020. "The Decline in Production and Investment in Canada's Oil and Gas Sector and its Impact on the Economy." Economic Insights, Catalogue no. 11-626-X, No. 107. <https://www150.statcan.gc.ca/n1/pub/11-626-x/11-626-x2020007-eng.htm>
+
+Statistics Canada. 2022. "Population and Dwelling Count Highlight Tables, 2021 Census of Population." <https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/hlt-fst/pd-pl/List-cma-tca.cfm?Lang=Eng&T=1601&S=86&O=A>

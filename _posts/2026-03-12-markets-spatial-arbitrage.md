@@ -17,7 +17,7 @@ math_core:
   - "Arbitrage condition"
   - "Transfer costs"
   - "Price band theorem"
-excerpt: "Alberta natural gas is chemically identical to Louisiana natural gas. Yet AECO in Alberta persistently trades $1.00–$2.00 per GJ below Henry Hub in Louisiana. The difference is not quality — it is pipeline capacity. When arbitrageurs cannot physically move the gas to where it is worth more, the price gap persists indefinitely. This is the spatial arbitrage constraint in its purest form: a quantified dollar value attached to a geographic bottleneck."
+excerpt: "Alberta natural gas is chemically identical to Louisiana natural gas. Yet AECO in Alberta persistently trades &#36;1.00–&#36;2.00 per GJ below Henry Hub in Louisiana. The difference is not quality — it is pipeline capacity. When arbitrageurs cannot physically move the gas to where it is worth more, the price gap persists indefinitely. This is the spatial arbitrage constraint in its purest form: a quantified dollar value attached to a geographic bottleneck."
 ---
 
 In 1952, Paul Samuelson published a paper that seems almost too obvious to be worth publishing. He proved that in a competitive world with transport costs, trade flows from low-price to high-price regions until the price difference equals the cost of moving the good between them. Any larger gap is arbitraged away by traders buying cheap and selling dear. Any smaller gap means no trade is profitable.
@@ -26,7 +26,7 @@ This Samuelson condition — sometimes called spatial price equilibrium — is t
 
 ## The Law of One Price and Why It Fails
 
-The Law of One Price (LOP) states that in competitive markets, identical goods trade at the same price everywhere, once adjusted for transport costs and quality differences. The intuition is straightforward: if the same good trades at $100 in City A and $120 in City B, with transport costing $5, traders will buy in A and sell in B, capturing $15 profit. This arbitrage continues until the price difference collapses to exactly $5.
+The Law of One Price (LOP) states that in competitive markets, identical goods trade at the same price everywhere, once adjusted for transport costs and quality differences. The intuition is straightforward: if the same good trades at &#36;100 in City A and &#36;120 in City B, with transport costing &#36;5, traders will buy in A and sell in B, capturing &#36;15 profit. This arbitrage continues until the price difference collapses to exactly &#36;5.
 
 The formal condition is:
 
@@ -66,9 +66,9 @@ The AECO-Henry Hub basis differential is the most important spatial price relati
 
 Pipeline-quality natural gas is, by definition, a standardised commodity. Methane is methane. There is no quality differential between AECO gas and Henry Hub gas — they meet the same pipeline specifications. Any price difference is purely spatial: the cost of moving gas from Alberta to the Gulf Coast.
 
-The physical path from AECO to Henry Hub requires crossing several regulatory and capacity bottlenecks: the Northern Border Pipeline into the US Midwest, the Vector Pipeline into the Chicago hub, and various connections south and east to Henry Hub. The nominal transport cost for this journey is roughly $1.20–$1.50/GJ.
+The physical path from AECO to Henry Hub requires crossing several regulatory and capacity bottlenecks: the Northern Border Pipeline into the US Midwest, the Vector Pipeline into the Chicago hub, and various connections south and east to Henry Hub. The nominal transport cost for this journey is roughly &#36;1.20–&#36;1.50/GJ.
 
-The **observed** AECO-Henry Hub differential has averaged $1.50–$2.50/GJ over the past decade — often exceeding the nominal transport cost by $0.50–$1.00/GJ. This excess differential has a simple explanation: export pipeline capacity from Alberta is intermittently full.
+The **observed** AECO-Henry Hub differential has averaged &#36;1.50–&#36;2.50/GJ over the past decade — often exceeding the nominal transport cost by &#36;0.50–&#36;1.00/GJ. This excess differential has a simple explanation: export pipeline capacity from Alberta is intermittently full.
 
 When the NGTL (Nova Gas Transmission Line) system within Alberta is congested, or when the border-crossing pipelines are at capacity, additional gas cannot physically move south regardless of how profitable the arbitrage appears. The price gap widens beyond the transport cost and stays there until demand within Alberta falls (shoulder seasons) or additional capacity is commissioned.
 
@@ -94,14 +94,14 @@ The **annual revenue loss from the constraint** is:
 $$\text{Revenue Loss} = \epsilon \cdot Q_{\text{Alberta}}$$
 
 Using approximate 2015–2023 averages:
-- $\delta \approx \$1.50/\text{GJ}$
-- $t \approx \$1.20/\text{GJ}$
-- $\epsilon \approx \$0.30–\$0.80/\text{GJ}$ (varies year to year)
+- $\delta \approx \&#36;1.50/\text{GJ}$
+- $t \approx \&#36;1.20/\text{GJ}$
+- $\epsilon \approx \&#36;0.30–\&#36;0.80/\text{GJ}$ (varies year to year)
 - $Q_{\text{Alberta}} \approx 15.5 \text{ Bcf/day} \approx 5,660 \text{ Bcf/year} \approx 5.98 \times 10^{12} \text{ GJ/year}$
 
-At $\epsilon = \$0.50/\text{GJ}$:
+At $\epsilon = \&#36;0.50/\text{GJ}$:
 
-$$\text{Revenue Loss} = \$0.50 \times 5.98 \times 10^{12} \approx \$3.0 \text{ billion/year}$$
+$$\text{Revenue Loss} = \&#36;0.50 \times 5.98 \times 10^{12} \approx \&#36;3.0 \text{ billion/year}$$
 
 This is not a small number. It is larger than Alberta's annual post-secondary education budget. It is the annual cost Alberta's gas producers pay — in foregone revenue — for the absence of adequate export pipeline capacity. That cost flows entirely to consumers of Alberta's gas (US utilities who buy it cheap) rather than to Alberta producers or the Alberta government.
 
@@ -116,13 +116,13 @@ The price band theorem predicts that observed price differentials across commodi
 
 The scatter plots two populations: corridors where trade is unconstrained (green, clustered at or below the 45-degree line) and corridors where infrastructure constraints bind (red, above the 45-degree line). Every red point represents a situation where the market is pricing in a constraint — where traders are aware that arbitrage is profitable but physically impossible.
 
-The Alberta-US gas corridors cluster in the red zone during constraint periods. The WCS-WTI point for November 2018 is almost off the chart — a $40/bbl differential on an $8/bbl transport cost, reflecting an acute pipeline crisis.
+The Alberta-US gas corridors cluster in the red zone during constraint periods. The WCS-WTI point for November 2018 is almost off the chart — a &#36;40/bbl differential on an &#36;8/bbl transport cost, reflecting an acute pipeline crisis.
 
 ## What Price Signals Tell Infrastructure Planners
 
 The spatial arbitrage framework has a direct policy application: a persistent price differential above the competitive transport cost is a market signal that additional infrastructure would generate positive returns.
 
-If the AECO-Henry Hub basis is $0.80/GJ above the transport cost, and if additional pipeline capacity costs $0.40/GJ (amortised capital and operating cost), then every GJ of new capacity generates $0.40 of net surplus. The value of new infrastructure is directly readable from the price signal.
+If the AECO-Henry Hub basis is &#36;0.80/GJ above the transport cost, and if additional pipeline capacity costs &#36;0.40/GJ (amortised capital and operating cost), then every GJ of new capacity generates &#36;0.40 of net surplus. The value of new infrastructure is directly readable from the price signal.
 
 This is the economic case for Trans Mountain Expansion, LNG Canada, and Coastal GasLink: persistent price differentials that exceed the cost of the infrastructure required to close them. The counterargument — that these differentials will narrow as oil demand falls — is the energy transition risk: if global oil demand falls fast enough, the infrastructure will be built into a declining market and may not recover its capital costs before the differential disappears.
 
@@ -131,3 +131,23 @@ The price signal tells you the current value. It cannot tell you the future valu
 ---
 
 **Next in this cluster:** Model 23 — Futures Markets as Geographic Instruments examines how forward prices encode not just time preferences but geographic constraints — and how the futures curve carries information about infrastructure risk, storage scarcity, and the market's expectations about transport capacity.
+
+## References
+
+Canada Energy Regulator. 2024. "Crude Oil Price Differential." Government of Canada. <https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/crude-oil-petroleum-products/crude-oil-price-differential/>
+
+Canada Energy Regulator. 2024. "Natural Gas Market Prices." Government of Canada. <https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/natural-gas/natural-gas-prices/>
+
+CME Group. 2025. "Henry Hub Natural Gas Futures." NYMEX. <https://www.cmegroup.com/markets/energy/natural-gas/natural-gas.html>
+
+Fackler, Paul L., and Barry K. Goodwin. 2001. "Spatial Price Analysis." In *Handbook of Agricultural Economics*, vol. 1B, edited by Bruce L. Gardner and Gordon C. Rausser, 971–1024. Amsterdam: Elsevier. <https://doi.org/10.1016/S1574-0072(01)10025-3>
+
+LNG Canada. 2024. "Project Overview." LNG Canada Development Inc. <https://www.lngcanada.ca/project/>
+
+Peltzman, Sam. 2000. "Prices Rise Faster than They Fall." *Journal of Political Economy* 108 (3): 466–502. <https://doi.org/10.1086/262126>
+
+Samuelson, Paul A. 1952. "Spatial Price Equilibrium and Linear Programming." *American Economic Review* 42 (3): 283–303. <https://www.jstor.org/stable/1907862>
+
+Takayama, T., and George G. Judge. 1971. *Spatial and Temporal Price and Allocation Models*. Amsterdam: North-Holland. (No public URL available.)
+
+World Bank. 2025. "Commodity Markets (Pink Sheet)." World Bank Group. <https://www.worldbank.org/en/research/commodity-markets>

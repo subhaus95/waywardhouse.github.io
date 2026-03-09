@@ -37,7 +37,7 @@ The transmission runs through four steps:
 
 The real exchange rate effect can be decomposed into a **spending effect** (domestic demand rises with resource income, pushing up non-tradeable prices) and a **resource movement effect** (factors of production physically move into the resource sector).
 
-For Canada, the Canadian dollar's correlation with oil prices is well-documented. During the 2003–2014 commodity supercycle, the CAD rose from $0.63 USD to over $1.05 USD — a 67% appreciation. Over the same period, Ontario's manufacturing sector shed roughly 300,000 jobs. The counterfactual — what manufacturing employment would have been without the petrodollar — is contested, but the directional effect is clear.
+For Canada, the Canadian dollar's correlation with oil prices is well-documented. During the 2003–2014 commodity supercycle, the CAD rose from &#36;0.63 USD to over &#36;1.05 USD — a 67% appreciation. Over the same period, Ontario's manufacturing sector shed roughly 300,000 jobs. The counterfactual — what manufacturing employment would have been without the petrodollar — is contested, but the directional effect is clear.
 
 The **Balassa-Samuelson-style** exchange rate model for a resource-exporting economy suggests the real exchange rate appreciation is:
 
@@ -75,7 +75,7 @@ The **volatility transmission regression** estimates the sensitivity at each ste
 
 $$\Delta \ln Y_{t} = \alpha + \beta \cdot \Delta \ln P_{\text{oil}, t} + \gamma \cdot \Delta \ln P_{\text{oil}, t-1} + \epsilon_t$$
 
-where $Y_t$ is any downstream variable (government revenue, employment, etc.) and $\beta, \gamma$ capture contemporaneous and lagged responses. For Alberta GDP, estimates suggest $\beta \approx 0.3$: a 10% oil price fall reduces Alberta GDP growth by roughly 3 percentage points — a very high sensitivity for a province with a $400 billion economy.
+where $Y_t$ is any downstream variable (government revenue, employment, etc.) and $\beta, \gamma$ capture contemporaneous and lagged responses. For Alberta GDP, estimates suggest $\beta \approx 0.3$: a 10% oil price fall reduces Alberta GDP growth by roughly 3 percentage points — a very high sensitivity for a province with a &#36;400 billion economy.
 
 <div data-viz="echarts" data-options='{"title": {"text": "Alberta GDP Growth vs WTI Oil Price (2000–2024)", "subtext": "Annual % change in Alberta real GDP vs WTI annual average price change"}, "tooltip": {"trigger": "axis"}, "legend": {"data": ["Alberta GDP Growth (%)", "WTI Price Change (%)"], "bottom": 0}, "xAxis": {"type": "category", "data": ["2000","2002","2004","2006","2008","2010","2012","2014","2016","2018","2020","2022","2024"]}, "yAxis": {"type": "value", "name": "Annual Change (%)", "min": -20, "max": 30}, "series": [{"name": "Alberta GDP Growth (%)", "type": "bar", "data": [5.2, 4.1, 5.8, 7.2, 0.5, 4.8, 4.3, 4.7, -3.7, 2.4, -8.2, 5.1, 2.8], "itemStyle": {"color": "#5470c6", "opacity": 0.7}}, {"name": "WTI Price Change (%)", "type": "line", "data": [57, -4, 33, 19, 38, 29, -1, -8, -46, 25, -23, 67, -11], "lineStyle": {"width": 2}, "itemStyle": {"color": "#ee6666"}}]}'>
 </div>
@@ -88,7 +88,7 @@ The **Herfindahl-Hirschman Index (HHI)** measures economic concentration. Applie
 
 $$\text{HHI} = \sum_{i=1}^{N} s_i^2$$
 
-where $s_i$ is the share of sector $i$ in total exports. HHI ranges from $1/N$ (perfectly equal across $N$ sectors) to 1 (complete monopoly). Higher HHI means greater concentration and higher vulnerability to sector-specific shocks.
+where $s_i$ is the share of sector $i$ in total exports. HHI ranges from &#36;1/N$ (perfectly equal across $N$ sectors) to 1 (complete monopoly). Higher HHI means greater concentration and higher vulnerability to sector-specific shocks.
 
 Alberta's export HHI is dominated by energy. Energy goods account for roughly 85% of Alberta's merchandise exports — an HHI approaching 0.73. Compare this to Ontario (automotive, machinery, pharmaceuticals — HHI around 0.15) and British Columbia (forestry, mining, agricultural, software — HHI around 0.25).
 
@@ -101,7 +101,7 @@ Alberta's HHI of 0.73 is roughly five times Ontario's — reflecting the degree 
 
 Alberta has tried to diversify before:
 
-**NovAtel (1980s):** The province invested in cellular telephone manufacturing through a Crown corporation subsidiary. NovAtel became a world leader in cellular handsets — and then haemorrhaged $566 million in bad loans to US dealers before the province sold it at a $611 million loss. A diversification attempt that succeeded technologically and failed commercially.
+**NovAtel (1980s):** The province invested in cellular telephone manufacturing through a Crown corporation subsidiary. NovAtel became a world leader in cellular handsets — and then haemorrhaged &#36;566 million in bad loans to US dealers before the province sold it at a &#36;611 million loss. A diversification attempt that succeeded technologically and failed commercially.
 
 **MagCan (1980s):** A magnesium smelter in High River — another provincially backed industrial development project — closed after cost overruns and low commodity prices.
 
@@ -125,3 +125,29 @@ Alberta scored reasonably well on institutions before its oil boom but weakly on
 ---
 
 **Next in this cluster:** Model 20 — The Integrated Resource System synthesises all four cluster models into a complete systems view of Alberta from wellhead to Heritage Fund, traces three scenarios through 2040, and maps the energy transition overlay onto the Hotelling depletion framework.
+
+## References
+
+Balland, Pierre-Alexandre, Ron Boschma, Joan Crespo, and David L. Rigby. 2019. "Smart Specialization Policy in the European Union: Relatedness, Knowledge Complexity and Regional Diversification." *Regional Studies* 53 (9): 1252–1268. <https://doi.org/10.1080/00343404.2018.1437900>
+
+Corden, W. Max, and J. Peter Neary. 1982. "Booming Sector and De-Industrialisation in a Small Open Economy." *Economic Journal* 92 (368): 825–848. <https://doi.org/10.2307/2232670>
+
+Future Skills Centre. 2019. *The Big Shift: Changes in Canadian Manufacturing Employment, 2003–2018*. <https://fsc-ccf.ca/research/the-big-shift-changes-in-canadian-manufacturing-employment-2003-2018-full-report/>
+
+Government of Alberta. 2025. *Heritage Savings Trust Fund*. <https://www.alberta.ca/heritage-savings-trust-fund>
+
+Government of Alberta. 2025. *Historical Royalty Revenue Data*. <https://www.alberta.ca/historical-royalty-revenue-data>
+
+Hidalgo, César A., and Ricardo Hausmann. 2009. "The Building Blocks of Economic Complexity." *Proceedings of the National Academy of Sciences* 106 (26): 10570–10575. <https://doi.org/10.1073/pnas.0900943106>
+
+Innis, Harold A. 1930. *The Fur Trade in Canada: An Introduction to Canadian Economic History*. New Haven: Yale University Press. (no public URL available)
+
+Morton, Ted, and Meredith McDonald. 2015. "The Siren Song of Economic Diversification: Alberta's Legacy of Loss." *SPP Research Papers* 8 (13). School of Public Policy, University of Calgary. <https://www.policyschool.ca/wp-content/uploads/2016/03/siren-song-economic-diversification-morton-mcdonald.pdf>
+
+Mowat Centre. 2014. *How Ontario Lost 300,000 Manufacturing Jobs (and Why Most Aren't Coming Back)*. Munk School of Global Affairs, University of Toronto. <https://munkschool.utoronto.ca/mowatcentre/how-ontario-lost-300000-manufacturing-jobs/>
+
+Sachs, Jeffrey D., and Andrew M. Warner. 1995. "Natural Resource Abundance and Economic Growth." NBER Working Paper 5398. National Bureau of Economic Research. <https://www.nber.org/papers/w5398>
+
+Statistics Canada. 2009. "Trends in Manufacturing Employment." *Perspectives on Labour and Income* 75-001-X. <https://www150.statcan.gc.ca/n1/pub/75-001-x/2009102/article/10788-eng.htm>
+
+van der Ploeg, Frederick. 2011. "Natural Resources: Curse or Blessing?" *Journal of Economic Literature* 49 (2): 366–420. <https://doi.org/10.1257/jel.49.2.366>

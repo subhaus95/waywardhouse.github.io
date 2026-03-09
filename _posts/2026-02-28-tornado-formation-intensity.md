@@ -613,7 +613,7 @@ Historical ~5 minutes (1990s)
 
 **Cost-benefit:**
 
-$5,000-10,000 safe room vs potential lives saved.
+&#36;5,000-10,000 safe room vs potential lives saved.
 
 ---
 

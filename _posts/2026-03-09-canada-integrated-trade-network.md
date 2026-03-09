@@ -308,7 +308,7 @@ of path concentration.
 ## 8. The Windsor Problem: Disruption Economics
 
 <div data-viz="echarts" style="height:300px" data-options='{
-  "title": {"text": "Windsor Blockade — Economic Cost by Sector per Day", "subtext": "Estimated CAD$M/day based on Freedom Convoy 2022 economic analysis. Total ~CAD$350M/day.", "left": "center"},
+  "title": {"text": "Windsor Blockade — Economic Cost by Sector per Day", "subtext": "Estimated CAD$M/day based on Freedom Convoy 2022 economic analysis. Total ~CAD&#36;350M/day.", "left": "center"},
   "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
   "grid": {"left": "3%", "right": "4%", "bottom": "8%", "containLabel": true},
   "xAxis": {"type": "category", "data": ["Automotive\nparts", "Manufacturing\ninputs", "Consumer\ngoods", "Perishable\nfood", "Other"]},
@@ -326,13 +326,13 @@ of path concentration.
     "markLine": {
       "symbol": "none",
       "lineStyle": {"color": "#dc2626", "type": "dashed", "width": 2},
-      "label": {"formatter": "Total ~CAD$350M/day", "position": "insideEndTop"},
+      "label": {"formatter": "Total ~CAD&#36;350M/day", "position": "insideEndTop"},
       "data": [{"yAxis": 350}]
     }
   }]
 }'></div>
 
-*Automotive parts account for roughly 51% of the per-day disruption cost, reflecting Windsor's dominance as an automotive corridor. A six-day blockade cost an estimated CAD$2.1 billion, concentrated in automotive just-in-time supply chains with no buffer inventory.*
+*Automotive parts account for roughly 51% of the per-day disruption cost, reflecting Windsor's dominance as an automotive corridor. A six-day blockade cost an estimated CAD&#36;2.1 billion, concentrated in automotive just-in-time supply chains with no buffer inventory.*
 
 ---
 
@@ -421,3 +421,25 @@ problem.
 *This completes Cluster T — Trade and Transport. The five essays together cover the mathematical foundations of trade geography: the gravity model (T1) predicts bilateral volumes; corridor analysis (T2) maps the routes; port economics (T3) examines the gateway competition; modal choice (T4) explains how freight distributes across modes; and network analysis (T5) assembles the pieces into a system-level picture with quantified vulnerabilities.*
 
 *The tools developed here — O-D matrices, Wardrop equilibrium, queuing theory, betweenness centrality, and max-flow min-cut — are general-purpose methods in economic geography. The next cluster, Cluster U (Urban Economic Systems), applies these same tools to a different scale: the city. The nodes become urban centres; the edges become commute flows, migration corridors, and housing market linkages. The mathematics is the same. The geography changes.*
+
+---
+
+## References
+
+Brandes, Ulrik. 2001. "A Faster Algorithm for Betweenness Centrality." *Journal of Mathematical Sociology* 25 (2): 163–177. <https://doi.org/10.1080/0022250X.2001.9990249>
+
+Canada Border Services Agency. 2024. *Trade Facilitation, Compliance and Incentives*. Ottawa: Government of Canada. <https://www.cbsa-asfc.gc.ca/trade-commerce/facil-eng.html>
+
+CBC News. 2022. "Convoy Blockades Halted Almost $4B in Trade, Inquiry Hears." CBC News, November 17, 2022. <https://www.cbc.ca/news/politics/convoy-economics-1.6653986>
+
+Elias, Peter, Amiel Feinstein, and Claude E. Shannon. 1956. "A Note on the Maximum Flow Through a Network." *IRE Transactions on Information Theory* 2 (4): 117–119. <https://doi.org/10.1109/TIT.1956.1056816>
+
+Ford, Lester R., and Delbert R. Fulkerson. 1956. "Maximal Flow Through a Network." *Canadian Journal of Mathematics* 8: 399–404. <https://doi.org/10.4153/CJM-1956-045-5>
+
+Gordie Howe International Bridge. 2025. *Project Overview*. Windsor-Detroit Bridge Authority. <https://gordiehoweinternationalbridge.com/project/overview/>
+
+Statistics Canada. 2024. "Canadian International Merchandise Trade: Annual Review 2023." *The Daily*, May 9, 2024. Ottawa: Statistics Canada. <https://www150.statcan.gc.ca/n1/daily-quotidien/240509/dq240509a-eng.htm>
+
+Statistics Canada. 2024. *Railway Industry Summary Statistics on Freight and Passenger Transportation*. Table 23-10-0057-01. Ottawa: Statistics Canada. <https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310005701>
+
+Transport Canada. 2024. *Transportation in Canada 2023*. Ottawa: Transport Canada. <https://tc.canada.ca/en/corporate-services/transparency/corporate-management-reporting/transportation-canada-annual-reports/transportation-canada-2023>

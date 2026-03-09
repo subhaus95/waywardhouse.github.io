@@ -137,7 +137,7 @@ $$t = \frac{(Q_1 - P_1) \times (P_2 - P_1)}{(P_2 - P_1) \times (Q_2 - Q_1)}$$
 
 Where $\times$ is 2D cross product: $(x_1, y_1) \times (x_2, y_2) = x_1 y_2 - y_1 x_2$
 
-**Intersection exists if:** $0 \leq s \leq 1$ AND $0 \leq t \leq 1$
+**Intersection exists if:** &#36;0 \leq s \leq 1$ AND &#36;0 \leq t \leq 1$
 
 **Intersection point:**
 

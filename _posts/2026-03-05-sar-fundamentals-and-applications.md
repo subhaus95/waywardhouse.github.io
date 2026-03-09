@@ -180,7 +180,7 @@ where $\sigma^0_{\text{threshold}}$ is typically $-15$ dB, calibrated from histo
 
 $$T = \mu_{\text{bg}} + k \sigma_{\text{bg}}$$
 
-where $\mu_{\text{bg}}$ and $\sigma_{\text{bg}}$ are the mean and standard deviation of backscatter in a window around the candidate pixel, and $k$ is set to control the false alarm rate (typically $k = 3$–$5$).
+where $\mu_{\text{bg}}$ and $\sigma_{\text{bg}}$ are the mean and standard deviation of backscatter in a window around the candidate pixel, and $k$ is set to control the false alarm rate (typically $k = 3$–&#36;5$).
 
 ---
 
@@ -208,7 +208,7 @@ $$\delta a_{\text{SAR}} = \frac{L_a}{2} = \frac{12.3}{2} = 6.15 \text{ m}$$
 
 $$\delta a_{\text{real}} = R \frac{\lambda}{L_a} = 750{,}000 \times \frac{0.056}{12.3} = 750{,}000 \times 0.00455 = 3{,}415 \text{ m}$$
 
-SAR improves azimuth resolution by a factor of $3{,}415 / 6.15 = 555\times$.
+SAR improves azimuth resolution by a factor of &#36;3{,}415 / 6.15 = 555\times$.
 
 **Step 4: Synthetic aperture time and length**
 
@@ -220,7 +220,7 @@ The satellite sweeps 3.4 km of flight path to synthesise one high-resolution azi
 
 **Step 5: Flood detectability**
 
-The 50 m wide flooded field spans $50/6.15 \approx 8$ pixels in azimuth and $50/2.44 \approx 20$ pixels in range. With $\sigma^0 \approx -22$ dB for the flooded surface and $-10$ dB for surrounding agricultural fields, the contrast is 12 dB — easily detectable above speckle noise. The field is well-resolved and clearly detectable.
+The 50 m wide flooded field spans &#36;50/6.15 \approx 8$ pixels in azimuth and &#36;50/2.44 \approx 20$ pixels in range. With $\sigma^0 \approx -22$ dB for the flooded surface and $-10$ dB for surrounding agricultural fields, the contrast is 12 dB — easily detectable above speckle noise. The field is well-resolved and clearly detectable.
 
 ---
 
@@ -355,4 +355,4 @@ $$\sigma^0_{\text{dB}} = 10\log_{10}(\sigma^0) \quad \text{[backscatter coeffici
 
 **Complex numbers in SAR.** Each SAR pixel stores a complex number $s = I + jQ$ (in-phase and quadrature components), representing the amplitude and phase of the backscattered field: $|s|$ is the amplitude, $\arg(s) = \arctan(Q/I)$ is the phase. Backscatter intensity is $|s|^2$. The phase contains additional information — interferometric SAR (Essay 57) exploits the phase difference between two images to measure surface displacement.
 
-**The two-way phase factor.** The factor of 2 in the SAR azimuth resolution formula arises because the radar both transmits and receives from each position along the aperture. The phase of the received signal changes by $2 \times 2\pi R/\lambda$ as the range $R$ changes — the factor of 2 before $2\pi$ means the phase varies twice as fast as for a one-way propagation, doubling the effective aperture and halving the resolution cell.
+**The two-way phase factor.** The factor of 2 in the SAR azimuth resolution formula arises because the radar both transmits and receives from each position along the aperture. The phase of the received signal changes by &#36;2 \times 2\pi R/\lambda$ as the range $R$ changes — the factor of 2 before &#36;2\pi$ means the phase varies twice as fast as for a one-way propagation, doubling the effective aperture and halving the resolution cell.

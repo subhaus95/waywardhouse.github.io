@@ -94,9 +94,9 @@ The **hydrodynamic dispersion coefficient** $D_h$ [m² s⁻¹] combines:
 $$D_L = \alpha_L v_s + D^*/\tau$$
 
 The **longitudinal dispersivity** $\alpha_L$ [m] scales with travel distance:
-- Laboratory columns: $\alpha_L \approx 0.01$–$0.1$ m
-- Field scale (10s of metres): $\alpha_L \approx 0.1$–$1$ m
-- Regional scale (100s of metres): $\alpha_L \approx 1$–$10$ m
+- Laboratory columns: $\alpha_L \approx 0.01$–&#36;0.1$ m
+- Field scale (10s of metres): $\alpha_L \approx 0.1$–&#36;1$ m
+- Regional scale (100s of metres): $\alpha_L \approx 1$–&#36;10$ m
 
 This **scale dependence of dispersivity** (Gelhar 1986) arises because heterogeneity at larger scales introduces additional velocity variations. Using a laboratory-scale dispersivity at field scale underestimates spreading; using a regional-scale dispersivity for a small-scale problem overestimates it.
 
@@ -150,7 +150,7 @@ For a multi-component NAPL (e.g., gasoline with many compounds), the **effective
 
 $$C_{\text{eff},i} = x_i \cdot C_{s,i} \cdot \gamma_i$$
 
-where $x_i$ is mole fraction and $\gamma_i \approx 1$–$2$ is the activity coefficient. Benzene constitutes ~1% of gasoline by mole fraction, giving $C_{\text{eff,benzene}} = 0.01 \times 1790 \times 1 = 17.9$ mg/L — still far above the drinking water MCL of 0.005 mg/L.
+where $x_i$ is mole fraction and $\gamma_i \approx 1$–&#36;2$ is the activity coefficient. Benzene constitutes ~1% of gasoline by mole fraction, giving $C_{\text{eff,benzene}} = 0.01 \times 1790 \times 1 = 17.9$ mg/L — still far above the drinking water MCL of 0.005 mg/L.
 
 ### 3.5 Plume Length at Steady State
 

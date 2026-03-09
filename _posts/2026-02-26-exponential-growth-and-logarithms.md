@@ -30,7 +30,7 @@ excerpt: >
   epidemics spread — the rate depends on the current size. This is our first
   differential equation, and it changes everything.
 math_prerequisites: >
-  Exponents (what $2^3$ means). The concept of rate from Model 2. Comfort with
+  Exponents (what &#36;2^3$ means). The concept of rate from Model 2. Comfort with
   algebraic manipulation. We'll introduce logarithms from scratch and show why
   they're the inverse of exponentials.
   image:/assets/images/foundations-and-math.png
@@ -154,7 +154,7 @@ or
 
 $$N(t) = N_0 \cdot 10^{mt}$$
 
-These are all equivalent. We use $e$ because **it makes the calculus clean.** The derivative of $e^{rt}$ is $r e^{rt}$. The derivative of $2^{kt}$ involves an extra factor of $\ln 2$.
+These are all equivalent. We use $e$ because **it makes the calculus clean.** The derivative of $e^{rt}$ is $r e^{rt}$. The derivative of &#36;2^{kt}$ involves an extra factor of $\ln 2$.
 
 The number $e \approx 2.71828$ is the **natural base** — the one where the exponential function is its own derivative (up to a constant).
 
@@ -164,7 +164,7 @@ If you're given a growth rate as "doubles every 5 years," you can find $r$:
 
 $$N(t) = N_0 \cdot 2^{t/5}$$
 
-Rewrite using $2 = e^{\ln 2}$:
+Rewrite using &#36;2 = e^{\ln 2}$:
 
 $$N(t) = N_0 \cdot \left(e^{\ln 2}\right)^{t/5} = N_0 e^{(\ln 2 / 5) t}$$
 
@@ -207,11 +207,11 @@ $$N(t) = 1000 e^{0.05t}$$
 
 **Solve for $t$ when $N = 5000$:**
 
-$$5000 = 1000 e^{0.05t}$$
+$&#36;5000 = 1000 e^{0.05t}$$
 
 Divide both sides by 1000:
 
-$$5 = e^{0.05t}$$
+$&#36;5 = e^{0.05t}$$
 
 Take the natural logarithm of both sides:
 
@@ -257,9 +257,9 @@ $$M(30) = 80 e^{-0.0578 \times 30} = 80 e^{-1.734} = 80 \times 0.177 = 14.1 \tex
 
 **(c) When does $M = 10$ g?**
 
-$$10 = 80 e^{-0.0578t}$$
+$&#36;10 = 80 e^{-0.0578t}$$
 
-$$0.125 = e^{-0.0578t}$$
+$&#36;0.125 = e^{-0.0578t}$$
 
 $$\ln(0.125) = -0.0578t$$
 

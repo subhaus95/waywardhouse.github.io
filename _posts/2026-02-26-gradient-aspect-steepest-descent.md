@@ -148,7 +148,7 @@ $$S_{\%} = \sqrt{\left(\frac{\partial z}{\partial x}\right)^2 + \left(\frac{\par
 
 $$A = 90° - \arctan2\left(\frac{\partial z}{\partial y}, \frac{\partial z}{\partial x}\right) \times \frac{180}{\pi}$$
 
-(Adjust to ensure $0° \leq A < 360°$)
+(Adjust to ensure &#36;0° \leq A < 360°$)
 
 ---
 
@@ -448,7 +448,7 @@ await new Promise(resolve => {
 
 **Degrees:** $\arctan(0.1) \approx 5.7°$
 
-**Percent:** $0.1 \times 100 = 10\%$
+**Percent:** &#36;0.1 \times 100 = 10\%$
 
 **Conversion:**
 - Gentle: <5° or <9%

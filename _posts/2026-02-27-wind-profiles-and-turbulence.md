@@ -147,7 +147,7 @@ $$u(z) = \frac{u_*}{k} \ln(z) + C$$
 
 **Boundary condition:** At $z = z_0$, $u = 0$ (roughness length is where wind extrapolates to zero).
 
-$$0 = \frac{u_*}{k} \ln(z_0) + C \implies C = -\frac{u_*}{k}\ln(z_0)$$
+$&#36;0 = \frac{u_*}{k} \ln(z_0) + C \implies C = -\frac{u_*}{k}\ln(z_0)$$
 
 **Final form:**
 
@@ -221,11 +221,11 @@ From log law:
 
 $$u(10) = \frac{u_*}{k} \ln\left(\frac{10}{z_0}\right)$$
 
-$$8 = \frac{u_*}{0.41} \ln\left(\frac{10}{0.03}\right)$$
+$&#36;8 = \frac{u_*}{0.41} \ln\left(\frac{10}{0.03}\right)$$
 
-$$8 = \frac{u_*}{0.41} \ln(333.3)$$
+$&#36;8 = \frac{u_*}{0.41} \ln(333.3)$$
 
-$$8 = \frac{u_*}{0.41} \times 5.81$$
+$&#36;8 = \frac{u_*}{0.41} \times 5.81$$
 
 $$u_* = \frac{8 \times 0.41}{5.81} = 0.565 \text{ m/s}$$
 
@@ -239,9 +239,9 @@ $$= 1.378 \times 4.20 = 5.79 \text{ m/s}$$
 
 **(c) Height for 12 m/s**
 
-$$12 = \frac{0.565}{0.41} \ln\left(\frac{z}{0.03}\right)$$
+$&#36;12 = \frac{0.565}{0.41} \ln\left(\frac{z}{0.03}\right)$$
 
-$$12 = 1.378 \ln\left(\frac{z}{0.03}\right)$$
+$&#36;12 = 1.378 \ln\left(\frac{z}{0.03}\right)$$
 
 $$\ln\left(\frac{z}{0.03}\right) = \frac{12}{1.378} = 8.71$$
 
@@ -642,7 +642,7 @@ $$\int du = \int \frac{u_*}{k}\frac{dz}{z}$$
 
 $$u = \frac{u_*}{k}\ln(z) + C$$
 
-The $1/z$ term on the right forces a logarithm on the left.
+The &#36;1/z$ term on the right forces a logarithm on the left.
 
 ---
 

@@ -247,7 +247,7 @@ $$LE = L_v E = 2.45 \times 10^6 \times 0.000124 = 304 \text{ W/m}^2$$
 **Step 6: Check energy balance**
 
 $$R_n = H + LE + G$$
-$$600 = 100 + 304 + 100 = 504 \text{ W/m}^2$$
+$&#36;600 = 100 + 304 + 100 = 504 \text{ W/m}^2$$
 
 Close enough (small discrepancy from rounding and simplified formulas).
 

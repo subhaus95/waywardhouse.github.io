@@ -139,7 +139,7 @@ High closeness = short average travel time to all destinations. Central transit 
 
 $$C_B(v) = \frac{2}{(n-1)(n-2)} \sum_{s \neq v \neq t} \frac{\sigma_{st}(v)}{\sigma_{st}}$$
 
-where $\sigma_{st}$ is the count of shortest paths from $s$ to $t$, and $\sigma_{st}(v)$ is the count passing through $v$. The normalisation by $2/[(n-1)(n-2)]$ gives values in $[0, 1]$.
+where $\sigma_{st}$ is the count of shortest paths from $s$ to $t$, and $\sigma_{st}(v)$ is the count passing through $v$. The normalisation by &#36;2/[(n-1)(n-2)]$ gives values in $[0, 1]$.
 
 Betweenness identifies **bottleneck nodes**: bridges, tunnels, and interchange ramps that carry a disproportionate share of cross-network flows. Removing a high-betweenness node forces many origin-destination pairs to use longer detours, degrading system-wide performance.
 

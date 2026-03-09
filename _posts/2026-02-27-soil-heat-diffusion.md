@@ -155,7 +155,7 @@ $$d = \sqrt{\frac{2\alpha}{\omega}}$$
 
 ### Damping Depth
 
-The damping depth is where amplitude drops to $1/e \approx 37\%$ of surface value.
+The damping depth is where amplitude drops to &#36;1/e \approx 37\%$ of surface value.
 
 **Daily cycle** ($P = 86400$ s, $\omega = 7.27 \times 10^{-5}$ rad/s):
 

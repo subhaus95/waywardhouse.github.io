@@ -37,7 +37,7 @@ image: /assets/images/foundations-and-math.png)
 
 How do we describe change that happens at a constant rate?
 
-Temperature drops as you climb a mountain. Population grows year by year. A river's gradient flattens as it approaches the sea. Some of these relationships are approximately linear over the range we care about. Others are exactly linear by design (a road built at 6% grade, a tax that increases by $50 per bracket).
+Temperature drops as you climb a mountain. Population grows year by year. A river's gradient flattens as it approaches the sea. Some of these relationships are approximately linear over the range we care about. Others are exactly linear by design (a road built at 6% grade, a tax that increases by &#36;50 per bracket).
 
 **The question is:** How do we write down a linear relationship mathematically? What does the equation tell us? What does the slope mean, and why do the units matter?
 
@@ -97,8 +97,8 @@ We know $m = -0.006$ °C/m. We need the intercept $b$.
 Using the point $(z_1, T_1) = (1000, 15.0)$:
 
 $$T = mz + b$$
-$$15.0 = (-0.006)(1000) + b$$
-$$15.0 = -6.0 + b$$
+$&#36;15.0 = (-0.006)(1000) + b$$
+$&#36;15.0 = -6.0 + b$$
 $$b = 21.0 \text{ °C}$$
 
 **Full model:**  
@@ -137,7 +137,7 @@ $$z(t) = mt + b$$
 
 We know $m = 10$ m/yr. Using the point $(1990, 2400)$:
 
-$$2400 = 10(1990) + b$$
+$&#36;2400 = 10(1990) + b$$
 $$b = 2400 - 19900 = -17500$$
 
 **Model:**  
@@ -147,8 +147,8 @@ Check: $z(2020) = 10(2020) - 17500 = 20200 - 17500 = 2700$ ✓
 
 **(c) When will $z = 3000$?**
 
-$$3000 = 10t - 17500$$
-$$10t = 20500$$
+$&#36;3000 = 10t - 17500$$
+$&#36;10t = 20500$$
 $$t = 2050$$
 
 If the linear trend holds, the terminus will reach 3000 m in **2050**.
@@ -238,7 +238,7 @@ window.addEventListener('resize', () => chart.resize());
 - Set $m = 0$. What happens? (A horizontal line — no change with $x$)
 - Set $m = 1$ and $b = 0$. The line passes through the origin at 45°.
 - Set $m = -1$. The line tilts the other way.
-- Set $m = 2$ and $b = -5$. Where does the line cross the x-axis? (Solve $0 = 2x - 5 \Rightarrow x = 2.5$)
+- Set $m = 2$ and $b = -5$. Where does the line cross the x-axis? (Solve &#36;0 = 2x - 5 \Rightarrow x = 2.5$)
 
 ---
 
@@ -346,7 +346,7 @@ If you're rusty on algebra, here's the pattern:
 
 **Example:** When does $T = -0.006z + 21$ reach $T = 10$°C?
 
-$$10 = -0.006z + 21$$
+$&#36;10 = -0.006z + 21$$
 $$-11 = -0.006z$$
 $$z = \frac{-11}{-0.006} = 1833.3 \text{ m}$$
 

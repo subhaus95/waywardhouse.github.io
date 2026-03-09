@@ -129,7 +129,7 @@ $$j_q = \lfloor (y_q - y_0) / \Delta y \rfloor$$
 $$u = \frac{x_q - x_0}{\Delta x} - i_q$$
 $$v = \frac{y_q - y_0}{\Delta y} - j_q$$
 
-Where $0 \leq u, v < 1$.
+Where &#36;0 \leq u, v < 1$.
 
 ### Nearest Neighbor
 

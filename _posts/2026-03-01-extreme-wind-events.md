@@ -369,7 +369,7 @@ await new Promise(r => {
 **Damage:**
 - 22 deaths
 - 4 million without power
-- $2.9 billion total damage
+- &#36;2.9 billion total damage
 - 3 million trees down
 
 **Sequence:**
@@ -438,7 +438,7 @@ If $\Delta V > 30$ kt over 2 km → Alert
 
 **Mitigation strategies:**
 - Vegetation management (ROW clearing)
-- Underground lines (expensive, $1M/mile)
+- Underground lines (expensive, &#36;1M/mile)
 - Grid hardening (stronger poles)
 - Microgrids (local resilience)
 
@@ -655,7 +655,7 @@ $$w_{actual} \approx \sqrt{2 \times DCAPE \times 0.5}$$
 - Rear-inflow jets in bow echoes descend to surface adding 20-40 m/s to outflow
 - Derechos defined as ≥400 km wind swaths with ≥26 m/s winds lasting several hours
 - Surface winds can exceed 60 m/s (134 mph) comparable to EF2 tornado damage
-- June 2012 derecho traveled 700 miles causing 22 deaths and $3 billion damage
+- June 2012 derecho traveled 700 miles causing 22 deaths and &#36;3 billion damage
 - Microbursts critical aviation hazard with detection systems eliminating fatalities since 1995
 - Power grid cascading failures major impact requiring vegetation management and hardening
 - DCAPE climatology shows 1000-1500 J/kg common in summer Great Plains

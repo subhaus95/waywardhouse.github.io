@@ -120,7 +120,7 @@ for i = 0 to n-1:
     add (x, y) to buffer polygon
 ```
 
-Typically $n = 32$ or $64$ points for smooth circle.
+Typically $n = 32$ or &#36;64$ points for smooth circle.
 
 ### Line Segment Buffer
 
@@ -605,7 +605,7 @@ Buffer around rivers = union of all individual stream buffers.
 Buffers overlap → merged area may not be simple sum of individual buffers.
 
 **Example:** Two points 60m apart, each with 50m buffer:
-- Individual areas: $2 \times \pi(50^2) = 15,708$ m²
+- Individual areas: &#36;2 \times \pi(50^2) = 15,708$ m²
 - Merged area: < 15,708 m² (overlap region counted once)
 
 **Solution:** Use union operation, calculate area from merged polygon.

@@ -210,7 +210,7 @@ $\sigma^a = \sqrt{0.000976} = 0.031$ m³/m³ (improved from background $\sigma^b
 
 **Interpretation:** The satellite observation pulled the estimate from 0.28 toward 0.22; the final analysis 0.257 is a weighted average. The observation carries 39% of the weight (Kalman gain = 0.39). The analysis uncertainty (0.031) is smaller than either background (0.040) or observation ($\sqrt{0.0025}=0.050$) uncertainties — information from both sources combined.
 
-**Precision check:** $1/P^a = 1/0.0016 + 1/0.0025 = 625 + 400 = 1025$. $P^a = 1/1025 = 0.000976$ ✓
+**Precision check:** &#36;1/P^a = 1/0.0016 + 1/0.0025 = 625 + 400 = 1025$. $P^a = 1/1025 = 0.000976$ ✓
 
 ---
 
@@ -344,9 +344,9 @@ During days 6–12 (no satellite observations), the Kalman filter background dri
 
 ## 7. Interpretation
 
-The Kalman gain formula $K = P^b/(P^b + R)$ has a beautiful physical interpretation: it weights the innovation by the fraction of total uncertainty attributable to the background. When the background is twice as uncertain as the observation ($P^b = 2R$), the gain is $2R/(2R+R) = 2/3$ — we move two-thirds of the way from background to observation. When uncertainties are equal ($P^b = R$), the gain is 1/2 — the analysis is the midpoint.
+The Kalman gain formula $K = P^b/(P^b + R)$ has a beautiful physical interpretation: it weights the innovation by the fraction of total uncertainty attributable to the background. When the background is twice as uncertain as the observation ($P^b = 2R$), the gain is &#36;2R/(2R+R) = 2/3$ — we move two-thirds of the way from background to observation. When uncertainties are equal ($P^b = R$), the gain is 1/2 — the analysis is the midpoint.
 
-The analysis precision $1/P^a = 1/P^b + 1/R$ is the fundamental result: **data assimilation is precision arithmetic**. Every observation contributes its precision to the analysis, regardless of whether the observation confirms or contradicts the background. An observation that says "no change" is as valuable as one that says "big correction" — both add their precision to the analysis.
+The analysis precision &#36;1/P^a = 1/P^b + 1/R$ is the fundamental result: **data assimilation is precision arithmetic**. Every observation contributes its precision to the analysis, regardless of whether the observation confirms or contradicts the background. An observation that says "no change" is as valuable as one that says "big correction" — both add their precision to the analysis.
 
 The EnKF's flow-dependent covariances are its crucial operational advantage. A weather system moving through the model domain creates correlated errors along its axis — the ensemble naturally captures these correlations because all members evolve under the same physical dynamics. A fixed background error covariance (as in 3D-Var, Essay AU3) cannot adapt to the current weather pattern.
 
@@ -366,9 +366,9 @@ The EnKF's flow-dependent covariances are its crucial operational advantage. A w
 
 ## 9. Summary
 
-The Kalman filter optimally combines a model background $x^b$ (uncertainty $P^b$) with observation $y^o$ (uncertainty $R$) through the Kalman gain $K = P^b H^\top(HP^bH^\top + R)^{-1}$: analysis $x^a = x^b + K(y^o - Hx^b)$, analysis covariance $P^a = (I - KH)P^b$. Precisions add: $1/P^a = 1/P^b + 1/R$ (scalar case).
+The Kalman filter optimally combines a model background $x^b$ (uncertainty $P^b$) with observation $y^o$ (uncertainty $R$) through the Kalman gain $K = P^b H^\top(HP^bH^\top + R)^{-1}$: analysis $x^a = x^b + K(y^o - Hx^b)$, analysis covariance $P^a = (I - KH)P^b$. Precisions add: &#36;1/P^a = 1/P^b + 1/R$ (scalar case).
 
-The state-space representation separates dynamics ($\mathbf{M}$, $\mathbf{Q}$) from observations ($\mathbf{H}$, $\mathbf{R}$). The observation operator $\mathbf{H}$ or $h(\mathbf{x})$ maps model state to observation space. EKF linearises $h$ via Jacobian for nonlinear observations. EnKF replaces explicit covariance matrices with ensemble sample covariances, enabling application to state spaces of dimension $10^7$ in operational NWP.
+The state-space representation separates dynamics ($\mathbf{M}$, $\mathbf{Q}$) from observations ($\mathbf{H}$, $\mathbf{R}$). The observation operator $\mathbf{H}$ or $h(\mathbf{x})$ maps model state to observation space. EKF linearises $h$ via Jacobian for nonlinear observations. EnKF replaces explicit covariance matrices with ensemble sample covariances, enabling application to state spaces of dimension &#36;10^7$ in operational NWP.
 
 **Key equations:**
 
@@ -378,12 +378,12 @@ $$\mathbf{x}^a = \mathbf{x}^b + \mathbf{K}(\mathbf{y}^o - \mathbf{H}\mathbf{x}^b
 
 $$\mathbf{P}^a = (\mathbf{I} - \mathbf{K}\mathbf{H})\mathbf{P}^b$$
 
-$$1/P^a = 1/P^b + 1/R \quad\text{[scalar case]}$$
+$&#36;1/P^a = 1/P^b + 1/R \quad\text{[scalar case]}$$
 
 ---
 
 ## Math Refresher
 
-**Gaussian multiplication as precision addition.** Two Gaussian distributions $\mathcal{N}(\mu_1, \sigma_1^2)$ and $\mathcal{N}(\mu_2, \sigma_2^2)$ — one for a background estimate, one for an observation — multiply together (as in Bayes' theorem) to give a Gaussian with precision $1/\sigma^2 = 1/\sigma_1^2 + 1/\sigma_2^2$ and mean $\mu = \sigma^2(\mu_1/\sigma_1^2 + \mu_2/\sigma_2^2)$. This is the scalar Kalman filter. The multivariate Kalman filter generalises this to vectors: "precision" becomes the inverse covariance matrix (the precision matrix), and "adding precisions" becomes $(\mathbf{P}^a)^{-1} = (\mathbf{P}^b)^{-1} + \mathbf{H}^\top\mathbf{R}^{-1}\mathbf{H}$. The Kalman gain formula is the solution that makes this update equivalent to the precision-weighted mean.
+**Gaussian multiplication as precision addition.** Two Gaussian distributions $\mathcal{N}(\mu_1, \sigma_1^2)$ and $\mathcal{N}(\mu_2, \sigma_2^2)$ — one for a background estimate, one for an observation — multiply together (as in Bayes' theorem) to give a Gaussian with precision &#36;1/\sigma^2 = 1/\sigma_1^2 + 1/\sigma_2^2$ and mean $\mu = \sigma^2(\mu_1/\sigma_1^2 + \mu_2/\sigma_2^2)$. This is the scalar Kalman filter. The multivariate Kalman filter generalises this to vectors: "precision" becomes the inverse covariance matrix (the precision matrix), and "adding precisions" becomes $(\mathbf{P}^a)^{-1} = (\mathbf{P}^b)^{-1} + \mathbf{H}^\top\mathbf{R}^{-1}\mathbf{H}$. The Kalman gain formula is the solution that makes this update equivalent to the precision-weighted mean.
 
 **The innovation and its covariance.** The innovation $\mathbf{d} = \mathbf{y}^o - \mathbf{H}\mathbf{x}^b$ is the difference between the observation and the background's prediction of what the observation should be. Its covariance — called the innovation covariance or $\mathbf{S}$ matrix — is $\mathbf{S} = \mathbf{H}\mathbf{P}^b\mathbf{H}^\top + \mathbf{R}$: background uncertainty projected onto observation space plus observation uncertainty. The Kalman gain $\mathbf{K} = \mathbf{P}^b\mathbf{H}^\top\mathbf{S}^{-1}$ computes how much of the background state space should be corrected per unit innovation, weighted by the background-to-total covariance ratio.

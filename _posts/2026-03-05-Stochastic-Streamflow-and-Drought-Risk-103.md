@@ -106,7 +106,7 @@ The $T$-year minimum flow:
 
 $$Q_T = \exp(\mu_{\ln Q} - z_{1/T} \cdot \sigma_{\ln Q})$$
 
-where $z_{1/T} = \Phi^{-1}(1/T)$ is the standard normal quantile at exceedance probability $1/T$.
+where $z_{1/T} = \Phi^{-1}(1/T)$ is the standard normal quantile at exceedance probability &#36;1/T$.
 
 ### 3.3 The Thomas-Fiering Autoregressive Model
 

@@ -58,7 +58,7 @@ A street canyon is two parallel rows of buildings with a street between them. Th
 
 **Isolated roughness flow** ($H/W < 0.3$): buildings are spaced far enough apart that flow reattaches to the ground between them; each building behaves independently.
 
-**Wake interference flow** ($0.3 < H/W < 0.7$): building wakes interact; flow is complex and highly three-dimensional.
+**Wake interference flow** (&#36;0.3 < H/W < 0.7$): building wakes interact; flow is complex and highly three-dimensional.
 
 **Skimming flow** ($H/W > 0.7$): the flow above rooftop level skims over the canyon; a stable, nearly two-dimensional recirculating vortex forms inside. Most traffic pollution is trapped in this vortex rather than ventilated upward.
 
@@ -114,7 +114,7 @@ The emission rate $Q$ from a road segment is computed from traffic volume, emiss
 
 $$Q = \frac{N}{3600} \cdot \text{EF} \cdot v \cdot \frac{1}{1000} \quad [\text{g s}^{-1}\text{m}^{-1}]$$
 
-where $N$ [veh hr⁻¹] is hourly traffic count, EF [g km⁻¹ veh⁻¹] is the emission factor, and $v$ [km hr⁻¹] is speed. Converting g s⁻¹ m⁻¹ to μg s⁻¹ m⁻¹, multiply by $10^6$.
+where $N$ [veh hr⁻¹] is hourly traffic count, EF [g km⁻¹ veh⁻¹] is the emission factor, and $v$ [km hr⁻¹] is speed. Converting g s⁻¹ m⁻¹ to μg s⁻¹ m⁻¹, multiply by &#36;10^6$.
 
 Representative Euro 6 real-world emission factors for NO$_x$:
 

@@ -579,7 +579,7 @@ await new Promise(resolve => {
 
 Estimated 1200-3000 premature deaths from smoke exposure.
 
-**Economic impact:** $10-80 billion (health costs).
+**Economic impact:** &#36;10-80 billion (health costs).
 
 ### Air Quality Forecasting
 

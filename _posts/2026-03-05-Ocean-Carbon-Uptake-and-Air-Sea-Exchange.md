@@ -164,7 +164,7 @@ $$k_w = 0.26 \times 9^2 \times \left(\frac{600}{660}\right)^{-0.5} = 0.26 \times
 
 **Step 3: Solubility at 12°C** ($K_H \approx 0.046$ mol L⁻¹ atm⁻¹ = 46 mmol L⁻¹ atm⁻¹)
 
-**Step 4: ΔpCO₂** = 420 − 380 = 40 µatm = $40 \times 10^{-6}$ atm
+**Step 4: ΔpCO₂** = 420 − 380 = 40 µatm = &#36;40 \times 10^{-6}$ atm
 
 **Step 5: Net flux**
 
@@ -325,4 +325,4 @@ $$\gamma = \frac{\Delta p\text{CO}_2/p\text{CO}_2}{\Delta\text{DIC}/\text{DIC}} 
 
 ## Math Refresher
 
-**Partial pressure and concentration.** A gas mixture at total pressure $P_{\text{total}}$ contains CO₂ at mole fraction $x_{\text{CO}_2}$. The partial pressure of CO₂ is $p\text{CO}_2 = x_{\text{CO}_2} \times P_{\text{total}}$. Current atmospheric CO₂ is 420 ppm by mole = 420 µmol/mol = $420 \times 10^{-6}$ mole fraction. At standard pressure (1 atm): $p\text{CO}_2 = 420 \times 10^{-6}$ atm = 420 µatm. Henry's Law says dissolved concentration is proportional to partial pressure: twice the $p\text{CO}_2$ → twice as much dissolved. This direct proportionality breaks down for CO₂ in seawater because of the carbonate chemistry — additional dissolved CO₂ is "consumed" by reaction with carbonate ions, so the effective solubility is much higher than Henry's Law alone predicts.
+**Partial pressure and concentration.** A gas mixture at total pressure $P_{\text{total}}$ contains CO₂ at mole fraction $x_{\text{CO}_2}$. The partial pressure of CO₂ is $p\text{CO}_2 = x_{\text{CO}_2} \times P_{\text{total}}$. Current atmospheric CO₂ is 420 ppm by mole = 420 µmol/mol = &#36;420 \times 10^{-6}$ mole fraction. At standard pressure (1 atm): $p\text{CO}_2 = 420 \times 10^{-6}$ atm = 420 µatm. Henry's Law says dissolved concentration is proportional to partial pressure: twice the $p\text{CO}_2$ → twice as much dissolved. This direct proportionality breaks down for CO₂ in seawater because of the carbonate chemistry — additional dissolved CO₂ is "consumed" by reaction with carbonate ions, so the effective solubility is much higher than Henry's Law alone predicts.

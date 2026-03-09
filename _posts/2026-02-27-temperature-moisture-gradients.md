@@ -229,8 +229,8 @@ Compare: $\Gamma = 7$ K/km $< \Gamma_d$
 **Environment cools slower than dry adiabatic → stable for dry air.**
 
 If air rises 1 km dry adiabatically:
-- Parcel temperature: $30 - 9.8 = 20.2°$C
-- Environment temperature at 1 km: $22°$C
+- Parcel temperature: &#36;30 - 9.8 = 20.2°$C
+- Environment temperature at 1 km: &#36;22°$C
 - Parcel is **cooler** than environment → sinks back → stable
 
 **(c) Cloud base**

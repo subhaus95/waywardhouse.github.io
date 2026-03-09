@@ -53,7 +53,7 @@ Ice particles ≥5 mm diameter (pea-sized or larger).
 
 **Record:** 8 inch (203 mm), Vivian SD 2010
 
-**Annual losses (USA):** ~$1-2 billion
+**Annual losses (USA):** ~&#36;1-2 billion
 
 **Applications:**
 - Agriculture (crop insurance)
@@ -545,7 +545,7 @@ await new Promise(resolve => {
 
 **Economic:**
 
-2017 Colorado hailstorm: $2.2 billion crop damage (corn, wheat)
+2017 Colorado hailstorm: &#36;2.2 billion crop damage (corn, wheat)
 
 **Insurance:**
 
@@ -573,11 +573,11 @@ Recent studies: No significant effect detected
 
 **Hail damage costs (USA):**
 
-$1-2 billion annually
+&#36;1-2 billion annually
 
 **Golf ball hail:**
-- Car windshields: $300-800 replacement
-- Body damage: $1,000-5,000 repair
+- Car windshields: &#36;300-800 replacement
+- Body damage: &#36;1,000-5,000 repair
 - Total vehicle loss: Possible with repeated impacts
 
 **Roof damage:**
@@ -716,7 +716,7 @@ $C_d \approx 0.4-0.6$ (depends on surface roughness)
 - Golf ball hail (44mm) breaks windshields requiring 35+ m/s updrafts
 - Record 8-inch hail required extreme updrafts exceeding 70 m/s
 - Dual-polarization radar improves hail detection via ZDR and correlation coefficient
-- Annual agricultural and property losses exceed $1-2 billion in USA alone
+- Annual agricultural and property losses exceed &#36;1-2 billion in USA alone
 
 **Cluster W: Severe Weather - Complete (4 models)**
 

@@ -284,11 +284,11 @@ $$I = \frac{1200 \times 10^{0.2}}{(15+10)^{0.8}}$$
 
 **Calculate return period term:**
 
-$$10^{0.2} = 10^{1/5} = \sqrt[5]{10} = 1.585$$
+$&#36;10^{0.2} = 10^{1/5} = \sqrt[5]{10} = 1.585$$
 
 **Calculate duration term:**
 
-$$25^{0.8} = 25^{4/5} = (25^4)^{1/5} = (390625)^{1/5} = 14.62$$
+$&#36;25^{0.8} = 25^{4/5} = (25^4)^{1/5} = (390625)^{1/5} = 14.62$$
 
 **Compute intensity:**
 
@@ -351,7 +351,7 @@ Verify capacity exceeds design flow with safety margin.
 
 $$Q_{capacity} \approx 420 \text{ L/s}$$
 
-**Margin:** $420/376 = 1.12$ (12% safety margin)
+**Margin:** &#36;420/376 = 1.12$ (12% safety margin)
 
 **Acceptable** (>10% desired)
 

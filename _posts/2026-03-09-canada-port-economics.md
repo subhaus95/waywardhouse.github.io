@@ -94,10 +94,10 @@ will bring capacity to approximately 1.8 million TEUs when complete.
 
 The economic case for Prince Rupert rests on a specific arithmetic. The port
 is 2.4 sailing days closer to Shanghai than Vancouver. On a containership with
-an operating cost of approximately USD$1,800 per day, 2.4 days of sailing equals
-USD$4,320 saved per voyage. A Panamax vessel carrying approximately 4,000 TEUs
-would yield a per-TEU maritime cost advantage of roughly USD$1.08 — or
-approximately CAD$1.50 at typical exchange rates. For certain commodity flows
+an operating cost of approximately USD&#36;1,800 per day, 2.4 days of sailing equals
+USD&#36;4,320 saved per voyage. A Panamax vessel carrying approximately 4,000 TEUs
+would yield a per-TEU maritime cost advantage of roughly USD&#36;1.08 — or
+approximately CAD&#36;1.50 at typical exchange rates. For certain commodity flows
 where time value is not paramount, this maritime cost advantage more than offsets
 Prince Rupert's slightly longer landside rail transit to major inland destinations.
 
@@ -337,3 +337,21 @@ geographic game played with infrastructure as the primary instrument.
 ---
 
 *Next in this cluster: [T4 — Modal Split and Freight Economics](/canada-freight-modal-split/)*
+
+---
+
+## References
+
+Port of Halifax. 2024. "Steady 2024 Cargo Results at Port of Halifax." Halifax: Halifax Port Authority. <https://www.porthalifax.ca/steady-2024-cargo-results-at-port-of-halifax/>
+
+Port of Montreal. 2024. *Historical, Cumulative and Detailed Statistics*. Montreal: Montreal Port Authority. <https://www.port-montreal.com/en/goods/overview/statistics>
+
+Prince Rupert Port Authority. 2024. "Port of Prince Rupert Handles 23.5 Million Tonnes of Cargo in 2023, a 5 Percent Annual Decline." Prince Rupert: Prince Rupert Port Authority. <https://www.rupertport.com/port-of-prince-rupert-handles-23-5-million-tonnes-of-cargo-in-2023-a-5-percent-annual-decline/>
+
+Prince Rupert Port Authority. 2024. *2023 Annual Report*. Prince Rupert: Prince Rupert Port Authority. <https://2023.rupertport.com/>
+
+Transport Canada. 2024. *Transportation in Canada 2023*. Ottawa: Transport Canada. <https://tc.canada.ca/en/corporate-services/transparency/corporate-management-reporting/transportation-canada-annual-reports/transportation-canada-2023>
+
+Vancouver Fraser Port Authority. 2024. "Strong Canadian Exports Support Record 2023 Trade Volumes Through the Port of Vancouver." Vancouver: Vancouver Fraser Port Authority. <https://www.portvancouver.com/article/strong-canadian-exports-support-record-2023-trade-volumes-through-port-vancouver>
+
+Vancouver Fraser Port Authority. 2024. *2023 Statistics Overview*. Vancouver: Vancouver Fraser Port Authority. <https://www.portvancouver.com/about/reports-and-resources>

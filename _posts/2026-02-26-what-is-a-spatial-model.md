@@ -146,7 +146,7 @@ $$N = \rho \times \pi r^2$$
 
 Now: if the city doubles its radius, what happens to its population?
 
-We replace $r$ with $2r$:
+We replace $r$ with &#36;2r$:
 
 $$N' = \rho \times \pi (2r)^2 = \rho \times \pi \times 4r^2 = 4N$$
 
@@ -327,7 +327,7 @@ We write $f(x)$ to mean "the value of function $f$ when the input is $x$." For a
 
 When you multiply two quantities, you multiply both the numbers and the units:
 
-$$3 \text{ km} \times 4 \text{ km} = 12 \text{ km}^2$$
+$&#36;3 \text{ km} \times 4 \text{ km} = 12 \text{ km}^2$$
 
 When you divide, units divide too:
 
@@ -335,7 +335,7 @@ $$\frac{100 \text{ people}}{4 \text{ km}^2} = 25 \text{ people/km}^2$$
 
 When you add or subtract, units must match:
 
-$$3 \text{ km} + 500 \text{ m} = 3 \text{ km} + 0.5 \text{ km} = 3.5 \text{ km}$$
+$&#36;3 \text{ km} + 500 \text{ m} = 3 \text{ km} + 0.5 \text{ km} = 3.5 \text{ km}$$
 
 You cannot add 3 km to 500 m without converting first.
 

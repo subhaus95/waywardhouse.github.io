@@ -151,13 +151,13 @@ $$R \approx 0.010 \cdot C_P^{0.7}$$
 
 $$C_O(90) = 10 - 90 R$$
 
-For $C_P = 80$ μg/L: $R = 0.010 × 80^{0.7} = 0.010 × 27.1 = 0.271$ mg/L/day → $C_O(90) = 10 - 24.4 = -14.4$ mg/L — oxygen is exhausted after $10/0.271 = 37$ days of stratification.
+For $C_P = 80$ μg/L: $R = 0.010 × 80^{0.7} = 0.010 × 27.1 = 0.271$ mg/L/day → $C_O(90) = 10 - 24.4 = -14.4$ mg/L — oxygen is exhausted after &#36;10/0.271 = 37$ days of stratification.
 
 **Internal loading:** When hypolimnetic DO drops to zero (anaerobic conditions), iron-bound phosphorus in sediments is released:
 
 $$L_P^{\text{internal}} = r_{\text{int}} \cdot A_{\text{hypolimnion}} \cdot t_{\text{anoxia}}$$
 
-Typical internal loading rates $r_{\text{int}} = 1$–$10$ mg m⁻² day⁻¹ during anoxic periods. Internal loading from sediments can equal or exceed the entire external loading — making lake recovery difficult even after external load reductions.
+Typical internal loading rates $r_{\text{int}} = 1$–&#36;10$ mg m⁻² day⁻¹ during anoxic periods. Internal loading from sediments can equal or exceed the entire external loading — making lake recovery difficult even after external load reductions.
 
 ### 3.5 Total Maximum Daily Load (TMDL)
 
@@ -350,6 +350,6 @@ $$\text{TMDL} = \Sigma\text{WLA} + \Sigma\text{LA} + \text{MOS}$$
 
 ## Math Refresher
 
-**The log-log regression.** The Dillon-Rigler relationship $\text{Chl}_a = 0.427 C_P^{0.876}$ is a power law — it appears as a straight line on a log-log plot. Taking logarithms: $\log(\text{Chl}_a) = \log(0.427) + 0.876 \log(C_P)$. The slope 0.876 is the scaling exponent — a 10% increase in $C_P$ produces a $1.10^{0.876} - 1 = 8.7\%$ increase in chlorophyll (slightly sublinear). Inverting the equation to find $C_P$ from a Chl target: $C_P = (\text{Chl}_a / 0.427)^{1/0.876}$.
+**The log-log regression.** The Dillon-Rigler relationship $\text{Chl}_a = 0.427 C_P^{0.876}$ is a power law — it appears as a straight line on a log-log plot. Taking logarithms: $\log(\text{Chl}_a) = \log(0.427) + 0.876 \log(C_P)$. The slope 0.876 is the scaling exponent — a 10% increase in $C_P$ produces a &#36;1.10^{0.876} - 1 = 8.7\%$ increase in chlorophyll (slightly sublinear). Inverting the equation to find $C_P$ from a Chl target: $C_P = (\text{Chl}_a / 0.427)^{1/0.876}$.
 
 **Residence time and flushing.** The hydraulic residence time $\tau_w = V/Q_{\text{out}}$ is the average time a water molecule spends in the lake. A lake with $\tau_w = 10$ years is flushed once per decade — it responds slowly to changes in loading. A lake with $\tau_w = 3$ months responds quickly. The flushing rate $\rho = 1/\tau_w$ appears in the Vollenweider denominator: fast-flushing lakes (high $\rho$) have lower $C_P^*$ for the same loading because they export phosphorus through the outlet more rapidly before it settles.

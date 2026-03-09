@@ -125,7 +125,7 @@ $$u_* = \sqrt{9.81 \times 1.5 \times 0.0005} = \sqrt{0.00736} = 0.0858 \text{ m/
 
 $$D_L = 0.011 \times \frac{0.8^2 \times 40^2}{1.5 \times 0.0858} = 0.011 \times \frac{1024}{0.1287} = 0.011 \times 7955 = 87.5 \text{ m}^2/\text{s}$$
 
-This is approximately $10^5$ times larger than the molecular diffusion coefficient of ~$10^{-9}$ m² s⁻¹ — confirming that turbulent dispersion, not molecular diffusion, governs river mixing.
+This is approximately &#36;10^5$ times larger than the molecular diffusion coefficient of ~&#36;10^{-9}$ m² s⁻¹ — confirming that turbulent dispersion, not molecular diffusion, governs river mixing.
 
 ### 3.5 Mixing Lengths and Transverse Mixing
 
@@ -169,7 +169,7 @@ $$R_f = 1 + \frac{\rho_b K_d}{n}$$
 
 where $\rho_b$ [kg L⁻¹] is bulk sediment density and $n$ is porosity (for porous media; in river transport, use suspended sediment concentration $C_s$ [kg m⁻³] and modify accordingly). The effective velocity is $U/R_f < U$ — strongly sorbing compounds move slower than the water.
 
-For highly hydrophobic organic compounds (PCBs, PAHs, dioxins), $K_d$ can be $10^4$–$10^6$ L kg⁻¹ — these compounds are essentially immobile in river sediments, sorbing within hours of entering the system and remaining in bed sediments for decades to centuries.
+For highly hydrophobic organic compounds (PCBs, PAHs, dioxins), $K_d$ can be &#36;10^4$–&#36;10^6$ L kg⁻¹ — these compounds are essentially immobile in river sediments, sorbing within hours of entering the system and remaining in bed sediments for decades to centuries.
 
 ---
 
@@ -177,7 +177,7 @@ For highly hydrophobic organic compounds (PCBs, PAHs, dioxins), $K_d$ can be $10
 
 **Setting:** A tanker spills 500 kg of a water-soluble chemical into the Bow River near Calgary. River properties: $U = 0.9$ m s⁻¹ = 77.8 km day⁻¹, $A = 80$ m² (depth 2 m, width 40 m), $D_L = 50$ m² s⁻¹.
 
-**Mass input:** $M = 500$ kg = $5 \times 10^8$ mg
+**Mass input:** $M = 500$ kg = &#36;5 \times 10^8$ mg
 
 **Peak concentration vs. time at $x = 50$ km downstream:**
 
@@ -193,7 +193,7 @@ The 95% of mass is within ±2$\sigma_x$ = ±4.7 km of the peak at the time it pa
 
 **Arrival time window:** The plume passes a monitoring station at 50 km from $t = t^* - 2\sigma_t$ to $t = t^* + 2\sigma_t$, where $\sigma_t = \sigma_x/U = 2357/0.9 = 2619$ s ≈ 44 min. The main pulse passes in about 1.5 hours — consistent with emergency response timescales.
 
-**If the chemical has decay rate $\lambda = 0.5$ day⁻¹ = $5.79 \times 10^{-6}$ s⁻¹:**
+**If the chemical has decay rate $\lambda = 0.5$ day⁻¹ = &#36;5.79 \times 10^{-6}$ s⁻¹:**
 
 $$C_{\max}^{\text{reactive}}(t^*) = C_{\max}^{\text{conservative}} \times e^{-\lambda t^*} = 1057 \times e^{-5.79\times10^{-6} \times 55{,}556} = 1057 \times e^{-0.322} = 1057 \times 0.724 = 765 \text{ mg/m}^3$$
 
@@ -301,7 +301,7 @@ for xs in stations:
   ]
 }'></div>
 
-Three characteristic features of ADE breakthrough curves: the peak arrives approximately at $t = x/U$; the peak concentration falls proportionally to $1/\sqrt{x}$ as the plume spreads; and the curves become increasingly asymmetric (right-tailed) at greater distances due to the time-domain stretching of the Gaussian. The emergency manager can read directly when contamination will arrive and how long it will last.
+Three characteristic features of ADE breakthrough curves: the peak arrives approximately at $t = x/U$; the peak concentration falls proportionally to &#36;1/\sqrt{x}$ as the plume spreads; and the curves become increasingly asymmetric (right-tailed) at greater distances due to the time-domain stretching of the Gaussian. The emergency manager can read directly when contamination will arrive and how long it will last.
 
 ---
 
