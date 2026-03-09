@@ -4,7 +4,7 @@ title: "The Checkout Problem"
 subtitle: "Alberta grows the food, drills the fuel, and still pays some of Canada's highest grocery prices. This is why."
 series: "Alberta in Context"
 series_order: 7
-date: 2026-03-12
+date: 2026-03-08
 categories: [Economic Geography]
 tags: [alberta, economic-geography, food-inflation, cost-of-living, tag-hash-viz, tag-hash-math]
 difficulty: 2

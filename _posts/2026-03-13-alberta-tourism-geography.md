@@ -2,7 +2,7 @@
 layout: essay
 title: "Two Front Doors and a Mountain"
 subtitle: "Alberta tourism through flight patterns, spend trails, seasonal rhythms, and the places that arrival pressure is changing fastest"
-date: 2026-03-13
+date: 2026-03-08
 categories: [Economic Geography]
 tags: [alberta, economic-geography, tourism, banff, jasper, tag-hash-viz, tag-hash-story]
 difficulty: 2
