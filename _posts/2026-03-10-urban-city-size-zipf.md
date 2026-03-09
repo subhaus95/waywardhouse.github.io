@@ -227,4 +227,4 @@ Understanding where a city sits relative to the Zipf prediction — above the li
 
 ---
 
-Next in this cluster: **The Urban Economic Base** (Model 14) moves inside the city to ask: which industries actually drive growth, and how does a shock to the export sector — like an oil price collapse — amplify through the local economy via the multiplier effect?
+Next in this cluster: **The Urban Economic Base** moves inside the city to ask: which industries actually drive growth, and how does a shock to the export sector — like an oil price collapse — amplify through the local economy via the multiplier effect?
