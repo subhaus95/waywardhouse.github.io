@@ -11,7 +11,7 @@ cluster_title: "Terrain and Spatial Derivatives"
 tags:
   - computational-geography
   - modelling
-  - GIS
+  - gis
   - terrain-analysis
   - functions-of-two-variables
   - raster-data
