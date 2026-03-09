@@ -249,7 +249,7 @@ image: /assets/images/spatial-analysis.png
       {% endfor %}
     </ol>
     <div class="start-path-foot">
-      <a href="{{ '/topic/economic-geography/' | relative_url }}">Browse all models &rarr;</a>
+      <a href="{{ '/topic/economic-geography/' | relative_url }}">Browse all essays &rarr;</a>
     </div>
   </div>
 
