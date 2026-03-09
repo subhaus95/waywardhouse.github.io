@@ -6,6 +6,7 @@ series: "Economic Systems"
 series_order: 13
 cluster: "UE — Urban Economic Systems"
 date: 2026-03-10
+image: /assets/images/urban-economics.png
 categories: [modelling]
 tags: [economic-geography, urban-economics, tag-hash-math, tag-hash-viz]
 difficulty: 3

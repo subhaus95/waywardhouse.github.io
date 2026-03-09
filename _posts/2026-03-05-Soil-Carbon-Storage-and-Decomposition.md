@@ -3,6 +3,7 @@ layout: essay
 title: "Soil Carbon Storage and Decomposition"
 subtitle: "Residence time, Q₁₀ temperature sensitivity, moisture effects, and steady-state analysis"
 date: 2026-03-05
+image: /assets/images/soil-carbon.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 120

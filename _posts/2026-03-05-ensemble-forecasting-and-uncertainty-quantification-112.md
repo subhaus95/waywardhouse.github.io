@@ -3,6 +3,7 @@ layout: model
 title: "Ensemble Forecasting and Uncertainty Quantification"
 subtitle: "Monte Carlo ensembles, spread-skill relationships, and probabilistic forecast verification"
 date: 2026-03-05
+image: /assets/images/time-series.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 112

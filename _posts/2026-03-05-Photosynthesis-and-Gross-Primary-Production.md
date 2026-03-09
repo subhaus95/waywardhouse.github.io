@@ -3,6 +3,7 @@ layout: essay
 title: "Photosynthesis and Gross Primary Production"
 subtitle: "Light-use efficiency, GPP, NPP, NEP, and carbon use efficiency"
 date: 2026-03-05
+image: /assets/images/photosynthesis.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 118

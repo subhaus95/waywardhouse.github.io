@@ -6,6 +6,7 @@ series: "Economic Systems"
 series_order: 16
 cluster: "RE — Resource Economics"
 date: 2026-03-11
+image: /assets/images/resource-economics.png
 categories: [modelling]
 tags: [economic-geography, resource-economics, tag-hash-math, tag-hash-viz]
 difficulty: 3

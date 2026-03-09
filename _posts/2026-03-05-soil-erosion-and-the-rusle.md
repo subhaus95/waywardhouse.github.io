@@ -3,6 +3,7 @@ layout: model
 title: "Soil Erosion and the RUSLE"
 subtitle: "Decomposing a landscape's vulnerability into factors you can measure, map, and modify"
 date: 2026-03-05
+image: /assets/images/soil-moisture-dynamics.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 72

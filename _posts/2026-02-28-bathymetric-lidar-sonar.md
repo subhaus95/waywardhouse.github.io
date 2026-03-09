@@ -3,6 +3,7 @@ layout: model
 title: "Bathymetric LiDAR and Sonar Mapping"
 subtitle: "Measuring underwater topography with light and sound"
 date: 2026-02-27
+image: /assets/images/seafloor-bathymetry.png
 categories: [modelling]
 series: computational-geography-advanced-remote-sensing
 series_order: 4

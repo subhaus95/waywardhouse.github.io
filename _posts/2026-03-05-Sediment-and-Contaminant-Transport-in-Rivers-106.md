@@ -3,6 +3,7 @@ layout: model
 title: "Sediment and Contaminant Transport in Rivers"
 subtitle: "Advection-dispersion equation, longitudinal dispersion, and reactive transport"
 date: 2026-03-05
+image: /assets/images/watershed-delineation.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 106

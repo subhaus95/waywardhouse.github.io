@@ -3,6 +3,7 @@ layout: model
 title: "Wave Dynamics and Nearshore Transformation"
 subtitle: "From deep water to the surf zone: dispersion, shoaling, and the physics of breaking waves"
 date: 2026-03-05
+image: /assets/images/seafloor-bathymetry.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 76

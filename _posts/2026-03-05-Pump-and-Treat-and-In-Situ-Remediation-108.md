@@ -3,6 +3,7 @@ layout: model
 title: "Pump-and-Treat and In-Situ Remediation"
 subtitle: "Capture zone analysis, Theis equation, and cost-benefit comparison of remediation approaches"
 date: 2026-03-05
+image: /assets/images/river-hydrology.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 108

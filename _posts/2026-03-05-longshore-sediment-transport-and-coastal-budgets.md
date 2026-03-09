@@ -3,6 +3,7 @@ layout: model
 title: "Longshore Sediment Transport and Coastal Budgets"
 subtitle: "The CERC formula, littoral drift, and the arithmetic of beaches gained and lost"
 date: 2026-03-05
+image: /assets/images/seafloor-bathymetry.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 77

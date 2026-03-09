@@ -5,9 +5,9 @@ title: "Series 7: Economic Systems"
 subtitle: "Reading industries as spatial systems — infrastructure, flows, markets, and the mathematics that connects them"
 series_number: 7
 series_key: "Economic Systems"
-total_essays: 20
+total_essays: 25
 difficulty_range: 2-4
-estimated_hours: 80
+estimated_hours: 100
 tags: [economic-geography, modelling, networks, infrastructure, energy, trade]
 ---
 
@@ -149,9 +149,24 @@ The paradox: resource-rich regions often underperform resource-poor ones over th
 **Model 20: The Integrated Resource System**
 Alberta as a complete case study. Mermaid causal diagram from oil price through extraction decision, cost curves, royalty calculation, government revenue, and Heritage Fund to diversification (or its absence). Three price scenarios (2025–2040): $90+, $65–75, $45–55. Sensitivity table across price and royalty regime combinations. The energy transition overlay: how decarbonisation rewrites the Hotelling depletion path.
 
-### Cluster M — Markets and Price Formation *(planned)*
+### Cluster MK — Markets and Price Formation
 
-Commodity pricing, spatial arbitrage, futures markets as geographic instruments. Price as a signal of spatial constraint.
+How commodity prices form, how they travel across space, how futures markets encode geographic risk, and how price volatility hits landlocked producers harder than connected ones. The series closes by assembling a full price surface — a geographic map of what every producer actually receives.
+
+**Model 21: Commodity Price Formation**
+Benchmark crudes (WTI, Brent, Dubai), benchmark gas (Henry Hub, AECO, TTF), and the formula pricing that links physical trade to these benchmarks. Quality differentials: why heavy sour crude trades at a persistent discount to light sweet. The netback calculation: WTI at $75 minus Trans Mountain tariff minus quality discount equals $53 at the Alberta wellhead vs $67 for a Texas producer at the same WTI.
+
+**Model 22: Spatial Arbitrage and the Law of One Price**
+Samuelson's spatial price equilibrium: trade flows until the price gap equals the transfer cost. The price band theorem. When the law of one price fails: the AECO-Henry Hub basis differential as a pipeline constraint showing up as a price signal. Revenue loss arithmetic: a $1.50/GJ differential on 14 Bcf/day implies ~$7.7B in annual foregone revenue.
+
+**Model 23: Futures Markets as Geographic Instruments**
+The cost-of-carry model: futures price as spot price adjusted for interest, storage cost, and convenience yield. Contango vs backwardation. WTI going negative in April 2020: what actually happened physically. Geographic basis: Alberta producers hedging with WTI futures retain the WCS-WTI differential as unhedged basis risk. The forward curve as a forward-looking infrastructure signal.
+
+**Model 24: Price Volatility and Its Geographic Consequences**
+WTI annualised volatility ~30–40% vs S&P 500 ~15–20%. GARCH(1,1) and volatility clustering. The transmission chain from price volatility to provincial fiscal capacity. Geographic amplification: when WTI falls, the WCS-WTI differential often widens simultaneously — a double penalty for landlocked producers. Revenue at risk: the 5th-percentile scenario for Alberta royalty revenue.
+
+**Model 25: The Integrated Price System**
+The price surface: a geographic map where every point's price equals the global benchmark minus transport cost minus quality discount. The infrastructure feedback loop — low wellhead prices defer investment, which maintains constraints, which maintains the basis differential. Scenario analysis 2025–2030 under three infrastructure states. Mermaid causal diagram of the full feedback system. Closing retrospective on all five clusters and the analytical toolkit assembled across the series.
 
 ## Estimated Time Investment
 
@@ -165,6 +180,8 @@ Commodity pricing, spatial arbitrage, futures markets as geographic instruments.
 
 **Cluster RE (5 models):** 10–20 hours for thorough engagement
 
+**Cluster MK (5 models):** 10–20 hours for thorough engagement
+
 **Accelerated path per cluster:** 6–10 hours (focus on visualisations and worked examples, skim derivations)
 
 ---
@@ -176,5 +193,7 @@ Commodity pricing, spatial arbitrage, futures markets as geographic instruments.
 **Start with Cluster UE:** [The Bid-Rent Model](/2026/03/10/urban-bid-rent-model/) — land rent, urban gradients, the price of access.
 
 **Start with Cluster RE:** [The Hotelling Rule](/2026/03/11/resource-hotelling-rule/) — optimal depletion, scarcity rent, the price path of a finite resource.
+
+**Start with Cluster MK:** [Commodity Price Formation](/2026/03/12/markets-commodity-price-formation/) — benchmarks, netbacks, and what a producer actually receives.
 
 **Companion reading:** [Alberta in Context](/series/alberta-in-context/) — the narrative essay series that applies these models to the political economy of a landlocked province.

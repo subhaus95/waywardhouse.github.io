@@ -3,6 +3,7 @@ layout: model
 title: "Demographic Spatial Dynamics"
 subtitle: "Cohort-component projection, migration flows, and the geography of ageing"
 date: 2026-03-05
+image: /assets/images/demographic-dynamics.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 101

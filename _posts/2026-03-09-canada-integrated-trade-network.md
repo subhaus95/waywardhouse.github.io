@@ -6,6 +6,7 @@ series: "Economic Systems"
 series_order: 10
 cluster: "TR — Trade and Transport"
 date: 2026-03-09
+image: /assets/images/trade-corridors.png
 categories: [modelling]
 tags:
   - network-analysis

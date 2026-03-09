@@ -3,6 +3,7 @@ layout: model
 title: "Sea Level, Storm Surge, and Coastal Morphodynamics"
 subtitle: "The Bruun Rule, barrier rollover, and a quantitative framework for coastal vulnerability"
 date: 2026-03-05
+image: /assets/images/seafloor-bathymetry.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 78

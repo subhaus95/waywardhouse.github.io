@@ -3,6 +3,7 @@ layout: model
 title: "Sediment Transport in Rivers"
 subtitle: "Shields, Meyer-Peter, and the hydraulic threshold between a sleeping and a moving riverbed"
 date: 2026-03-05
+image: /assets/images/watershed-delineation.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 74

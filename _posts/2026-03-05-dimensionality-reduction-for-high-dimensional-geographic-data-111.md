@@ -3,6 +3,7 @@ layout: model
 title: "Dimensionality Reduction for High-Dimensional Geographic Data"
 subtitle: "PCA, t-SNE, UMAP, and hyperspectral data compression"
 date: 2026-03-05
+image: /assets/images/dimensionality-reduction.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 111

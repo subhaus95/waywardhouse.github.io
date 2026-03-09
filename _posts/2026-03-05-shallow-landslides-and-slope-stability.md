@@ -3,6 +3,7 @@ layout: model
 title: "Shallow Landslides and Slope Stability"
 subtitle: "The infinite slope model, pore pressure, and the arithmetic of failure"
 date: 2026-03-05
+image: /assets/images/slope-stability.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 73

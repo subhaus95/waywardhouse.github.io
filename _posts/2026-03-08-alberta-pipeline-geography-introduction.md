@@ -5,6 +5,7 @@ subtitle: "A Connected Province and the Infrastructure That Makes It So"
 series: "Alberta in Context"
 series_order: 6
 date: 2026-03-08
+image: /assets/images/pipeline-geography.png
 categories: [Economic Geography]
 tags:
   - alberta

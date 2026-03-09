@@ -3,6 +3,7 @@ layout: model
 title: "InSAR Deformation Monitoring"
 subtitle: "Interferometric phase, unwrapping, and millimetre-scale surface displacement from orbit"
 date: 2026-03-05
+image: /assets/images/SAR-inSAR.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 57

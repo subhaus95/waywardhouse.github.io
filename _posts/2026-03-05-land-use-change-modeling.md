@@ -3,6 +3,7 @@ layout: model
 title: "Land Use Change modelling"
 subtitle: "Cellular automata, logistic regression, and the simulation of urban growth"
 date: 2026-03-05
+image: /assets/images/change-detection.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 99

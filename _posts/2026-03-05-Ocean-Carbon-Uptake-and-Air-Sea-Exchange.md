@@ -3,6 +3,7 @@ layout: essay
 title: "Ocean Carbon Uptake and Air-Sea Exchange"
 subtitle: "Henry's Law, solubility pump, biological pump, and gas exchange velocity"
 date: 2026-03-05
+image: /assets/images/net-radiation.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 119

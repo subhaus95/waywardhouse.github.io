@@ -3,6 +3,7 @@ layout: model
 title: "Satellite Data Assimilation in Environmental Models"
 subtitle: "Observation operators, variational assimilation, and land surface data assimilation"
 date: 2026-03-05
+image: /assets/images/time-series-satellite.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 114

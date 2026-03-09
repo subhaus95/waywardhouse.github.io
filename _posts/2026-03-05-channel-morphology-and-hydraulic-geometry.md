@@ -3,6 +3,7 @@ layout: model
 title: "Channel Morphology and Hydraulic Geometry"
 subtitle: "Power laws, regime theory, and the self-organised geometry of rivers"
 date: 2026-03-05
+image: /assets/images/river-hydrology.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 75

@@ -3,6 +3,7 @@ layout: model
 title: "Urban Ventilation and Pollutant Dispersion"
 subtitle: "Street canyon flow regimes, Gaussian plumes, and the geometry of urban air quality"
 date: 2026-03-05
+image: /assets/images/urban-flood.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 96

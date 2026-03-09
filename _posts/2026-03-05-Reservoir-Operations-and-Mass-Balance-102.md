@@ -3,6 +3,7 @@ layout: model
 title: "Reservoir Operations and Mass Balance"
 subtitle: "Storage-yield analysis, sequent peak algorithm, and multi-purpose operating rules"
 date: 2026-03-05
+image: /assets/images/watershed-models.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 102

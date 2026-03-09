@@ -2,6 +2,7 @@
 layout: default
 title: Start Here
 permalink: /start-here/
+image: /assets/images/spatial-analysis.png
 ---
 
 <style>

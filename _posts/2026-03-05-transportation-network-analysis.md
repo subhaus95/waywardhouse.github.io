@@ -3,6 +3,7 @@ layout: model
 title: "Transportation Network Analysis"
 subtitle: "Graph theory, shortest paths, and the mathematics of how cities move"
 date: 2026-03-05
+image: /assets/images/trade-corridors.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 97

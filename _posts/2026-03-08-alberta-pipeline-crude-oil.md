@@ -6,6 +6,7 @@ series: "Economic Systems"
 series_order: 1
 cluster: "EP — Pipeline Connectivity"
 date: 2026-03-08
+image: /assets/images/pipeline-geography.png
 categories: [modelling]
 tags:
   - alberta

@@ -6,6 +6,7 @@ series: "Economic Systems"
 series_order: 22
 cluster: "MK — Markets and Price Formation"
 date: 2026-03-12
+image: /assets/images/commodity-markets.png
 categories: [modelling]
 tags: [economic-geography, commodity-markets, tag-hash-math, tag-hash-viz]
 difficulty: 3

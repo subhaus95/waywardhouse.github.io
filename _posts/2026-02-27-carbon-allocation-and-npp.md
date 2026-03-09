@@ -3,6 +3,7 @@ layout: model
 title: "Carbon Allocation and Net Primary Productivity"
 subtitle: "From photosynthesis to biomass — how ecosystems build and burn carbon"
 date: 2026-02-26
+image: /assets/images/C-allocation.png
 iamage: /assets/images/C-allocation.png
 categories: [modelling]
 series: computational-geography-environmental

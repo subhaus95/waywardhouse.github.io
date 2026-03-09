@@ -3,6 +3,7 @@ layout: model
 title: "Stochastic Streamflow and Drought Risk"
 subtitle: "Flow duration curves, return periods, synthetic hydrology, and reliability metrics"
 date: 2026-03-05
+image: /assets/images/watershed-delineation.png
 categories: modelling
 series: computational-geography-laboratory
 series_order: 103
