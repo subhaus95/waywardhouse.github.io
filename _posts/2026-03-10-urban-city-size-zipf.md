@@ -87,7 +87,7 @@ The country has a small number of very large cities (Toronto at ~6.5 million, Mo
 Below the top three, the distribution is remarkably even. Calgary and Edmonton both have roughly 1.3–1.4 million people — nearly tied for fourth and fifth. Winnipeg, Ottawa, and Quebec City cluster between 800,000 and 1.1 million. The Canadian city size distribution fits Zipf's Law reasonably well for ranks 1–3 but shows a more compressed middle than a pure Pareto distribution would predict.
 
 <div data-viz="echarts" data-options='{
-  "title": {"text": "Rank-Size Distribution: Top 30 Canadian CMAs", "left": "center", "subtext": "Log-log scale — slope ≈ −1 is Zipf's Law"},
+  "title": {"text": "Rank-Size Distribution: Top 30 Canadian CMAs", "left": "center", "subtext": "Log-log scale — slope ≈ −1 is Zipf Law"},
   "tooltip": {
     "trigger": "item",
     "formatter": "{b}<br/>Rank: {c[0]}<br/>Population: {c[1]} thousand"
@@ -132,7 +132,7 @@ Below the top three, the distribution is remarkably even. Calgary and Edmonton b
         {"name": "Saskatoon", "value": [16, 330]},
         {"name": "Regina", "value": [17, 256]},
         {"name": "Sherbrooke", "value": [18, 230]},
-        {"name": "St. John's", "value": [19, 214]},
+        {"name": "St. Johns", "value": [19, 214]},
         {"name": "Barrie", "value": [20, 210]},
         {"name": "Kelowna", "value": [21, 205]},
         {"name": "Abbotsford", "value": [22, 196]},

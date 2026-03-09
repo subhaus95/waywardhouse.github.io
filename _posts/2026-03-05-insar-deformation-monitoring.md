@@ -273,7 +273,7 @@ print(f"  π/10 rad = {lam/40*1000:.1f} mm LOS displacement (noise floor)")
       "name": "Fringes per year (C-band)",
       "type": "bar",
       "data": [0.4, 0.7, 1.8, 3.6, 7.1, 10.7, 17.9, 35.7],
-      "label": {"show": true, "position": "top", "formatter": function(p){return p.value.toFixed(1)}}
+      "label": {"show": true, "position": "top", "formatter": "{c}"}
     }
   ]
 }'></div>
