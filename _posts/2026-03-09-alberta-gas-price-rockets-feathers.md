@@ -14,6 +14,7 @@ description: >
   to decreases. This essay examines why, using this week's Iran-driven crude spike as a
   live case study, and what it means for Alberta consumers who are already paying some of
   the highest fuel prices in recent memory.
+story: true
 ---
 
 On Sunday afternoon, a Calgary resident checked the GassBuddy app and saw the station on their block sitting at 148.9 cents per litre. By Monday morning it had changed to 158.9. By Monday evening, after news broke that French President Macron and the G7 had agreed to coordinate a release of up to 400 million barrels from strategic petroleum reserves, WTI crude had dropped from its intraday high of approximately $119 a barrel to around $104 — a 13% retreat in hours. The station was still at 158.9.

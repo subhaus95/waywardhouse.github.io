@@ -13,6 +13,8 @@ description: >
   Alberta's tourism economy runs through two airports, concentrates in a thin mountain corridor,
   peaks hard in July and August, and creates a set of pressures — on housing, wildlife, water,
   and workforce — that are structurally invisible in the headline visitor numbers.
+
+story: true
 ---
 
 Every July morning at the Trans-Canada Highway junction outside Canmore, the traffic stops. Not briefly — for an hour, sometimes two. The vehicles waiting to turn west into Banff National Park stretch back through the Bow Valley in a line long enough to read as a geographic statement: this is where one of the world's great mountain landscapes meets a distribution network that was not designed for the load it now carries.
